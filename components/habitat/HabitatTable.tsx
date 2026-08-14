@@ -4,7 +4,7 @@ import { Table, TableColumnsType } from "antd";
 
 import { PokemonDataByName } from "@/data";
 import { Habitat } from "@/types";
-import { TableCommonProps } from "@/utils";
+import { TableCommonProps, renderId } from "@/utils";
 
 import { HabitatCell } from "./HabitatCell";
 import { ItemLink } from "../item";
@@ -14,7 +14,7 @@ export const HabitatTableColumns: TableColumnsType<Habitat> = [
   {
     title: "编号",
     dataIndex: "index",
-    render: (index: number, row) => `${(index % 10000).toString().padStart(3, "0")}${row.isEvent ? "（活动）" : ""}`,
+    render: (index: number) => renderId(index),
   },
   {
     title: "名字",

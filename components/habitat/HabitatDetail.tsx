@@ -5,7 +5,7 @@ import { FC, Fragment, ReactNode, useMemo } from "react";
 
 import { HabitatDataById, PokemonDataByName } from "@/data";
 import { Habitat, Pokemon } from "@/types";
-import { DescriptionsCommonProps2, TableCommonProps } from "@/utils";
+import { DescriptionsCommonProps2, TableCommonProps, renderId } from "@/utils";
 
 import { HabitatCell } from "./HabitatCell";
 import { HabitatLink } from "./HabitatLink";
@@ -17,7 +17,7 @@ const getDescriptions = (habitat: Habitat): DescriptionsProps["items"] => [
   {
     key: "id",
     label: "编号",
-    children: `${(habitat.index % 10000).toString().padStart(3, "0")}${habitat.isEvent ? "（活动）" : ""}`,
+    children: renderId(habitat.index),
   },
   {
     key: "detail",

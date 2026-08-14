@@ -4,7 +4,7 @@ import { Table, TableColumnsType } from "antd";
 
 import { HabitatDataById } from "@/data";
 import { ESpecialities, Pokemon, PokemonType, Speciality } from "@/types";
-import { PokemonTypeFilters, TableCommonProps, TimeIcons, TypeIcons, WeatherIcons } from "@/utils";
+import { PokemonTypeFilters, TableCommonProps, TimeIcons, TypeIcons, WeatherIcons, renderId } from "@/utils";
 
 import { PokemonCell } from "./PokemonCell";
 import { HabitatCell } from "../habitat/HabitatCell";
@@ -19,7 +19,7 @@ export const PokemonTableColumns: TableColumnsType<Pokemon> = [
   {
     title: "编号",
     dataIndex: "index",
-    render: (index: number, row) => `${(index % 10000).toString().padStart(3, "0")}${row.isEvent ? "（活动）" : ""}`,
+    render: (index: number) => renderId(index),
   },
   {
     title: "属性",

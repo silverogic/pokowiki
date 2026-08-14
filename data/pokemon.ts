@@ -8,7 +8,8 @@ export const PokemonData = parseTSV<Pokemon>(raw, (dict, i) => {
   const item: Pokemon = {
     id: i + 1,
     index,
-    isEvent: index > 10000,
+    isEvent: index > 10000 && index <= 20000,
+    isBubblyBasin: index > 20000 && index <= 30000,
     form: parseInt(dict["形态编号"], 10),
     name: dict["中文名"],
     japanese: dict["日文名"],

@@ -12,6 +12,7 @@ import {
   WeatherIcons,
   getPokemonFullId,
   getPokemonFullName,
+  renderId,
 } from "@/utils";
 
 import { POKEMON_COMMENTARY } from "../commentary";
@@ -24,7 +25,7 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
   {
     key: "dex",
     label: "图鉴编号",
-    children: `${(pokemon.index % 10000).toString().padStart(3, "0")}${pokemon.isEvent ? "（活动）" : ""}`,
+    children: renderId(pokemon.index),
   },
   {
     key: "category",

@@ -60,6 +60,7 @@ export interface Pokemon {
   id: number;
   index: number;
   isEvent: boolean;
+  isBubblyBasin: boolean;
   form: number;
   name: string;
   formName: string;

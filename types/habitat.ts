@@ -2,6 +2,7 @@ export interface Habitat {
   id: number;
   index: number;
   isEvent: boolean;
+  isBubblyBasin: boolean;
   name: string;
   japanese: string;
   english: string;

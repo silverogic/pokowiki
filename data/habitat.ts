@@ -8,7 +8,8 @@ export const HabitatData = parseTSV<Habitat>(raw, (dict, i) => {
   const item: Habitat = {
     id: i + 1,
     index,
-    isEvent: index > 10000,
+    isEvent: index > 10000 && index <= 20000,
+    isBubblyBasin: index > 20000 && index <= 30000,
     name: dict["中文名"],
     japanese: dict["日文名"],
     english: dict["英文名"],
