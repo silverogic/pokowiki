@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { FC } from "react";
 
 import { NAVIGATION_ITEMS } from "@/data";
-import { Icon, Link } from "@/utils";
+import { Icon, Link, useI18n } from "@/utils";
 
 interface INavigationProps {
   onClick?: () => void;
@@ -13,6 +13,26 @@ interface INavigationProps {
 
 export const Navigation: FC<INavigationProps> = ({ onClick }) => {
   const pathname = usePathname();
+  const { t } = useI18n();
+
+  const getNavLabel = (path: string, fallback: string) => {
+    switch (path) {
+      case "/":
+        return t("home");
+      case "/pokemon-list":
+        return t("pokemonList");
+      case "/habitat-list":
+        return t("habitatList");
+      case "/event-list":
+        return t("eventList");
+      case "/walkthrough":
+        return t("walkthrough");
+      case "/about":
+        return t("about");
+      default:
+        return fallback;
+    }
+  };
 
   const isActive = (path: string) => {
     if (path === "/") {
@@ -33,7 +53,7 @@ export const Navigation: FC<INavigationProps> = ({ onClick }) => {
           <span className="nav-item-icon">
             <Icon name={item.icon} />
           </span>
-          <span className="nav-item-label">{item.label}</span>
+          <span className="nav-item-label">{getNavLabel(item.path, item.label)}</span>
         </Link>
       ))}
     </div>

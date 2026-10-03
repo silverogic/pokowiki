@@ -3,23 +3,23 @@ import Head from "next/head";
 import Image from "next/image";
 import { FC, Fragment } from "react";
 
-import { EventTable, ItemLink } from "@/components";
+import { EventTable, ItemLink, PageTitle } from "@/components";
 import { EventData } from "@/data";
 import { DEFAULT_TITLE, Link } from "@/utils";
 
 export const metadata = {
-  title: `活动一览 - ${DEFAULT_TITLE}`,
-  description: "在《宝可梦 Pokopia》中举办的近期活动。",
+  title: `Events - ${DEFAULT_TITLE}`,
+  description: "Events for Pokemon Pokopia.",
 };
 
 const HabitatListPage: FC = () => (
   <Fragment key="habitat-list">
     <Head>
-      <title>活动一览</title>
+      <title>Events</title>
     </Head>
 
     <section>
-      <h1>活动一览</h1>
+      <PageTitle titleKey="eventList" />
     </section>
 
     <section>

@@ -7,6 +7,7 @@ import { ESpecialities, Pokemon, PokemonType, Speciality } from "@/types";
 import {
   PokemonTypeFilters,
   TableCommonProps,
+  TableTitle,
   TimeIcons,
   TypeIcons,
   WeatherIcons,
@@ -20,14 +21,14 @@ import { SpecialityLink } from "../speciality";
 
 export const PokemonTableColumns: TableColumnsType<Pokemon> = [
   {
-    title: "宝可梦",
+    title: <TableTitle k="pokemon" />,
     dataIndex: "name",
     fixed: "left",
     width: 140,
     render: (_, row) => <PokemonCell pokemon={row} />,
   },
   {
-    title: "编号",
+    title: <TableTitle k="index" />,
     dataIndex: "index",
     fixed: "left",
     width: 90,
@@ -35,7 +36,7 @@ export const PokemonTableColumns: TableColumnsType<Pokemon> = [
     render: (index: number) => renderId(index),
   },
   {
-    title: "属性",
+    title: <TableTitle k="types" />,
     dataIndex: "types",
     width: 120,
     render: (types: Pokemon["types"]) => <TypeIcons types={types} />,
@@ -43,7 +44,7 @@ export const PokemonTableColumns: TableColumnsType<Pokemon> = [
     onFilter: (value, record) => record.types.includes(value as PokemonType),
   },
   {
-    title: "特长",
+    title: <TableTitle k="specialties" />,
     dataIndex: "specialties",
     width: 140,
     filters: ESpecialities.map((s) => ({ text: s, value: s })),
@@ -61,7 +62,7 @@ export const PokemonTableColumns: TableColumnsType<Pokemon> = [
     ),
   },
   {
-    title: "栖息地",
+    title: <TableTitle k="habitats" />,
     dataIndex: "habitats",
     width: 220,
     render: (habitats: Pokemon["habitats"]) =>
@@ -73,13 +74,13 @@ export const PokemonTableColumns: TableColumnsType<Pokemon> = [
       )),
   },
   {
-    title: "时间",
+    title: <TableTitle k="time" />,
     dataIndex: "time",
     width: 140,
     render: (time: string) => <TimeIcons time={time} />,
   },
   {
-    title: "天气",
+    title: <TableTitle k="weather" />,
     dataIndex: "weather",
     width: 120,
     render: (weather: string) => <WeatherIcons weather={weather} />,

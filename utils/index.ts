@@ -5,3 +5,4 @@ export * from "./parser";
 export * from "./pokemon";
 export * from "./renderer";
 export * from "./sorter";
+export * from "./i18n";

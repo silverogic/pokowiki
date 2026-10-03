@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import { PokemonDataByName } from "@/data";
 import { Event } from "@/types";
-import { Link, TableCommonProps } from "@/utils";
+import { Link, TableCommonProps, TableTitle } from "@/utils";
 
 import { PokemonIconWithName } from "../pokemon";
 
@@ -17,7 +17,7 @@ const parseDate = (dateStr: string) => {
 
 export const EventTableColumns: TableColumnsType<Event> = [
   {
-    title: "名字",
+    title: <TableTitle k="name" />,
     dataIndex: "name",
     fixed: "left",
     width: 160,
@@ -34,7 +34,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
       ),
   },
   {
-    title: "图片",
+    title: <TableTitle k="image" />,
     dataIndex: "imageUrl",
     fixed: "left",
     width: 180,
@@ -49,7 +49,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
       ) : null,
   },
   {
-    title: "举办时间",
+    title: <TableTitle k="eventDates" />,
     dataIndex: "dates",
     width: 220,
     render: (dates: Event["dates"]) => (
@@ -63,7 +63,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
     ),
   },
   {
-    title: "宝可梦",
+    title: <TableTitle k="pokemon" />,
     dataIndex: "pokemon",
     width: 280,
     render: (pokemon: Event["pokemon"]) => (

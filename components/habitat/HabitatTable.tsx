@@ -4,7 +4,7 @@ import { Table, TableColumnsType } from "antd";
 
 import { PokemonDataByName } from "@/data";
 import { Habitat } from "@/types";
-import { TableCommonProps, compareNumeric, renderId } from "@/utils";
+import { TableCommonProps, TableTitle, compareNumeric, renderId } from "@/utils";
 
 import { HabitatCell } from "./HabitatCell";
 import { ItemLink } from "../item";
@@ -12,7 +12,7 @@ import { PokemonIconWithName } from "../pokemon";
 
 export const HabitatTableColumns: TableColumnsType<Habitat> = [
   {
-    title: "编号",
+    title: <TableTitle k="index" />,
     dataIndex: "index",
     fixed: "left",
     width: 90,
@@ -20,14 +20,14 @@ export const HabitatTableColumns: TableColumnsType<Habitat> = [
     render: (index: number) => renderId(index),
   },
   {
-    title: "名字",
+    title: <TableTitle k="name" />,
     dataIndex: "name",
     fixed: "left",
     width: 140,
     render: (_, row) => <HabitatCell habitat={row} />,
   },
   {
-    title: "宝可梦",
+    title: <TableTitle k="pokemon" />,
     dataIndex: "pokemon",
     width: 340,
     render: (pokemon: Habitat["pokemon"]) => (
@@ -43,7 +43,7 @@ export const HabitatTableColumns: TableColumnsType<Habitat> = [
     ),
   },
   {
-    title: "详情",
+    title: <TableTitle k="details" />,
     dataIndex: "detail",
     width: 240,
     render: (detail: Habitat["detail"]) =>

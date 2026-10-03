@@ -6,19 +6,39 @@ import { Fragment, useEffect } from "react";
 
 import logo from "@/assets/images/logo.png";
 import { HOME_NAVIGATIONS } from "@/data";
-import { Icon, Link } from "@/utils";
-import { DEFAULT_TITLE } from "@/utils";
+import { Icon, Link, useI18n } from "@/utils";
 
 export default function Home() {
+  const { t } = useI18n();
+
   useEffect(() => {
-    document.title = DEFAULT_TITLE;
+    document.title = t("siteTitle");
 
     document.querySelector("main")?.classList.add("main-home");
 
     return () => {
       document.querySelector("main")?.classList.remove("main-home");
     };
-  }, []);
+  }, [t]);
+
+  const getNavLabel = (path: string, fallback: string) => {
+    switch (path) {
+      case "/":
+        return t("home");
+      case "/pokemon-list":
+        return t("pokemonList");
+      case "/habitat-list":
+        return t("habitatList");
+      case "/event-list":
+        return t("eventList");
+      case "/walkthrough":
+        return t("walkthrough");
+      case "/about":
+        return t("about");
+      default:
+        return fallback;
+    }
+  };
 
   return (
     <Fragment key="home">
@@ -33,13 +53,13 @@ export default function Home() {
               className="mx-auto block"
             />
           </div>
-          <h1>宝可梦 Pokopia 数据库</h1>
+          <h1>{t("siteTitle")}</h1>
         </div>
       </section>
 
       <section>
         <div className="home-navigation">
-          <h2>站内导航</h2>
+          <h2>{t("siteNav")}</h2>
           <div className="home-links">
             {HOME_NAVIGATIONS[0].contents[0].contents.map((item) => (
               <Card key={item.path}>
@@ -52,12 +72,12 @@ export default function Home() {
                     name={item.icon}
                     className="home-link-icon"
                   />
-                  <div className="home-link-label">{item.label}</div>
+                  <div className="home-link-label">{getNavLabel(item.path, item.label)}</div>
                 </Link>
               </Card>
             ))}
           </div>
-          <h2>站外导航</h2>
+          <h2>{t("externalNav")}</h2>
           <div className="home-links">
             {HOME_NAVIGATIONS[1].contents.map((section) => (
               <Card

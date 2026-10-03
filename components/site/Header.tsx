@@ -4,8 +4,9 @@ import { MenuOutlined } from "@ant-design/icons";
 import { Drawer, Tabs, TabsProps } from "antd";
 import { FC, useContext, useMemo, useState } from "react";
 
-import { Link } from "@/utils";
+import { Link, useI18n } from "@/utils";
 
+import { LanguageSwitch } from "./LanguageSwitch";
 import { Navigation } from "./Navigation";
 import { TableOfContents } from "./TableOfContents";
 import { TocContext } from "./TocObserver";
@@ -14,25 +15,26 @@ import { SearchBar } from "./search";
 export const Header: FC = () => {
   const [show, setShow] = useState(false);
   const { tocItems = [] } = useContext(TocContext) || {};
+  const { t } = useI18n();
 
   const items: TabsProps["items"] = useMemo(
     () => [
       {
         key: "nav-site",
-        label: "站内导航",
+        label: t("siteNav"),
         children: <Navigation onClick={() => setShow(false)} />,
       },
       ...(tocItems.length > 0
         ? [
             {
               key: "nav-toc",
-              label: "目录",
+              label: t("tableOfContents"),
               children: <TableOfContents onClick={() => setShow(false)} />,
             },
           ]
         : []),
     ],
-    [tocItems.length],
+    [tocItems.length, t],
   );
 
   return (
@@ -46,7 +48,7 @@ export const Header: FC = () => {
                 className="text-primary flex min-w-0 items-center text-xl font-bold sm:text-2xl"
               >
                 <span className="logo shrink-0" />
-                <span className="truncate">Pokopia 数据库</span>
+                <span className="truncate">{t("siteTitle")}</span>
               </Link>
             </div>
 
@@ -54,7 +56,12 @@ export const Header: FC = () => {
               <SearchBar />
             </div>
 
-            <div className="md:hidden">
+            <div className="hidden items-center md:flex">
+              <LanguageSwitch />
+            </div>
+
+            <div className="flex items-center gap-2 md:hidden">
+              <LanguageSwitch size="small" />
               <button
                 className="p-2 transition-colors hover:bg-gray-50"
                 aria-label="切换菜单"

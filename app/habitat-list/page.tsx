@@ -1,23 +1,23 @@
 import Head from "next/head";
 import { FC, Fragment } from "react";
 
-import { HabitatTable } from "@/components";
+import { HabitatTable, PageTitle } from "@/components";
 import { HabitatData } from "@/data";
 import { DEFAULT_TITLE } from "@/utils";
 
 export const metadata = {
-  title: `栖息地一览 - ${DEFAULT_TITLE}`,
-  description: "在《宝可梦 Pokopia》中出现的所有栖息地的列表。",
+  title: `Habitats - ${DEFAULT_TITLE}`,
+  description: "Habitat list for Pokemon Pokopia.",
 };
 
 const HabitatListPage: FC = () => (
   <Fragment key="habitat-list">
     <Head>
-      <title>栖息地一览</title>
+      <title>Habitats</title>
     </Head>
 
     <section>
-      <h1>栖息地一览</h1>
+      <PageTitle titleKey="habitatList" />
     </section>
 
     <section>

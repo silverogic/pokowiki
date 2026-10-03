@@ -5,3 +5,6 @@ export * from "./Navigation";
 export * from "./TocObserver";
 export * from "./Giscus";
 export * from "./PrevNext";
+export * from "./LanguageSwitch";
+export * from "./AppClientLayout";
+export * from "./PageTitle";

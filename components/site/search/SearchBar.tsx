@@ -8,7 +8,7 @@ import React, { FC, useEffect, useState } from "react";
 
 import { HabitatData, ItemData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
 import { SearchResult } from "@/types";
-import { getPokemonFullId } from "@/utils";
+import { getPokemonFullId, useI18n } from "@/utils";
 
 import { SearchHabitat } from "./SearchHabitat";
 import { SearchItem } from "./SearchItem";
@@ -142,6 +142,7 @@ interface IProps {
 
 export const SearchBar: FC<IProps> = ({ onClick }) => {
   const pathname = usePathname();
+  const { t } = useI18n();
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchResult, setSearchResult] = useState<SearchResult[]>([]);
   const [showSearchResults, setShowSearchResults] = useState(false);
@@ -176,8 +177,8 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
   return (
     <div className="relative">
       <Input
-        placeholder="搜索"
-        aria-label="搜索"
+        placeholder={t("searchPlaceholder")}
+        aria-label={t("search")}
         value={searchKeyword}
         onChange={handleSearch}
         prefix={<SearchOutlined className="text-gray-400" />}

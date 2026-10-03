@@ -1,13 +1,11 @@
 import "@/assets/css/styles.css";
 
-import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { Analytics } from "@vercel/analytics/next";
-import { ConfigProvider, ThemeConfig } from "antd";
-import zhCN from "antd/locale/zh_CN";
+import { ThemeConfig } from "antd";
 import { Metadata } from "next";
 import { ReactNode } from "react";
 
-import { Footer, Giscus, Header, Sidebar, TocObserver } from "@/components";
+import { AppClientLayout } from "@/components";
 import { BREAKPOINTS, DEFAULT_TITLE, SITE_URL } from "@/utils";
 
 const { xs, sm, md, lg, xl, xxl } = BREAKPOINTS;
@@ -67,48 +65,10 @@ const RootLayout = ({
 }: Readonly<{
   children: ReactNode;
 }>) => (
-  <html lang="zh-CN">
+  <html lang="en">
     <body>
       <div id="root">
-        <ConfigProvider
-          locale={zhCN}
-          theme={theme}
-        >
-          <TocObserver>
-            <Header />
-            <div className="relative flex-1 md:flex">
-              <Sidebar />
-
-              <main>
-                <AntdRegistry>
-                  <div className="bg-white sm:rounded-2xl sm:shadow-xl">
-                    {children}
-                    <section className="giscus">
-                      <Giscus
-                        host={process.env.NEXT_PUBLIC_GISCUS_HOST || "https://giscus.xzonn.top"}
-                        repo={
-                          (process.env.NEXT_PUBLIC_GISCUS_REPO as `${string}/${string}`) ||
-                          "Xzonn/PokemonPokopiaDatabase"
-                        }
-                        repoId={process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "R_kgDORmT12w"}
-                        category={process.env.NEXT_PUBLIC_GISCUS_CATEGORY || "General"}
-                        categoryId={process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "DIC_kwDORmT1284C4cEM"}
-                        mapping="specific"
-                        term="评论区"
-                        reactions-enabled="1"
-                        emit-metadata="0"
-                        input-position="top"
-                        theme="preferred_color_scheme"
-                        lang="zh-CN"
-                      />
-                    </section>
-                  </div>
-                </AntdRegistry>
-              </main>
-            </div>
-            <Footer />
-          </TocObserver>
-        </ConfigProvider>
+        <AppClientLayout theme={theme}>{children}</AppClientLayout>
         <Analytics />
         <script
           src="https://hm.baidu.com/hm.js?3ba4ff308bcec03a61b76097f5b792d8"
