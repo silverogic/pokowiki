@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
 2:I[698915,["/pokowiki/_next/static/chunks/0e219c07a56576da.js","/pokowiki/_next/static/chunks/cda8de96ccfcc9ff.js"],"ClientPageRoot"]
-3:I[331713,["/pokowiki/_next/static/chunks/1bfcf5841b8e65d7.js","/pokowiki/_next/static/chunks/1abac79829fac734.js","/pokowiki/_next/static/chunks/44c916cac327b7a9.js","/pokowiki/_next/static/chunks/6ef6aeb886e7a373.js","/pokowiki/_next/static/chunks/c49b159e1366f708.js"],"default"]
+3:I[331713,["/pokowiki/_next/static/chunks/708ce1d864eadfee.js","/pokowiki/_next/static/chunks/5e4e85093c0e57c5.js","/pokowiki/_next/static/chunks/1c29ebba2847cf86.js","/pokowiki/_next/static/chunks/c4afc9edf227257c.js","/pokowiki/_next/static/chunks/d27715e662f63e16.js","/pokowiki/_next/static/chunks/c49b159e1366f708.js"],"default"]
 6:I[415013,["/pokowiki/_next/static/chunks/0e219c07a56576da.js","/pokowiki/_next/static/chunks/cda8de96ccfcc9ff.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"buildId":"1xzOmDXXDsqsWL_LH2vY3","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/pokowiki/_next/static/chunks/c49b159e1366f708.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"eWngsZynFxuTz1foL7SRr","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/pokowiki/_next/static/chunks/c49b159e1366f708.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
