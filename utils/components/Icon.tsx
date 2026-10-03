@@ -1,6 +1,9 @@
+"use client";
+
 import cn from "classnames";
 
 import { PokemonType } from "@/types";
+import { useI18n } from "@/utils/i18n";
 
 interface IIconProps {
   name: string;
@@ -21,12 +24,15 @@ interface ITypeIconProps {
   className?: string;
 }
 
-export const TypeIcon: React.FC<ITypeIconProps> = ({ type, className }) => (
-  <div className={cn(`badge bg-${type}`, className)}>
-    <div className={`badge-icon icon icon-${type}`} />
-    <div className="badge-text">{type}</div>
-  </div>
-);
+export const TypeIcon: React.FC<ITypeIconProps> = ({ type, className }) => {
+  const { getTypeDisplayName } = useI18n();
+  return (
+    <div className={cn(`badge bg-${type}`, className)}>
+      <div className={`badge-icon icon icon-${type}`} />
+      <div className="badge-text">{getTypeDisplayName(type)}</div>
+    </div>
+  );
+};
 
 export const TypeIcons: React.FC<{ types: PokemonType[] }> = ({ types }) => (
   <span className="badges">

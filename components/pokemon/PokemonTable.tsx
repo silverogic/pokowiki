@@ -1,9 +1,10 @@
 "use client";
 
 import { Table, TableColumnsType } from "antd";
+import { useMemo } from "react";
 
 import { HabitatDataById } from "@/data";
-import { ESpecialities, Pokemon, PokemonType, Speciality } from "@/types";
+import { EPokemonType, ESpecialities, Pokemon, PokemonType, Speciality } from "@/types";
 import {
   PokemonTypeFilters,
   TableCommonProps,
@@ -13,6 +14,7 @@ import {
   WeatherIcons,
   compareNumeric,
   renderId,
+  useI18n,
 } from "@/utils";
 
 import { PokemonCell } from "./PokemonCell";
@@ -91,12 +93,36 @@ interface IPokemonTableProps {
   data?: Pokemon[];
 }
 
-export const PokemonTable = ({ data }: IPokemonTableProps) => (
-  <Table<Pokemon>
-    {...TableCommonProps}
-    rowKey={(row) => row.id}
-    columns={PokemonTableColumns}
-    dataSource={data}
-    pagination={false}
-  />
-);
+export const PokemonTable = ({ data }: IPokemonTableProps) => {
+  const { getSpecialityDisplayName, getTypeDisplayName } = useI18n();
+
+  const columns = useMemo(
+    () =>
+      PokemonTableColumns.map((col) => {
+        if ("dataIndex" in col && col.dataIndex === "specialties") {
+          return {
+            ...col,
+            filters: ESpecialities.map((s) => ({ text: getSpecialityDisplayName(s), value: s })),
+          };
+        }
+        if ("dataIndex" in col && col.dataIndex === "types") {
+          return {
+            ...col,
+            filters: EPokemonType.map((t) => ({ text: getTypeDisplayName(t), value: t })),
+          };
+        }
+        return col;
+      }),
+    [getSpecialityDisplayName, getTypeDisplayName],
+  );
+
+  return (
+    <Table<Pokemon>
+      {...TableCommonProps}
+      rowKey={(row) => row.id}
+      columns={columns}
+      dataSource={data}
+      pagination={false}
+    />
+  );
+};

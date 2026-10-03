@@ -51,7 +51,12 @@ const searchAll = (keyword: string): SearchResult[] => {
 
   if (results.length < 10) {
     HabitatData.filter(
-      (habitat) => habitat.name.toLowerCase().includes(keywordParsed) || habitat.index % 10000 === keywordNumber,
+      (habitat) =>
+        habitat.name.toLowerCase().includes(keywordParsed) ||
+        habitat.english?.toLowerCase().includes(keywordParsed) ||
+        habitat.korean?.toLowerCase().includes(keywordParsed) ||
+        habitat.japanese?.toLowerCase().includes(keywordParsed) ||
+        habitat.index % 10000 === keywordNumber,
     )
       .slice(0, 10 - results.length)
       .forEach((habitat) =>

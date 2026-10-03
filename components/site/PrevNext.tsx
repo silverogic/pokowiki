@@ -4,7 +4,7 @@ import { Link } from "@/utils";
 
 interface IPrevNextItem {
   id: string;
-  name: string;
+  name: ReactNode;
   icon?: ReactNode;
   formName?: string;
   link: string;

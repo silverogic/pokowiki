@@ -12,6 +12,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/", label: "首页", icon: "home" },
   { path: "/pokemon-list", label: "宝可梦一览", icon: "pokemon" },
   { path: "/habitat-list", label: "栖息地一览", icon: "habitat" },
+  { path: "/item-list", label: "道具一览", icon: "collection" },
   { path: "/event-list", label: "活动一览", icon: "request" },
 ];
 
@@ -24,6 +25,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/pokemon-list", label: "宝可梦一览", icon: "pokemon" },
           { path: "/habitat-list", label: "栖息地一览", icon: "habitat" },
+          { path: "/item-list", label: "道具一览", icon: "collection" },
           { path: "/event-list", label: "活动一览", icon: "request" },
         ],
       },

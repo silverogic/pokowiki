@@ -29,3 +29,8 @@ export const PokemonCell: FC<IProps> = ({ pokemon }) => {
     </Link>
   );
 };
+
+export const PokemonName: FC<{ pokemon?: Pokemon }> = ({ pokemon }) => {
+  const { getPokemonDisplayName } = useI18n();
+  return <>{getPokemonDisplayName(pokemon)}</>;
+};

@@ -7,19 +7,30 @@ import koKR from "antd/locale/ko_KR";
 import zhCN from "antd/locale/zh_CN";
 import React, { ReactNode, createContext, useContext, useEffect, useState } from "react";
 
-import { Item, Pokemon } from "@/types";
+import { Habitat, Item, Pokemon, PokemonType } from "@/types";
 
-import { TranslationKey, getTranslation } from "./translations";
+import {
+  ITEM_CATEGORY_TRANSLATIONS,
+  SPECIALITY_TRANSLATIONS,
+  TYPE_TRANSLATIONS,
+  TranslationKey,
+  getTranslation,
+} from "./translations";
 import { SupportedLocale } from "./types";
 
 interface I18nContextType {
   locale: SupportedLocale;
+  language: SupportedLocale;
   setLocale: (locale: SupportedLocale) => void;
   t: (key: TranslationKey) => string;
   getPokemonDisplayName: (pokemon?: Pokemon | null) => string;
   getPokemonDescription: (pokemon?: Pokemon | null) => string;
   getPokemonCategory: (pokemon?: Pokemon | null) => string;
   getItemDisplayName: (item?: Item | null) => string;
+  getItemCategoryDisplayName: (category?: string | null) => string;
+  getHabitatDisplayName: (habitat?: Habitat | null) => string;
+  getSpecialityDisplayName: (speciality?: string | null) => string;
+  getTypeDisplayName: (type?: PokemonType | string | null) => string;
   antdLocale: Locale;
 }
 
@@ -32,12 +43,17 @@ const antdLocales: Record<SupportedLocale, Locale> = {
 
 const I18nContext = createContext<I18nContextType>({
   locale: "en",
+  language: "en",
   setLocale: () => {},
   t: (key) => key,
   getPokemonDisplayName: (p) => p?.name || "",
   getPokemonDescription: (p) => p?.description || "",
   getPokemonCategory: (p) => p?.category || "",
   getItemDisplayName: (i) => i?.name || "",
+  getItemCategoryDisplayName: (c) => c || "",
+  getHabitatDisplayName: (h) => h?.name || "",
+  getSpecialityDisplayName: (s) => s || "",
+  getTypeDisplayName: (ty) => ty || "",
   antdLocale: enUS,
 });
 
@@ -134,16 +150,57 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
   };
 
+  const getHabitatDisplayName = (habitat?: Habitat | null): string => {
+    if (!habitat) return "";
+    switch (locale) {
+      case "ko":
+        return habitat.korean || habitat.english || habitat.name;
+      case "en":
+        return habitat.english || habitat.name;
+      case "ja":
+        return habitat.japanese || habitat.name;
+      case "zh":
+      default:
+        return habitat.name;
+    }
+  };
+
+  const getSpecialityDisplayName = (speciality?: string | null): string => {
+    if (!speciality) return "";
+    const match = SPECIALITY_TRANSLATIONS[speciality];
+    if (match) return match[locale] || match.en || speciality;
+    return speciality;
+  };
+
+  const getTypeDisplayName = (type?: PokemonType | string | null): string => {
+    if (!type) return "";
+    const match = TYPE_TRANSLATIONS[type];
+    if (match) return match[locale] || match.en || type;
+    return type;
+  };
+
+  const getItemCategoryDisplayName = (category?: string | null): string => {
+    if (!category) return "";
+    const match = ITEM_CATEGORY_TRANSLATIONS[category.toLowerCase()];
+    if (match) return match[locale] || match.en || category;
+    return category;
+  };
+
   return (
     <I18nContext.Provider
       value={{
         locale,
+        language: locale,
         setLocale,
         t,
         getPokemonDisplayName,
         getPokemonDescription,
         getPokemonCategory,
         getItemDisplayName,
+        getItemCategoryDisplayName,
+        getHabitatDisplayName,
+        getSpecialityDisplayName,
+        getTypeDisplayName,
         antdLocale: antdLocales[locale] || enUS,
       }}
     >

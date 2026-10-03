@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { PokemonDetail, PokemonHeader, PokemonIcon, PrevNext } from "@/components";
+import { PokemonDetail, PokemonHeader, PokemonIcon, PokemonName, PrevNext } from "@/components";
 import { HabitatDataById, PokemonData } from "@/data";
 import { DEFAULT_TITLE, getPokemonFullId } from "@/utils";
 
@@ -57,7 +57,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
             ? {
                 id: (prevPokemon.index % 10000).toString().padStart(3, "0"),
                 isEvent: prevPokemon.isEvent,
-                name: prevPokemon.name,
+                name: <PokemonName pokemon={prevPokemon} />,
                 icon: (
                   <PokemonIcon
                     pokemon={prevPokemon}
@@ -74,7 +74,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
             ? {
                 id: (nextPokemon.index % 10000).toString().padStart(3, "0"),
                 isEvent: nextPokemon.isEvent,
-                name: nextPokemon.name,
+                name: <PokemonName pokemon={nextPokemon} />,
                 icon: (
                   <PokemonIcon
                     pokemon={nextPokemon}

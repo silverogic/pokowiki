@@ -45,7 +45,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "녹색 풀숲"
   },
   {
     "id": 2,
@@ -97,7 +98,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "나무 그늘 풀숲"
   },
   {
     "id": 3,
@@ -134,7 +136,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바위 그늘 풀숲"
   },
   {
     "id": 4,
@@ -181,7 +184,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 풀숲"
   },
   {
     "id": 5,
@@ -218,7 +222,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "해변가 풀숲"
   },
   {
     "id": 6,
@@ -260,7 +265,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "언덕 풀숲"
   },
   {
     "id": 7,
@@ -292,7 +298,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "햇살 비치는 풀숲"
   },
   {
     "id": 8,
@@ -340,7 +347,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "아름다운 꽃밭"
   },
   {
     "id": 9,
@@ -377,7 +385,8 @@
         "rarity": "稀有",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "나무 그늘 꽃밭"
   },
   {
     "id": 10,
@@ -409,7 +418,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 꽃밭"
   },
   {
     "id": 11,
@@ -442,7 +452,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "꽃으로 가득한 들판"
   },
   {
     "id": 12,
@@ -474,7 +485,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "언덕 꽃밭"
   },
   {
     "id": 13,
@@ -506,7 +518,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "꽃으로 둘러싸인 묘지"
   },
   {
     "id": 14,
@@ -538,7 +551,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "플라워 가든"
   },
   {
     "id": 15,
@@ -571,7 +585,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "신선한 야채밭"
   },
   {
     "id": 16,
@@ -594,7 +609,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "풍성한 밭"
   },
   {
     "id": 17,
@@ -625,7 +641,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "밭 옆의 휴식처"
   },
   {
     "id": 18,
@@ -656,7 +673,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바위 너머의 숲속"
   },
   {
     "id": 19,
@@ -687,7 +705,8 @@
         "rarity": "普通",
         "location": "干巴巴荒野的城镇"
       }
-    ]
+    ],
+    "korean": "작은 캠프장"
   },
   {
     "id": 20,
@@ -723,7 +742,8 @@
         "rarity": "稀有",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "수제 부엌"
   },
   {
     "id": 21,
@@ -759,7 +779,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "조용한 공부방"
   },
   {
     "id": 22,
@@ -796,7 +817,8 @@
         "rarity": "普通",
         "location": "云岛"
       }
-    ]
+    ],
+    "korean": "햇살 드는 거실"
   },
   {
     "id": 23,
@@ -828,7 +850,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "따뜻한 침실"
   },
   {
     "id": 24,
@@ -855,7 +878,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "청결한 세탁실"
   },
   {
     "id": 25,
@@ -886,7 +910,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "빛나는 세면장"
   },
   {
     "id": 26,
@@ -917,7 +942,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "체육관 구급실"
   },
   {
     "id": 27,
@@ -949,7 +975,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "길 안내 표지판"
   },
   {
     "id": 28,
@@ -986,7 +1013,8 @@
         "rarity": "稀有",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "커다란 짐 싣기"
   },
   {
     "id": 29,
@@ -1031,7 +1059,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "나무꾼의 작업장"
   },
   {
     "id": 30,
@@ -1073,7 +1102,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "인형과 꿀잠"
   },
   {
     "id": 31,
@@ -1109,7 +1139,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "정리정돈 수납장"
   },
   {
     "id": 32,
@@ -1145,7 +1176,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "작은 창고"
   },
   {
     "id": 33,
@@ -1186,7 +1218,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "동화 속 침실"
   },
   {
     "id": 34,
@@ -1222,7 +1255,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "아이들의 놀이터"
   },
   {
     "id": 35,
@@ -1258,7 +1292,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "휴식의 다실"
   },
   {
     "id": 36,
@@ -1289,7 +1324,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바쁜 조리장"
   },
   {
     "id": 37,
@@ -1316,7 +1352,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "신선한 과일 가게"
   },
   {
     "id": 38,
@@ -1351,7 +1388,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "숲속의 카페 테라스"
   },
   {
     "id": 39,
@@ -1378,7 +1416,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "장난꾸러기의 아지트"
   },
   {
     "id": 40,
@@ -1413,7 +1452,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "작은 비밀기지"
   },
   {
     "id": 41,
@@ -1440,7 +1480,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "숲속의 작은 집"
   },
   {
     "id": 42,
@@ -1467,7 +1508,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "골동품 가게"
   },
   {
     "id": 43,
@@ -1498,7 +1540,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "한밤중의 연구실"
   },
   {
     "id": 44,
@@ -1539,7 +1582,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "연금술사의 방"
   },
   {
     "id": 45,
@@ -1574,7 +1618,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "천체 관측실"
   },
   {
     "id": 46,
@@ -1609,7 +1654,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "반짝이는 보석상"
   },
   {
     "id": 47,
@@ -1641,7 +1687,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "부유한 저택"
   },
   {
     "id": 48,
@@ -1681,7 +1728,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "마녀의 집"
   },
   {
     "id": 49,
@@ -1716,7 +1764,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "고대 유적 발굴지"
   },
   {
     "id": 50,
@@ -1749,7 +1798,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "노란 풀숲"
   },
   {
     "id": 51,
@@ -1791,7 +1841,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "나무 그늘 노란 풀숲"
   },
   {
     "id": 52,
@@ -1828,7 +1879,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "언덕 노란 풀숲"
   },
   {
     "id": 53,
@@ -1870,7 +1922,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 노란 풀숲"
   },
   {
     "id": 54,
@@ -1902,7 +1955,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "늪지 풀숲"
   },
   {
     "id": 55,
@@ -1929,7 +1983,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "풀숲의 자판기"
   },
   {
     "id": 56,
@@ -1962,7 +2017,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "광장의 시계탑"
   },
   {
     "id": 57,
@@ -1999,7 +2055,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "역 앞의 벤치"
   },
   {
     "id": 58,
@@ -2031,7 +2088,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "거리의 가로등"
   },
   {
     "id": 59,
@@ -2063,7 +2121,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "분수가 있는 광장"
   },
   {
     "id": 60,
@@ -2094,7 +2153,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "길거리 음식 포장마차"
   },
   {
     "id": 61,
@@ -2121,7 +2181,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "야외 바비큐장"
   },
   {
     "id": 62,
@@ -2153,7 +2214,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "비치 파라솔"
   },
   {
     "id": 63,
@@ -2199,7 +2261,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "해변 산책로"
   },
   {
     "id": 64,
@@ -2232,7 +2295,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "서핑 보드 보관소"
   },
   {
     "id": 65,
@@ -2259,7 +2323,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "해변 매점"
   },
   {
     "id": 66,
@@ -2296,7 +2361,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "파도 소리 캠프"
   },
   {
     "id": 67,
@@ -2336,7 +2402,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "모닥불 주변"
   },
   {
     "id": 68,
@@ -2375,7 +2442,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "숲의 바비큐 파티"
   },
   {
     "id": 69,
@@ -2411,7 +2479,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "신나는 야외 캠핑"
   },
   {
     "id": 70,
@@ -2455,7 +2524,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "캠핑 트레일러"
   },
   {
     "id": 71,
@@ -2496,7 +2566,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "낚시꾼의 부두"
   },
   {
     "id": 72,
@@ -2528,7 +2599,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "호숫가 보트장"
   },
   {
     "id": 73,
@@ -2565,7 +2637,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "목장 울타리"
   },
   {
     "id": 74,
@@ -2592,7 +2665,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "따뜻한 모포 침대"
   },
   {
     "id": 75,
@@ -2619,7 +2693,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "세탁물 건조대"
   },
   {
     "id": 76,
@@ -2655,7 +2730,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "꽃단장 중 훔쳐보기 금지"
   },
   {
     "id": 77,
@@ -2691,7 +2767,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "털실 뜨개질 방"
   },
   {
     "id": 78,
@@ -2727,7 +2804,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "온천 샤워장"
   },
   {
     "id": 79,
@@ -2772,7 +2850,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "리조트 요리 준비"
   },
   {
     "id": 80,
@@ -2809,7 +2888,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "짐 싸기 완료"
   },
   {
     "id": 81,
@@ -2845,7 +2925,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "소풍 런치 세트"
   },
   {
     "id": 82,
@@ -2876,7 +2957,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "오후의 애프터눈 티"
   },
   {
     "id": 83,
@@ -2908,7 +2990,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "달콤한 디저트 카페"
   },
   {
     "id": 84,
@@ -2940,7 +3023,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "제과점 쇼케이스"
   },
   {
     "id": 85,
@@ -2976,7 +3060,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "향긋한 베이커리"
   },
   {
     "id": 86,
@@ -3012,7 +3097,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "꽃집 진열대"
   },
   {
     "id": 87,
@@ -3044,7 +3130,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "도예가의 공방"
   },
   {
     "id": 88,
@@ -3080,7 +3167,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "화가의 아틀리에"
   },
   {
     "id": 89,
@@ -3120,7 +3208,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "피아노 연주실"
   },
   {
     "id": 90,
@@ -3156,7 +3245,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바이올린 연습실"
   },
   {
     "id": 91,
@@ -3198,7 +3288,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "밴드 합주실"
   },
   {
     "id": 92,
@@ -3225,7 +3316,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "DJ 부스"
   },
   {
     "id": 93,
@@ -3248,7 +3340,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "화려한 댄스 플로어"
   },
   {
     "id": 94,
@@ -3275,7 +3368,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "레트로 게임 센터"
   },
   {
     "id": 95,
@@ -3314,7 +3408,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "보드게임 테이블"
   },
   {
     "id": 96,
@@ -3349,7 +3444,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "클래식 당구장"
   },
   {
     "id": 97,
@@ -3384,7 +3480,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "볼링장 레인"
   },
   {
     "id": 98,
@@ -3427,7 +3524,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "탁구대"
   },
   {
     "id": 99,
@@ -3469,7 +3567,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "다트 바"
   },
   {
     "id": 100,
@@ -3505,7 +3604,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "붉은 풀숲"
   },
   {
     "id": 101,
@@ -3537,7 +3637,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 붉은 풀숲"
   },
   {
     "id": 102,
@@ -3574,7 +3675,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "언덕 붉은 풀숲"
   },
   {
     "id": 103,
@@ -3606,7 +3708,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "풀숲 트레이닝장"
   },
   {
     "id": 104,
@@ -3649,7 +3752,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "우아한 꽃밭"
   },
   {
     "id": 105,
@@ -3686,7 +3790,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "나무 그늘 우아한 꽃밭"
   },
   {
     "id": 106,
@@ -3723,7 +3828,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 우아한 꽃밭"
   },
   {
     "id": 107,
@@ -3764,7 +3870,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "꽃밭 그루터기 무대"
   },
   {
     "id": 108,
@@ -3791,7 +3898,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "밭일은 힘들어"
   },
   {
     "id": 109,
@@ -3823,7 +3931,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "동동 뜬 물웅덩이"
   },
   {
     "id": 110,
@@ -3851,7 +3960,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "이끼투성이 휴식처"
   },
   {
     "id": 111,
@@ -3883,7 +3993,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "이끼투성이 바위"
   },
   {
     "id": 112,
@@ -3910,7 +4021,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "이끼 낀 온천"
   },
   {
     "id": 113,
@@ -3937,7 +4049,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "노천탕"
   },
   {
     "id": 114,
@@ -3968,7 +4081,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "힐링 온천"
   },
   {
     "id": 115,
@@ -4000,7 +4114,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "마그마로 뜨끈뜨끈"
   },
   {
     "id": 116,
@@ -4031,7 +4146,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "파고 태우고"
   },
   {
     "id": 117,
@@ -4071,7 +4187,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "덜컹덜컹 철골 공사"
   },
   {
     "id": 118,
@@ -4111,7 +4228,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "으스스한 하얀 바위"
   },
   {
     "id": 119,
@@ -4156,7 +4274,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "짐 보관소에서 몰래 간식"
   },
   {
     "id": 120,
@@ -4187,7 +4306,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "두근두근 식탁"
   },
   {
     "id": 121,
@@ -4223,7 +4343,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "냠냠 빵 공방"
   },
   {
     "id": 122,
@@ -4258,7 +4379,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "미니 키친"
   },
   {
     "id": 123,
@@ -4294,7 +4416,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "다 함께 파티"
   },
   {
     "id": 124,
@@ -4321,7 +4444,8 @@
         "rarity": "普通",
         "location": "凸隆隆山地的城镇"
       }
-    ]
+    ],
+    "korean": "느긋하게 사진 돌아보기"
   },
   {
     "id": 125,
@@ -4353,7 +4477,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "지저귐의 리사이틀"
   },
   {
     "id": 126,
@@ -4389,7 +4514,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "리사이틀 무대"
   },
   {
     "id": 127,
@@ -4430,7 +4556,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "리듬에 맞춰 원투"
   },
   {
     "id": 128,
@@ -4471,7 +4598,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "음악과 독서"
   },
   {
     "id": 129,
@@ -4507,7 +4635,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "작은 박물관"
   },
   {
     "id": 130,
@@ -4547,7 +4676,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "상쾌한 라커룸"
   },
   {
     "id": 131,
@@ -4583,7 +4713,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "동상 관광 명소"
   },
   {
     "id": 132,
@@ -4620,7 +4751,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "건널목"
   },
   {
     "id": 133,
@@ -4663,7 +4795,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "셰프의 조리장"
   },
   {
     "id": 134,
@@ -4698,7 +4831,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "더 고져스"
   },
   {
     "id": 135,
@@ -4733,7 +4867,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "묵직한 아이언"
   },
   {
     "id": 136,
@@ -4764,7 +4899,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "모던 라이프"
   },
   {
     "id": 137,
@@ -4807,7 +4943,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "핑크 풀숲"
   },
   {
     "id": 138,
@@ -4849,7 +4986,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "나무 그늘 핑크 풀숲"
   },
   {
     "id": 139,
@@ -4886,7 +5024,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 핑크 풀숲"
   },
   {
     "id": 140,
@@ -4928,7 +5067,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "언덕 핑크 풀숲"
   },
   {
     "id": 141,
@@ -4960,7 +5100,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "토관 비밀기지"
   },
   {
     "id": 142,
@@ -5003,7 +5144,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "푹신푹신 꽃밭"
   },
   {
     "id": 143,
@@ -5045,7 +5187,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "나무 그늘 푹신푹신 꽃밭"
   },
   {
     "id": 144,
@@ -5082,7 +5225,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 푹신푹신 꽃밭"
   },
   {
     "id": 145,
@@ -5117,7 +5261,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "물가의 조각배"
   },
   {
     "id": 146,
@@ -5152,7 +5297,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "햇살 비치는 폭포"
   },
   {
     "id": 147,
@@ -5179,7 +5325,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "지저귐 가든"
   },
   {
     "id": 148,
@@ -5211,7 +5358,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "심플 욕실"
   },
   {
     "id": 149,
@@ -5238,7 +5386,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "사이클링 중 휴식"
   },
   {
     "id": 150,
@@ -5270,7 +5419,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "벽난로 옆 낮잠"
   },
   {
     "id": 151,
@@ -5302,7 +5452,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "넘쳐흐르는 사이코 파워"
   },
   {
     "id": 152,
@@ -5338,7 +5489,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "수정구 점술"
   },
   {
     "id": 153,
@@ -5370,7 +5522,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "쓰레기장의 TV"
   },
   {
     "id": 154,
@@ -5410,7 +5563,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "대형 쓰레기장"
   },
   {
     "id": 155,
@@ -5450,7 +5604,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "파트너와 심문"
   },
   {
     "id": 156,
@@ -5495,7 +5650,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "맨홀 점검 중"
   },
   {
     "id": 157,
@@ -5531,7 +5687,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "반짝반짝 세면대"
   },
   {
     "id": 158,
@@ -5562,7 +5719,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "홈 시어터"
   },
   {
     "id": 159,
@@ -5602,7 +5760,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "공부 공간"
   },
   {
     "id": 160,
@@ -5638,7 +5797,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "리드미컬 거실"
   },
   {
     "id": 161,
@@ -5665,7 +5825,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "뽀득뽀득 청소"
   },
   {
     "id": 162,
@@ -5701,7 +5862,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "촉촉한 화장대"
   },
   {
     "id": 163,
@@ -5736,7 +5898,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "작은 도서관"
   },
   {
     "id": 164,
@@ -5763,7 +5926,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "게임 코너에서 배틀"
   },
   {
     "id": 165,
@@ -5790,7 +5954,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "플레이랜드"
   },
   {
     "id": 166,
@@ -5825,7 +5990,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "업무 데스크"
   },
   {
     "id": 167,
@@ -5871,7 +6037,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "사무실 창고"
   },
   {
     "id": 168,
@@ -5902,7 +6069,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "실험 공간"
   },
   {
     "id": 169,
@@ -5937,7 +6105,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "박사를 목표로 연구 중"
   },
   {
     "id": 170,
@@ -5968,7 +6137,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "연구원의 책상"
   },
   {
     "id": 171,
@@ -6000,7 +6170,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "자유롭게 읽어주세요"
   },
   {
     "id": 172,
@@ -6031,7 +6202,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "쿵덕쿵덕 깜짝 상자"
   },
   {
     "id": 173,
@@ -6063,7 +6235,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "장난 스위치"
   },
   {
     "id": 174,
@@ -6099,7 +6272,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "절경 얼굴 내밀기 패널"
   },
   {
     "id": 175,
@@ -6130,7 +6304,8 @@
         "rarity": "普通",
         "location": "亮晶晶空岛的城镇"
       }
-    ]
+    ],
+    "korean": "타이어 공원"
   },
   {
     "id": 176,
@@ -6165,7 +6340,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "자연 속 마켓"
   },
   {
     "id": 177,
@@ -6196,7 +6372,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "공사 현장의 발전소"
   },
   {
     "id": 178,
@@ -6228,7 +6405,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "도장에서 트레이닝"
   },
   {
     "id": 179,
@@ -6259,7 +6437,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "악의 조직 아지트"
   },
   {
     "id": 180,
@@ -6282,7 +6461,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "아홉 개의 불꽃"
   },
   {
     "id": 181,
@@ -6322,7 +6502,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "인형에 둘러싸여"
   },
   {
     "id": 182,
@@ -6361,7 +6542,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "발군의 게임 환경"
   },
   {
     "id": 183,
@@ -6392,7 +6574,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "팝 오브 팝"
   },
   {
     "id": 184,
@@ -6428,7 +6611,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "낚시터"
   },
   {
     "id": 185,
@@ -6469,7 +6653,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바다낚시터"
   },
   {
     "id": 186,
@@ -6510,7 +6695,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "늪 낚시터"
   },
   {
     "id": 187,
@@ -6546,7 +6732,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "온천 낚시터"
   },
   {
     "id": 188,
@@ -6577,7 +6764,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "마그마 낚시터"
   },
   {
     "id": 189,
@@ -6612,7 +6800,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "하이한 록 스테이지"
   },
   {
     "id": 190,
@@ -6647,7 +6836,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "로우한 록 스테이지"
   },
   {
     "id": 191,
@@ -6682,7 +6872,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "원념의 기사 제단"
   },
   {
     "id": 192,
@@ -6717,7 +6908,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "충성의 기사 제단"
   },
   {
     "id": 193,
@@ -6760,7 +6952,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "날개 화석 전시대"
   },
   {
     "id": 194,
@@ -6787,7 +6980,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "두개 화석 전시대"
   },
   {
     "id": 195,
@@ -6822,7 +7016,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "박치기 화석 전시대"
   },
   {
     "id": 196,
@@ -6849,7 +7044,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "방패 화석 전시대"
   },
   {
     "id": 197,
@@ -6884,7 +7080,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "실드 화석 전시대"
   },
   {
     "id": 198,
@@ -6911,7 +7108,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "턱 화석 전시대"
   },
   {
     "id": 199,
@@ -6950,7 +7148,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "폭군 화석 전시대"
   },
   {
     "id": 200,
@@ -6977,7 +7176,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "지느러미 화석 전시대"
   },
   {
     "id": 201,
@@ -7012,7 +7212,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "툰드라 화석 전시대"
   },
   {
     "id": 202,
@@ -7043,7 +7244,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "톡톡 터지는 블루"
   },
   {
     "id": 203,
@@ -7074,7 +7276,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "짜릿한 포테이토"
   },
   {
     "id": 204,
@@ -7105,7 +7308,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "타오를 듯 스파이시"
   },
   {
     "id": 205,
@@ -7136,7 +7340,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "우아한 오후"
   },
   {
     "id": 206,
@@ -7167,7 +7372,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "블랙의 풍미"
   },
   {
     "id": 207,
@@ -7198,7 +7404,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "녹색 샌드위치"
   },
   {
     "id": 208,
@@ -7229,7 +7436,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "시원한 빙수"
   },
   {
     "id": 209,
@@ -7260,7 +7468,8 @@
         "rarity": "普通",
         "location": "空空镇"
       }
-    ]
+    ],
+    "korean": "러블리 케이크"
   },
   {
     "id": 210,
@@ -7268,8 +7477,8 @@
     "isEvent": true,
     "isBubblyBasin": false,
     "name": "黄色绒毯",
-    "japanese": "",
-    "english": "",
+    "japanese": "黄色の絨毯",
+    "english": "Yellow Carpet",
     "description": "花田里盛开着温暖的黄色花朵。看着看着，似乎就能变得充满活力。",
     "detail": [
       {
@@ -7293,7 +7502,8 @@
         "rarity": "超稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "노란 융단"
   },
   {
     "id": 211,
@@ -7301,8 +7511,8 @@
     "isEvent": true,
     "isBubblyBasin": false,
     "name": "远足必备",
-    "japanese": "",
-    "english": "",
+    "japanese": "ピクニックの必需品",
+    "english": "Picnic Essentials",
     "description": "把便当和水壶放入背包中，郊游的准备就做好了。",
     "detail": [
       {
@@ -7324,7 +7534,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "소풍 필수품"
   },
   {
     "id": 212,
@@ -7332,8 +7543,8 @@
     "isEvent": true,
     "isBubblyBasin": false,
     "name": "和蒲公英一起午餐",
-    "japanese": "",
-    "english": "",
+    "japanese": "タンポポとランチ",
+    "english": "Lunch with Dandelions",
     "description": "援放好便当和餐具套装等用品，开启野餐的午休时光。",
     "detail": [
       {
@@ -7359,7 +7570,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "민들레와 함께 점심"
   },
   {
     "id": 213,
@@ -7367,8 +7579,8 @@
     "isEvent": true,
     "isBubblyBasin": false,
     "name": "寻宝套组",
-    "japanese": "",
-    "english": "",
+    "japanese": "宝探しセット",
+    "english": "Treasure Hunt Set",
     "description": "地图和指南针是导宝的必备品。为了寻找宝石，出发吧!。",
     "detail": [
       {
@@ -7390,7 +7602,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "보물찾기 세트"
   },
   {
     "id": 214,
@@ -7398,8 +7611,8 @@
     "isEvent": true,
     "isBubblyBasin": false,
     "name": "被星空环绕",
-    "japanese": "",
-    "english": "",
+    "japanese": "星空に囲まれて",
+    "english": "Surrounded by Stars",
     "description": "",
     "detail": [
       {
@@ -7425,7 +7638,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "밤하늘 별에 둘러싸여"
   },
   {
     "id": 215,
@@ -7433,8 +7647,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "海底的草丛",
-    "japanese": "",
-    "english": "",
+    "japanese": "海底の草むら",
+    "english": "Undersea Tall Grass",
     "description": "",
     "detail": [
       {
@@ -7463,7 +7677,8 @@
         "rarity": "非常稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "해저 풀숲"
   },
   {
     "id": 216,
@@ -7471,8 +7686,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "海底珊瑚的草丛",
-    "japanese": "",
-    "english": "",
+    "japanese": "海底サンゴの草むら",
+    "english": "Undersea Coral Tall Grass",
     "description": "",
     "detail": [
       {
@@ -7504,7 +7719,8 @@
         "rarity": "非常稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "해저 산호 풀숲"
   },
   {
     "id": 217,
@@ -7512,8 +7728,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "摇曳的花田",
-    "japanese": "",
-    "english": "",
+    "japanese": "ゆれる花畑",
+    "english": "Swaying Flower Bed",
     "description": "",
     "detail": [
       {
@@ -7542,7 +7758,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "흔들리는 꽃밭"
   },
   {
     "id": 218,
@@ -7550,8 +7767,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "珊瑚的摇曳花田",
-    "japanese": "",
-    "english": "",
+    "japanese": "サンゴのゆれる花畑",
+    "english": "Coral Swaying Flower Bed",
     "description": "",
     "detail": [
       {
@@ -7579,7 +7796,8 @@
         "rarity": "非常稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "산호의 흔들리는 꽃밭"
   },
   {
     "id": 219,
@@ -7587,8 +7805,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "摇曳的海藻的花田",
-    "japanese": "",
-    "english": "",
+    "japanese": "ゆれる海藻の花畑",
+    "english": "Swaying Seaweed Flower Bed",
     "description": "",
     "detail": [
       {
@@ -7615,7 +7833,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "흔들리는 해조의 꽃밭"
   },
   {
     "id": 220,
@@ -7623,8 +7842,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "网与海藻",
-    "japanese": "",
-    "english": "",
+    "japanese": "網と海藻",
+    "english": "Net and Seaweed",
     "description": "",
     "detail": [
       {
@@ -7647,7 +7866,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "그물과 해조"
   },
   {
     "id": 221,
@@ -7655,8 +7875,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "珊瑚大集合",
-    "japanese": "",
-    "english": "",
+    "japanese": "サンゴ大集合",
+    "english": "Coral Gathering",
     "description": "",
     "detail": [
       {
@@ -7693,7 +7913,8 @@
         "rarity": "非常稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "산호 대집합"
   },
   {
     "id": 222,
@@ -7701,8 +7922,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "满是沙的海底草丛",
-    "japanese": "",
-    "english": "",
+    "japanese": "砂だらけの海底草むら",
+    "english": "Sandy Undersea Tall Grass",
     "description": "",
     "detail": [
       {
@@ -7720,7 +7941,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "모래투성이 해저 풀숲"
   },
   {
     "id": 223,
@@ -7728,8 +7950,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "在沙中寻找",
-    "japanese": "",
-    "english": "",
+    "japanese": "砂の中で探す",
+    "english": "Searching in the Sand",
     "description": "",
     "detail": [
       {
@@ -7757,7 +7979,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "모래 속에서 찾기"
   },
   {
     "id": 224,
@@ -7765,8 +7988,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "在沙丘旁演讲",
-    "japanese": "",
-    "english": "",
+    "japanese": "砂丘のそばで演説",
+    "english": "Speech by the Dune",
     "description": "",
     "detail": [
       {
@@ -7793,7 +8016,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "모래언덕 옆 연설"
   },
   {
     "id": 225,
@@ -7801,8 +8025,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "咬咬沙袋",
-    "japanese": "",
-    "english": "",
+    "japanese": "ガブガブ砂袋",
+    "english": "Chomp Sandbag",
     "description": "",
     "detail": [
       {
@@ -7828,7 +8052,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "샌드백 물어뜯기"
   },
   {
     "id": 226,
@@ -7836,8 +8061,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "满是海中苔",
-    "japanese": "",
-    "english": "",
+    "japanese": "海苔まみれ",
+    "english": "Covered in Sea Moss",
     "description": "",
     "detail": [
       {
@@ -7861,7 +8086,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바닷속 이끼 가득"
   },
   {
     "id": 227,
@@ -7869,8 +8095,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "热乎乎满是苔",
-    "japanese": "",
-    "english": "",
+    "japanese": "ホカホカ苔まみれ",
+    "english": "Warm Mossy Spot",
     "description": "",
     "detail": [
       {
@@ -7888,7 +8114,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "따끈따끈 이끼 가득"
   },
   {
     "id": 228,
@@ -7896,8 +8123,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "诡异的烟囱",
-    "japanese": "",
-    "english": "",
+    "japanese": "不気味な煙突",
+    "english": "Eerie Chimney",
     "description": "",
     "detail": [
       {
@@ -7928,7 +8155,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "기괴한 굴뚝"
   },
   {
     "id": 229,
@@ -7936,8 +8164,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "烟囱周围挖呀挖",
-    "japanese": "",
-    "english": "",
+    "japanese": "煙突の周りをホリホリ",
+    "english": "Digging around the Chimney",
     "description": "",
     "detail": [
       {
@@ -7968,7 +8196,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "굴뚝 주변 영차영차 파기"
   },
   {
     "id": 230,
@@ -7976,8 +8205,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "被丢弃的宝物",
-    "japanese": "",
-    "english": "",
+    "japanese": "捨てられた宝物",
+    "english": "Discarded Treasure",
     "description": "",
     "detail": [
       {
@@ -8004,7 +8233,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "버려진 보물"
   },
   {
     "id": 231,
@@ -8012,8 +8242,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "大航海过家家",
-    "japanese": "",
-    "english": "",
+    "japanese": "大航海ごっこ",
+    "english": "Great Voyage Pretend",
     "description": "",
     "detail": [
       {
@@ -8049,7 +8279,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "대항해 소꿉놀이"
   },
   {
     "id": 232,
@@ -8057,8 +8288,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "闪亮宝石箱",
-    "japanese": "",
-    "english": "",
+    "japanese": "ピカピカ宝石箱",
+    "english": "Sparkling Gem Box",
     "description": "",
     "detail": [
       {
@@ -8085,7 +8316,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "반짝이는 보석상자"
   },
   {
     "id": 233,
@@ -8093,8 +8325,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "海中休息处",
-    "japanese": "",
-    "english": "",
+    "japanese": "海中の休憩所",
+    "english": "Undersea Rest Stop",
     "description": "",
     "detail": [
       {
@@ -8116,7 +8348,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바닷속 쉼터"
   },
   {
     "id": 234,
@@ -8124,8 +8357,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "海洋商店",
-    "japanese": "",
-    "english": "",
+    "japanese": "マリンショップ",
+    "english": "Marine Shop",
     "description": "",
     "detail": [
       {
@@ -8147,7 +8380,8 @@
         "rarity": "普通",
         "location": "云岛、冒泡泡海底的城镇"
       }
-    ]
+    ],
+    "korean": "해양 상점"
   },
   {
     "id": 235,
@@ -8155,8 +8389,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "大海的宝物",
-    "japanese": "",
-    "english": "",
+    "japanese": "海の宝物",
+    "english": "Treasure of the Sea",
     "description": "",
     "detail": [
       {
@@ -8188,7 +8422,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "바다의 보물"
   },
   {
     "id": 236,
@@ -8196,8 +8431,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "制作冰沙",
-    "japanese": "",
-    "english": "",
+    "japanese": "スムージー作り",
+    "english": "Smoothie Making",
     "description": "",
     "detail": [
       {
@@ -8224,7 +8459,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "스무디 만들기"
   },
   {
     "id": 237,
@@ -8232,8 +8468,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "软绵绵放松空间",
-    "japanese": "",
-    "english": "",
+    "japanese": "ふわふわリラックス空間",
+    "english": "Fluffy Relaxing Space",
     "description": "",
     "detail": [
       {
@@ -8265,7 +8501,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "폭신폭신 릴랙스 공간"
   },
   {
     "id": 238,
@@ -8273,8 +8510,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "独木舟码头",
-    "japanese": "",
-    "english": "",
+    "japanese": "カヌー乗り場",
+    "english": "Canoe Dock",
     "description": "",
     "detail": [
       {
@@ -8306,7 +8543,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "카누 선착장"
   },
   {
     "id": 239,
@@ -8314,8 +8552,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "泥中快乐玩耍",
-    "japanese": "",
-    "english": "",
+    "japanese": "泥んこ遊び",
+    "english": "Fun in the Mud",
     "description": "",
     "detail": [
       {
@@ -8351,7 +8589,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "진흙 속 신나는 놀이"
   },
   {
     "id": 240,
@@ -8359,8 +8598,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "泥泥温泉",
-    "japanese": "",
-    "english": "",
+    "japanese": "泥の温泉",
+    "english": "Muddy Hot Spring",
     "description": "",
     "detail": [
       {
@@ -8386,7 +8625,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "진흙 온천"
   },
   {
     "id": 241,
@@ -8394,8 +8634,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "居然是反的",
-    "japanese": "",
-    "english": "",
+    "japanese": "まさかの逆さま",
+    "english": "Unexpectedly Upside Down",
     "description": "",
     "detail": [
       {
@@ -8409,7 +8649,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "뜻밖의 거꾸로"
   },
   {
     "id": 242,
@@ -8417,8 +8658,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "泡泡浴时间",
-    "japanese": "",
-    "english": "",
+    "japanese": "泡風呂タイム",
+    "english": "Bubble Bath Time",
     "description": "",
     "detail": [
       {
@@ -8436,7 +8677,8 @@
         "rarity": "普通",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "거품 목욕 시간"
   },
   {
     "id": 243,
@@ -8444,8 +8686,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "泡泡舞台",
-    "japanese": "",
-    "english": "",
+    "japanese": "バブルステージ",
+    "english": "Bubble Stage",
     "description": "",
     "detail": [
       {
@@ -8468,7 +8710,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "버블 스테이지"
   },
   {
     "id": 244,
@@ -8476,8 +8719,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "闪亮三重奏舞台",
-    "japanese": "",
-    "english": "",
+    "japanese": "キラキラスリーピーステージ",
+    "english": "Sparkling Trio Stage",
     "description": "",
     "detail": [
       {
@@ -8495,7 +8738,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "반짝이는 트리오 스테이지"
   },
   {
     "id": 245,
@@ -8503,8 +8747,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "优雅音乐会",
-    "japanese": "",
-    "english": "",
+    "japanese": "エレガントな演奏会",
+    "english": "Elegant Concert",
     "description": "",
     "detail": [
       {
@@ -8526,7 +8770,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "우아한 음악회"
   },
   {
     "id": 246,
@@ -8534,8 +8779,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "看船品茶",
-    "japanese": "",
-    "english": "",
+    "japanese": "船を眺めてティータイム",
+    "english": "Tea Time Watching Ships",
     "description": "",
     "detail": [
       {
@@ -8570,7 +8815,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "배를 바라보며 티타임"
   },
   {
     "id": 247,
@@ -8578,8 +8824,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "沉浸在回忆中",
-    "japanese": "",
-    "english": "",
+    "japanese": "思い出にひたって",
+    "english": "Immersed in Memories",
     "description": "",
     "detail": [
       {
@@ -8613,7 +8859,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "추억에 젖어들며"
   },
   {
     "id": 248,
@@ -8621,8 +8868,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "海洋风梳妆处",
-    "japanese": "",
-    "english": "",
+    "japanese": "マリン風ドレッサー",
+    "english": "Marine Dressing Area",
     "description": "",
     "detail": [
       {
@@ -8644,7 +8891,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "마린풍 파우더룸"
   },
   {
     "id": 249,
@@ -8652,8 +8900,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "雅致就寝处",
-    "japanese": "",
-    "english": "",
+    "japanese": "上品な寝床",
+    "english": "Refined Bedroom",
     "description": "",
     "detail": [
       {
@@ -8675,7 +8923,8 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "단아한 침실"
   },
   {
     "id": 250,
@@ -8683,8 +8932,8 @@
     "isEvent": false,
     "isBubblyBasin": true,
     "name": "俏皮美人鱼的道馆",
-    "japanese": "",
-    "english": "",
+    "japanese": "おちゃめな人魚のジム",
+    "english": "Playful Mermaid Gym",
     "description": "",
     "detail": [
       {
@@ -8726,6 +8975,7 @@
         "rarity": "稀有",
         "location": "全部"
       }
-    ]
+    ],
+    "korean": "발랄한 인어의 체육관"
   }
 ]

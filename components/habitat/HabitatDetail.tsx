@@ -5,7 +5,7 @@ import { FC, Fragment, ReactNode, useMemo } from "react";
 
 import { HabitatDataById, PokemonDataByName } from "@/data";
 import { Habitat, Pokemon } from "@/types";
-import { DescriptionsCommonProps2, TableCommonProps, renderId } from "@/utils";
+import { DescriptionsCommonProps2, TableCommonProps, TranslationKey, renderId, useI18n } from "@/utils";
 
 import { HabitatCell } from "./HabitatCell";
 import { HabitatLink } from "./HabitatLink";
@@ -13,15 +13,15 @@ import { ItemLink } from "../item/ItemLink";
 import { PokemonLink } from "../pokemon/PokemonLink";
 import { PokemonTableColumns } from "../pokemon/PokemonTable";
 
-const getDescriptions = (habitat: Habitat): DescriptionsProps["items"] => [
+const getDescriptions = (habitat: Habitat, t: (k: TranslationKey) => string): DescriptionsProps["items"] => [
   {
     key: "id",
-    label: "编号",
+    label: t("index"),
     children: renderId(habitat.index),
   },
   {
     key: "detail",
-    label: "详情",
+    label: t("details"),
     children: habitat.detail.map((d, i) => (
       <div key={i}>
         <ItemLink
@@ -38,20 +38,22 @@ type MixedPokemon = Pokemon & {
   location: string;
 };
 
-const getColumns = (habitat: Habitat): TableColumnsType<MixedPokemon> => [
+const getColumns = (habitat: Habitat, t: (k: TranslationKey) => string): TableColumnsType<MixedPokemon> => [
   ...(["name", "index", "specialties", "time", "weather"]
     .map((key) => PokemonTableColumns.find((c) => "dataIndex" in c && c.dataIndex === key)!)
     .filter(Boolean) as TableColumnsType<MixedPokemon>),
   {
-    title: "稀有度",
+    title: t("rarity"),
     dataIndex: "rarity",
+    render: (rarity: string) => (rarity === "超稀有" ? t("ultraRare") : rarity === "稀有" ? t("rare") : t("common")),
   },
   {
-    title: "位置",
+    title: t("location"),
     dataIndex: "location",
+    render: (location: string) => (location === "全部" ? t("allLocations") : location),
   },
   {
-    title: "其他栖息地",
+    title: t("otherHabitats"),
     dataIndex: "habitats",
     render: (habitats: Pokemon["habitats"]) => {
       const otherHabitats = habitats.filter((h) => h !== habitat.index);
@@ -62,7 +64,7 @@ const getColumns = (habitat: Habitat): TableColumnsType<MixedPokemon> => [
               habitat={HabitatDataById[h]}
             />
           ))
-        : "无";
+        : t("none");
     },
   },
 ];
@@ -72,6 +74,9 @@ interface IProps {
 }
 
 export const HabitatDetail: FC<IProps> = ({ habitat }) => {
+  const { t, getHabitatDisplayName } = useI18n();
+  const displayName = getHabitatDisplayName(habitat);
+
   const noteworthyContents: ReactNode[] = [];
 
   for (const p of habitat.pokemon) {
@@ -81,15 +86,16 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
     if (p.rarity === "超稀有") {
       pokemonContents.push(
         <>
-          稀有度为“超稀有”，在该栖息地中较难出现。
+          {t("habitatUltraRareNotice")}
           {pokemon.habitats.length > 1 ? (
             <>
-              不过，它也可能会出现在
+              {" "}
+              {t("habitatAlsoAppearsIn")}
               {pokemon.habitats
                 .filter((h) => h !== habitat.index)
                 .map((h, i) => (
                   <Fragment key={i}>
-                    {i === 0 ? null : "、"}
+                    {i === 0 ? null : ", "}
                     <HabitatLink
                       key={h}
                       id={h}
@@ -97,32 +103,32 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
                     />
                   </Fragment>
                 ))}
-              。
+              .
             </>
           ) : null}
         </>,
       );
     }
     if (p.location !== "全部") {
-      pokemonContents.push(<>只会在{p.location}出现。</>);
+      pokemonContents.push(<>{t("habitatOnlyAppearsInLocation").replace("{0}", p.location)}</>);
     }
     switch (pokemon.weather) {
       case "100":
-        pokemonContents.push("只在晴天出现。");
+        pokemonContents.push(t("sunnyOnly"));
         break;
       case "110":
-        pokemonContents.push("只在不下雨时出现。");
+        pokemonContents.push(t("noRainOnly"));
         break;
       case "001":
-        pokemonContents.push("只在下雨天出现。");
+        pokemonContents.push(t("rainyOnly"));
         break;
     }
     switch (pokemon.time) {
       case "1110":
-        pokemonContents.push("只在白天出现。");
+        pokemonContents.push(t("daytimeOnly"));
         break;
       case "0001":
-        pokemonContents.push("只在夜晚出现。");
+        pokemonContents.push(t("nighttimeOnly"));
         break;
     }
     if (pokemonContents.length > 0) {
@@ -131,7 +137,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
           <PokemonLink name={p.form} />
           {pokemonContents.map((c, i) => (
             <Fragment key={i}>
-              {i === 0 ? "" : "另外，它"}
+              {i === 0 ? "" : ` ${t("habitatAlsoNote")}`}
               {c}
             </Fragment>
           ))}
@@ -140,38 +146,41 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
     }
   }
 
-  const columns = useMemo(() => getColumns(habitat), [habitat]);
+  const columns = useMemo(() => getColumns(habitat, t), [habitat, t]);
 
   return (
     <>
       <section>
         <p>
-          <strong>{habitat.name}</strong>是《宝可梦 Pokopia》中的栖息地之一。它由
+          <strong>{displayName}</strong> {t("habitatIntro")}{" "}
           {habitat.detail.map((d, i) => (
             <Fragment key={i}>
-              {i === 0 ? null : "、"}
+              {i === 0 ? null : ", "}
               <ItemLink
                 name={d.name}
                 count={d.count}
               />
             </Fragment>
           ))}
-          组成。
           {habitat.pokemon.length > 1
-            ? `这里可能会出现 ${habitat.pokemon.length} 种宝可梦，包括：`
-            : "这里只有可能会出现"}
+            ? t("habitatIntroPokemonMulti").replace("{0}", String(habitat.pokemon.length))
+            : t("habitatIntroPokemonSingle")}
           {habitat.pokemon.map((p, i) => (
             <Fragment key={i}>
-              {i === 0 ? null : "、"}
+              {i === 0 ? null : ", "}
               <PokemonLink name={p.form} />
             </Fragment>
           ))}
-          。
+          .
         </p>
-        {noteworthyContents.length === 1 ? <p>需要注意的是，{noteworthyContents[0]}</p> : null}
+        {noteworthyContents.length === 1 ? (
+          <p>
+            {t("noteworthyNotice")} {noteworthyContents[0]}
+          </p>
+        ) : null}
         {noteworthyContents.length > 1 ? (
           <>
-            <p>需要注意的是：</p>
+            <p>{t("noteworthyNotice")}</p>
             <ul>
               {noteworthyContents.map((content, i) => (
                 <li key={i}>{content}</li>
@@ -182,15 +191,15 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
       </section>
 
       <section>
-        <h2>基本信息</h2>
+        <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(habitat)}
+          items={getDescriptions(habitat, t)}
         />
       </section>
 
       <section>
-        <h2>宝可梦列表</h2>
+        <h2>{t("pokemonList")}</h2>
         <Table<MixedPokemon>
           {...TableCommonProps}
           rowKey={(row) => row.id}

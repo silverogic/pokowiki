@@ -10,6 +10,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
     { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/pokemon-list`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/habitat-list`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/item-list`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/event-list`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/about`, changeFrequency: "yearly", priority: 0.3 },
   ];

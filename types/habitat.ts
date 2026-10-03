@@ -6,6 +6,7 @@ export interface Habitat {
   name: string;
   japanese: string;
   english: string;
+  korean?: string;
   description: string;
   detail: {
     name: string;

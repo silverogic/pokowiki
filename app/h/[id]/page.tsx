@@ -2,7 +2,7 @@ import Head from "next/head";
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { HabitatDetail, HabitatIcon, PrevNext } from "@/components";
+import { HabitatDetail, HabitatHeader, HabitatIcon, HabitatName, PrevNext } from "@/components";
 import { HabitatData, HabitatDataById } from "@/data";
 import { DEFAULT_TITLE } from "@/utils";
 
@@ -49,20 +49,7 @@ const HabitatDetailPage = async ({ params }: IProps) => {
         </title>
       </Head>
 
-      <section>
-        <div className="header-icon">
-          <HabitatIcon
-            habitat={habitat}
-            size={128}
-          />
-        </div>
-        <h1>{habitat.name}</h1>
-        <div className="names">
-          <div lang="ja">{habitat.japanese}</div>
-          <div>{habitat.english}</div>
-        </div>
-        <div className="description">{habitat?.description || "—"}</div>
-      </section>
+      <HabitatHeader habitat={habitat} />
 
       <HabitatDetail habitat={habitat} />
 
@@ -72,7 +59,7 @@ const HabitatDetailPage = async ({ params }: IProps) => {
             ? {
                 id: (prevHabitat.index % 10000).toString().padStart(3, "0"),
                 isEvent: prevHabitat.isEvent,
-                name: prevHabitat.name,
+                name: <HabitatName habitat={prevHabitat} />,
                 icon: (
                   <HabitatIcon
                     habitat={prevHabitat}
@@ -88,7 +75,7 @@ const HabitatDetailPage = async ({ params }: IProps) => {
             ? {
                 id: (nextHabitat.index % 10000).toString().padStart(3, "0"),
                 isEvent: prevHabitat.isEvent,
-                name: nextHabitat.name,
+                name: <HabitatName habitat={nextHabitat} />,
                 icon: (
                   <HabitatIcon
                     habitat={nextHabitat}
