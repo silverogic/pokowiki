@@ -12,6 +12,7 @@ export interface Item {
   name: string;
   japanese: string;
   english: string;
+  korean?: string;
   description?: string;
   hasIcon?: boolean;
   imageUrl?: string | null;

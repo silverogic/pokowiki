@@ -5,30 +5,34 @@ import { FC } from "react";
 
 import { HabitatData, ItemData, ItemDataByName, ItemDataBySlug } from "@/data";
 import { Item } from "@/types";
-import { DescriptionsCommonProps2, Link } from "@/utils";
+import { DescriptionsCommonProps2, Link, TranslationKey, useI18n } from "@/utils";
 
 import { ItemIcon } from "./ItemIcon";
 import { ItemLink } from "./ItemLink";
 import { HabitatTable } from "../habitat/HabitatTable";
 
-const getDescriptions = (item: Item): DescriptionsProps["items"] => [
+const getDescriptions = (item: Item, t: (k: TranslationKey) => string): DescriptionsProps["items"] => [
   {
     key: "category",
-    label: "分类",
+    label: t("category"),
     children: item.category || "—",
   },
   {
     key: "tag",
-    label: "标签",
+    label: t("tag"),
     children: item.tag || item.label || "—",
   },
   {
     key: "value",
-    label: "交易价值",
+    label: t("tradeValue"),
     children: item.value ? (
       <>
-        <div>通常：{item.value}</div>
-        <div>喜爱：{Math.floor(item.value * 1.5)}</div>
+        <div>
+          {t("regular")}：{item.value}
+        </div>
+        <div>
+          {t("favoriteValue")}：{Math.floor(item.value * 1.5)}
+        </div>
       </>
     ) : (
       "—"
@@ -38,13 +42,13 @@ const getDescriptions = (item: Item): DescriptionsProps["items"] => [
     ? [
         {
           key: "contentSource",
-          label: "内容来源",
+          label: t("contentSource"),
           children:
             item.contentSource === "expansion-pass"
-              ? "DLC 泡泡盆地 (Bubbly Basin)"
+              ? t("dlcBasin")
               : item.contentSource === "event"
-                ? "限定活动"
-                : "免费更新",
+                ? t("eventSource")
+                : t("freeUpdate"),
         },
       ]
     : []),
@@ -52,7 +56,7 @@ const getDescriptions = (item: Item): DescriptionsProps["items"] => [
     ? [
         {
           key: "locations",
-          label: "获取途径 / 区域",
+          label: t("locations"),
           children: (
             <div className="flex flex-col gap-1">
               {item.locations.map((loc, i) => (
@@ -68,7 +72,7 @@ const getDescriptions = (item: Item): DescriptionsProps["items"] => [
     ? [
         {
           key: "favorites",
-          label: "喜欢的类别",
+          label: t("favorites"),
           children: item.favorites.map((f, i) => <div key={i}>{f}</div>),
         },
       ]
@@ -80,32 +84,44 @@ interface IProps {
 }
 
 export const ItemDetail: FC<IProps> = ({ item }) => {
+  const { t, getItemDisplayName, locale } = useI18n();
+  const displayName = getItemDisplayName(item);
+
   const availableHabitats = HabitatData.filter((h) => h.detail.some((d) => d.name === item.name));
 
   const canCraft = ItemData.filter((i) =>
     i.craftingRecipe?.some((m) => m.slug === item.slug || m.name.toLowerCase() === item.english?.toLowerCase()),
   );
 
+  const introText =
+    locale === "ko"
+      ? `${displayName}은(는) 《포켓몬 포코피아》의 도구 중 하나입니다.`
+      : locale === "en"
+        ? `${displayName} is one of the items featured in Pokémon Pokopia.`
+        : locale === "ja"
+          ? `${displayName}は『ポケモン ポコピア』に登場する道具の一つです。`
+          : `${item.name}是《宝可梦 Pokopia》中的道具之一${item.category ? `，它是一种${item.category}` : ""}。`;
+
   return (
     <>
       <section>
         <p>
-          <strong>{item.name}</strong>是《宝可梦 Pokopia》中的道具之一
-          {item.category ? `，它是一种${item.category}` : null}。{item.description ? ` ${item.description}` : null}
+          <strong>{displayName}</strong> {introText}
+          {item.description ? ` ${item.description}` : null}
         </p>
       </section>
 
       <section>
-        <h2>基本信息</h2>
+        <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(item)}
+          items={getDescriptions(item, t)}
         />
       </section>
 
       {item.craftingRecipe && item.craftingRecipe.length > 0 ? (
         <section>
-          <h2>制作配方</h2>
+          <h2>{t("craftingRecipe")}</h2>
           <div className="flex flex-wrap gap-3 py-2">
             {item.craftingRecipe.map((mat, i) => {
               const matItem = ItemDataBySlug[mat.slug] || ItemDataByName[mat.name];
@@ -129,14 +145,16 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
             })}
           </div>
           {item.recipeLocation ? (
-            <div className="mt-2 text-sm text-gray-500">配方获取途径: {item.recipeLocation}</div>
+            <div className="mt-2 text-sm text-gray-500">
+              {t("recipeLocation")}: {item.recipeLocation}
+            </div>
           ) : null}
         </section>
       ) : null}
 
       {canCraft.length > 0 && (
         <section>
-          <h2>可制作的道具</h2>
+          <h2>{t("canCraft")}</h2>
           <div className="flex flex-wrap gap-3 py-2">
             {canCraft.slice(0, 30).map((crafted) => (
               <Link
@@ -148,7 +166,7 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
                   item={crafted}
                   size={32}
                 />
-                <span className="text-sm font-medium">{crafted.name}</span>
+                <span className="text-sm font-medium">{getItemDisplayName(crafted)}</span>
               </Link>
             ))}
             {canCraft.length > 30 ? (
@@ -160,7 +178,7 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
 
       {availableHabitats?.length ? (
         <section>
-          <h2>可以组成的栖息地</h2>
+          <h2>{t("availableHabitats")}</h2>
           <HabitatTable data={availableHabitats} />
         </section>
       ) : null}

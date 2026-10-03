@@ -79,6 +79,15 @@ export interface Pokemon {
   formName: string;
   japanese: string;
   english: string;
+  korean?: string;
+  koreanCategory?: string;
+  englishCategory?: string;
+  descriptions?: {
+    zh?: string;
+    en?: string;
+    ko?: string;
+    ja?: string;
+  };
   types: PokemonType[];
   typeIcons?: (string | null)[];
   specialties: Speciality[];

@@ -1,7 +1,9 @@
+"use client";
+
 import { FC } from "react";
 
 import { PokemonDataByName } from "@/data";
-import { Link, getPokemonFullId } from "@/utils";
+import { Link, getPokemonFullId, useI18n } from "@/utils";
 
 import { PokemonIcon } from "./PokemonIcon";
 
@@ -10,7 +12,10 @@ interface IProps {
 }
 
 export const PokemonLink: FC<IProps> = ({ name }) => {
+  const { getPokemonDisplayName } = useI18n();
   const pokemon = PokemonDataByName[name];
+  const displayName = pokemon ? getPokemonDisplayName(pokemon) : name;
+
   return (
     <span className="icon-wrapper-inline">
       <PokemonIcon
@@ -19,10 +24,12 @@ export const PokemonLink: FC<IProps> = ({ name }) => {
       />
       {pokemon ? (
         <Link href={`/p/${getPokemonFullId(pokemon)}`}>
-          {pokemon.name}
+          {displayName}
           {pokemon.formName ? `（${pokemon.formName}）` : null}
         </Link>
-      ) : null}
+      ) : (
+        <span>{name}</span>
+      )}
     </span>
   );
 };

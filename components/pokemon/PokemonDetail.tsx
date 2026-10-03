@@ -9,11 +9,13 @@ import {
   DescriptionsCommonProps2,
   Link,
   TimeIcons,
+  TranslationKey,
   TypeIcons,
   WeatherIcons,
   getPokemonFullId,
   getPokemonFullName,
   renderId,
+  useI18n,
 } from "@/utils";
 
 import { POKEMON_COMMENTARY } from "../commentary";
@@ -23,35 +25,39 @@ import { ItemLink } from "../item/ItemLink";
 import { SpecialityLink } from "../speciality";
 import { PokemonIcon } from "./PokemonIcon";
 
-const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
+const getDescriptions = (
+  pokemon: Pokemon,
+  t: (k: TranslationKey) => string,
+  category: string,
+): DescriptionsProps["items"] => [
   {
     key: "dex",
-    label: "图鉴编号",
+    label: t("dexNumber"),
     children: renderId(pokemon.index),
   },
   {
     key: "category",
-    label: "分类",
-    children: `${pokemon.category || "？？"}宝可梦`,
+    label: t("category"),
+    children: category || "—",
   },
   {
     key: "height",
-    label: "身高",
+    label: t("height"),
     children: `${pokemon.height || "??.?"}m`,
   },
   {
     key: "weight",
-    label: "体重",
+    label: t("weight"),
     children: `${pokemon.weight || "??.?"}kg`,
   },
   {
     key: "types",
-    label: "属性",
+    label: t("types"),
     children: <TypeIcons types={pokemon.types} />,
   },
   {
     key: "specialties",
-    label: "特长",
+    label: t("specialties"),
     children: (
       <div className="flex flex-col">
         {pokemon.specialties.map((s) => (
@@ -65,27 +71,27 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
   },
   {
     key: "time",
-    label: "时间",
+    label: t("time"),
     children: <TimeIcons time={pokemon.time} />,
   },
   {
     key: "weather",
-    label: "天气",
+    label: t("weather"),
     children: <WeatherIcons weather={pokemon.weather} />,
   },
   {
     key: "favorites",
-    label: "喜欢的东西",
-    children: pokemon.favorites.length > 0 ? pokemon.favorites.join(" / ") : "无",
+    label: t("favorites"),
+    children: pokemon.favorites.length > 0 ? pokemon.favorites.join(" / ") : t("none"),
   },
   {
     key: "environment",
-    label: "喜欢的环境",
-    children: pokemon.environment,
+    label: t("environment"),
+    children: pokemon.environment || t("none"),
   },
   {
     key: "habitats",
-    label: "栖息地",
+    label: t("habitats"),
     children:
       pokemon.habitats.length > 0
         ? pokemon.habitats.map((l) => (
@@ -95,8 +101,8 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
             >
               <HabitatCell habitat={HabitatDataById[l]} />
               <div className="whitespace-normal">
-                （{HabitatDataById[l].pokemon.find((p) => p.form === getPokemonFullName(pokemon))?.rarity || "普通"}，
-                {HabitatDataById[l].detail.map((d, i) => (
+                （{HabitatDataById[l]?.pokemon?.find((p) => p.form === getPokemonFullName(pokemon))?.rarity || "普通"}，
+                {HabitatDataById[l]?.detail?.map((d, i) => (
                   <Fragment key={i}>
                     {i === 0 ? null : "、"}
                     <ItemLink
@@ -109,14 +115,14 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
               </div>
             </div>
           ))
-        : "无",
+        : t("none"),
     span: 2,
   },
   ...(pokemon.spawnZones && pokemon.spawnZones.length > 0
     ? [
         {
           key: "spawnZones",
-          label: "出没区域",
+          label: t("spawnZones"),
           children: pokemon.spawnZones.join("、"),
           span: 2,
         },
@@ -126,13 +132,13 @@ const getDescriptions = (pokemon: Pokemon): DescriptionsProps["items"] => [
     ? [
         {
           key: "contentSource",
-          label: "内容来源",
+          label: t("contentSource"),
           children:
             pokemon.contentSource === "expansion-pass"
-              ? "DLC 泡泡盆地 (Bubbly Basin)"
+              ? t("dlcBasin")
               : pokemon.contentSource === "event"
-                ? "限定活动"
-                : "免费更新",
+                ? t("eventSource")
+                : t("freeUpdate"),
         },
       ]
     : []),
@@ -143,13 +149,17 @@ interface IProps {
 }
 
 export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
+  const { t, getPokemonDisplayName, getPokemonCategory, locale } = useI18n();
+  const displayName = getPokemonDisplayName(pokemon);
+  const categoryName = getPokemonCategory(pokemon);
+
   const knownHabitats = pokemon.habitats;
   const fullId = getPokemonFullId(pokemon);
   const fullName = getPokemonFullName(pokemon);
   const locations = [
     ...new Set(
       pokemon.habitats
-        .map((id) => HabitatDataById[id].pokemon.find((p) => p.form === fullName)?.location)
+        .map((id) => HabitatDataById[id]?.pokemon?.find((p) => p.form === fullName)?.location)
         .filter((loc) => loc && loc !== "全部") as string[],
     ),
   ];
@@ -160,89 +170,97 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
   return (
     <>
       <section>
-        <p>
-          <strong>{pokemon.name}</strong>
-          {pokemon.formName ? `（${pokemon.formName}）` : null}是《宝可梦 Pokopia》中登场的宝可梦之一。它的特长
-          {pokemon.specialties[0] === "不明" ? (
-            "不明"
-          ) : (
-            <>
-              是<SpecialityLink name={pokemon.specialties[0]} />
-              {pokemon.specialties.length === 2 ? (
+        {locale === "zh" ? (
+          <>
+            <p>
+              <strong>{pokemon.name}</strong>
+              {pokemon.formName ? `（${pokemon.formName}）` : null}是《宝可梦 Pokopia》中登场的宝可梦之一。它的特长
+              {pokemon.specialties[0] === "不明" ? (
+                "不明"
+              ) : (
                 <>
-                  和
-                  <SpecialityLink name={pokemon.specialties[1]} />
+                  是<SpecialityLink name={pokemon.specialties[0]} />
+                  {pokemon.specialties.length === 2 ? (
+                    <>
+                      和
+                      <SpecialityLink name={pokemon.specialties[1]} />
+                    </>
+                  ) : null}
                 </>
-              ) : null}
-            </>
-          )}
-          。它的栖息地
-          {knownHabitats.length === 0 ? (
-            "不明"
-          ) : (
-            <>
-              {knownHabitats.length === 1 ? "是" : "包括"}
-              {knownHabitats.map((id, index) => (
-                <Fragment key={index}>
-                  {index === 0 ? null : "、"}
-                  <HabitatLink id={id} />
-                </Fragment>
-              ))}
-            </>
-          )}
-          。
-          {(() => {
-            switch (pokemon.weather) {
-              case "111":
-                return "可以在任何天气的";
-              case "110":
-                return "可以在不下雨的";
-              case "100":
-                return "可以在晴天的";
-              case "001":
-                return "可以在下雨的";
-              default:
-                return "出现天气不明、";
-            }
-          })()}
-          {(() => {
-            switch (pokemon.time) {
-              case "1111":
-                return "任何时间遇到它";
-              case "1110":
-                return "白天的任何时间遇到它";
-              case "0001":
-                return "夜晚遇到它";
-              default:
-                return "出现时间不明";
-            }
-          })()}
-          。{locations.length > 0 ? `它只会在${locations.join("、")}出现。` : null}
-        </p>
-        <p>
-          它喜欢{pokemon.environment}的环境
-          {pokemon.favorites.length > 1
-            ? `，以及${pokemon.favorites.slice(0, 5).join("、")}物品和口味为“${pokemon.favorites[5][0]}”的食物`
-            : null}
-          。
-        </p>
+              )}
+              。它的栖息地
+              {knownHabitats.length === 0 ? (
+                "不明"
+              ) : (
+                <>
+                  {knownHabitats.length === 1 ? "是" : "包括"}
+                  {knownHabitats.map((id, index) => (
+                    <Fragment key={index}>
+                      {index === 0 ? null : "、"}
+                      <HabitatLink id={id} />
+                    </Fragment>
+                  ))}
+                </>
+              )}
+              。
+              {(() => {
+                switch (pokemon.weather) {
+                  case "111":
+                    return "可以在任何天气的";
+                  case "110":
+                    return "可以在不下雨的";
+                  case "100":
+                    return "可以在晴天的";
+                  case "001":
+                    return "可以在下雨的";
+                  default:
+                    return "出现天气不明、";
+                }
+              })()}
+              {(() => {
+                switch (pokemon.time) {
+                  case "1111":
+                    return "任何时间遇到它";
+                  case "1110":
+                    return "白天的任何时间遇到它";
+                  case "0001":
+                    return "夜晚遇到它";
+                  default:
+                    return "出现时间不明";
+                }
+              })()}
+              。{locations.length > 0 ? `它只会在${locations.join("、")}出现。` : null}
+            </p>
+            <p>
+              它喜欢{pokemon.environment}的环境
+              {pokemon.favorites.length > 1
+                ? `，以及${pokemon.favorites.slice(0, 5).join("、")}物品和口味为“${pokemon.favorites[5][0]}”的食物`
+                : null}
+              。
+            </p>
+          </>
+        ) : (
+          <p>
+            <strong>{displayName}</strong> {t("pokemonIntro")}
+          </p>
+        )}
       </section>
 
       <section>
-        <h2>基本信息</h2>
+        <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(pokemon)}
+          items={getDescriptions(pokemon, t, categoryName)}
         />
       </section>
 
       {pokemon.previousEvolution || pokemon.nextEvolution ? (
         <section>
-          <h2>进化关系</h2>
+          <h2>{t("evolution")}</h2>
           <div className="flex flex-wrap items-center gap-4 py-2">
             {pokemon.previousEvolution ? (
               <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-500">前置进化:</span>
+                <span className="text-sm text-gray-500">{t("prevEvolution")}:</span>
                 {(() => {
                   const prev =
                     PokemonDataBySlug[pokemon.previousEvolution.name] ||
@@ -256,7 +274,7 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
                         pokemon={prev}
                         size={40}
                       />
-                      <span className="font-medium">{prev.name}</span>
+                      <span className="font-medium">{getPokemonDisplayName(prev)}</span>
                     </Link>
                   ) : (
                     <span>{pokemon.previousEvolution.name}</span>
@@ -270,13 +288,15 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
                 pokemon={pokemon}
                 size={40}
               />
-              <span className="text-primary font-bold">{pokemon.name}（当前）</span>
+              <span className="text-primary font-bold">
+                {displayName}（{t("current")}）
+              </span>
             </div>
             {pokemon.nextEvolution ? (
               <>
                 <span className="text-gray-400">➔</span>
                 <div className="flex items-center gap-2">
-                  <span className="text-sm text-gray-500">后续进化:</span>
+                  <span className="text-sm text-gray-500">{t("nextEvolution")}:</span>
                   {(() => {
                     const next =
                       PokemonDataBySlug[pokemon.nextEvolution.name] ||
@@ -290,7 +310,7 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
                           pokemon={next}
                           size={40}
                         />
-                        <span className="font-medium">{next.name}</span>
+                        <span className="font-medium">{getPokemonDisplayName(next)}</span>
                       </Link>
                     ) : (
                       <span>{pokemon.nextEvolution.name}</span>
@@ -305,7 +325,7 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
 
       {relatedEvents.length > 0 && (
         <section>
-          <h2>相关活动</h2>
+          <h2>{t("relatedEvents")}</h2>
           <EventTable data={relatedEvents} />
         </section>
       )}

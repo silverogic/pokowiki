@@ -35,6 +35,9 @@ const searchAll = (keyword: string): SearchResult[] => {
     (pokemon) =>
       pokemon.english.toLowerCase().includes(keywordParsed) ||
       pokemon.name.toLowerCase().includes(keywordParsed) ||
+      pokemon.korean?.toLowerCase().includes(keywordParsed) ||
+      pokemon.japanese?.toLowerCase().includes(keywordParsed) ||
+      pokemon.slug?.toLowerCase().includes(keywordParsed) ||
       pokemon.formName.toLowerCase().includes(keywordParsed) ||
       pokemon.index % 10000 === keywordNumber,
   )
@@ -60,7 +63,14 @@ const searchAll = (keyword: string): SearchResult[] => {
   }
 
   if (results.length < 10) {
-    ItemData.filter((item) => item.name.toLowerCase().includes(keywordParsed))
+    ItemData.filter(
+      (item) =>
+        item.name.toLowerCase().includes(keywordParsed) ||
+        item.english?.toLowerCase().includes(keywordParsed) ||
+        item.korean?.toLowerCase().includes(keywordParsed) ||
+        item.japanese?.toLowerCase().includes(keywordParsed) ||
+        item.slug?.toLowerCase().includes(keywordParsed),
+    )
       .slice(0, 10 - results.length)
       .forEach((item) =>
         results.push({

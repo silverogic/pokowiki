@@ -1,8 +1,7 @@
-import Head from "next/head";
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { PokemonDetail, PokemonIcon, PrevNext } from "@/components";
+import { PokemonDetail, PokemonHeader, PokemonIcon, PrevNext } from "@/components";
 import { HabitatDataById, PokemonData } from "@/data";
 import { DEFAULT_TITLE, getPokemonFullId } from "@/utils";
 
@@ -48,27 +47,7 @@ const PokemonDetailPage = async ({ params }: IProps) => {
 
   return (
     <Fragment key="pokemon">
-      <Head>
-        <title>
-          {pokemon.name} - {DEFAULT_TITLE}
-        </title>
-      </Head>
-
-      <section>
-        <div className="header-icon">
-          <PokemonIcon
-            pokemon={pokemon}
-            size={128}
-          />
-        </div>
-        <h1>{pokemon.name}</h1>
-        <div className="names">
-          <div lang="ja">{pokemon.japanese}</div>
-          <div>{pokemon.english}</div>
-        </div>
-        {pokemon.formName ? <div className="mb-4 text-xl text-gray-600">{pokemon.formName}</div> : null}
-        <div className="description">{pokemon?.description || "—"}</div>
-      </section>
+      <PokemonHeader pokemon={pokemon} />
 
       <PokemonDetail pokemon={pokemon} />
 

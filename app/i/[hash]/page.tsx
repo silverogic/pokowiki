@@ -1,8 +1,7 @@
-import Head from "next/head";
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { ItemDetail, ItemIcon, PrevNext } from "@/components";
+import { ItemDetail, ItemHeader, ItemIcon, PrevNext } from "@/components";
 import { ItemData, ItemDataById, ItemDataBySlug } from "@/data";
 import { DEFAULT_TITLE } from "@/utils";
 
@@ -48,25 +47,7 @@ const ItemDetailPage = async ({ params }: IProps) => {
 
   return (
     <Fragment key="item">
-      <Head>
-        <title>
-          {item.name} - {DEFAULT_TITLE}
-        </title>
-      </Head>
-
-      <section>
-        <div className="header-icon">
-          <ItemIcon
-            item={item}
-            size={48}
-          />
-        </div>
-        <h1>{item.name}</h1>
-        <div className="names">
-          <div lang="ja">{item.japanese}</div>
-          <div>{item.english}</div>
-        </div>
-      </section>
+      <ItemHeader item={item} />
 
       <ItemDetail item={item} />
 

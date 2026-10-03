@@ -1,9 +1,11 @@
+"use client";
+
 import cn from "classnames";
 import Image from "next/image";
 import React, { FC, PropsWithChildren } from "react";
 
 import { Pokemon } from "@/types";
-import { Link, getPokemonFullId } from "@/utils";
+import { Link, getPokemonFullId, useI18n } from "@/utils";
 
 export interface IPokemonIconProps extends PropsWithChildren {
   pokemon?: Pokemon | null;
@@ -61,7 +63,10 @@ export const PokemonIcon: FC<IPokemonIconProps> = ({ pokemon, size = 64, classNa
 };
 
 export const PokemonIconWithName: FC<IPokemonIconProps> = ({ pokemon, link, ...rest }) => {
+  const { getPokemonDisplayName } = useI18n();
   if (!pokemon) return null;
+
+  const displayName = getPokemonDisplayName(pokemon);
 
   const content = (
     <>
@@ -69,7 +74,7 @@ export const PokemonIconWithName: FC<IPokemonIconProps> = ({ pokemon, link, ...r
         pokemon={pokemon}
         {...rest}
       />
-      <div className="mt-1 max-w-full truncate">{pokemon.name}</div>
+      <div className="mt-1 max-w-full truncate">{displayName}</div>
     </>
   );
 

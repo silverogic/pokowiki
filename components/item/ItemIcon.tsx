@@ -1,9 +1,11 @@
+"use client";
+
 import cn from "classnames";
 import Image from "next/image";
 import React, { FC, PropsWithChildren } from "react";
 
 import { Item } from "@/types";
-import { Link } from "@/utils";
+import { Link, useI18n } from "@/utils";
 
 export interface IItemIconProps extends PropsWithChildren {
   item?: Item | null;
@@ -61,7 +63,10 @@ export const ItemIcon: FC<IItemIconProps> = ({ item, size = 48, className = "", 
 };
 
 export const ItemIconWithName: FC<IItemIconProps> = ({ item, link, ...rest }) => {
+  const { getItemDisplayName } = useI18n();
   if (!item) return null;
+
+  const displayName = getItemDisplayName(item);
 
   const content = (
     <>
@@ -69,7 +74,7 @@ export const ItemIconWithName: FC<IItemIconProps> = ({ item, link, ...rest }) =>
         item={item}
         {...rest}
       />
-      <div className="mt-1 max-w-full truncate">{item.name}</div>
+      <div className="mt-1 max-w-full truncate">{displayName}</div>
     </>
   );
 
