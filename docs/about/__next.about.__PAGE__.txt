@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[415013,["/pokowiki/_next/static/chunks/0e219c07a56576da.js","/pokowiki/_next/static/chunks/cda8de96ccfcc9ff.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"rFbwEftpZi1YXFpg3gqNB","rsc":["$","$1","c",{"children":[[["$","$1","about",{"children":[null,["$","section",null,{"children":["$","h1",null,{"children":"关于网站"}]}],["$","section",null,{"children":["$","p",null,{"children":"建设中。"}]}]]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
