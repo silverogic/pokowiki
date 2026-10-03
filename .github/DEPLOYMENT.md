@@ -1,6 +1,21 @@
-# GitHub Actions 部署说明
+# 배포 및 CI/CD 가이드 (Deployment Guide)
 
-本项目使用 GitHub Actions 自动构建并部署到腾讯云对象存储（COS）。
+## 1. GitHub Pages 배포 (권장 / Recommended)
+
+이 프로젝트는 GitHub Actions를 통해 GitHub Pages(`https://silverogic.github.io/pokowiki`)로 자동 정적 빌드 및 배포됩니다.
+
+### GitHub 저장소 설정 방법
+1. 저장소 상단의 **Settings** 메뉴로 이동합니다.
+2. 좌측 메뉴에서 **Pages**를 클릭합니다.
+3. **Build and deployment** 항목의 **Source** 드롭다운에서 **GitHub Actions**를 선택합니다.
+4. 이제 `master` 브랜치에 코드가 푸시되면 `.github/workflows/deploy-pages.yml` 워크플로우가 자동으로 실행되어 사이트가 배포됩니다.
+5. (선택사항) 커스텀 도메인(CNAME)을 사용하는 경우, `NEXT_PUBLIC_BASE_PATH=""`로 설정하여 루트 도메인에서 서빙할 수 있습니다.
+
+---
+
+## 2. 腾讯云 COS 部署说明 (Legacy)
+
+本项目此前配置了自动构建并部署到腾讯云对象存储（COS）的工作流（`.github/workflows/build-deploy.yml`）。
 
 ## 工作流程
 

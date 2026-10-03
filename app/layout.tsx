@@ -85,11 +85,14 @@ const RootLayout = ({
                     {children}
                     <section className="giscus">
                       <Giscus
-                        host="https://giscus.xzonn.top"
-                        repo="Xzonn/PokemonPokopiaDatabase"
-                        repoId="R_kgDORmT12w"
-                        category="General"
-                        categoryId="DIC_kwDORmT1284C4cEM"
+                        host={process.env.NEXT_PUBLIC_GISCUS_HOST || "https://giscus.xzonn.top"}
+                        repo={
+                          (process.env.NEXT_PUBLIC_GISCUS_REPO as `${string}/${string}`) ||
+                          "Xzonn/PokemonPokopiaDatabase"
+                        }
+                        repoId={process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "R_kgDORmT12w"}
+                        category={process.env.NEXT_PUBLIC_GISCUS_CATEGORY || "General"}
+                        categoryId={process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "DIC_kwDORmT1284C4cEM"}
                         mapping="specific"
                         term="评论区"
                         reactions-enabled="1"

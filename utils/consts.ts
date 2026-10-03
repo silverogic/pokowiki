@@ -14,7 +14,9 @@ export const BREAKPOINTS = {
 };
 
 export const DEFAULT_TITLE = "宝可梦 Pokopia 数据库";
-export const SITE_URL = "https://pokopia.xzonn.top";
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.GITHUB_ACTIONS ? "https://silverogic.github.io/pokowiki" : "https://pokopia.xzonn.top");
 
 export const PokemonTypeFilters: ColumnFilterItem[] = EPokemonType.map((type) => ({
   text: type,
