@@ -56,9 +56,22 @@ export const ESpecialities = [
 
 export type Speciality = (typeof ESpecialities)[number] | "不明";
 
+export interface PokemonEvolution {
+  number: string;
+  name: string;
+}
+
+export interface PokemonHabitatDetail {
+  name: string;
+  rarity: number | null;
+  iconUrl: string | null;
+}
+
 export interface Pokemon {
   id: number;
   index: number;
+  nationalNumber: number;
+  slug: string;
   isEvent: boolean;
   isBubblyBasin: boolean;
   form: number;
@@ -66,17 +79,25 @@ export interface Pokemon {
   formName: string;
   japanese: string;
   english: string;
-  types: [PokemonType, PokemonType];
+  types: PokemonType[];
+  typeIcons?: (string | null)[];
   specialties: Speciality[];
+  specialtyIcons?: (string | null)[];
   time: string;
   weather: string;
   habitats: number[];
+  habitatDetails?: PokemonHabitatDetail[];
   environment: string;
   favorites: string[];
   category: string;
   description: string;
   height: string;
   weight: string;
-  x: number;
-  y: number;
+  imageUrl?: string | null;
+  spawnZones?: string[];
+  previousEvolution?: PokemonEvolution | null;
+  nextEvolution?: PokemonEvolution | null;
+  contentSource?: "base" | "free-update" | "event" | "expansion-pass";
+  x?: number;
+  y?: number;
 }

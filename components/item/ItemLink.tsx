@@ -15,7 +15,7 @@ export const ItemLink: FC<IProps> = ({ name, count }) => {
   return (
     <>
       <span className="icon-wrapper-inline">
-        {item?.hasIcon ? (
+        {item?.imageUrl ? (
           <ItemIcon
             item={item}
             size={24}

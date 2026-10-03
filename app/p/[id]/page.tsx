@@ -13,7 +13,7 @@ interface IProps {
 export const generateMetadata = async ({ params }: IProps) => {
   const { id } = await params;
 
-  const pokemon = PokemonData.find((p) => getPokemonFullId(p) === id);
+  const pokemon = PokemonData.find((p) => getPokemonFullId(p) === id || p.slug === id);
 
   if (!pokemon) {
     return {
@@ -28,13 +28,18 @@ export const generateMetadata = async ({ params }: IProps) => {
 };
 
 export async function generateStaticParams() {
-  return PokemonData.map((p) => ({ id: getPokemonFullId(p) }));
+  const ids = new Set<string>();
+  PokemonData.forEach((p) => {
+    ids.add(getPokemonFullId(p));
+    if (p.slug) ids.add(p.slug);
+  });
+  return Array.from(ids).map((id) => ({ id }));
 }
 
 const PokemonDetailPage = async ({ params }: IProps) => {
   const { id } = await params;
 
-  const pokemon = PokemonData.find((p) => getPokemonFullId(p) === id);
+  const pokemon = PokemonData.find((p) => getPokemonFullId(p) === id || p.slug === id);
 
   if (!pokemon) notFound();
 

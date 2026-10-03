@@ -39,8 +39,8 @@ type MixedPokemon = Pokemon & {
 };
 
 const getColumns = (habitat: Habitat): TableColumnsType<MixedPokemon> => [
-  ...(["宝可梦", "编号", "特长", "时间", "天气"]
-    .map((s) => PokemonTableColumns.find((c) => c.title === s)!)
+  ...(["name", "index", "specialties", "time", "weather"]
+    .map((key) => PokemonTableColumns.find((c) => "dataIndex" in c && c.dataIndex === key)!)
     .filter(Boolean) as TableColumnsType<MixedPokemon>),
   {
     title: "稀有度",
@@ -76,6 +76,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
 
   for (const p of habitat.pokemon) {
     const pokemon = PokemonDataByName[p.form];
+    if (!pokemon) continue;
     const pokemonContents: ReactNode[] = [];
     if (p.rarity === "超稀有") {
       pokemonContents.push(
@@ -194,11 +195,17 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
           {...TableCommonProps}
           rowKey={(row) => row.id}
           columns={columns}
-          dataSource={habitat.pokemon.map((p) => ({
-            ...PokemonDataByName[p.form],
-            rarity: p.rarity,
-            location: p.location,
-          }))}
+          dataSource={habitat.pokemon
+            .map((p) => {
+              const pk = PokemonDataByName[p.form];
+              if (!pk) return null;
+              return {
+                ...pk,
+                rarity: p.rarity,
+                location: p.location,
+              };
+            })
+            .filter((p): p is MixedPokemon => Boolean(p))}
           pagination={false}
         />
       </section>

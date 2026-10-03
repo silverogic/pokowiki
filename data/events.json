@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "帮毽子草收集棉絮",
+    "dates": [
+      [
+        "2026-03-10",
+        "2026-03-25"
+      ]
+    ],
+    "pokemon": [
+      "毽子草",
+      "毽子花",
+      "毽子棉"
+    ],
+    "imageUrl": "https://www.pocoapokemon.jp/api/up/images/index/effada422506e76c0cf3df7883af30a1a3bad14c.jpg",
+    "newsUrl": "https://www.pocoapokemon.jp/sc/news/44/"
+  },
+  {
+    "id": 2,
+    "name": "（勾魂眼活动）",
+    "dates": [
+      [
+        "2026-04-29",
+        "2026-05-13"
+      ]
+    ],
+    "pokemon": [
+      "勾魂眼"
+    ],
+    "imageUrl": "",
+    "newsUrl": ""
+  }
+]

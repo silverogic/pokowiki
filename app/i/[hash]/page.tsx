@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
 import { ItemDetail, ItemIcon, PrevNext } from "@/components";
-import { ItemData, ItemDataById } from "@/data";
+import { ItemData, ItemDataById, ItemDataBySlug } from "@/data";
 import { DEFAULT_TITLE } from "@/utils";
 
 interface IProps {
@@ -13,7 +13,7 @@ interface IProps {
 export const generateMetadata = async ({ params }: IProps) => {
   const { hash } = await params;
 
-  const item = ItemDataById[hash];
+  const item = ItemDataById[hash] || ItemDataBySlug[hash];
 
   if (!item) {
     return {
@@ -28,13 +28,18 @@ export const generateMetadata = async ({ params }: IProps) => {
 };
 
 export async function generateStaticParams() {
-  return ItemData.map((h) => ({ hash: h.hash }));
+  const keys = new Set<string>();
+  ItemData.forEach((item) => {
+    if (item.hash) keys.add(item.hash);
+    if (item.slug) keys.add(item.slug);
+  });
+  return Array.from(keys).map((hash) => ({ hash }));
 }
 
 const ItemDetailPage = async ({ params }: IProps) => {
   const { hash } = await params;
 
-  const item = ItemDataById[hash];
+  const item = ItemDataById[hash] || ItemDataBySlug[hash];
 
   if (!item) notFound();
 

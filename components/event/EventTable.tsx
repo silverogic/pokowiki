@@ -68,13 +68,24 @@ export const EventTableColumns: TableColumnsType<Event> = [
     width: 280,
     render: (pokemon: Event["pokemon"]) => (
       <div className="flex flex-wrap gap-4 text-center">
-        {pokemon.map((p) => (
-          <PokemonIconWithName
-            key={p}
-            pokemon={PokemonDataByName[p]}
-            link
-          />
-        ))}
+        {pokemon.map((p) => {
+          const pk = PokemonDataByName[p];
+          return pk ? (
+            <PokemonIconWithName
+              key={p}
+              pokemon={pk}
+              link
+            />
+          ) : (
+            <div
+              key={p}
+              className="flex w-[72px] flex-col items-center text-center text-xs text-gray-500"
+            >
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 text-gray-400">?</div>
+              <div className="mt-1 max-w-full truncate">{p}</div>
+            </div>
+          );
+        })}
       </div>
     ),
   },

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "干巴巴荒野的城镇",
+    "japanese": "",
+    "english": "",
+    "icon": "town-1"
+  },
+  {
+    "id": 2,
+    "name": "暗沉沉海边的城镇",
+    "japanese": "",
+    "english": "",
+    "icon": "town-2"
+  },
+  {
+    "id": 3,
+    "name": "凸隆隆山地的城镇",
+    "japanese": "",
+    "english": "",
+    "icon": "town-3"
+  },
+  {
+    "id": 4,
+    "name": "亮晶晶空岛的城镇",
+    "japanese": "",
+    "english": "",
+    "icon": "town-4"
+  },
+  {
+    "id": 5,
+    "name": "空空镇",
+    "japanese": "",
+    "english": "",
+    "icon": "town-5"
+  },
+  {
+    "id": 6,
+    "name": "冒泡泡海底的城镇",
+    "japanese": "",
+    "english": "",
+    "icon": "town-6"
+  }
+]

@@ -9,14 +9,12 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
-  },
-  turbopack: {
-    rules: {
-      "*.txt": {
-        loaders: ["raw-loader"],
-        as: "*.js",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.pokopiapi.com",
       },
-    },
+    ],
   },
 };
 

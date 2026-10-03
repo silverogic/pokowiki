@@ -28,9 +28,9 @@ export const TypeIcon: React.FC<ITypeIconProps> = ({ type, className }) => (
   </div>
 );
 
-export const TypeIcons: React.FC<{ types: [PokemonType, PokemonType] }> = ({ types }) => (
+export const TypeIcons: React.FC<{ types: PokemonType[] }> = ({ types }) => (
   <span className="badges">
-    {(types[0] === types[1] ? [types[0]] : types).map((type) => (
+    {Array.from(new Set(types || [])).map((type) => (
       <TypeIcon
         key={type}
         type={type}
