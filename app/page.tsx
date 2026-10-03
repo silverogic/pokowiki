@@ -29,6 +29,8 @@ export default function Home() {
         return t("pokemonList");
       case "/habitat-list":
         return t("habitatList");
+      case "/item-list":
+        return t("itemList");
       case "/event-list":
         return t("eventList");
       case "/walkthrough":

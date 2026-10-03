@@ -51,11 +51,11 @@ const theme: ThemeConfig = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: DEFAULT_TITLE,
-  description: DEFAULT_TITLE,
-  keywords: ["宝可梦", "Pokopia", "攻略", "图鉴", "通关指南"],
+  description: "포코위키 - 포켓몬 포코피아 도감 및 데이터베이스",
+  keywords: ["포코위키", "포켓몬", "포코피아", "Pokopia", "Pokowiki", "도감", "공략"],
   openGraph: {
     title: DEFAULT_TITLE,
-    description: DEFAULT_TITLE,
+    description: "포코위키 - 포켓몬 포코피아 도감 및 데이터베이스",
     url: SITE_URL,
   },
 };

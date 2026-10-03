@@ -17,13 +17,14 @@ export const generateMetadata = async ({ params }: IProps) => {
 
   if (!habitat) {
     return {
-      title: `栖息地不存在 - ${DEFAULT_TITLE}`,
+      title: `서식지를 찾을 수 없습니다 - ${DEFAULT_TITLE}`,
     };
   }
 
+  const displayName = habitat.korean || habitat.name;
   return {
-    title: `${habitat.name} - ${DEFAULT_TITLE}`,
-    description: `“${habitat.name}”是《宝可梦 Pokopia》中的栖息地之一，它由${habitat.detail.map((d) => `${d.name} × ${d.count}`).join("、")} 组成。${habitat.pokemon.map((p) => p.form.split("-")[0]).join("、")}可能会在这里出现。`,
+    title: `${displayName} - ${DEFAULT_TITLE}`,
+    description: `"${displayName}"은(는) 《포켓몬 포코피아》의 서식지 중 하나입니다.`,
   };
 };
 
@@ -74,7 +75,7 @@ const HabitatDetailPage = async ({ params }: IProps) => {
           nextHabitat
             ? {
                 id: (nextHabitat.index % 10000).toString().padStart(3, "0"),
-                isEvent: prevHabitat.isEvent,
+                isEvent: nextHabitat.isEvent,
                 name: <HabitatName habitat={nextHabitat} />,
                 icon: (
                   <HabitatIcon

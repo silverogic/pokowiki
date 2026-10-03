@@ -13,7 +13,7 @@ export const BREAKPOINTS = {
   xxxl: 1920,
 };
 
-export const DEFAULT_TITLE = "宝可梦 Pokopia 数据库";
+export const DEFAULT_TITLE = "포코위키";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
   (process.env.GITHUB_ACTIONS ? "https://silverogic.github.io/pokowiki" : "https://pokopia.xzonn.top");

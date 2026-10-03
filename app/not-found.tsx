@@ -9,7 +9,7 @@ import { DEFAULT_TITLE, Link } from "@/utils";
 
 const NotFoundPage = () => {
   useEffect(() => {
-    document.title = `页面未找到 - ${DEFAULT_TITLE}`;
+    document.title = `페이지를 찾을 수 없습니다 - ${DEFAULT_TITLE}`;
 
     document.querySelector(".giscus")?.classList.add("hidden");
 
@@ -21,7 +21,7 @@ const NotFoundPage = () => {
   return (
     <Fragment key="not-found">
       <Head>
-        <title>页面未找到 - {DEFAULT_TITLE}</title>
+        <title>페이지를 찾을 수 없습니다 - {DEFAULT_TITLE}</title>
       </Head>
       <section
         key="not-found"
@@ -30,14 +30,14 @@ const NotFoundPage = () => {
         <div className="not-found-icon">
           <PokemonIcon pokemon={PokemonDataByName["梦幻"]} />
         </div>
-        <h1>页面未找到</h1>
-        <p>您访问的页面不存在或已被删除。</p>
+        <h1>페이지를 찾을 수 없습니다</h1>
+        <p>요청하신 페이지가 존재하지 않거나 삭제되었습니다.</p>
         <div className="not-found-actions">
           <Link
             href="/"
             className="not-found-button"
           >
-            返回首页
+            홈으로 돌아가기
           </Link>
           <Link
             href="/"

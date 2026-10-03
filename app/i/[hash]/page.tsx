@@ -16,13 +16,14 @@ export const generateMetadata = async ({ params }: IProps) => {
 
   if (!item) {
     return {
-      title: `道具不存在 - ${DEFAULT_TITLE}`,
+      title: `도구를 찾을 수 없습니다 - ${DEFAULT_TITLE}`,
     };
   }
 
+  const displayName = item.korean || item.name;
   return {
-    title: `${item.name} - ${DEFAULT_TITLE}`,
-    description: `道具“${item.name}”在《宝可梦 Pokopia》中的详细信息。`,
+    title: `${displayName} - ${DEFAULT_TITLE}`,
+    description: `"${displayName}"은(는) 《포켓몬 포코피아》의 도구 중 하나입니다.`,
   };
 };
 

@@ -2,10 +2,10 @@ import { SupportedLocale } from "./types";
 
 export const translations = {
   siteTitle: {
-    en: "Pokémon Pokopia Database",
-    ko: "포켓몬 포코피아 데이터베이스",
-    zh: "宝可梦 Pokopia 数据库",
-    ja: "ポケモン ポコピア データベース",
+    en: "Pokowiki",
+    ko: "포코위키",
+    zh: "Pokowiki",
+    ja: "ポコウィキ",
   },
   siteNav: {
     en: "Site Navigation",

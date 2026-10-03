@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
 import { PokemonDetail, PokemonHeader, PokemonIcon, PokemonName, PrevNext } from "@/components";
-import { HabitatDataById, PokemonData } from "@/data";
+import { PokemonData } from "@/data";
 import { DEFAULT_TITLE, getPokemonFullId } from "@/utils";
 
 interface IProps {
@@ -16,13 +16,14 @@ export const generateMetadata = async ({ params }: IProps) => {
 
   if (!pokemon) {
     return {
-      title: `宝可梦不存在 - ${DEFAULT_TITLE}`,
+      title: `포켓몬을 찾을 수 없습니다 - ${DEFAULT_TITLE}`,
     };
   }
 
+  const displayName = pokemon.korean || pokemon.name;
   return {
-    title: `${pokemon.name} - ${DEFAULT_TITLE}`,
-    description: `“${pokemon.name}”是《宝可梦 Pokopia》中登场的宝可梦之一，它的栖息地${pokemon.habitats.length === 0 ? "不明" : `包括${pokemon.habitats.map((h) => HabitatDataById[h]?.name || h).join("、")}`}。`,
+    title: `${displayName} - ${DEFAULT_TITLE}`,
+    description: `"${displayName}"은(는) 《포켓몬 포코피아》에 등장하는 포켓몬 중 하나입니다.`,
   };
 };
 
