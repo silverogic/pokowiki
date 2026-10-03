@@ -1,3 +1,0 @@
-:HL["/pokowiki/_next/static/chunks/aca5b9c04d82e65c.css","style"]
-:HC["/",""]
-0:{"buildId":"eWngsZynFxuTz1foL7SRr","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"i","paramType":null,"paramKey":"i","hasRuntimePrefetch":false,"slots":{"children":{"name":"hash","paramType":"d","paramKey":"b6ee62f840d53f95fe2259402be195c9","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

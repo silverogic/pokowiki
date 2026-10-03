@@ -1,32 +1,30 @@
-name: Build and Deploy to docs for GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - master
     paths-ignore:
-      - docs/**
       - .vscode/**/*
       - README.md
       - AGENTS.md
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: pages-docs-build
+  group: pages
   cancel-in-progress: false
 
 jobs:
-  build-and-push-docs:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -39,6 +37,9 @@ jobs:
           node-version: "22"
           cache: "pnpm"
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -47,20 +48,21 @@ jobs:
           GITHUB_ACTIONS: "true"
         run: pnpm run build
 
-      - name: Copy build output to docs
-        run: |
-          rm -rf docs
-          cp -r out docs
-          touch docs/.nojekyll
+      - name: Disable Jekyll
+        run: touch ./out/.nojekyll
 
-      - name: Commit and push docs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f docs
-          if git diff --staged --quiet; then
-            echo "No changes in docs to commit"
-          else
-            git commit -m "chore(deploy): update GitHub Pages docs build [skip ci]"
-            git push origin master
-          fi
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
