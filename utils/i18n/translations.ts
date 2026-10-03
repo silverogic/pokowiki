@@ -19,6 +19,60 @@ export const translations = {
     zh: "站外导航",
     ja: "外部リンク",
   },
+  officialWebsites: {
+    en: "Official Websites",
+    ko: "공식 웹사이트",
+    zh: "官方网站",
+    ja: "公式サイト",
+  },
+  officialSiteKo: {
+    en: "Korean Official Site",
+    ko: "한국어 공식 사이트",
+    zh: "韩文官网",
+    ja: "韓国語公式サイト",
+  },
+  officialSiteJa: {
+    en: "Japanese Official Site",
+    ko: "일본 공식 사이트",
+    zh: "日文官网",
+    ja: "日本語公式サイト",
+  },
+  officialSiteEn: {
+    en: "English Official Site",
+    ko: "영어 공식 사이트",
+    zh: "英文官网",
+    ja: "英語公式サイト",
+  },
+  officialSiteZhHans: {
+    en: "Simplified Chinese Official Site",
+    ko: "중국어 간체 공식 사이트",
+    zh: "简体中文官网",
+    ja: "簡体字中国語公式サイト",
+  },
+  officialSiteZhHant: {
+    en: "Traditional Chinese Official Site",
+    ko: "중국어 번체 공식 사이트",
+    zh: "繁体中文官网",
+    ja: "繁体字中国語公式サイト",
+  },
+  footerDisclaimer: {
+    en: "Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and GAME FREAK inc.",
+    ko: "《포켓몬 포코피아》(Pokémon Pokopia) 관련 모든 저작권 및 상표권은 Nintendo, Creatures Inc., GAME FREAK inc.에 있습니다.",
+    zh: "《宝可梦 Pokopia》的所有内容、图像及角色著作权与商标权均归 Nintendo、Creatures Inc. 及 GAME FREAK inc. 所有。",
+    ja: "『ポケモン ポコピア』に関するすべての著作権・商標権は任天堂・クリーチャーズ・ゲームフリークに帰属します。",
+  },
+  footerNotice: {
+    en: "Pokowiki is an unofficial fan-made database and is not affiliated with or endorsed by Nintendo or The Pokémon Company.",
+    ko: "포코위키는 비공식 팬 데이터베이스이며, Nintendo 및 The Pokémon Company와 제휴 또는 보증 관계가 아닙니다.",
+    zh: "Pokowiki 是非官方粉丝数据库，与任天堂及宝可梦公司无官方关联。",
+    ja: "ポコウィキは非公式ファンデータベースであり、任天堂および株式会社ポケモンとは一切関係ありません。",
+  },
+  footerLicense: {
+    en: "Content is available under CC BY-NC-SA 4.0 unless otherwise noted.",
+    ko: "별도 명시가 없는 한, 사이트의 콘텐츠는 CC BY-NC-SA 4.0 라이선스에 따라 배포됩니다.",
+    zh: "除非另有声明，本网站内容采用 CC BY-NC-SA 4.0 许可协议授权。",
+    ja: "特に記載がない限り、サイトのコンテンツは CC BY-NC-SA 4.0 の下で提供されています。",
+  },
   tableOfContents: {
     en: "Table of Contents",
     ko: "목차",
@@ -69,9 +123,21 @@ export const translations = {
   },
   about: {
     en: "About",
-    ko: "소개",
-    zh: "关于",
-    ja: "について",
+    ko: "사이트 소개",
+    zh: "关于网站",
+    ja: "サイトについて",
+  },
+  aboutIntro: {
+    ko: "포코위키(Pokowiki)는 《포켓몬 포코피아》(Pokémon Pokopia)의 포켓몬, 서식지, 도구, 이벤트 정보 등을 종합적으로 제공하는 비공식 팬 데이터베이스 & 위키입니다.",
+    en: "Pokowiki is an unofficial fan database & wiki providing comprehensive information on Pokémon, habitats, items, and events in Pokémon Pokopia.",
+    zh: "Pokowiki 是一个非官方粉丝数据库与百科，收录了《宝可梦 Pokopia》中的宝可梦、栖息地、道具及活动等丰富资讯。",
+    ja: "ポコウィキ（Pokowiki）は、『ポケモン ポコピア』に登場するポケモン、生息地、どうぐ、イベント情報などをまとめた非公式ファンデータベース＆Wikiです。",
+  },
+  aboutDisclaimer: {
+    ko: "포켓몬 관련 모든 저작권 및 상표권은 Nintendo, Creatures Inc., GAME FREAK inc.에 있으며, 본 사이트는 순수 정보 공유 및 커뮤니티 목적으로 운영됩니다.",
+    en: "All Pokémon-related copyrights and trademarks belong to Nintendo, Creatures Inc., and GAME FREAK inc. This site is operated solely for informational and community purposes.",
+    zh: "宝可梦相关的所有著作权与商标权均归任天堂、Creatures Inc. 及 GAME FREAK inc. 所有，本网站仅用于资讯分享与交流。",
+    ja: "ポケモンに関するすべての著作権・商標権は任天堂、クリーチャーズ、ゲームフリークに帰属します。本サイトは純粋な情報共有を目的として運営されています。",
   },
   // Table headers & common terms
   pokemon: {
