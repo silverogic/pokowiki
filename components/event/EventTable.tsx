@@ -19,6 +19,8 @@ export const EventTableColumns: TableColumnsType<Event> = [
   {
     title: "名字",
     dataIndex: "name",
+    fixed: "left",
+    width: 160,
     render: (name: string, row) =>
       row.newsUrl ? (
         <Link
@@ -34,6 +36,8 @@ export const EventTableColumns: TableColumnsType<Event> = [
   {
     title: "图片",
     dataIndex: "imageUrl",
+    fixed: "left",
+    width: 180,
     render: (imageUrl: string, row) =>
       imageUrl ? (
         <Image
@@ -47,6 +51,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
   {
     title: "举办时间",
     dataIndex: "dates",
+    width: 220,
     render: (dates: Event["dates"]) => (
       <div className="flex flex-wrap gap-4 text-center">
         {dates.map(([start, end], i) => (
@@ -60,6 +65,7 @@ export const EventTableColumns: TableColumnsType<Event> = [
   {
     title: "宝可梦",
     dataIndex: "pokemon",
+    width: 280,
     render: (pokemon: Event["pokemon"]) => (
       <div className="flex flex-wrap gap-4 text-center">
         {pokemon.map((p) => (

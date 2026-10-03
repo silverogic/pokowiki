@@ -177,6 +177,7 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
     <div className="relative">
       <Input
         placeholder="搜索"
+        aria-label="搜索"
         value={searchKeyword}
         onChange={handleSearch}
         prefix={<SearchOutlined className="text-gray-400" />}

@@ -24,11 +24,10 @@ export const PokemonTypeFilters: ColumnFilterItem[] = EPokemonType.map((type) =>
 export const TableCommonProps: Partial<TableProps<any>> = {
   scroll: {
     scrollToFirstRowOnChange: true,
-    x: true,
+    x: "max-content",
   },
-  sticky: { offsetHeader: 0 },
+  sticky: { offsetHeader: 64 },
   size: "small",
-  tableLayout: "fixed",
 };
 
 export const DescriptionsCommonProps: Partial<DescriptionsProps> = {

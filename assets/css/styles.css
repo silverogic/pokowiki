@@ -28,6 +28,7 @@
 }
 
 body {
+  @apply text-gray-800;
   background-image: url("../images/background.webp");
   background-attachment: fixed;
   background-position: center center;
@@ -133,7 +134,30 @@ main ol {
 }
 
 .ant-table-wrapper {
-  @apply my-4;
+  @apply my-4 max-w-full;
+
+  /* 모바일 환경: 셀 패딩 축소로 가로 공간 절약 및 개방감 제공 (responsive-design.md) */
+  @media (max-width: 640px) {
+    .ant-table-tbody > tr > td,
+    .ant-table-thead > tr > th {
+      padding: 6px 8px !important;
+      font-size: 0.825rem;
+    }
+  }
+
+  /* 테이블 첫 2개 sticky 고정 컬럼의 배경색 및 레이어 보정 */
+  .ant-table-cell-fix-left {
+    background: #ffffff !important;
+  }
+
+  .ant-table-thead .ant-table-cell-fix-left {
+    background: #fafafa !important;
+  }
+}
+
+/* 테마 일체형 로딩 스피너 (others.md) */
+.ant-spin .ant-spin-dot-item {
+  background-color: var(--color-primary) !important;
 }
 
 .table-fit {
@@ -562,7 +586,7 @@ header {
 }
 
 .logo {
-  @apply inline-block w-8 h-8 mr-2 bg-no-repeat bg-center bg-contain;
+  @apply inline-block w-8 h-8 mr-2 bg-no-repeat bg-center bg-contain shrink-0;
   background-image: url("../images/logo.png");
 }
 

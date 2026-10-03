@@ -14,6 +14,9 @@ const { xs, sm, md, lg, xl, xxl } = BREAKPOINTS;
 
 const theme: ThemeConfig = {
   token: {
+    colorPrimary: "#c28cd9",
+    colorLink: "#007fff",
+    borderRadius: 8,
     screenXS: xs,
     screenXSMin: xs,
     screenXSMax: sm - 1,
@@ -31,6 +34,19 @@ const theme: ThemeConfig = {
     screenXLMax: xxl - 1,
     screenXXL: xxl,
     screenXXLMin: xxl,
+  },
+  components: {
+    Spin: {
+      colorPrimary: "#c28cd9",
+    },
+    Select: {
+      colorPrimary: "#c28cd9",
+      colorPrimaryHover: "#c28cd9",
+    },
+    Table: {
+      headerBg: "#fafafa",
+      headerSplitColor: "transparent",
+    },
   },
 };
 

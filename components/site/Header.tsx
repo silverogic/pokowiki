@@ -40,13 +40,13 @@ export const Header: FC = () => {
       <header>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            <div className="flex items-center">
+            <div className="flex min-w-0 items-center">
               <Link
                 href="/"
-                className="text-primary flex items-center text-2xl font-bold"
+                className="text-primary flex min-w-0 items-center text-xl font-bold sm:text-2xl"
               >
-                <span className="logo" />
-                Pokopia 数据库
+                <span className="logo shrink-0" />
+                <span className="truncate">Pokopia 数据库</span>
               </Link>
             </div>
 
