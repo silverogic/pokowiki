@@ -2,6 +2,7 @@
 
 import { MenuOutlined } from "@ant-design/icons";
 import { Drawer, Tabs, TabsProps } from "antd";
+import { usePathname } from "next/navigation";
 import { FC, useContext, useMemo, useState } from "react";
 
 import { Link, useI18n } from "@/utils";
@@ -14,6 +15,8 @@ import { SearchBar } from "./search";
 
 export const Header: FC = () => {
   const [show, setShow] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/" || pathname === "" || pathname === "/pokowiki" || pathname === "/pokowiki/";
   const { tocItems = [] } = useContext(TocContext) || {};
   const { t } = useI18n();
 
@@ -89,7 +92,27 @@ export const Header: FC = () => {
         }}
       >
         <SearchBar onClick={() => setShow(false)} />
-        <Tabs items={items} />
+        {isHome ? (
+          <div className="flex flex-col gap-4 overflow-y-auto">
+            <div>
+              <div className="nav-title mb-2">{t("siteNav")}</div>
+              <Navigation onClick={() => setShow(false)} />
+            </div>
+            {tocItems.length > 0 && (
+              <div className="border-t border-gray-100 pt-3">
+                <div className="nav-title mb-2">{t("tableOfContents")}</div>
+                <TableOfContents onClick={() => setShow(false)} />
+              </div>
+            )}
+          </div>
+        ) : tocItems.length > 0 ? (
+          <Tabs items={items} />
+        ) : (
+          <div className="overflow-y-auto">
+            <div className="nav-title mb-2">{t("siteNav")}</div>
+            <Navigation onClick={() => setShow(false)} />
+          </div>
+        )}
       </Drawer>
     </>
   );

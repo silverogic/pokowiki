@@ -19,6 +19,10 @@
     serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #root {
   @apply min-h-screen flex flex-col;
 
@@ -97,7 +101,7 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl font-bold my-4 text-center;
+  @apply text-2xl font-bold my-4 text-center scroll-mt-20;
 }
 
 h3 {
