@@ -5,23 +5,27 @@ import { Fragment, useEffect } from "react";
 
 import { PokemonIcon } from "@/components";
 import { PokemonDataByName } from "@/data";
-import { DEFAULT_TITLE, Link } from "@/utils";
+import { Link, useI18n } from "@/utils";
 
 const NotFoundPage = () => {
+  const { t } = useI18n();
+
   useEffect(() => {
-    document.title = `페이지를 찾을 수 없습니다 - ${DEFAULT_TITLE}`;
+    document.title = `${t("notFoundTitle")} - ${t("siteTitle")}`;
 
     document.querySelector(".giscus")?.classList.add("hidden");
 
     return () => {
       document.querySelector(".giscus")?.classList.remove("hidden");
     };
-  }, []);
+  }, [t]);
 
   return (
     <Fragment key="not-found">
       <Head>
-        <title>페이지를 찾을 수 없습니다 - {DEFAULT_TITLE}</title>
+        <title>
+          {t("notFoundTitle")} - {t("siteTitle")}
+        </title>
       </Head>
       <section
         key="not-found"
@@ -30,21 +34,21 @@ const NotFoundPage = () => {
         <div className="not-found-icon">
           <PokemonIcon pokemon={PokemonDataByName["梦幻"]} />
         </div>
-        <h1>페이지를 찾을 수 없습니다</h1>
-        <p>요청하신 페이지가 존재하지 않거나 삭제되었습니다.</p>
+        <h1>{t("notFoundTitle")}</h1>
+        <p>{t("notFoundDescription")}</p>
         <div className="not-found-actions">
           <Link
             href="/"
             className="not-found-button"
           >
-            홈으로 돌아가기
+            {t("goHome")}
           </Link>
           <Link
             href="/"
             onClick={() => window.history.back()}
             className="not-found-button"
           >
-            返回上一页
+            {t("goBack")}
           </Link>
         </div>
       </section>

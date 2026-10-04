@@ -20,7 +20,7 @@ export const generateMetadata = async ({ params }: IProps) => {
     };
   }
 
-  const displayName = pokemon.korean || pokemon.name;
+  const displayName = pokemon.korean || pokemon.english || pokemon.name;
   return {
     title: `${displayName} - ${DEFAULT_TITLE}`,
     description: `"${displayName}"은(는) 《포켓몬 포코피아》에 등장하는 포켓몬 중 하나입니다.`,

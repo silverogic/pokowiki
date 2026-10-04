@@ -4,7 +4,7 @@ import { Input, Table, TableColumnsType, Tag } from "antd";
 import { FC, useMemo, useState } from "react";
 
 import { Item } from "@/types";
-import { TableCommonProps, TableTitle, compareNumeric, renderId, useI18n } from "@/utils";
+import { Link, TableCommonProps, TableTitle, compareNumeric, renderId, useI18n } from "@/utils";
 import { ITEM_CATEGORY_TRANSLATIONS } from "@/utils/i18n/translations";
 
 import { ItemIcon } from "./ItemIcon";
@@ -58,12 +58,20 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
         fixed: "left",
         width: 220,
         render: (_, row) => (
-          <div className="flex items-center gap-2">
-            <ItemIcon
+          <div className="flex items-center gap-3">
+            <Link
+              href={`/i/${row.hash}`}
+              className="flex shrink-0 items-center"
+            >
+              <ItemIcon
+                item={row}
+                size={36}
+              />
+            </Link>
+            <ItemLink
               item={row}
-              size={36}
+              showIcon={false}
             />
-            <ItemLink name={row.name} />
           </div>
         ),
       },
@@ -87,7 +95,7 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
         dataIndex: "contentSource",
         width: 140,
         filters: [
-          { text: "Base Game", value: "base" },
+          { text: t("baseGame"), value: "base" },
           { text: t("dlcBasin"), value: "expansion-pass" },
           { text: t("eventSource"), value: "event" },
           { text: t("freeUpdate"), value: "free-update" },
@@ -97,7 +105,7 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
           if (src === "expansion-pass") return <Tag color="cyan">{t("dlcBasin")}</Tag>;
           if (src === "event") return <Tag color="gold">{t("eventSource")}</Tag>;
           if (src === "free-update") return <Tag color="purple">{t("freeUpdate")}</Tag>;
-          return <Tag color="default">Base</Tag>;
+          return <Tag color="default">{t("baseGame")}</Tag>;
         },
       },
     ],
@@ -114,18 +122,21 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
           allowClear
           className="max-w-md"
         />
-        <div className="text-sm text-gray-500">Total: {filteredData.length}</div>
+        <div className="text-sm text-gray-500">
+          {t("totalCount")}: {filteredData.length} {t("itemsUnit")}
+        </div>
       </div>
       <Table<Item>
         {...TableCommonProps}
-        rowKey={(row) => row.hash || String(row.id)}
+        rowKey={(row) => row.slug || row.hash || String(row.id)}
         columns={columns}
         dataSource={filteredData}
         pagination={{
           pageSize: 50,
           showSizeChanger: true,
           pageSizeOptions: ["20", "50", "100", "200"],
-          showTotal: (total, range) => `${range[0]}-${range[1]} / ${total}`,
+          showTotal: (total, range) =>
+            locale === "ko" ? `${total}개 중 ${range[0]}-${range[1]}` : `${range[0]}-${range[1]} / ${total}`,
         }}
       />
     </div>

@@ -21,7 +21,7 @@ export const generateMetadata = async ({ params }: IProps) => {
     };
   }
 
-  const displayName = habitat.korean || habitat.name;
+  const displayName = habitat.korean || habitat.english || habitat.name;
   return {
     title: `${displayName} - ${DEFAULT_TITLE}`,
     description: `"${displayName}"은(는) 《포켓몬 포코피아》의 서식지 중 하나입니다.`,

@@ -11,11 +11,15 @@ import { ItemIcon } from "./ItemIcon";
 import { ItemLink } from "./ItemLink";
 import { HabitatTable } from "../habitat/HabitatTable";
 
-const getDescriptions = (item: Item, t: (k: TranslationKey) => string): DescriptionsProps["items"] => [
+const getDescriptions = (
+  item: Item,
+  t: (k: TranslationKey) => string,
+  getItemCategoryDisplayName: (cat: string) => string,
+): DescriptionsProps["items"] => [
   {
     key: "category",
     label: t("category"),
-    children: item.category || "—",
+    children: getItemCategoryDisplayName(item.category) || "—",
   },
   {
     key: "tag",
@@ -84,7 +88,7 @@ interface IProps {
 }
 
 export const ItemDetail: FC<IProps> = ({ item }) => {
-  const { t, getItemDisplayName, locale } = useI18n();
+  const { t, getItemDisplayName, getItemCategoryDisplayName } = useI18n();
   const displayName = getItemDisplayName(item);
 
   const availableHabitats = HabitatData.filter((h) => h.detail.some((d) => d.name === item.name));
@@ -93,20 +97,11 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
     i.craftingRecipe?.some((m) => m.slug === item.slug || m.name.toLowerCase() === item.english?.toLowerCase()),
   );
 
-  const introText =
-    locale === "ko"
-      ? `${displayName}은(는) 《포켓몬 포코피아》의 도구 중 하나입니다.`
-      : locale === "en"
-        ? `${displayName} is one of the items featured in Pokémon Pokopia.`
-        : locale === "ja"
-          ? `${displayName}は『ポケモン ポコピア』に登場する道具の一つです。`
-          : `${item.name}是《宝可梦 Pokopia》中的道具之一${item.category ? `，它是一种${item.category}` : ""}。`;
-
   return (
     <>
       <section>
         <p>
-          <strong>{displayName}</strong> {introText}
+          <strong>{displayName}</strong> {t("itemIntro")}
           {item.description ? ` ${item.description}` : null}
         </p>
       </section>
@@ -115,7 +110,7 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
         <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(item, t)}
+          items={getDescriptions(item, t, getItemCategoryDisplayName)}
         />
       </section>
 
@@ -170,7 +165,9 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
               </Link>
             ))}
             {canCraft.length > 30 ? (
-              <span className="self-center text-xs text-gray-400">等共 {canCraft.length} 种</span>
+              <span className="self-center text-xs text-gray-400">
+                {t("andMore").replace("{0}", String(canCraft.length))}
+              </span>
             ) : null}
           </div>
         </section>

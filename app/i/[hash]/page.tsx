@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { Fragment } from "react";
 
-import { ItemDetail, ItemHeader, ItemIcon, PrevNext } from "@/components";
+import { ItemDetail, ItemHeader, ItemIcon, ItemName, PrevNext } from "@/components";
 import { ItemData, ItemDataById, ItemDataBySlug } from "@/data";
 import { DEFAULT_TITLE } from "@/utils";
 
@@ -20,7 +20,7 @@ export const generateMetadata = async ({ params }: IProps) => {
     };
   }
 
-  const displayName = item.korean || item.name;
+  const displayName = item.korean || item.english || item.name;
   return {
     title: `${displayName} - ${DEFAULT_TITLE}`,
     description: `"${displayName}"은(는) 《포켓몬 포코피아》의 도구 중 하나입니다.`,
@@ -57,7 +57,7 @@ const ItemDetailPage = async ({ params }: IProps) => {
           prevItem
             ? {
                 id: prevItem.id.toString().padStart(3, "0"),
-                name: prevItem.name,
+                name: <ItemName item={prevItem} />,
                 icon: (
                   <ItemIcon
                     item={prevItem}
@@ -72,7 +72,7 @@ const ItemDetailPage = async ({ params }: IProps) => {
           nextItem
             ? {
                 id: nextItem.id.toString().padStart(3, "0"),
-                name: nextItem.name,
+                name: <ItemName item={nextItem} />,
                 icon: (
                   <ItemIcon
                     item={nextItem}
