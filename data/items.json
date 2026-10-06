@@ -38,7 +38,7 @@
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Around trees"
     ],
     "craftingRecipe": null,
@@ -64,7 +64,7 @@
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Destroy boulders"
     ],
     "craftingRecipe": null,
@@ -89,7 +89,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Destroy tall grass"
     ],
     "craftingRecipe": null,
@@ -143,7 +143,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -173,7 +173,7 @@
       "Withered Wastelands (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -226,7 +226,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/sea-glass-fragments.png",
     "locations": [
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "On beaches"
     ],
     "craftingRecipe": null,
@@ -342,7 +342,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wastepaper.png",
     "locations": [
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Dragonite Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -366,7 +366,7 @@
     "locations": [
       "Withered Wastelands (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -390,8 +390,8 @@
     "locations": [
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
+      "Pallet Town (Natural)",
       "Arcanine Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -415,8 +415,8 @@
     "locations": [
       "Withered Wastelands (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
+      "Pallet Town (Natural)",
       "Arcanine Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -621,7 +621,7 @@
       "Shop - Unlocked at Bleak Beach Lv. 6",
       "Shop - Unlocked at Rocky Ridges Lv. 6",
       "Shop - Unlocked at Sparkling Skylands Lv. 6",
-      "Shop - Unlocked at Palette Town Lv. 6",
+      "Shop - Unlocked at Pallet Town Lv. 6",
       "Shop - Unlocked at Cloud Island Lv. 6",
       "Smelt Pokémetal in the furnace"
     ],
@@ -648,7 +648,7 @@
       "Shop - Unlocked at Bleak Beach Lv. 7",
       "Shop - Unlocked at Rocky Ridges Lv. 7",
       "Shop - Unlocked at Sparkling Skylands Lv. 7",
-      "Shop - Unlocked at Palette Town Lv. 7",
+      "Shop - Unlocked at Pallet Town Lv. 7",
       "Smelt Rare Pokémetal in the furnace"
     ],
     "craftingRecipe": null,
@@ -758,7 +758,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)",
+      "Pallet Town (Treasure)",
       "Trade with Gimmighoul/Gholdengo"
     ],
     "craftingRecipe": null,
@@ -784,7 +784,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)",
+      "Pallet Town (Treasure)",
       "Trade with Gimmighoul/Gholdengo"
     ],
     "craftingRecipe": null,
@@ -831,7 +831,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/red-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -854,7 +854,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/blue-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -877,7 +877,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/green-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -900,7 +900,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/yellow-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -923,7 +923,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/pink-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -946,7 +946,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/cyan-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -969,7 +969,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/white-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -992,7 +992,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/black-paint.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Crush berries"
     ],
@@ -1489,7 +1489,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/fresh-carrot.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)"
+      "Pallet Town (Natural)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -1511,7 +1511,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/seaweed.png",
     "locations": [
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)"
+      "Pallet Town (Natural)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -2309,7 +2309,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/big-storage-box.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 2",
+      "Shop - Unlocked at Pallet Town Lv. 2",
       "Shop - Unlocked at Cloud Island Lv. 2",
       "Craft from recipe"
     ],
@@ -3090,7 +3090,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/mysterious-pedestal-furniture.png",
     "locations": [
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Original)",
       "Eevee Doll Dream Island (Original)",
       "Arcanine Doll Dream Island (Original)",
@@ -7802,7 +7802,7 @@
     "tag": "Toy",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/fan.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 4",
+      "Shop - Unlocked at Pallet Town Lv. 4",
       "Shop - Unlocked at Cloud Island Lv. 4",
       "Craft from recipe"
     ],
@@ -8351,7 +8351,7 @@
     "locations": [
       "Bleak Beach (Original)",
       "Abandoned Power Plant kit (Build Kit)",
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Craft from recipe"
     ],
@@ -8810,7 +8810,7 @@
       "Withered Wastelands (Original)",
       "Sparkling Skylands (Original)",
       "Abandoned Power Plant kit (Build Kit)",
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 5",
       "Craft from recipe"
     ],
@@ -8847,7 +8847,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/cd-player.png",
     "locations": [
       "Sparkling Skylands (Original)",
-      "Shop - Unlocked at Palette Town Lv. 3",
+      "Shop - Unlocked at Pallet Town Lv. 3",
       "Shop - Unlocked at Cloud Island Lv. 3",
       "Craft from recipe"
     ],
@@ -10283,7 +10283,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/eevee-doll.png",
     "locations": [
       "Bleak Beach (Original)",
-      "Shop - Unlocked at Palette Town Lv. 2",
+      "Shop - Unlocked at Pallet Town Lv. 2",
       "Shop - Unlocked at Cloud Island Lv. 1"
     ],
     "craftingRecipe": null,
@@ -10307,7 +10307,7 @@
     "locations": [
       "Withered Wastelands (Treasure)",
       "Bleak Beach (Original)",
-      "Shop - Unlocked at Palette Town Lv. 3",
+      "Shop - Unlocked at Pallet Town Lv. 3",
       "Shop - Unlocked at Cloud Island Lv. 1"
     ],
     "craftingRecipe": null,
@@ -10353,7 +10353,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/arcanine-doll.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Shop - Unlocked at Palette Town Lv. 5",
+      "Shop - Unlocked at Pallet Town Lv. 5",
       "Shop - Unlocked at Cloud Island Lv. 1"
     ],
     "craftingRecipe": null,
@@ -10376,7 +10376,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dragonite-doll.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Shop - Unlocked at Palette Town Lv. 6",
+      "Shop - Unlocked at Pallet Town Lv. 6",
       "Shop - Unlocked at Cloud Island Lv. 1"
     ],
     "craftingRecipe": null,
@@ -10402,8 +10402,8 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)",
-      "Shop - Unlocked at Palette Town Lv. 8"
+      "Pallet Town (Treasure)",
+      "Shop - Unlocked at Pallet Town Lv. 8"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -10428,8 +10428,8 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)",
-      "Shop - Unlocked at Palette Town Lv. 7"
+      "Pallet Town (Treasure)",
+      "Shop - Unlocked at Pallet Town Lv. 7"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -12033,7 +12033,7 @@
     "tag": "Toy",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/fishing-rod-outdoor.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 3",
+      "Shop - Unlocked at Pallet Town Lv. 3",
       "Shop - Unlocked at Cloud Island Lv. 3",
       "Appraise from a Relic",
       "In glowing terrain"
@@ -12240,7 +12240,7 @@
     "tag": "Toy",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/photo-cutout-board-outdoor.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 9",
+      "Shop - Unlocked at Pallet Town Lv. 9",
       "Shop - Unlocked at Cloud Island Lv. 9",
       "Appraise from a Relic",
       "In glowing terrain"
@@ -13013,7 +13013,7 @@
       "Bleak Beach (Original)",
       "Rocky Ridges (Original)",
       "Sparkling Skylands (Original)",
-      "Palette Town (Original)",
+      "Pallet Town (Original)",
       "Pikachu Doll Dream Island (Original)",
       "Eevee Doll Dream Island (Original)",
       "Clefairy Doll Dream Island (Original)",
@@ -16083,7 +16083,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/green-shoots.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Take photo and 3D print, or Magnet Rise and hold Y"
     ],
     "craftingRecipe": null,
@@ -16292,7 +16292,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Relaxing park kit (Build Kit)"
     ],
@@ -16316,7 +16316,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/large-palm-tree.png",
     "locations": [
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Stylish Café kit (Build Kit)"
     ],
@@ -16365,7 +16365,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wildflowers.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Relaxing park kit (Build Kit)"
     ],
@@ -16725,7 +16725,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/driftwood.png",
     "locations": [
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Arcanine Doll Dream Island (Natural)",
@@ -16778,7 +16778,7 @@
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -16807,7 +16807,7 @@
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Take photo and 3D print, or Magnet Rise and hold Y"
     ],
     "craftingRecipe": null,
@@ -16941,7 +16941,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/crystal-cluster.png",
     "locations": [
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Freezing Chambers kit (Build Kit)"
     ],
     "craftingRecipe": null,
@@ -17053,7 +17053,7 @@
     "tag": null,
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wood-fragments.png",
     "locations": [
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Clefairy Doll Dream Island (Natural)",
       "Arcanine Doll Dream Island (Natural)",
       "Take photo  and 3D print, or Magnet Rise and hold Y"
@@ -17078,7 +17078,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/stone-fragments.png",
     "locations": [
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Clefairy Doll Dream Island (Natural)",
       "Take photo  and 3D print, or Magnet Rise and hold Y"
     ],
@@ -17102,7 +17102,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/worn-lumber.png",
     "locations": [
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Arcanine Doll Dream Island (Natural)",
       "Dragonite Doll Dream Island (Natural)",
@@ -17149,7 +17149,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/metal-fragments.png",
     "locations": [
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Arcanine Doll Dream Island (Natural)",
       "Take photo  and 3D print, or Magnet Rise and hold Y"
     ],
@@ -17175,7 +17175,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -17205,7 +17205,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -17235,7 +17235,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -17265,7 +17265,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -17295,7 +17295,7 @@
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -17323,7 +17323,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dry-leppa-tree.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Take photo  and 3D print, or Magnet Rise and hold Y"
     ],
@@ -18261,7 +18261,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dry-tall-grass.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -18376,7 +18376,7 @@
       "Rocky Ridges (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -18404,7 +18404,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dry-vine.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -19036,7 +19036,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wildflowers-orange.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Each player one of four different colours as standard",
       "Daily Shop - Others"
@@ -19061,7 +19061,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wildflowers-purple.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Each player one of four different colours as standard",
       "Daily Shop - Others"
@@ -19086,7 +19086,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wildflowers-red.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Each player one of four different colours as standard",
       "Daily Shop - Others"
@@ -19111,7 +19111,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/wildflowers-blue.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Each player one of four different colours as standard",
       "Daily Shop - Others"
@@ -20372,7 +20372,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dry-wildflowers.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -20484,7 +20484,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dry-green-shoots.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Take photo  and 3D print, or Magnet Rise and hold Y"
     ],
     "craftingRecipe": null,
@@ -20693,7 +20693,7 @@
       "Bleak Beach (Original)",
       "Rocky Ridges (Original)",
       "Sparkling Skylands (Original)",
-      "Palette Town (Original)",
+      "Pallet Town (Original)",
       "Pikachu Doll Dream Island (Original)",
       "Eevee Doll Dream Island (Original)",
       "Arcanine Doll Dream Island (Original)",
@@ -24860,7 +24860,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/aged-stone-wall.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Arcanine Doll Dream Island (Natural)",
       "Freezing Chambers kit (Build Kit)",
       "Craft from recipe"
@@ -24892,7 +24892,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/patterned-aged-stone-wall.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Arcanine Doll Dream Island (Natural)",
       "Altar of Flame kit (Build Kit)",
       "Craft from recipe"
@@ -28195,7 +28195,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/field-grass.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Relaxing park kit (Build Kit)",
       "Fountain plaza kit (Build Kit)"
     ],
@@ -28288,7 +28288,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/ordinary-soil.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -28404,7 +28404,7 @@
     "locations": [
       "Withered Wastelands (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)"
+      "Pallet Town (Natural)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -28426,7 +28426,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/beach-sand.png",
     "locations": [
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -28475,7 +28475,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/bumpy-beach-sand.png",
     "locations": [
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -28566,7 +28566,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/cliff-rock.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -28589,7 +28589,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/spotted-cliff-rock.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)"
     ],
     "craftingRecipe": null,
@@ -28749,7 +28749,7 @@
     "locations": [
       "Withered Wastelands (Natural)",
       "Bleak Beach (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Clefairy Doll Dream Island (Natural)",
       "Arcanine Doll Dream Island (Natural)"
     ],
@@ -28863,7 +28863,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/black-rock.png",
     "locations": [
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
       "Arcanine Doll Dream Island (Natural)"
@@ -28914,7 +28914,7 @@
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
       "Dragonite Doll Dream Island (Natural)"
@@ -29235,7 +29235,7 @@
     "locations": [
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)"
+      "Pallet Town (Natural)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -29258,7 +29258,7 @@
     "locations": [
       "Withered Wastelands (Natural)",
       "Rocky Ridges (Natural)",
-      "Palette Town (Natural)"
+      "Pallet Town (Natural)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -29306,7 +29306,7 @@
       "Bleak Beach (Natural)",
       "Rocky Ridges (Natural)",
       "Sparkling Skylands (Natural)",
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
@@ -29418,7 +29418,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/ice.png",
     "locations": [
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Eevee Doll Dream Island (Natural)",
       "Clefairy Doll Dream Island (Natural)",
       "Freezing Chambers kit (Build Kit)"
@@ -29756,7 +29756,7 @@
     "tag": null,
     "imageUrl": "https://cdn.pokopiapi.com/images/items/dry-field-grass.png",
     "locations": [
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Take photo  and 3D print, or Magnet Rise and hold Y"
     ],
     "craftingRecipe": null,
@@ -29838,7 +29838,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/barren-ordinary-soil.png",
     "locations": [
       "Withered Wastelands (Natural)",
-      "Palette Town (Natural)"
+      "Pallet Town (Natural)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -30942,7 +30942,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/fountain-plaza-kit.png",
     "locations": [
       "Fountain plaza kit (Build Kit)",
-      "Shop - Unlocked at Palette Town Lv. 8",
+      "Shop - Unlocked at Pallet Town Lv. 8",
       "Shop - Unlocked at Cloud Island Lv. 4",
       "Reach Rank 8 in Sparkling Skylands and put in shop"
     ],
@@ -30967,7 +30967,7 @@
     "locations": [
       "Altar of Flame kit (Build Kit)",
       "Shop - Unlocked at Cloud Island Lv. 8",
-      "Palette Town"
+      "Pallet Town"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -30990,7 +30990,7 @@
     "locations": [
       "Abandoned Power Plant kit (Build Kit)",
       "Shop - Unlocked at Cloud Island Lv. 7",
-      "Palette Town"
+      "Pallet Town"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -31013,7 +31013,7 @@
     "locations": [
       "Freezing Chambers kit (Build Kit)",
       "Shop - Unlocked at Cloud Island Lv. 6",
-      "Palette Town"
+      "Pallet Town"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -36572,7 +36572,7 @@
       "Withered Wastelands (Original)",
       "Bleak Beach (Original)",
       "Rocky Ridges (Original)",
-      "Palette Town (Original)",
+      "Pallet Town (Original)",
       "Craft from recipe"
     ],
     "craftingRecipe": [
@@ -37606,7 +37606,7 @@
       "Withered Wastelands (Original)",
       "Bleak Beach (Original)",
       "Rocky Ridges (Original)",
-      "Palette Town (Original)",
+      "Pallet Town (Original)",
       "Appraise from a Relic"
     ],
     "craftingRecipe": null,
@@ -37652,7 +37652,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/skull-fossil-other.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37674,7 +37674,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/armor-fossil-other.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37696,7 +37696,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/jaw-fossil-other.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37718,7 +37718,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/sail-fossil-other.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37743,7 +37743,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37768,7 +37768,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37793,7 +37793,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37818,7 +37818,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37843,7 +37843,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37865,7 +37865,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/headbutt-fossil-head-other.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37887,7 +37887,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/headbutt-fossil-body-other.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37909,7 +37909,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/headbutt-fossil-tail-other.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37931,7 +37931,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/shield-fossil-head-other.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37953,7 +37953,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/shield-fossil-body-other.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37975,7 +37975,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/shield-fossil-tail-other.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -37997,7 +37997,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-head-other.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38019,7 +38019,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-body-other.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38041,7 +38041,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-legs-other.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38063,7 +38063,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-tail-other.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38085,7 +38085,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/tundra-fossil-head-other.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38107,7 +38107,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/tundra-fossil-body-other.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38129,7 +38129,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/tundra-fossil-tail-other.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -38823,7 +38823,7 @@
     "tag": "",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/mysterious-pedestal-lost-relics-l.png",
     "locations": [
-      "Palette Town (Natural)",
+      "Pallet Town (Natural)",
       "Pikachu Doll Dream Island (Original)",
       "Eevee Doll Dream Island (Original)",
       "Arcanine Doll Dream Island (Original)",
@@ -39435,7 +39435,7 @@
     "tag": "Toy",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/fishing-rod-lost-relics-l.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 3",
+      "Shop - Unlocked at Pallet Town Lv. 3",
       "Shop - Unlocked at Cloud Island Lv. 3",
       "Appraise from a Relic",
       "In glowing terrain"
@@ -39482,7 +39482,7 @@
     "tag": "Toy",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/photo-cutout-board-lost-relics-l.png",
     "locations": [
-      "Shop - Unlocked at Palette Town Lv. 9",
+      "Shop - Unlocked at Pallet Town Lv. 9",
       "Shop - Unlocked at Cloud Island Lv. 9",
       "Appraise from a Relic",
       "In glowing terrain"
@@ -39729,7 +39729,7 @@
       "Withered Wastelands (Original)",
       "Bleak Beach (Original)",
       "Rocky Ridges (Original)",
-      "Palette Town (Original)",
+      "Pallet Town (Original)",
       "Appraise from a Relic"
     ],
     "craftingRecipe": null,
@@ -40787,7 +40787,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/skull-fossil-fossils.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40809,7 +40809,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/armor-fossil-fossils.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40831,7 +40831,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/jaw-fossil-fossils.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40853,7 +40853,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/sail-fossil-fossils.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40878,7 +40878,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40903,7 +40903,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40928,7 +40928,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40953,7 +40953,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -40978,7 +40978,7 @@
       "Bleak Beach (Treasure)",
       "Rocky Ridges (Treasure)",
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41000,7 +41000,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/headbutt-fossil-head-fossils.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41022,7 +41022,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/headbutt-fossil-body-fossils.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41044,7 +41044,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/headbutt-fossil-tail-fossils.png",
     "locations": [
       "Sparkling Skylands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41066,7 +41066,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/shield-fossil-head-fossils.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41088,7 +41088,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/shield-fossil-body-fossils.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41110,7 +41110,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/shield-fossil-tail-fossils.png",
     "locations": [
       "Withered Wastelands (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41132,7 +41132,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-head-fossils.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41154,7 +41154,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-body-fossils.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41176,7 +41176,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-legs-fossils.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41198,7 +41198,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/despot-fossil-tail-fossils.png",
     "locations": [
       "Rocky Ridges (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41220,7 +41220,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/tundra-fossil-head-fossils.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41242,7 +41242,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/tundra-fossil-body-fossils.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
@@ -41264,7 +41264,7 @@
     "imageUrl": "https://cdn.pokopiapi.com/images/items/tundra-fossil-tail-fossils.png",
     "locations": [
       "Bleak Beach (Treasure)",
-      "Palette Town (Treasure)"
+      "Pallet Town (Treasure)"
     ],
     "craftingRecipe": null,
     "recipeStatus": "none",
