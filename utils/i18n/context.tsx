@@ -35,6 +35,7 @@ interface I18nContextType {
   getItemDisplayName: (item?: Item | null) => string;
   getItemCategoryDisplayName: (category?: string | null) => string;
   getHabitatDisplayName: (habitat?: Habitat | null) => string;
+  getHabitatDescription: (habitat?: Habitat | null) => string;
   getLocationDisplayName: (location?: string | null) => string;
   getRequirementDisplayName: (name?: string | null) => string;
   getSpecialityDisplayName: (speciality?: string | null) => string;
@@ -63,6 +64,7 @@ const I18nContext = createContext<I18nContextType>({
   getItemDisplayName: (i) => i?.name || "",
   getItemCategoryDisplayName: (c) => c || "",
   getHabitatDisplayName: (h) => h?.name || "",
+  getHabitatDescription: (h) => h?.description || "",
   getLocationDisplayName: (l) => l || "",
   getRequirementDisplayName: (r) => r || "",
   getSpecialityDisplayName: (s) => s || "",
@@ -187,6 +189,26 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
   };
 
+  const getHabitatDescription = (habitat?: Habitat | null): string => {
+    if (!habitat) return "";
+    if (habitat.descriptions) {
+      if (locale === "ko" && habitat.descriptions.ko) return habitat.descriptions.ko;
+      if (locale === "en" && habitat.descriptions.en) return habitat.descriptions.en;
+      if (locale === "ja" && habitat.descriptions.ja) return habitat.descriptions.ja;
+      if (locale === "zh" && habitat.descriptions.zh) return habitat.descriptions.zh;
+      return (
+        habitat.descriptions[locale] ||
+        habitat.descriptions.ko ||
+        habitat.descriptions.en ||
+        habitat.descriptions.zh ||
+        habitat.description ||
+        ""
+      );
+    }
+    if (locale === "ko" && habitat.koreanDescription) return habitat.koreanDescription;
+    return habitat.description || "";
+  };
+
   const getLocationDisplayName = (location?: string | null): string => {
     if (!location) return "";
     const match = LOCATION_TRANSLATIONS[location];
@@ -250,6 +272,7 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         getItemDisplayName,
         getItemCategoryDisplayName,
         getHabitatDisplayName,
+        getHabitatDescription,
         getLocationDisplayName,
         getRequirementDisplayName,
         getSpecialityDisplayName,

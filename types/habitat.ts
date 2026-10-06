@@ -8,6 +8,13 @@ export interface Habitat {
   english: string;
   korean?: string;
   description: string;
+  koreanDescription?: string;
+  descriptions?: {
+    zh?: string;
+    en?: string;
+    ko?: string;
+    ja?: string;
+  };
   detail: {
     name: string;
     count: number;

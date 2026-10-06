@@ -12,7 +12,7 @@ interface IProps {
 }
 
 export const HabitatHeader: FC<IProps> = ({ habitat }) => {
-  const { getHabitatDisplayName, t } = useI18n();
+  const { getHabitatDisplayName, getHabitatDescription, t } = useI18n();
 
   const displayName = getHabitatDisplayName(habitat);
 
@@ -29,7 +29,7 @@ export const HabitatHeader: FC<IProps> = ({ habitat }) => {
         />
       </div>
       <h1>{displayName}</h1>
-      <div className="description">{habitat.description || "—"}</div>
+      <div className="description">{getHabitatDescription(habitat) || "—"}</div>
     </section>
   );
 };

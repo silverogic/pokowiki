@@ -46,7 +46,14 @@
         "location": "全部"
       }
     ],
-    "korean": "녹색 풀숲"
+    "korean": "녹색 풀숲",
+    "koreanDescription": "녹색 풀 4개가 모여 이룬 풀숲. 작은 포켓몬이 몸을 숨기기에 안성맞춤이다.",
+    "descriptions": {
+      "zh": "4块紧挨的绿色草组成的草丛。正适合小型宝可梦藏身。",
+      "en": "A patch of tall grass formed by four adjacent clumps of green grass. A perfect hiding spot for small Pokémon.",
+      "ko": "녹색 풀 4개가 모여 이룬 풀숲. 작은 포켓몬이 몸을 숨기기에 안성맞춤이다.",
+      "ja": "4つの緑の草が寄り添ってできた草むら。小さなポケモンがかくれるのにぴったり。"
+    }
   },
   {
     "id": 2,
@@ -99,7 +106,14 @@
         "location": "全部"
       }
     ],
-    "korean": "나무 그늘 풀숲"
+    "korean": "나무 그늘 풀숲",
+    "koreanDescription": "나무 그늘 아래 자리한 풀숲으로 낮에도 시원하다. 포켓몬이 찾아와 잠시 쉬어 갈지도 모른다.",
+    "descriptions": {
+      "zh": "树荫下的草丛，白天也很凉爽。宝可梦说不定会过来休息片刻。",
+      "en": "Tall grass nestled under tree shade that stays cool even during the day. Pokémon might stop by for a quick rest.",
+      "ko": "나무 그늘 아래 자리한 풀숲으로 낮에도 시원하다. 포켓몬이 찾아와 잠시 쉬어 갈지도 모른다.",
+      "ja": "木かげにある草むらは、昼間でもひんやり涼しい。ポケモンがひと休みしにやってくるかも。"
+    }
   },
   {
     "id": 3,
@@ -137,7 +151,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바위 그늘 풀숲"
+    "korean": "바위 그늘 풀숲",
+    "koreanDescription": "거대한 바위 그늘에 자리 잡은 풀숲. 숨바꼭질하기에 안성맞춤이다.",
+    "descriptions": {
+      "zh": "巨大岩石阴影里的草丛。非常适合捉迷藏。",
+      "en": "Tall grass hidden in the shadow of a huge boulder. Ideal for a game of hide-and-seek.",
+      "ko": "거대한 바위 그늘에 자리 잡은 풀숲. 숨바꼭질하기에 안성맞춤이다.",
+      "ja": "巨大な岩の影にある草むら。かくれんぼをするのにぴったり。"
+    }
   },
   {
     "id": 4,
@@ -185,7 +206,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 풀숲"
+    "korean": "촉촉한 풀숲",
+    "koreanDescription": "물가에 자라난 작은 풀숲. 언제나 물기를 머금어 촉촉하고 생기가 넘친다.",
+    "descriptions": {
+      "zh": "生长在水边的小草丛。总是水灵灵的，生机勃勃。",
+      "en": "A small patch of tall grass growing by the water. Always lush, dewy, and full of vitality.",
+      "ko": "물가에 자라난 작은 풀숲. 언제나 물기를 머금어 촉촉하고 생기가 넘친다.",
+      "ja": "水辺に生える小さな草むら。いつもみずみずしく、元気いっぱい。"
+    }
   },
   {
     "id": 5,
@@ -223,7 +251,14 @@
         "location": "全部"
       }
     ],
-    "korean": "해변가 풀숲"
+    "korean": "해변가 풀숲",
+    "koreanDescription": "염분이 섞인 물가에서도 꿋꿋하게 자라나는 풀숲. 해변의 무더위를 부드럽게 식혀 준다.",
+    "descriptions": {
+      "zh": "在含有盐分的水边也能预强生长的草丛。能缓解海边的炎热。",
+      "en": "Resilient tall grass that thrives even in salty waters, easing the heat of the seaside.",
+      "ko": "염분이 섞인 물가에서도 꿋꿋하게 자라나는 풀숲. 해변의 무더위를 부드럽게 식혀 준다.",
+      "ja": "塩分を含んだ水辺でもたくましく育つ草むら。海辺の暑さを和らげてくれる。"
+    }
   },
   {
     "id": 6,
@@ -266,7 +301,14 @@
         "location": "全部"
       }
     ],
-    "korean": "언덕 풀숲"
+    "korean": "언덕 풀숲",
+    "koreanDescription": "높은 지대에 자라나 매우 시원하다. 상쾌한 바람이 풀숲 깊은 곳까지 불어온다.",
+    "descriptions": {
+      "zh": "生长在高处，环境十分凉爽。一阵阵风直吹进草丛深处。",
+      "en": "Tall grass growing in elevated terrain where it stays crisp and cool. Gentle breezes sweep deep into the grass.",
+      "ko": "높은 지대에 자라나 매우 시원하다. 상쾌한 바람이 풀숲 깊은 곳까지 불어온다.",
+      "ja": "高台に生えていて、とても涼しい環境。草むらの奥深くまで心地よい風が吹き抜ける。"
+    }
   },
   {
     "id": 7,
@@ -299,7 +341,14 @@
         "location": "全部"
       }
     ],
-    "korean": "햇살 비치는 풀숲"
+    "korean": "햇살 비치는 풀숲",
+    "koreanDescription": "은은한 빛이 비쳐 드는 풀숲. 부드러운 불빛에 이끌려 포켓몬이 찾아온다.",
+    "descriptions": {
+      "zh": "微光照射下的草丛。柔和的光线会引来宝可梦。",
+      "en": "Tall grass bathed in a faint glow. The soft light draws Pokémon in.",
+      "ko": "은은한 빛이 비쳐 드는 풀숲. 부드러운 불빛에 이끌려 포켓몬이 찾아온다.",
+      "ja": "ほのかな明かりに照らされた草むら。やさしい光に誘われてポケモンがやってくる。"
+    }
   },
   {
     "id": 8,
@@ -348,7 +397,14 @@
         "location": "全部"
       }
     ],
-    "korean": "아름다운 꽃밭"
+    "korean": "아름다운 꽃밭",
+    "koreanDescription": "초록 잔디 위에 핀 꽃들로 이루어진 아름다운 꽃밭. 은은하고 달콤한 향기가 감돈다.",
+    "descriptions": {
+      "zh": "缘草地的花组成的美丽花田。弥漫着一股淡淡的甜香。",
+      "en": "A beautiful flower bed blossoming over lush green grass, wafting a subtle, sweet scent.",
+      "ko": "초록 잔디 위에 핀 꽃들로 이루어진 아름다운 꽃밭. 은은하고 달콤한 향기가 감돈다.",
+      "ja": "緑の草地に咲く花々でできた美しい花畑。ほのかに甘い香りがただよっている。"
+    }
   },
   {
     "id": 9,
@@ -386,7 +442,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "나무 그늘 꽃밭"
+    "korean": "나무 그늘 꽃밭",
+    "koreanDescription": "나무 그늘 아래에서도 아름답게 피어난 꽃들. 촉촉한 꽃향기에 이끌려 포켓몬이 찾아온다.",
+    "descriptions": {
+      "zh": "在树荫下依然美丽绽放的花朵。湿润的芬芳会引来宝可梦。",
+      "en": "Flowers that bloom beautifully even in the shade of trees. Pokémon are drawn to their moist fragrance.",
+      "ko": "나무 그늘 아래에서도 아름답게 피어난 꽃들. 촉촉한 꽃향기에 이끌려 포켓몬이 찾아온다.",
+      "ja": "木かげでも美しく咲き誇る花々。しっとりとした香りに誘われてポケモンが集まってくる。"
+    }
   },
   {
     "id": 10,
@@ -419,7 +482,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 꽃밭"
+    "korean": "촉촉한 꽃밭",
+    "koreanDescription": "물가에 활짝 핀 꽃밭. 맑은 물줄기와 향긋한 꽃내음에 포켓몬이 이끌려 올 듯하다.",
+    "descriptions": {
+      "zh": "水边盛开的花田。清澈的水流和花香似乎会引来宝可梦。",
+      "en": "A flower bed flourishing beside the water. Clear streams and floral scents seem sure to attract Pokémon.",
+      "ko": "물가에 활짝 핀 꽃밭. 맑은 물줄기와 향긋한 꽃내음에 포켓몬이 이끌려 올 듯하다.",
+      "ja": "水辺に咲き誇る花畑。清らかな水の流れと花の香りに、ポケモンが引き寄せられそう。"
+    }
   },
   {
     "id": 11,
@@ -453,7 +523,14 @@
         "location": "全部"
       }
     ],
-    "korean": "꽃으로 가득한 들판"
+    "korean": "꽃으로 가득한 들판",
+    "koreanDescription": "드넓게 펼쳐진 꽃밭. 그윽하고 풍성한 꽃향기가 주변을 가득 채운다.",
+    "descriptions": {
+      "zh": "广阔的花田。馥郁的芬芳弥漫四周。",
+      "en": "A vast expanse of blooming flowers, filling the entire area with a rich, sweet fragrance.",
+      "ko": "드넓게 펼쳐진 꽃밭. 그윽하고 풍성한 꽃향기가 주변을 가득 채운다.",
+      "ja": "見渡す限りに広がる花畑。芳しい香りがあたり一面に満ちている。"
+    }
   },
   {
     "id": 12,
@@ -486,7 +563,14 @@
         "location": "全部"
       }
     ],
-    "korean": "언덕 꽃밭"
+    "korean": "언덕 꽃밭",
+    "koreanDescription": "높은 언덕에서 피어난 꽃들. 달콤한 꽃향기가 바람을 타고 은은하게 퍼져 나간다.",
+    "descriptions": {
+      "zh": "在高处盛开的繁花。甜美的花香随风飘散。",
+      "en": "Abundant flowers blossoming atop high ground, sending their sweet fragrance drifting on the wind.",
+      "ko": "높은 언덕에서 피어난 꽃들. 달콤한 꽃향기가 바람을 타고 은은하게 퍼져 나간다.",
+      "ja": "高台に咲き誇る色とりどりの花々。甘い花の香りが風に乗って広がっていく。"
+    }
   },
   {
     "id": 13,
@@ -519,7 +603,14 @@
         "location": "全部"
       }
     ],
-    "korean": "꽃으로 둘러싸인 묘지"
+    "korean": "꽃으로 둘러싸인 묘지",
+    "koreanDescription": "포근하고 화사한 분위기 속에서 묘지에 잠든 포켓몬도 기뻐할 것만 같다.",
+    "descriptions": {
+      "zh": "柔和而华美的氛围，睡在墓中的宝可梦也会开心吧。",
+      "en": "Surrounded by a gentle and graceful ambiance, even Pokémon sleeping in the grave will surely smile.",
+      "ko": "포근하고 화사한 분위기 속에서 묘지에 잠든 포켓몬도 기뻐할 것만 같다.",
+      "ja": "やさしく華やかな雰囲気に包まれ、お墓で眠るポケモンもきっと喜んでくれるはず。"
+    }
   },
   {
     "id": 14,
@@ -552,7 +643,14 @@
         "location": "全部"
       }
     ],
-    "korean": "플라워 가든"
+    "korean": "플라워 가든",
+    "koreanDescription": "꽃이 만발한 꽃밭에 꽃울타리를 두르니 순식간에 아기자기한 작은 정원이 되었다.",
+    "descriptions": {
+      "zh": "为繁花盛开的花日加上花篱，一下就成了一个小庭园。",
+      "en": "Frame a blossoming flower bed with a floral hedge, and it instantly transforms into a charming little garden.",
+      "ko": "꽃이 만발한 꽃밭에 꽃울타리를 두르니 순식간에 아기자기한 작은 정원이 되었다.",
+      "ja": "花いっぱいの花畑に生け垣を添えれば、あっという間に小さな庭園のできあがり。"
+    }
   },
   {
     "id": 15,
@@ -586,7 +684,14 @@
         "location": "全部"
       }
     ],
-    "korean": "신선한 야채밭"
+    "korean": "신선한 야채밭",
+    "koreanDescription": "넓은 밭에 신선한 채소가 자라고 있다. 농사일을 좋아하는 포켓몬이 찾아올지도 모른다.",
+    "descriptions": {
+      "zh": "广阔的田里种植着蔬菜。喜欢农活的宝可梦可能会前来。",
+      "en": "A sprawling field planted with fresh vegetables. Pokémon who enjoy farming might come over to help.",
+      "ko": "넓은 밭에 신선한 채소가 자라고 있다. 농사일을 좋아하는 포켓몬이 찾아올지도 모른다.",
+      "ja": "広々とした畑で育つ新鮮な野菜。畑仕事が好きなポケモンがやってくるかもしれない。"
+    }
   },
   {
     "id": 16,
@@ -610,7 +715,14 @@
         "location": "全部"
       }
     ],
-    "korean": "풍성한 밭"
+    "korean": "풍성한 밭",
+    "koreanDescription": "모닥불 3개가 덥힌 따뜻한 공기가 하늘 높이 여유롭게 피어오른다.",
+    "descriptions": {
+      "zh": "3个火维加热后的空气悠然飘向高空。",
+      "en": "Air warmed by three campfires drifts leisurely up toward the high sky.",
+      "ko": "모닥불 3개가 덥힌 따뜻한 공기가 하늘 높이 여유롭게 피어오른다.",
+      "ja": "3つのかがり火で暖められた空気が、空高くのんびりと昇っていく。"
+    }
   },
   {
     "id": 17,
@@ -642,7 +754,14 @@
         "location": "全部"
       }
     ],
-    "korean": "밭 옆의 휴식처"
+    "korean": "밭 옆의 휴식처",
+    "koreanDescription": "자연 속에 녹아든 캠핑 세트. 포켓몬들도 모닥불 앞에 모여 몸을 녹인다.",
+    "descriptions": {
+      "zh": "融入自然的露营组合。宝可梦们也会在火堆前取暖。",
+      "en": "A campsite set that blends right into nature. Pokémon also gather around the fire to keep warm.",
+      "ko": "자연 속에 녹아든 캠핑 세트. 포켓몬들도 모닥불 앞에 모여 몸을 녹인다.",
+      "ja": "大自然に溶け込むキャンプセット。ポケモンたちも火のそばで温まる。"
+    }
   },
   {
     "id": 18,
@@ -674,7 +793,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바위 너머의 숲속"
+    "korean": "바위 너머의 숲속",
+    "koreanDescription": "시원하게 쏟아지는 폭포수가 몸과 마음을 북돋아 준다. 단련을 좋아하는 포켓몬이 찾아올지도 모른다.",
+    "descriptions": {
+      "zh": "瀑布的冲打会让身心振奋。喜欧锻炼的宝可梦可能会来。",
+      "en": "The rushing cascade of the waterfall invigorates body and mind. Pokémon who love training might drop by.",
+      "ko": "시원하게 쏟아지는 폭포수가 몸과 마음을 북돋아 준다. 단련을 좋아하는 포켓몬이 찾아올지도 모른다.",
+      "ja": "滝に打たれれば身も心も引き締まる。トレーニング好きなポケモンがやってくるかも。"
+    }
   },
   {
     "id": 19,
@@ -706,7 +832,14 @@
         "location": "干巴巴荒野的城镇"
       }
     ],
-    "korean": "작은 캠프장"
+    "korean": "작은 캠프장",
+    "koreanDescription": "테이블과 의자에 접시까지 차려진 곳. 배가 고픈 포켓몬이 찾아올지도 모른다.",
+    "descriptions": {
+      "zh": "椅子和桌子，再摆上一个盘子。肚子饿的宝可梦说不定会过来。",
+      "en": "A table and chairs set with an appetizing plate. Hungry Pokémon might just come wandering over.",
+      "ko": "테이블과 의자에 접시까지 차려진 곳. 배가 고픈 포켓몬이 찾아올지도 모른다.",
+      "ja": "テーブルとイスに、お皿を並べて。お腹をすかせたポケモンがやってくるかもしれない。"
+    }
   },
   {
     "id": 20,
@@ -743,7 +876,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "수제 부엌"
+    "korean": "수제 부엌",
+    "koreanDescription": "테이블 위에 피크닉 바구니를 올려놓으니 마치 소풍을 나온 듯한 기분이 든다.",
+    "descriptions": {
+      "zh": "在桌上放个野餐篮，感觉就像在野餐样。",
+      "en": "Place a picnic basket on the table and you instantly feel like you're out on a picnic.",
+      "ko": "테이블 위에 피크닉 바구니를 올려놓으니 마치 소풍을 나온 듯한 기분이 든다.",
+      "ja": "テーブルの上にピクニックバスケットを置けば、すっかりピクニック気分。"
+    }
   },
   {
     "id": 21,
@@ -780,7 +920,14 @@
         "location": "全部"
       }
     ],
-    "korean": "조용한 공부방"
+    "korean": "조용한 공부방",
+    "koreanDescription": "테이블 위에 놓인 꽃병. 포켓몬도 의자에 앉아 느긋하게 꽃을 감상할지도 모른다.",
+    "descriptions": {
+      "zh": "桌上摆着花瓶。宝可梦或许也会坐在椅子上赏花。",
+      "en": "A lovely vase rests on the table. Pokémon might sit in the chairs to admire the flowers.",
+      "ko": "테이블 위에 놓인 꽃병. 포켓몬도 의자에 앉아 느긋하게 꽃을 감상할지도 모른다.",
+      "ja": "テーブルの上に飾られた花瓶。ポケモンもイスに座って花をながめるかもしれない。"
+    }
   },
   {
     "id": 22,
@@ -818,7 +965,14 @@
         "location": "云岛"
       }
     ],
-    "korean": "햇살 드는 거실"
+    "korean": "햇살 드는 거실",
+    "koreanDescription": "꽃울타리 곁에 놓인 벤치. 포켓몬도 자연의 숨결을 느끼며 잠시 쉬어 갈 수 있다.",
+    "descriptions": {
+      "zh": "花篱旁的长椅。宝可梦也能感受着自然稍作歇息。",
+      "en": "A bench nestled beside a flower hedge where Pokémon can relax and soak in the natural surroundings.",
+      "ko": "꽃울타리 곁에 놓인 벤치. 포켓몬도 자연의 숨결을 느끼며 잠시 쉬어 갈 수 있다.",
+      "ja": "生け垣のそばに置かれたベンチ。ポケモンも自然を感じながらひと息つける。"
+    }
   },
   {
     "id": 23,
@@ -851,7 +1005,14 @@
         "location": "全部"
       }
     ],
-    "korean": "따뜻한 침실"
+    "korean": "따뜻한 침실",
+    "koreanDescription": "은은한 불빛이 비추는 의자. 포켓몬이 따스한 빛에 이끌려 다가올지도 모른다.",
+    "descriptions": {
+      "zh": "柔和灯光下的椅子。宝可梦说不定会被光亮吸引过来。",
+      "en": "Chairs bathed in gentle lamplight. Pokémon might be drawn closer by the comforting glow.",
+      "ko": "은은한 불빛이 비추는 의자. 포켓몬이 따스한 빛에 이끌려 다가올지도 모른다.",
+      "ja": "やさしい明かりに照らされたイス。その光に誘われて、ポケモンがやってくるかも。"
+    }
   },
   {
     "id": 24,
@@ -879,7 +1040,14 @@
         "location": "全部"
       }
     ],
-    "korean": "청결한 세탁실"
+    "korean": "청결한 세탁실",
+    "koreanDescription": "격렬한 훈련을 마친 후, 포켓몬들도 의자에 걸터앉아 숨을 고른다.",
+    "descriptions": {
+      "zh": "在激烈的训练后，宝可梦们也会坐在椅子上休息。",
+      "en": "After an intense training session, Pokémon can take a seat and catch their breath.",
+      "ko": "격렬한 훈련을 마친 후, 포켓몬들도 의자에 걸터앉아 숨을 고른다.",
+      "ja": "激しいトレーニングの後には、ポケモンたちもイスに座ってひと休み。"
+    }
   },
   {
     "id": 25,
@@ -911,7 +1079,14 @@
         "location": "全部"
       }
     ],
-    "korean": "빛나는 세면장"
+    "korean": "빛나는 세면장",
+    "koreanDescription": "상처를 입었을 때는 즉시 응급처치가 필요하다. 치유에 능숙한 포켓몬이 도우러 올지도 모른다.",
+    "descriptions": {
+      "zh": "受伤时要立即进行应急处理。擅长疗愈的宝可梦说不定会来帮忙。",
+      "en": "Immediate first aid is vital when injuries strike. Pokémon skilled in healing might come over to help.",
+      "ko": "상처를 입었을 때는 즉시 응급처치가 필요하다. 치유에 능숙한 포켓몬이 도우러 올지도 모른다.",
+      "ja": "ケガをしたときはすぐに手当てを。癒やしが得意なポケモンが手伝いに来てくれるかもしれない。"
+    }
   },
   {
     "id": 26,
@@ -943,7 +1118,14 @@
         "location": "全部"
       }
     ],
-    "korean": "체육관 구급실"
+    "korean": "체육관 구급실",
+    "koreanDescription": "운동하다 다쳤을 때 포켓몬들도 구급상자를 이용해 응급처치를 한다.",
+    "descriptions": {
+      "zh": "如果运动时受伤了，宝可梦们也会用急救箱进行应急处理。",
+      "en": "If any bumps happen while exercising, Pokémon can treat their scrapes with the first-aid kit.",
+      "ko": "운동하다 다쳤을 때 포켓몬들도 구급상자를 이용해 응급처치를 한다.",
+      "ja": "運動中にケガをしても、ポケモンたちは救急箱を使って応急処置ができる。"
+    }
   },
   {
     "id": 27,
@@ -976,7 +1158,14 @@
         "location": "全部"
       }
     ],
-    "korean": "길 안내 표지판"
+    "korean": "길 안내 표지판",
+    "koreanDescription": "길 한가운데에 홀로 서 있는 표지판. 포켓몬도 화살표가 가리키는 방향을 따라 걸어갈지도 모른다.",
+    "descriptions": {
+      "zh": "孤零零地立在路中央的牌子。宝可梦或许会朝着箭头方向前进。",
+      "en": "A sign standing all alone in the middle of the path. Pokémon might follow the direction the arrow points.",
+      "ko": "길 한가운데에 홀로 서 있는 표지판. 포켓몬도 화살표가 가리키는 방향을 따라 걸어갈지도 모른다.",
+      "ja": "道の真ん中にぽつんと立つ看板。ポケモンも矢印の差すほうへ進んでいくかも。"
+    }
   },
   {
     "id": 28,
@@ -1014,7 +1203,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "커다란 짐 싣기"
+    "korean": "커다란 짐 싣기",
+    "koreanDescription": "커다란 나무 상자 2개를 거뜬히 실을 수 있는 널찍한 대용량 짐마차.",
+    "descriptions": {
+      "zh": "宽宽的大容量货车，可以装下2个大木箱。",
+      "en": "A wide, high-capacity luggage cart capable of carrying two large wooden crates.",
+      "ko": "커다란 나무 상자 2개를 거뜬히 실을 수 있는 널찍한 대용량 짐마차.",
+      "ja": "大きな木箱を2つも積める、広々とした大容量の荷車。"
+    }
   },
   {
     "id": 29,
@@ -1060,7 +1256,14 @@
         "location": "全部"
       }
     ],
-    "korean": "나무꾼의 작업장"
+    "korean": "나무꾼의 작업장",
+    "koreanDescription": "짐마차로 실어 온 통나무를 그루터기에 올려 장작을 팬다. 지쳤다면 의자에 앉아 잠시 쉬어 가자.",
+    "descriptions": {
+      "zh": "把用货车运来的圆木放在木桩上，劈成柴火。累了的话，就坐在椅子上休息一下吧。",
+      "en": "Place logs brought by cart onto stumps to chop into firewood. When you're tired, sit down on a chair and rest.",
+      "ko": "짐마차로 실어 온 통나무를 그루터기에 올려 장작을 팬다. 지쳤다면 의자에 앉아 잠시 쉬어 가자.",
+      "ja": "荷車で運んできた丸太を切り株に置き、薪を割る。疲れたらイスに座ってひと休みしよう。"
+    }
   },
   {
     "id": 30,
@@ -1103,7 +1306,14 @@
         "location": "全部"
       }
     ],
-    "korean": "인형과 꿀잠"
+    "korean": "인형과 꿀잠",
+    "koreanDescription": "귀여운 인형이 놓인 침대. 작은 포켓몬도 안심하고 곤히 잠들 수 있다.",
+    "descriptions": {
+      "zh": "援着可爱布偶的床铺。小型宝可梦应该能安心入睡。",
+      "en": "A bed decorated with cute plushies where small Pokémon can drift off to sleep in peaceful comfort.",
+      "ko": "귀여운 인형이 놓인 침대. 작은 포켓몬도 안심하고 곤히 잠들 수 있다.",
+      "ja": "かわいいぬいぐるみが置かれたベッド。小さなポケモンも安心してぐっすり眠れそう。"
+    }
   },
   {
     "id": 31,
@@ -1140,7 +1350,14 @@
         "location": "全部"
       }
     ],
-    "korean": "정리정돈 수납장"
+    "korean": "정리정돈 수납장",
+    "koreanDescription": "은은한 조명에 감싸인 포근한 침대. 포켓몬들도 편안하게 잠에 빠져들 수 있다.",
+    "descriptions": {
+      "zh": "笼罩着柔和灯光的床铺。宝可梦们应该能放松地入睡。",
+      "en": "A cozy bed enveloped in soft, gentle lighting where Pokémon can unwind and sleep soundly.",
+      "ko": "은은한 조명에 감싸인 포근한 침대. 포켓몬들도 편안하게 잠에 빠져들 수 있다.",
+      "ja": "やさしい光に包まれたベッド。ポケモンたちもリラックスして心地よく眠れるはず。"
+    }
   },
   {
     "id": 32,
@@ -1177,7 +1394,14 @@
         "location": "全部"
       }
     ],
-    "korean": "작은 창고"
+    "korean": "작은 창고",
+    "koreanDescription": "고요한 묘지 앞에 촛대와 접시가 놓여 있어 어딘가 으스스한 분위기가 감돈다.",
+    "descriptions": {
+      "zh": "幽静的墓前摆着蜡烛和盘子有一点点惊悚的氛围。",
+      "en": "Candles and dishes arranged before a quiet grave, casting a subtly eerie and spooky atmosphere.",
+      "ko": "고요한 묘지 앞에 촛대와 접시가 놓여 있어 어딘가 으스스한 분위기가 감돈다.",
+      "ja": "静かなお墓の前に置かれたロウソクとお皿。ちょっぴり不気味な雰囲気がただよっている。"
+    }
   },
   {
     "id": 33,
@@ -1219,7 +1443,14 @@
         "location": "全部"
       }
     ],
-    "korean": "동화 속 침실"
+    "korean": "동화 속 침실",
+    "koreanDescription": "묘지의 초에 불을 붙이면 푸른 불꽃이 일렁이며 기괴한 분위기가 한층 짙어진다.",
+    "descriptions": {
+      "zh": "给墓地的蜡烛点上火，蓝色的火焰轻轻摇曳，诡异气氛加倍。",
+      "en": "Light the candles at the graveside and flickering blue flames appear, doubling the spooky vibes.",
+      "ko": "묘지의 초에 불을 붙이면 푸른 불꽃이 일렁이며 기괴한 분위기가 한층 짙어진다.",
+      "ja": "お墓のロウソクに火を灯すと、青い炎がゆらめいて不気味さがぐっと増す。"
+    }
   },
   {
     "id": 34,
@@ -1256,7 +1487,14 @@
         "location": "全部"
       }
     ],
-    "korean": "아이들의 놀이터"
+    "korean": "아이들의 놀이터",
+    "koreanDescription": "럭키의 따스한 보살핌 속에서 잠시 쉬어 가는 곳. 지친 몸과 마음을 편안하게 풀어 주는 치유의 공간이다.",
+    "descriptions": {
+      "zh": "在吉利蛋的看护下休息片刻。是个可以放松身心的疗愈空间。",
+      "en": "Take a restful breather under Chansey's watchful care. A soothing sanctuary where body and mind can unwind.",
+      "ko": "럭키의 따스한 보살핌 속에서 잠시 쉬어 가는 곳. 지친 몸과 마음을 편안하게 풀어 주는 치유의 공간이다.",
+      "ja": "ラッキーに見守られながらひと休み。心も体もほぐれる癒やしの空間。"
+    }
   },
   {
     "id": 35,
@@ -1293,7 +1531,14 @@
         "location": "全部"
       }
     ],
-    "korean": "휴식의 다실"
+    "korean": "휴식의 다실",
+    "koreanDescription": "버섯의 은은한 빛과 꽃병의 달콤한 향기에 이끌려 포켓몬이 다가올지도 모른다.",
+    "descriptions": {
+      "zh": "或许会有宝可梦被磨菇的光亮和花瓶的香味吸引来。",
+      "en": "Pokémon might be drawn in by the soft glow of luminous mushrooms and the fragrant blooms in the vase.",
+      "ko": "버섯의 은은한 빛과 꽃병의 달콤한 향기에 이끌려 포켓몬이 다가올지도 모른다.",
+      "ja": "キノコの明かりと花瓶の香りに誘われて、ポケモンがやってくるかもしれない。"
+    }
   },
   {
     "id": 36,
@@ -1325,7 +1570,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바쁜 조리장"
+    "korean": "바쁜 조리장",
+    "koreanDescription": "고무보트에서 신나게 물놀이를 즐기다 지쳤다면, 파라솔 그늘 아래에서 잠시 쉬어 가자.",
+    "descriptions": {
+      "zh": "如果在充气船上玩累了，就剧遮阳企下休息一下吧。",
+      "en": "If you get tired after paddling around on the inflatable raft, take a nice shady break under the parasol.",
+      "ko": "고무보트에서 신나게 물놀이를 즐기다 지쳤다면, 파라솔 그늘 아래에서 잠시 쉬어 가자.",
+      "ja": "ボートで遊んで疲れたら、パラソルの下でひと休みしよう。"
+    }
   },
   {
     "id": 37,
@@ -1353,7 +1605,14 @@
         "location": "全部"
       }
     ],
-    "korean": "신선한 과일 가게"
+    "korean": "신선한 과일 가게",
+    "koreanDescription": "바싹 마른 신비한 바위의 힘 때문에 메말라 생기를 잃어버린 풀숲.",
+    "descriptions": {
+      "zh": "因为干千的神奇岩石的力量而失去生机的草丛。",
+      "en": "Tall grass that has withered and lost its vitality under the desiccating power of a mysterious rock.",
+      "ko": "바싹 마른 신비한 바위의 힘 때문에 메말라 생기를 잃어버린 풀숲.",
+      "ja": "さらさらとした不思議な岩の力によって、すっかり枯れてしまった草むら。"
+    }
   },
   {
     "id": 38,
@@ -1389,7 +1648,14 @@
         "location": "全部"
       }
     ],
-    "korean": "숲속의 카페 테라스"
+    "korean": "숲속의 카페 테라스",
+    "koreanDescription": "거대한 기계에 전선을 연결해 보았지만, 조작해 보아도 아무런 반응이 없다…….",
+    "descriptions": {
+      "zh": "试着给巨大的机器接好电线，但操作后也没有反应……。",
+      "en": "You hooked up the cables to the gigantic machine, but operating the controls gets no response whatsoever...",
+      "ko": "거대한 기계에 전선을 연결해 보았지만, 조작해 보아도 아무런 반응이 없다…….",
+      "ja": "巨大な機械に電線をつないでみたけれど、動かしてみても何の反応もない……。"
+    }
   },
   {
     "id": 39,
@@ -1417,7 +1683,14 @@
         "location": "全部"
       }
     ],
-    "korean": "장난꾸러기의 아지트"
+    "korean": "장난꾸러기의 아지트",
+    "koreanDescription": "새 포켓몬들이 갖가지 나무열매를 쪼아 먹으며 둥지 상자에서 편히 쉴 것만 같다.",
+    "descriptions": {
+      "zh": "鸟宝可梦似乎会吃着各种树果，在巢箱里休想。",
+      "en": "Bird Pokémon seem to enjoy pecking at all kinds of berries while resting comfortably in the nest box.",
+      "ko": "새 포켓몬들이 갖가지 나무열매를 쪼아 먹으며 둥지 상자에서 편히 쉴 것만 같다.",
+      "ja": "鳥ポケモンたちが色々な木の実を食べながら、巣箱でひと休みしていそう。"
+    }
   },
   {
     "id": 40,
@@ -1453,7 +1726,14 @@
         "location": "全部"
       }
     ],
-    "korean": "작은 비밀기지"
+    "korean": "작은 비밀기지",
+    "koreanDescription": "맑은 하늘 아래 피워 올린 캠프파이어. 맛있는 음식을 가득 준비해 캠핑을 마음껏 즐겨 보자.",
+    "descriptions": {
+      "zh": "在晴空下生起营火。准者各种美食，尽情享受吧。",
+      "en": "Build a campfire beneath clear skies. Prepare a spread of delicious treats and relish the campout to the fullest.",
+      "ko": "맑은 하늘 아래 피워 올린 캠프파이어. 맛있는 음식을 가득 준비해 캠핑을 마음껏 즐겨 보자.",
+      "ja": "青空の下で焚き火をおこす。たくさんのごちそうを用意して、キャンプを思いっきり楽しもう。"
+    }
   },
   {
     "id": 41,
@@ -1481,7 +1761,14 @@
         "location": "全部"
       }
     ],
-    "korean": "숲속의 작은 집"
+    "korean": "숲속의 작은 집",
+    "koreanDescription": "음식을 담는 접시와 비를 연상시키는 물건들이 한자리에 두루 갖춰져 있다.",
+    "descriptions": {
+      "zh": "摆放食物的盘子和能联想到雨的物品，这里一应俱全。",
+      "en": "A complete spot equipped with dining plates and items that bring the pitter-patter of rain to mind.",
+      "ko": "음식을 담는 접시와 비를 연상시키는 물건들이 한자리에 두루 갖춰져 있다.",
+      "ja": "ごはんをのせるお皿と、雨を連想させるアイテムがずらりとそろった場所。"
+    }
   },
   {
     "id": 42,
@@ -1509,7 +1796,14 @@
         "location": "全部"
       }
     ],
-    "korean": "골동품 가게"
+    "korean": "골동품 가게",
+    "koreanDescription": "음식을 담는 접시와 화창한 맑은 날을 연상시키는 물건들이 한자리에 두루 갖춰져 있다.",
+    "descriptions": {
+      "zh": "摆放食物的盘子和能联想到晴天的物品，这里一应俱全。",
+      "en": "A complete spot equipped with dining plates and items that bring bright, sunny skies to mind.",
+      "ko": "음식을 담는 접시와 화창한 맑은 날을 연상시키는 물건들이 한자리에 두루 갖춰져 있다.",
+      "ja": "ごはんをのせるお皿と、晴天を連想させるアイテムがずらりとそろった場所。"
+    }
   },
   {
     "id": 43,
@@ -1541,7 +1835,14 @@
         "location": "全部"
       }
     ],
-    "korean": "한밤중의 연구실"
+    "korean": "한밤중의 연구실",
+    "koreanDescription": "얼핏 고물 더미처럼 보이지만, 박사님에게는 모두 값진 연구 대상이다.",
+    "descriptions": {
+      "zh": "看上去像一堆废品，但对博士来说都值得研究。",
+      "en": "It might look like a heap of scrap at first glance, but to the Professor, every piece is a treasure worthy of study.",
+      "ko": "얼핏 고물 더미처럼 보이지만, 박사님에게는 모두 값진 연구 대상이다.",
+      "ja": "一見ガラクタの山のように見えても、博士にとってはどれも貴重な研究対象。"
+    }
   },
   {
     "id": 44,
@@ -1583,7 +1884,14 @@
         "location": "全部"
       }
     ],
-    "korean": "연금술사의 방"
+    "korean": "연금술사의 방",
+    "koreanDescription": "원목으로 만든 가구들이 아늑하게 늘어서 있다. 마치 산장 속에 머무는 듯한 기분이 든다.",
+    "descriptions": {
+      "zh": "木材打造的家具琳琅满目。仿佛置身于山间小屋。",
+      "en": "Rustic wooden furnishings all around that exude warmth, making you feel right inside a cozy mountain lodge.",
+      "ko": "원목으로 만든 가구들이 아늑하게 늘어서 있다. 마치 산장 속에 머무는 듯한 기분이 든다.",
+      "ja": "木のぬくもりあふれる家具がずらり。まるで山小屋にいるかのような心地よさ。"
+    }
   },
   {
     "id": 45,
@@ -1619,7 +1927,14 @@
         "location": "全部"
       }
     ],
-    "korean": "천체 관측실"
+    "korean": "천체 관측실",
+    "koreanDescription": "테이블과 침대가 온통 나무열매 무늬로 가득하다. 가만히 바라보고 있으면 절로 군침이 돌 것 같다.",
+    "descriptions": {
+      "zh": "桌子和床铺都是树果图案。感觉一直盯着看肚子会饿。",
+      "en": "Tables and beds decorated all over with berry motifs. Staring at them too long might just make your tummy rumble.",
+      "ko": "테이블과 침대가 온통 나무열매 무늬로 가득하다. 가만히 바라보고 있으면 절로 군침이 돌 것 같다.",
+      "ja": "テーブルもベッドも木の実の柄がいっぱい。見つめているだけでお腹がすいてきそう。"
+    }
   },
   {
     "id": 46,
@@ -1655,7 +1970,14 @@
         "location": "全部"
       }
     ],
-    "korean": "반짝이는 보석상"
+    "korean": "반짝이는 보석상",
+    "koreanDescription": "은은한 불빛 아래 피어난 꽃을 감상하며 가든 의자에 앉아 잠시 쉬어 가자.",
+    "descriptions": {
+      "zh": "欣赏着柔和光线下的花，坐在庭园椅子上休息片刻吧。",
+      "en": "Admire the flowers basking in soft lamplight while taking a peaceful break on a garden chair.",
+      "ko": "은은한 불빛 아래 피어난 꽃을 감상하며 가든 의자에 앉아 잠시 쉬어 가자.",
+      "ja": "やわらかな光を浴びた花をながめながら、ガーデンチェアに腰かけてひと息つこう。"
+    }
   },
   {
     "id": 47,
@@ -1688,7 +2010,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "부유한 저택"
+    "korean": "부유한 저택",
+    "koreanDescription": "다른 포켓몬들이 잠자는 잠만보가 누워 있는 줄 알고 호기심에 다가올지도 모른다.",
+    "descriptions": {
+      "zh": "其他宝可梦可能会误以为有只睡觉的卡比兽而靠近过来。",
+      "en": "Other Pokémon might wander closer out of curiosity, mistaking the setup for a soundly sleeping Snorlax.",
+      "ko": "다른 포켓몬들이 잠자는 잠만보가 누워 있는 줄 알고 호기심에 다가올지도 모른다.",
+      "ja": "カビゴンがすやすや眠っていると勘違いして、ほかのポケモンが近づいてくるかも。"
+    }
   },
   {
     "id": 48,
@@ -1729,7 +2058,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "마녀의 집"
+    "korean": "마녀의 집",
+    "koreanDescription": "고풍스러운 앤틱 가구들에 둘러싸여 아늑하고 클래식한 분위기를 만끽해 보자.",
+    "descriptions": {
+      "zh": "被古董家具环绕，享受复古的气息吧。",
+      "en": "Surrounded by antique furniture, soak in the timeless nostalgia of days gone by.",
+      "ko": "고풍스러운 앤틱 가구들에 둘러싸여 아늑하고 클래식한 분위기를 만끽해 보자.",
+      "ja": "アンティーク家具に囲まれて、どこか懐かしいレトロな雰囲気を楽しもう。"
+    }
   },
   {
     "id": 49,
@@ -1765,7 +2101,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "고대 유적 발굴지"
+    "korean": "고대 유적 발굴지",
+    "koreanDescription": "온통 몬스터볼투성이인 줄 알았는데, 뜻밖에도 안락하고 쾌적한 생활 공간이 되었다.",
+    "descriptions": {
+      "zh": "本以为全是精灵球，却意外成为了舒适的生活空间。",
+      "en": "You might expect nothing but Poké Balls, yet it turns out to be a surprisingly comfy and cozy living space.",
+      "ko": "온통 몬스터볼투성이인 줄 알았는데, 뜻밖에도 안락하고 쾌적한 생활 공간이 되었다.",
+      "ja": "モンスターボールだらけかと思いきや、意外にも居心地のいい快適な生活空間。"
+    }
   },
   {
     "id": 50,
@@ -1799,7 +2142,14 @@
         "location": "全部"
       }
     ],
-    "korean": "노란 풀숲"
+    "korean": "노란 풀숲",
+    "koreanDescription": "노란 풀들이 모여 이루어진 작은 풀숲. 항구 마을 등지에서 흔히 볼 수 있다.",
+    "descriptions": {
+      "zh": "由黄色草组成的小草丛。在港口城镇很常见。",
+      "en": "A small clump of yellow tall grass, frequently spotted around coastal port towns.",
+      "ko": "노란 풀들이 모여 이루어진 작은 풀숲. 항구 마을 등지에서 흔히 볼 수 있다.",
+      "ja": "黄色い草が集まってできた小さな草むら。港町などでよく見かける。"
+    }
   },
   {
     "id": 51,
@@ -1842,7 +2192,14 @@
         "location": "全部"
       }
     ],
-    "korean": "나무 그늘 노란 풀숲"
+    "korean": "나무 그늘 노란 풀숲",
+    "koreanDescription": "나무 그늘 아래 자라난 노란 풀숲. 어딘가 애틋하고 아련한 분위기를 흠뻑 느낄 수 있다.",
+    "descriptions": {
+      "zh": "生长在树荫下的黄色草丛。可以尽情体会伤感的氛围。",
+      "en": "Yellow tall grass growing beneath the shade of trees, drenched in a wonderfully wistful and melancholic air.",
+      "ko": "나무 그늘 아래 자라난 노란 풀숲. 어딘가 애틋하고 아련한 분위기를 흠뻑 느낄 수 있다.",
+      "ja": "木かげに生える黄色い草むら。どこか哀愁ただよう雰囲気にじっくり浸れる。"
+    }
   },
   {
     "id": 52,
@@ -1880,7 +2237,14 @@
         "location": "全部"
       }
     ],
-    "korean": "언덕 노란 풀숲"
+    "korean": "언덕 노란 풀숲",
+    "koreanDescription": "높은 언덕에 자라난 노란 풀숲. 살랑살랑 불어오는 바닷바람에 기분 좋게 흔들린다.",
+    "descriptions": {
+      "zh": "生长在高处的黄色草丛。在海风的吹拂下轻轻摇曳。",
+      "en": "Yellow tall grass growing up on the heights, swaying gently in the ocean breeze.",
+      "ko": "높은 언덕에 자라난 노란 풀숲. 살랑살랑 불어오는 바닷바람에 기분 좋게 흔들린다.",
+      "ja": "高台に生える黄色い草むら。潮風に吹かれてやさしく揺れている。"
+    }
   },
   {
     "id": 53,
@@ -1923,7 +2287,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 노란 풀숲"
+    "korean": "촉촉한 노란 풀숲",
+    "koreanDescription": "물가에 자라난 노란 풀숲. 물에서 뭍으로 올라온 포켓몬이 잠시 쉬어 가곤 한다.",
+    "descriptions": {
+      "zh": "生长在水边的黄色草丛。从水里上岸的宝可梦会在这里休息片刻。",
+      "en": "Yellow tall grass growing along the waterside where Pokémon coming ashore can dry off and take a breather.",
+      "ko": "물가에 자라난 노란 풀숲. 물에서 뭍으로 올라온 포켓몬이 잠시 쉬어 가곤 한다.",
+      "ja": "水辺に生える黄色い草むら。水から上がったポケモンがここでひと休みしていく。"
+    }
   },
   {
     "id": 54,
@@ -1956,7 +2327,14 @@
         "location": "全部"
       }
     ],
-    "korean": "늪지 풀숲"
+    "korean": "늪지 풀숲",
+    "koreanDescription": "늪지대에 자라난 작은 풀숲. 포켓몬들이 몸에 묻은 진흙을 닦아내는 데 쓰기도 한다.",
+    "descriptions": {
+      "zh": "生长在沼泽中的小草丛。也有宝可梦用它擦去身上的泥巴。",
+      "en": "A small patch of tall grass growing in the marshlands. Some Pokémon use it to wipe mud off their bodies.",
+      "ko": "늪지대에 자라난 작은 풀숲. 포켓몬들이 몸에 묻은 진흙을 닦아내는 데 쓰기도 한다.",
+      "ja": "沼地に生える小さな草むら。体に付いた泥をこすり落とすために使うポケモンもいる。"
+    }
   },
   {
     "id": 55,
@@ -1984,7 +2362,14 @@
         "location": "全部"
       }
     ],
-    "korean": "풀숲의 자판기"
+    "korean": "풀숲의 자판기",
+    "koreanDescription": "노란 풀숲 한가운데에 우뚝 선 자동판매기. 야외에서도 시원하게 수분을 보충할 수 있다.",
+    "descriptions": {
+      "zh": "在黄色的草丛中矗立的自动售货机。就算在野外，补水也完全没问题。",
+      "en": "A vending machine standing tall right in the middle of yellow tall grass. Even out in the wild, staying hydrated is a breeze.",
+      "ko": "노란 풀숲 한가운데에 우뚝 선 자동판매기. 야외에서도 시원하게 수분을 보충할 수 있다.",
+      "ja": "黄色い草むらの中にたたずむ自動販売機。大自然の中でも水分補給はバッチリ。"
+    }
   },
   {
     "id": 56,
@@ -2018,7 +2403,14 @@
         "location": "全部"
       }
     ],
-    "korean": "광장의 시계탑"
+    "korean": "광장의 시계탑",
+    "koreanDescription": "바닷가의 꽃으로 이루어진 시원한 꽃밭. 상쾌하게 퍼지는 향기에 이끌려 포켓몬이 찾아온다.",
+    "descriptions": {
+      "zh": "谷海边的花组成的清爽花田。沁人心脾的芬芳会引来宝可梦。",
+      "en": "A refreshing flower bed made of seaside flowers. The delightfully refreshing fragrance attracts Pokémon.",
+      "ko": "바닷가의 꽃으로 이루어진 시원한 꽃밭. 상쾌하게 퍼지는 향기에 이끌려 포켓몬이 찾아온다.",
+      "ja": "うみべのはなが集まったすずしげな花畑。すっきりとしたいい香りに誘われてポケモンがやってくる。"
+    }
   },
   {
     "id": 57,
@@ -2056,7 +2448,14 @@
         "location": "全部"
       }
     ],
-    "korean": "역 앞의 벤치"
+    "korean": "역 앞의 벤치",
+    "koreanDescription": "야자나무 아래에 바닷가의 꽃이 피어 있다. 주위에는 남국 분위기가 물씬 풍기는 향기가 감돈다.",
+    "descriptions": {
+      "zh": "椰子树下盛开着·台海边的花。四周弥漫着热带风情十足的芬芳。",
+      "en": "Seaside flowers bloom beneath a palm tree, filling the surrounding air with a delightful tropical fragrance.",
+      "ko": "야자나무 아래에 바닷가의 꽃이 피어 있다. 주위에는 남국 분위기가 물씬 풍기는 향기가 감돈다.",
+      "ja": "ヤシの木の下にうみべのはなが咲いている。あたりには南国らしさあふれる香りが漂う。"
+    }
   },
   {
     "id": 58,
@@ -2089,7 +2488,14 @@
         "location": "全部"
       }
     ],
-    "korean": "거리의 가로등"
+    "korean": "거리의 가로등",
+    "koreanDescription": "솔솔 부는 바람에 시원한 기운이 감도는 꽃밭. 풍차가 꽃향기를 저 멀리까지 실어 나른다.",
+    "descriptions": {
+      "zh": "清风拂过，花田充满凉爽的气息。风车将花香送往远方。",
+      "en": "A gentle breeze brings a refreshing coolness to this flower bed. The windmill carries the sweet floral scent far into the distance.",
+      "ko": "솔솔 부는 바람에 시원한 기운이 감도는 꽃밭. 풍차가 꽃향기를 저 멀리까지 실어 나른다.",
+      "ja": "そよ風が吹き抜ける、すずしい気配に満ちた花畑。風車が花の香りを遠くまで届けてくれる。"
+    }
   },
   {
     "id": 59,
@@ -2122,7 +2528,14 @@
         "location": "全部"
       }
     ],
-    "korean": "분수가 있는 광장"
+    "korean": "분수가 있는 광장",
+    "koreanDescription": "야자나무가 파라솔 대신 그늘을 만들어 주어, 포켓몬도 비치 체어에서 편안히 낮잠을 즐긴다.",
+    "descriptions": {
+      "zh": "椰子树代替遮阳伞，宝可梦也会在沙滩椅上小憩。",
+      "en": "With a palm tree serving as a parasol, Pokémon love taking relaxing naps on the beach chair.",
+      "ko": "야자나무가 파라솔 대신 그늘을 만들어 주어, 포켓몬도 비치 체어에서 편안히 낮잠을 즐긴다.",
+      "ja": "ヤシの木がパラソルの代わりになって、ポケモンもビーチチェアでひと休み。"
+    }
   },
   {
     "id": 60,
@@ -2154,7 +2567,14 @@
         "location": "全部"
       }
     ],
-    "korean": "길거리 음식 포장마차"
+    "korean": "길거리 음식 포장마차",
+    "koreanDescription": "야자나무 곁에서 바닷바람을 맞으며 느긋하게 쉬다 보면, 마치 남국 리조트에 온 듯한 기분이 든다.",
+    "descriptions": {
+      "zh": "在椰子树旁吹着海风悠闲度过，仿佛在享受热带风情。",
+      "en": "Relaxing by the palm tree with a gentle sea breeze makes you feel right at home in a tropical paradise.",
+      "ko": "야자나무 곁에서 바닷바람을 맞으며 느긋하게 쉬다 보면, 마치 남국 리조트에 온 듯한 기분이 든다.",
+      "ja": "ヤシの木のそばで潮風を感じながらのんびり過ごせば、すっかり南国リゾート気分。"
+    }
   },
   {
     "id": 61,
@@ -2182,7 +2602,14 @@
         "location": "全部"
       }
     ],
-    "korean": "야외 바비큐장"
+    "korean": "야외 바비큐장",
+    "koreanDescription": "빈 골판지 상자와 푹신한 짚 침대. 취향에 따라 어느 쪽에 누워 잘지 갈리는 모양이다.",
+    "descriptions": {
+      "zh": "空纸箱和松软的稻草床，选择睡哪边似乎会根据喜好分成两派。",
+      "en": "Between an empty cardboard box and a fluffy straw bed, Pokémon seem divided on which makes the cozier resting spot.",
+      "ko": "빈 골판지 상자와 푹신한 짚 침대. 취향에 따라 어느 쪽에 누워 잘지 갈리는 모양이다.",
+      "ja": "空のダンボール箱とふかふかのわらベッド。どちらで眠るかは好みによって分かれるようだ。"
+    }
   },
   {
     "id": 62,
@@ -2215,7 +2642,14 @@
         "location": "全部"
       }
     ],
-    "korean": "비치 파라솔"
+    "korean": "비치 파라솔",
+    "koreanDescription": "바닥에 흩어진 장난감과 골판지 상자. 방금 치운 것 같은데 금세 또 어질러져 있다.",
+    "descriptions": {
+      "zh": "散落一地的玩具和纸箱。才刚收拾好，就又乱了。",
+      "en": "Toys and cardboard boxes scattered all over the place. No sooner are they tidied up than they're messy all over again.",
+      "ko": "바닥에 흩어진 장난감과 골판지 상자. 방금 치운 것 같은데 금세 또 어질러져 있다.",
+      "ja": "あたり一面に散らかったおもちゃとダンボール箱。片づけたそばから、また散らかされてしまう。"
+    }
   },
   {
     "id": 63,
@@ -2262,7 +2696,14 @@
         "location": "全部"
       }
     ],
-    "korean": "해변 산책로"
+    "korean": "해변 산책로",
+    "koreanDescription": "모두가 버린 쓰레기가 한데 모이는 곳. 쓰레기를 뒤지러 포켓몬이 슬그머니 찾아올지도 모른다.",
+    "descriptions": {
+      "zh": "大家的垃圾全都集中在这里。可能会有宝可梦跑来翻找垃圾。",
+      "en": "Where everyone's trash is gathered together. You might spot a curious Pokémon rummaging through the refuse.",
+      "ko": "모두가 버린 쓰레기가 한데 모이는 곳. 쓰레기를 뒤지러 포켓몬이 슬그머니 찾아올지도 모른다.",
+      "ja": "みんなのゴミが集まる場所。ゴミをあさりにポケモンがやってくるかもしれない。"
+    }
   },
   {
     "id": 64,
@@ -2296,7 +2737,14 @@
         "location": "全部"
       }
     ],
-    "korean": "서핑 보드 보관소"
+    "korean": "서핑 보드 보관소",
+    "koreanDescription": "쓰레기 무단 투기를 막기 위해 쓰레기통을 여러 개 놓았다. 때로는 그 안에 포켓몬이 쏙 들어가 있기도 하다.",
+    "descriptions": {
+      "zh": "为防止乱去垃圾而摆放了很多垃圾桶。偶你也会有宝可梦待在里面。",
+      "en": "Lined with plenty of trash cans to prevent littering. Occasionally, a Pokémon might even be found hiding inside one.",
+      "ko": "쓰레기 무단 투기를 막기 위해 쓰레기통을 여러 개 놓았다. 때로는 그 안에 포켓몬이 쏙 들어가 있기도 하다.",
+      "ja": "ポイ捨てを防ぐためにたくさんのゴミ箱が並んでいる。たまに中にポケモンが入っていることも。"
+    }
   },
   {
     "id": 65,
@@ -2324,7 +2772,14 @@
         "location": "全部"
       }
     ],
-    "korean": "해변 매점"
+    "korean": "해변 매점",
+    "koreanDescription": "전신주 아래에 쌓인 쓰레기더미. 주변에서 살짝 퀴퀴한 냄새가 난다.",
+    "descriptions": {
+      "zh": "扬在电线杆下的垃圾：周国稍稍有些臭。",
+      "en": "Piles of trash left beneath a utility pole. It smells just a little foul around here.",
+      "ko": "전신주 아래에 쌓인 쓰레기더미. 주변에서 살짝 퀴퀴한 냄새가 난다.",
+      "ja": "電柱の足元に積まれたゴミ。あたりには少し嫌なにおいが漂っている。"
+    }
   },
   {
     "id": 66,
@@ -2362,7 +2817,14 @@
         "location": "全部"
       }
     ],
-    "korean": "파도 소리 캠프"
+    "korean": "파도 소리 캠프",
+    "koreanDescription": "간식을 다 먹은 뒤에는 쓰레기통에 쏙! 포켓몬들도 착하게 쓰레기를 버릴 수 있을까?",
+    "descriptions": {
+      "zh": "吃完零食后，要把垃圾扔进垃圾桶。宝可梦们做得到吗？。",
+      "en": "Be sure to throw your trash in the bin after finishing your snacks! Can the Pokémon manage that too?",
+      "ko": "간식을 다 먹은 뒤에는 쓰레기통에 쏙! 포켓몬들도 착하게 쓰레기를 버릴 수 있을까?",
+      "ja": "おやつを食べ終わったら、ゴミはゴミ箱へ。ポケモンたちにもちゃんとできるかな？"
+    }
   },
   {
     "id": 67,
@@ -2403,7 +2865,14 @@
         "location": "全部"
       }
     ],
-    "korean": "모닥불 주변"
+    "korean": "모닥불 주변",
+    "koreanDescription": "테이블에 놓인 접시와 가지런한 메뉴판까지. 마치 진짜 근사한 레스토랑에 온 것 같다.",
+    "descriptions": {
+      "zh": "桌上摆着餐盘：连菜单都有，简直像餐厅一样、。",
+      "en": "With plates served on the table and even a menu stand, it looks just like an authentic restaurant.",
+      "ko": "테이블에 놓인 접시와 가지런한 메뉴판까지. 마치 진짜 근사한 레스토랑에 온 것 같다.",
+      "ja": "テーブルにお皿が並び、メニュー看板まであって、まるで本物のレストランのよう。"
+    }
   },
   {
     "id": 68,
@@ -2443,7 +2912,14 @@
         "location": "全部"
       }
     ],
-    "korean": "숲의 바비큐 파티"
+    "korean": "숲의 바비큐 파티",
+    "koreanDescription": "카트로 정성스럽게 요리를 실어 나른다. 테이블에 음식이 차려지면 즐거운 식사 시작!",
+    "descriptions": {
+      "zh": "用推车慢慢送来料理。援上桌后，就可以开始用餐了。",
+      "en": "Delicious dishes brought over on a serving cart. Once set on the table, it's time to dig in!",
+      "ko": "카트로 정성스럽게 요리를 실어 나른다. 테이블에 음식이 차려지면 즐거운 식사 시작!",
+      "ja": "ワゴンでゆっくりとお料理をお届け。テーブルに並べば、いよいよ楽しい食事の始まり。"
+    }
   },
   {
     "id": 69,
@@ -2480,7 +2956,14 @@
         "location": "全部"
       }
     ],
-    "korean": "신나는 야외 캠핑"
+    "korean": "신나는 야외 캠핑",
+    "koreanDescription": "접시 위에 놓인 맛있는 밥을 기대하며 새 포켓몬들이 포르르 날아온다.",
+    "descriptions": {
+      "zh": "鸟宝可梦会满怀期待地飞来享用盘子上的食物。",
+      "en": "Bird Pokémon flutter over with eager anticipation to peck at the food served on the plate.",
+      "ko": "접시 위에 놓인 맛있는 밥을 기대하며 새 포켓몬들이 포르르 날아온다.",
+      "ja": "お皿の上のごはんを楽しみに、鳥ポケモンたちがパタパタと飛び立ってやってくる。"
+    }
   },
   {
     "id": 70,
@@ -2525,7 +3008,14 @@
         "location": "全部"
       }
     ],
-    "korean": "캠핑 트레일러"
+    "korean": "캠핑 트레일러",
+    "koreanDescription": "싱그러운 식물을 바라보며 느긋하게 즐기는 티타임. 포켓몬들도 이곳에서 편안하게 쉴 수 있을 것이다.",
+    "descriptions": {
+      "zh": "一边欣赏植物，一边享受下午茶。宝可梦们应该也能在这里放松身心。",
+      "en": "Enjoying afternoon tea while admiring lush greenery. Pokémon can surely unwind and relax here too.",
+      "ko": "싱그러운 식물을 바라보며 느긋하게 즐기는 티타임. 포켓몬들도 이곳에서 편안하게 쉴 수 있을 것이다.",
+      "ja": "植物を眺めながらティータイムを満喫。ポケモンたちもきっと心落ち着く時間を過ごせるはず。"
+    }
   },
   {
     "id": 71,
@@ -2567,7 +3057,14 @@
         "location": "全部"
       }
     ],
-    "korean": "낚시꾼의 부두"
+    "korean": "낚시꾼의 부두",
+    "koreanDescription": "파라솔 그늘 아래 누워 만끽하는 남국의 여유. 포켓몬들도 나란히 누워 한숨 돌릴지도 모른다.",
+    "descriptions": {
+      "zh": "躺在遮阳企下，尽享南国风情。宝可梦们说不定也会躺在这里休息。",
+      "en": "Lounge beneath the parasol and soak up the tropical atmosphere. Pokémon might just lie down for a pleasant rest too.",
+      "ko": "파라솔 그늘 아래 누워 만끽하는 남국의 여유. 포켓몬들도 나란히 누워 한숨 돌릴지도 모른다.",
+      "ja": "パラソルの下でくつろぎ、南国気分を満喫。ポケモンたちもごろんと横になって休んでいくかも。"
+    }
   },
   {
     "id": 72,
@@ -2600,7 +3097,14 @@
         "location": "全部"
       }
     ],
-    "korean": "호숫가 보트장"
+    "korean": "호숫가 보트장",
+    "koreanDescription": "눈부신 조명이 화려하게 비추는 무대. 주목받기 좋아하는 포켓몬이 신나게 뛰쳐나올 것만 같다.",
+    "descriptions": {
+      "zh": "炫日灯光照耀下的舞台：喜欧出风头的宝可梦应该会现身。",
+      "en": "A stage illuminated by dazzling spotlights. Pokémon that love the limelight are sure to make an appearance!",
+      "ko": "눈부신 조명이 화려하게 비추는 무대. 주목받기 좋아하는 포켓몬이 신나게 뛰쳐나올 것만 같다.",
+      "ja": "まばゆいライトに照らされたステージ。目立ちたがり屋なポケモンがきっと姿を現すはず。"
+    }
   },
   {
     "id": 73,
@@ -2638,7 +3142,14 @@
         "location": "全部"
       }
     ],
-    "korean": "목장 울타리"
+    "korean": "목장 울타리",
+    "koreanDescription": "알록달록 풍선에 둘러싸인 트렌디한 상자 안에는 과연 무엇이 들어 있을까? 열어보는 순간 깜짝 놀랄 거야!",
+    "descriptions": {
+      "zh": "被气球包围的新潮盒子里面装了什公？打开有惊喜。",
+      "en": "What could be hidden inside this trendy box surrounded by balloons? Open it up for a thrilling surprise!",
+      "ko": "알록달록 풍선에 둘러싸인 트렌디한 상자 안에는 과연 무엇이 들어 있을까? 열어보는 순간 깜짝 놀랄 거야!",
+      "ja": "風船に囲まれたおしゃれな箱の中には何が入っているのかな？開けてからのお楽しみ。"
+    }
   },
   {
     "id": 74,
@@ -2666,7 +3177,14 @@
         "location": "全部"
       }
     ],
-    "korean": "따뜻한 모포 침대"
+    "korean": "따뜻한 모포 침대",
+    "koreanDescription": "어두운 밤이 되어도 축제장 입구는 알록달록한 네온사인으로 환하게 빛난다.",
+    "descriptions": {
+      "zh": "即便到了夜晚，庆典的入口依然被缤纷的霓虹灯照得闪闪发光。",
+      "en": "Even when night falls, the festival entrance sparkles brilliantly under colorful neon lights.",
+      "ko": "어두운 밤이 되어도 축제장 입구는 알록달록한 네온사인으로 환하게 빛난다.",
+      "ja": "夜になっても、お祭り会場の入り口はカラフルなネオンでキラキラと輝いている。"
+    }
   },
   {
     "id": 75,
@@ -2694,7 +3212,14 @@
         "location": "全部"
       }
     ],
-    "korean": "세탁물 건조대"
+    "korean": "세탁물 건조대",
+    "koreanDescription": "옷을 갈아입은 뒤 전신거울 앞에서 꼼꼼히 체크! 이곳에서 꿈꾸던 이상적인 모습으로 변신해보자.",
+    "descriptions": {
+      "zh": "换好衣服后，到镜子前检查全身。在这里变成理想中的模样。",
+      "en": "After changing outfits, check your reflection from head to toe in the full-length mirror. Step out looking your absolute best!",
+      "ko": "옷을 갈아입은 뒤 전신거울 앞에서 꼼꼼히 체크! 이곳에서 꿈꾸던 이상적인 모습으로 변신해보자.",
+      "ja": "着替えたあとは姿見の前で全身をチェック。ここで理想の自分に変身しよう。"
+    }
   },
   {
     "id": 76,
@@ -2731,7 +3256,14 @@
         "location": "全部"
       }
     ],
-    "korean": "꽃단장 중 훔쳐보기 금지"
+    "korean": "꽃단장 중 훔쳐보기 금지",
+    "koreanDescription": "예쁘게 꽃단장하는 모습을 들키지 않도록 병풍을 둘러 시선을 가렸다.",
+    "descriptions": {
+      "zh": "立起屏风遮住视线，好在打扮的时候不被看到。",
+      "en": "Screens set up to block curious eyes so no one peeks while getting all dressed up.",
+      "ko": "예쁘게 꽃단장하는 모습을 들키지 않도록 병풍을 둘러 시선을 가렸다.",
+      "ja": "おめかししている姿を見られないよう、ついたてを立てて目隠し。"
+    }
   },
   {
     "id": 77,
@@ -2768,7 +3300,14 @@
         "location": "全部"
       }
     ],
-    "korean": "털실 뜨개질 방"
+    "korean": "털실 뜨개질 방",
+    "koreanDescription": "포근한 털실로 정성껏 뜬 수공예품. 포켓몬들도 무척 호기심 어린 눈으로 바라본다.",
+    "descriptions": {
+      "zh": "用柔软的毛线做的手工艺品，宝可梦们也非常感兴趣。",
+      "en": "Handmade crafts woven from soft yarn pique the curiosity of passing Pokémon.",
+      "ko": "포근한 털실로 정성껏 뜬 수공예품. 포켓몬들도 무척 호기심 어린 눈으로 바라본다.",
+      "ja": "やわらかな毛糸で編んだ手芸品に、ポケモンたちも興味津々。"
+    }
   },
   {
     "id": 78,
@@ -2805,7 +3344,14 @@
         "location": "全部"
       }
     ],
-    "korean": "온천 샤워장"
+    "korean": "온천 샤워장",
+    "koreanDescription": "온천에 들어가기 전에 샤워장에서 몸을 깨끗이 씻자. 어쩌면 포켓몬들도 기분 좋게 몸을 담그고 있을지도?",
+    "descriptions": {
+      "zh": "先在冲洗区洗干净身体后再去泡温泉吧。说不定宝可梦们也正在泡哦。",
+      "en": "Rinse off thoroughly at the washing stall before soaking in the hot spring. Pokémon might already be taking a relaxing dip!",
+      "ko": "온천에 들어가기 전에 샤워장에서 몸을 깨끗이 씻자. 어쩌면 포켓몬들도 기분 좋게 몸을 담그고 있을지도?",
+      "ja": "温泉に入る前に、洗い場で体をきれいに洗おう。ポケモンたちも気持ちよさそうに浸かっているかも。"
+    }
   },
   {
     "id": 79,
@@ -2851,7 +3397,14 @@
         "location": "全部"
       }
     ],
-    "korean": "리조트 요리 준비"
+    "korean": "리조트 요리 준비",
+    "koreanDescription": "야자나무 아래에서 모닥불을 피우고, 느긋하게 저녁밥을 준비해보자.",
+    "descriptions": {
+      "zh": "在椰子树下目着火堆，悠战地开始准备做饭吧。",
+      "en": "Gather around the campfire under a palm tree and leisurely prepare a delicious meal.",
+      "ko": "야자나무 아래에서 모닥불을 피우고, 느긋하게 저녁밥을 준비해보자.",
+      "ja": "ヤシの木の下でたき火を囲み、のんびりごはんの支度をはじめよう。"
+    }
   },
   {
     "id": 80,
@@ -2889,7 +3442,14 @@
         "location": "全部"
       }
     ],
-    "korean": "짐 싸기 완료"
+    "korean": "짐 싸기 완료",
+    "koreanDescription": "빈 골판지 상자에 짐을 가득 채워 넣고, 트럭 위에 차곡차곡 쌓아 올리자.",
+    "descriptions": {
+      "zh": "在空纸箱里装满各种物品，然后把纸箱堆上货车吧。",
+      "en": "Pack the empty cardboard boxes full of belongings, then stack them neatly onto the flatbed truck.",
+      "ko": "빈 골판지 상자에 짐을 가득 채워 넣고, 트럭 위에 차곡차곡 쌓아 올리자.",
+      "ja": "空のダンボール箱に荷物をいっぱいつめたら、台車に積み込んで出発進行。"
+    }
   },
   {
     "id": 81,
@@ -2926,7 +3486,14 @@
         "location": "全部"
       }
     ],
-    "korean": "소풍 런치 세트"
+    "korean": "소풍 런치 세트",
+    "koreanDescription": "아플 때는 푹 자는 게 최고의 명약! 정성껏 간호해 주기 좋아하는 포켓몬이 찾아올지도 모른다.",
+    "descriptions": {
+      "zh": "治病最好的方法就是睡觉。说不定会有喜爱照顾的宝可梦前来。",
+      "en": "A good sleep is the best medicine for getting well. A caring Pokémon might even come by to look after you.",
+      "ko": "아플 때는 푹 자는 게 최고의 명약! 정성껏 간호해 주기 좋아하는 포켓몬이 찾아올지도 모른다.",
+      "ja": "病気を治すにはぐっすり眠るのが一番。お世話好きなポケモンが看病しにやってくるかも。"
+    }
   },
   {
     "id": 82,
@@ -2958,7 +3525,14 @@
         "location": "全部"
       }
     ],
-    "korean": "오후의 애프터눈 티"
+    "korean": "오후의 애프터눈 티",
+    "koreanDescription": "침대 옆에 자명종을 놓아두면 늦잠 잘 걱정은 끝!",
+    "descriptions": {
+      "zh": "只要在床边放上闹钟，就不用担心起不来了。",
+      "en": "With an alarm clock right by the bed, you never have to worry about oversleeping.",
+      "ko": "침대 옆에 자명종을 놓아두면 늦잠 잘 걱정은 끝!",
+      "ja": "ベッドの横に目覚まし時計を置いておけば、朝寝坊の心配もなし。"
+    }
   },
   {
     "id": 83,
@@ -2991,7 +3565,14 @@
         "location": "全部"
       }
     ],
-    "korean": "달콤한 디저트 카페"
+    "korean": "달콤한 디저트 카페",
+    "koreanDescription": "자판기 옆에 놓인 벤치. 시원한 음료수를 마시며 포켓몬들도 잠시 쉬어 갈지 모른다.",
+    "descriptions": {
+      "zh": "自动售货机旁边放着长椅。宝可梦们说不定也会来稍作休息。",
+      "en": "A bench resting right next to the vending machine. Pokémon might stop by here to catch their breath too.",
+      "ko": "자판기 옆에 놓인 벤치. 시원한 음료수를 마시며 포켓몬들도 잠시 쉬어 갈지 모른다.",
+      "ja": "自動販売機の横に置かれたベンチ。ポケモンたちもひと息つきに寄っていくかも。"
+    }
   },
   {
     "id": 84,
@@ -3024,7 +3605,14 @@
         "location": "全部"
       }
     ],
-    "korean": "제과점 쇼케이스"
+    "korean": "제과점 쇼케이스",
+    "koreanDescription": "자판기 옆에 나란히 놓인 쓰레기통. 안에는 아직 빈 캔이 하나도 없는 모양이다.",
+    "descriptions": {
+      "zh": "自动售货机旁边的垃圾桶。里面似乎没有空罐子。",
+      "en": "A recycling bin sitting beside the vending machine. There don't seem to be any empty cans inside just yet.",
+      "ko": "자판기 옆에 나란히 놓인 쓰레기통. 안에는 아직 빈 캔이 하나도 없는 모양이다.",
+      "ja": "自動販売機の横に置かれたゴミ箱。中にはまだ空き缶が入っていないようだ。"
+    }
   },
   {
     "id": 85,
@@ -3061,7 +3649,14 @@
         "location": "全部"
       }
     ],
-    "korean": "향긋한 베이커리"
+    "korean": "향긋한 베이커리",
+    "koreanDescription": "오락실 아케이드 게임을 즐긴 뒤에는 펀치 머신으로 신나게 몸을 풀어보자!",
+    "descriptions": {
+      "zh": "玩过街机之后，就用拳击机活动身体吧。",
+      "en": "After playing some arcade games, work up a good sweat on the punching machine!",
+      "ko": "오락실 아케이드 게임을 즐긴 뒤에는 펀치 머신으로 신나게 몸을 풀어보자!",
+      "ja": "アーケードゲームで遊んだあとは、パンチングマシンで思いっきり体を動かそう。"
+    }
   },
   {
     "id": 86,
@@ -3098,7 +3693,14 @@
         "location": "全部"
       }
     ],
-    "korean": "꽃집 진열대"
+    "korean": "꽃집 진열대",
+    "koreanDescription": "폭포에서 힘차게 쏟아져 내리는 물줄기로 전기를 만들어내는 대단한 수력 발전 시설.",
+    "descriptions": {
+      "zh": "很万害的设施。能用瀑布倾泻而下的水流产生电力。",
+      "en": "An impressive facility that harnesses the rushing torrent of a waterfall to generate electricity.",
+      "ko": "폭포에서 힘차게 쏟아져 내리는 물줄기로 전기를 만들어내는 대단한 수력 발전 시설.",
+      "ja": "滝から勢いよく流れ落ちる水の力を利用して電気をつくり出す、すごい施設。"
+    }
   },
   {
     "id": 87,
@@ -3131,7 +3733,14 @@
         "location": "全部"
       }
     ],
-    "korean": "도예가의 공방"
+    "korean": "도예가의 공방",
+    "koreanDescription": "연료를 넣으면 타오르는 불의 힘으로 전기를 만들어내는 놀라운 화력 발전 시설.",
+    "descriptions": {
+      "zh": "很万害的设施。加入燃料就能靠火的力量发电。",
+      "en": "A remarkable facility that burns fuel to generate electric power from the heat of fire.",
+      "ko": "연료를 넣으면 타오르는 불의 힘으로 전기를 만들어내는 놀라운 화력 발전 시설.",
+      "ja": "燃料をくべることで炎の力を利用して電気を生み出す、すごい施設。"
+    }
   },
   {
     "id": 88,
@@ -3168,7 +3777,14 @@
         "location": "全部"
       }
     ],
-    "korean": "화가의 아틀리에"
+    "korean": "화가의 아틀리에",
+    "koreanDescription": "해변가의 작은 선착장. 물속에서 헤엄치던 포켓몬이 슬그머니 들를지도 모른다.",
+    "descriptions": {
+      "zh": "海边的小小码头。正在游泳的宝可梦说不定也会顺道过来。",
+      "en": "A quaint little dock by the seaside. Pokémon swimming nearby might just stop by for a visit.",
+      "ko": "해변가의 작은 선착장. 물속에서 헤엄치던 포켓몬이 슬그머니 들를지도 모른다.",
+      "ja": "海辺にある小さな船着き場。気持ちよさそうに泳いでいたポケモンが立ち寄るかもしれない。"
+    }
   },
   {
     "id": 89,
@@ -3209,7 +3825,14 @@
         "location": "全部"
       }
     ],
-    "korean": "피아노 연주실"
+    "korean": "피아노 연주실",
+    "koreanDescription": "촛불을 켜고 책을 읽어보자. 밤이 깊어지면 으스스하고 신비로운 분위기가 감돈다.",
+    "descriptions": {
+      "zh": "点上蜡烛来读书吧到了夜晚，气氛会变得有些诡异。",
+      "en": "Light a candle to enjoy a good book. As night falls, the atmosphere turns delightfully eerie.",
+      "ko": "촛불을 켜고 책을 읽어보자. 밤이 깊어지면 으스스하고 신비로운 분위기가 감돈다.",
+      "ja": "ろうそくに灯りをともして読書を楽しもう。夜になると少しあやしげな雰囲気が漂う。"
+    }
   },
   {
     "id": 90,
@@ -3246,7 +3869,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바이올린 연습실"
+    "korean": "바이올린 연습실",
+    "koreanDescription": "키를 잡거나 대포 앞에 서면, 마치 멋진 항해를 떠나는 선원이 된 기분이다.",
+    "descriptions": {
+      "zh": "站在舵前或大炮后，感觉就像成为了船员。",
+      "en": "Stand at the ship's helm or behind the cannon, and you'll feel just like a brave sailor on the high seas.",
+      "ko": "키를 잡거나 대포 앞에 서면, 마치 멋진 항해를 떠나는 선원이 된 기분이다.",
+      "ja": "かじの前に立ったり大砲の後ろに陣取れば、気分はすっかり一人前の船乗り。"
+    }
   },
   {
     "id": 91,
@@ -3289,7 +3919,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "밴드 합주실"
+    "korean": "밴드 합주실",
+    "koreanDescription": "테이블 위에 계산대를 올리고 전원을 켜면, 순식간에 멋진 상점이 오픈!",
+    "descriptions": {
+      "zh": "在桌上放个收银机，通上电，转眼间店铺就开张了。",
+      "en": "Place a register on the counter and plug it in, and presto—the shop is open for business!",
+      "ko": "테이블 위에 계산대를 올리고 전원을 켜면, 순식간에 멋진 상점이 오픈!",
+      "ja": "机の上にレジを置いて電気を通せば、あっという間に小さなお店のオープン。"
+    }
   },
   {
     "id": 92,
@@ -3317,7 +3954,14 @@
         "location": "全部"
       }
     ],
-    "korean": "DJ 부스"
+    "korean": "DJ 부스",
+    "koreanDescription": "의자에 앉아 하얀 캔버스를 가만히 바라보고 있으면 영감이 마구 샘솟는 것 같다.",
+    "descriptions": {
+      "zh": "坐在椅子上凝视画布，感觉会涌出灵感。",
+      "en": "Sitting on the chair and gazing at the canvas, creative inspiration is sure to start flowing.",
+      "ko": "의자에 앉아 하얀 캔버스를 가만히 바라보고 있으면 영감이 마구 샘솟는 것 같다.",
+      "ja": "椅子に座ってキャンバスを見つめていると、素敵なひらめきが湧いてきそう。"
+    }
   },
   {
     "id": 93,
@@ -3341,7 +3985,14 @@
         "location": "全部"
       }
     ],
-    "korean": "화려한 댄스 플로어"
+    "korean": "화려한 댄스 플로어",
+    "koreanDescription": "제단 접시 위에 맛있는 음식을 올려두면, 먹보 포켓몬들이 신나서 기뻐할 것이다.",
+    "descriptions": {
+      "zh": "如果把食物放在盘子里，食量大的宝可梦应该会很高兴。",
+      "en": "Place delicious food upon the offering tray, and big-eating Pokémon will be thrilled to partake.",
+      "ko": "제단 접시 위에 맛있는 음식을 올려두면, 먹보 포켓몬들이 신나서 기뻐할 것이다.",
+      "ja": "お皿の上においしいごはんをお供えすれば、くいしんぼうなポケモンも大喜びするはず。"
+    }
   },
   {
     "id": 94,
@@ -3369,7 +4020,14 @@
         "location": "全部"
       }
     ],
-    "korean": "레트로 게임 센터"
+    "korean": "레트로 게임 센터",
+    "koreanDescription": "소파도 인형도 온통 귀여운 피카츄 모습! 진짜 피카츄인 줄 알고 다가오는 포켓몬이 있을지도 모른다.",
+    "descriptions": {
+      "zh": "沙发和玩偶都是皮卡丘的模样。说不定会有宝可梦以为是真的而前来。",
+      "en": "Sofa and plush doll all modeled after Pikachu! A Pokémon might mistake them for the real deal and come visit.",
+      "ko": "소파도 인형도 온통 귀여운 피카츄 모습! 진짜 피카츄인 줄 알고 다가오는 포켓몬이 있을지도 모른다.",
+      "ja": "ソファもぬいぐるみもピカチュウのかたち。本物と見間違えたポケモンが寄ってくるかも。"
+    }
   },
   {
     "id": 95,
@@ -3409,7 +4067,14 @@
         "location": "全部"
       }
     ],
-    "korean": "보드게임 테이블"
+    "korean": "보드게임 테이블",
+    "koreanDescription": "사랑스럽고 귀여운 가구들에 둘러싸여 있으면 마치 동화 속 공주님이 된 듯한 기분이 든다.",
+    "descriptions": {
+      "zh": "被可爱的东西包围，感觉自己仿佛就是公主。",
+      "en": "Surrounded by all things adorable, you can't help feeling like a pampered princess.",
+      "ko": "사랑스럽고 귀여운 가구들에 둘러싸여 있으면 마치 동화 속 공주님이 된 듯한 기분이 든다.",
+      "ja": "キュートな家具に囲まれていると、まるでお姫さまになったかのような気分。"
+    }
   },
   {
     "id": 96,
@@ -3445,7 +4110,14 @@
         "location": "全部"
       }
     ],
-    "korean": "클래식 당구장"
+    "korean": "클래식 당구장",
+    "koreanDescription": "리조트 소파나 해먹에 누워 느긋하게 쉬고 있으면, 마치 유명 인사가 된 듯 호화로운 기분이 든다.",
+    "descriptions": {
+      "zh": "在沙发或品床上躺下休息，感觉就像自己成为了名流。",
+      "en": "Kicking back on the stylish sofa or hammock makes you feel like a high-society celebrity at an exclusive resort.",
+      "ko": "리조트 소파나 해먹에 누워 느긋하게 쉬고 있으면, 마치 유명 인사가 된 듯 호화로운 기분이 든다.",
+      "ja": "リゾートソファやハンモックに身をゆだねれば、まるでセレブになったかのような優雅な気分。"
+    }
   },
   {
     "id": 97,
@@ -3481,7 +4153,14 @@
         "location": "全部"
       }
     ],
-    "korean": "볼링장 레인"
+    "korean": "볼링장 레인",
+    "koreanDescription": "소박하면서도 아늑하고 편안한 공간. 포켓몬들도 더없이 편안한 일상을 보낼 수 있다.",
+    "descriptions": {
+      "zh": "简约却安稳的空间宝可梦们也可以过上舒适的生活。",
+      "en": "A simple yet soothing natural space where Pokémon can enjoy a tranquil, comfortable life.",
+      "ko": "소박하면서도 아늑하고 편안한 공간. 포켓몬들도 더없이 편안한 일상을 보낼 수 있다.",
+      "ja": "シンプルでありながら落ち着ける空間。ポケモンたちも心地よく暮らすことができる。"
+    }
   },
   {
     "id": 98,
@@ -3525,7 +4204,14 @@
         "location": "全部"
       }
     ],
-    "korean": "탁구대"
+    "korean": "탁구대",
+    "koreanDescription": "붉은 풀이 모여 자라난 작은 풀숲. 산속에서 흔히 볼 수 있다.",
+    "descriptions": {
+      "zh": "红色的草组成的小草丛。在山间很常见。",
+      "en": "A small thicket formed of red grass, commonly found in mountainous areas.",
+      "ko": "붉은 풀이 모여 자라난 작은 풀숲. 산속에서 흔히 볼 수 있다.",
+      "ja": "赤い草が集まってできた小さな草むら。山あいでよく見かける。"
+    }
   },
   {
     "id": 99,
@@ -3568,7 +4254,14 @@
         "location": "全部"
       }
     ],
-    "korean": "다트 바"
+    "korean": "다트 바",
+    "koreanDescription": "촉촉한 붉은 풀이 은은한 향기를 풍겨 포켓몬들을 끌어당긴다.",
+    "descriptions": {
+      "zh": "湿润的红色草散发香味，吸宝可梦们前来。",
+      "en": "Moist red grass exudes a sweet scent that draws Pokémon closer.",
+      "ko": "촉촉한 붉은 풀이 은은한 향기를 풍겨 포켓몬들을 끌어당긴다.",
+      "ja": "しっとりとした赤い草が良い香りを漂わせ、ポケモンたちを引き寄せる。"
+    }
   },
   {
     "id": 100,
@@ -3605,7 +4298,14 @@
         "location": "全部"
       }
     ],
-    "korean": "붉은 풀숲"
+    "korean": "붉은 풀숲",
+    "koreanDescription": "키 큰 삼각 나무를 올려다보며, 풀숲 바위에 기대어 느긋하게 한숨 돌린다.",
+    "descriptions": {
+      "zh": "望着高高的三角树，在草丛中背靠岩石休息片刻。",
+      "en": "Gaze up at the tall triangular tree while leaning against a rock nestled in the red grass for a tranquil break.",
+      "ko": "키 큰 삼각 나무를 올려다보며, 풀숲 바위에 기대어 느긋하게 한숨 돌린다.",
+      "ja": "背の高い三角の木を見上げながら、草むらの岩にもたれてひと休み。"
+    }
   },
   {
     "id": 101,
@@ -3638,7 +4338,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 붉은 풀숲"
+    "korean": "촉촉한 붉은 풀숲",
+    "koreanDescription": "산속에서 흔히 보이는 붉은 풀이지만, 물가에서도 건강하게 잘 자란다.",
+    "descriptions": {
+      "zh": "山间常见的红色草，但在水边也能顺利生长。",
+      "en": "Though red grass is typically found in the mountains, it thrives wonderfully near water as well.",
+      "ko": "산속에서 흔히 보이는 붉은 풀이지만, 물가에서도 건강하게 잘 자란다.",
+      "ja": "山あいでよく見かける赤い草だが、水辺でも生き生きと元気に育つ。"
+    }
   },
   {
     "id": 102,
@@ -3676,7 +4383,14 @@
         "location": "全部"
       }
     ],
-    "korean": "언덕 붉은 풀숲"
+    "korean": "언덕 붉은 풀숲",
+    "koreanDescription": "산꼭대기처럼 시원하게 트인 높은 언덕에도 붉은 풀이 무성하게 자라나 있다.",
+    "descriptions": {
+      "zh": "在山顶等高处也长满了红色草。",
+      "en": "Vibrant red grass grows in abundance high atop hilltops and mountain peaks.",
+      "ko": "산꼭대기처럼 시원하게 트인 높은 언덕에도 붉은 풀이 무성하게 자라나 있다.",
+      "ja": "山の頂上などの見晴らしの良い高台にも、赤い草が一面に生い茂っている。"
+    }
   },
   {
     "id": 103,
@@ -3709,7 +4423,14 @@
         "location": "全部"
       }
     ],
-    "korean": "풀숲 트레이닝장"
+    "korean": "풀숲 트레이닝장",
+    "koreanDescription": "흙이 가득 든 모래주머니는 아령 대용으로 딱! 단련을 좋아하는 포켓몬들이 모여들 것 같다.",
+    "descriptions": {
+      "zh": "装着土的袋子可以代替亚铃。感觉喜欢锻炼的宝可梦会来。",
+      "en": "Bags packed with soil make great makeshift dumbbells. Fitness-loving Pokémon are bound to gather here!",
+      "ko": "흙이 가득 든 모래주머니는 아령 대용으로 딱! 단련을 좋아하는 포켓몬들이 모여들 것 같다.",
+      "ja": "土の入った袋はダンベル代わり。体を鍛えるのが好きなポケモンが集まってきそう。"
+    }
   },
   {
     "id": 104,
@@ -3753,7 +4474,14 @@
         "location": "全部"
       }
     ],
-    "korean": "우아한 꽃밭"
+    "korean": "우아한 꽃밭",
+    "koreanDescription": "바위투성이 땅에 핀 꽃들이 만발한 우아하고 아름다운 꽃밭.",
+    "descriptions": {
+      "zh": "优雅美丽的花田，开满了费岩地的花。",
+      "en": "An elegant and gorgeous flower bed filled with blooms that flourish even on rocky ground.",
+      "ko": "바위투성이 땅에 핀 꽃들이 만발한 우아하고 아름다운 꽃밭.",
+      "ja": "岩場に咲く花が一面に広がる、優雅で美しい花畑。"
+    }
   },
   {
     "id": 105,
@@ -3791,7 +4519,14 @@
         "location": "全部"
       }
     ],
-    "korean": "나무 그늘 우아한 꽃밭"
+    "korean": "나무 그늘 우아한 꽃밭",
+    "koreanDescription": "바위땅의 꽃에서 피어나는 그윽하고 우아한 향기가 주위에 부드럽게 감돈다.",
+    "descriptions": {
+      "zh": "费岩地的花散发出优雅的香气，轻柔地弥漫在四周。",
+      "en": "Flowers of the rocky ground emit an elegant fragrance that drifts softly through the cool shade.",
+      "ko": "바위땅의 꽃에서 피어나는 그윽하고 우아한 향기가 주위에 부드럽게 감돈다.",
+      "ja": "岩場に咲く花が気品ある香りを放ち、あたり一面にふんわりと漂う。"
+    }
   },
   {
     "id": 106,
@@ -3829,7 +4564,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 우아한 꽃밭"
+    "korean": "촉촉한 우아한 꽃밭",
+    "koreanDescription": "촉촉한 물가에서도 바위땅의 꽃은 도도하고 아름답게 피어난다.",
+    "descriptions": {
+      "zh": "即使是在水边，费岩地的花也会傲然绽放。",
+      "en": "Even beside gentle waters, these flowers of the rocky terrain bloom with proud, radiant grace.",
+      "ko": "촉촉한 물가에서도 바위땅의 꽃은 도도하고 아름답게 피어난다.",
+      "ja": "みずみずしい水辺でも、岩場に咲く花は誇らしげに美しく咲き誇る。"
+    }
   },
   {
     "id": 107,
@@ -3871,7 +4613,14 @@
         "location": "全部"
       }
     ],
-    "korean": "꽃밭 그루터기 무대"
+    "korean": "꽃밭 그루터기 무대",
+    "koreanDescription": "꽃밭 한가운데 마련된 특별한 무대. 그루터기에 올라서서 은은한 버섯 조명을 받으면 스타가 된 기분이다.",
+    "descriptions": {
+      "zh": "建在花田中的舞台。站在树桩上沐浴灯光，感觉就像明星一样。",
+      "en": "A stage set right in the middle of a flower garden. Standing atop the tree stump bathed in soft lamp light feels like being a star.",
+      "ko": "꽃밭 한가운데 마련된 특별한 무대. 그루터기에 올라서서 은은한 버섯 조명을 받으면 스타가 된 기분이다.",
+      "ja": "花畑の中に作られたステージ。切り株の上に立ちランプの光を浴びれば、気分はまさに大スター。"
+    }
   },
   {
     "id": 108,
@@ -3899,7 +4648,14 @@
         "location": "全部"
       }
     ],
-    "korean": "밭일은 힘들어"
+    "korean": "밭일은 힘들어",
+    "koreanDescription": "텃밭의 채소들이 무럭무럭 자라나고 있다. 가끔씩 흙을 갈아주고 든든하게 영양을 보충해 주자.",
+    "descriptions": {
+      "zh": "日里的蔬菜正在中壮成长：偶尔换换土，补充营养吧。",
+      "en": "The vegetables in the patch are growing healthy and strong! Be sure to turn the soil occasionally to keep them nourished.",
+      "ko": "텃밭의 채소들이 무럭무럭 자라나고 있다. 가끔씩 흙을 갈아주고 든든하게 영양을 보충해 주자.",
+      "ja": "畑の野菜たちがすくすくと育っている。たまには土を耕して、しっかりと栄養をあげよう。"
+    }
   },
   {
     "id": 109,
@@ -3932,7 +4688,14 @@
         "location": "全部"
       }
     ],
-    "korean": "동동 뜬 물웅덩이"
+    "korean": "동동 뜬 물웅덩이",
+    "koreanDescription": "개구리밥을 밟고 깡충깡충 건너거나, 물 위에 둥둥 떠서 함께 흔들거릴 수 있다.",
+    "descriptions": {
+      "zh": "可以在浮萍上行走，也可以跟着它一起漂浮。",
+      "en": "Hop across the duckweed as stepping stones, or simply drift along together on the rippling water.",
+      "ko": "개구리밥을 밟고 깡충깡충 건너거나, 물 위에 둥둥 떠서 함께 흔들거릴 수 있다.",
+      "ja": "ウキクサの上をぴょんぴょん渡ったり、水に身を任せていっしょにぷかぷか漂ったりできる。"
+    }
   },
   {
     "id": 110,
@@ -3961,7 +4724,14 @@
         "location": "全部"
       }
     ],
-    "korean": "이끼투성이 휴식처"
+    "korean": "이끼투성이 휴식처",
+    "koreanDescription": "촉촉하고 축축하게 이끼가 한가득 자라난 곳. 습한 환경을 좋아하는 포켓몬에게 안성맞춤이다.",
+    "descriptions": {
+      "zh": "潮平平的，长满了苔藓。正适合喜欢潮湿环境的宝可梦。",
+      "en": "Damp and covered in lush moss all around. An ideal sanctuary for Pokémon that love moist habitats.",
+      "ko": "촉촉하고 축축하게 이끼가 한가득 자라난 곳. 습한 환경을 좋아하는 포켓몬에게 안성맞춤이다.",
+      "ja": "しっとりと湿って、コケがびっしり生えている。ジメジメした場所が好きなポケモンにぴったり。"
+    }
   },
   {
     "id": 111,
@@ -3994,7 +4764,14 @@
         "location": "全部"
       }
     ],
-    "korean": "이끼투성이 바위"
+    "korean": "이끼투성이 바위",
+    "koreanDescription": "공기가 촉촉하고 고요한 분위기. 포켓몬들도 느긋한 시간을 보낼 수 있을 것 같다.",
+    "descriptions": {
+      "zh": "空气湿润，氛围宁静。宝可梦们应该也能度过悠闲时光。",
+      "en": "With moist air and a serene atmosphere, Pokémon are sure to enjoy a relaxing time here.",
+      "ko": "공기가 촉촉하고 고요한 분위기. 포켓몬들도 느긋한 시간을 보낼 수 있을 것 같다.",
+      "ja": "しっとりとした空気と穏やかな雰囲気。ポケモンたちも、のんびりと過ごせそうだ。"
+    }
   },
   {
     "id": 112,
@@ -4022,7 +4799,14 @@
         "location": "全部"
       }
     ],
-    "korean": "이끼 낀 온천"
+    "korean": "이끼 낀 온천",
+    "koreanDescription": "푸른 이끼에 둘러싸인 온천. 고즈넉한 정취를 느끼며 느긋한 시간을 만끽해 보자.",
+    "descriptions": {
+      "zh": "绿艺环绕的温泉。感受寂零之美，尽享悠闲时光。",
+      "en": "A hot spring surrounded by lush moss. Soak in the quiet serenity and unwind completely.",
+      "ko": "푸른 이끼에 둘러싸인 온천. 고즈넉한 정취를 느끼며 느긋한 시간을 만끽해 보자.",
+      "ja": "緑に囲まれた苔むす温泉。わびさびの風情を感じながら、のんびりとしたひとときを。"
+    }
   },
   {
     "id": 113,
@@ -4050,7 +4834,14 @@
         "location": "全部"
       }
     ],
-    "korean": "노천탕"
+    "korean": "노천탕",
+    "koreanDescription": "포켓몬들도 따뜻한 온천에 몸을 담그며 아름다운 경치를 즐긴다.",
+    "descriptions": {
+      "zh": "宝可梦们也会一边泡温泉，一边享受美景。",
+      "en": "Pokémon can soak in the hot spring while taking in the scenic view.",
+      "ko": "포켓몬들도 따뜻한 온천에 몸을 담그며 아름다운 경치를 즐긴다.",
+      "ja": "ポケモンたちも温泉につかりながら、きれいな景色を楽しんでいる。"
+    }
   },
   {
     "id": 114,
@@ -4082,7 +4873,14 @@
         "location": "全部"
       }
     ],
-    "korean": "힐링 온천"
+    "korean": "힐링 온천",
+    "koreanDescription": "따뜻한 온천과 시원한 냉탕을 번갈아 오가면, 온몸이 가뿐하고 개운해진다.",
+    "descriptions": {
+      "zh": "泡一下热温泉，再泡一下冷水，就会感觉身体轻区又舒爽。",
+      "en": "Alternating between the hot spring and a cold dip leaves your body feeling light and revitalized.",
+      "ko": "따뜻한 온천과 시원한 냉탕을 번갈아 오가면, 온몸이 가뿐하고 개운해진다.",
+      "ja": "温かい温泉と冷たい水風呂を行き来すれば、体も軽くなってすっきり爽快。"
+    }
   },
   {
     "id": 115,
@@ -4115,7 +4913,14 @@
         "location": "全部"
       }
     ],
-    "korean": "마그마로 뜨끈뜨끈"
+    "korean": "마그마로 뜨끈뜨끈",
+    "koreanDescription": "사방에 마그마가 가득해 무척 뜨겁다. 불꽃타입 포켓몬에게는 최고의 쉼터다.",
+    "descriptions": {
+      "zh": "到处都是熔岩，非常热。火居性的宝可梦难以抗拒。",
+      "en": "Lava is everywhere and it's boiling hot—absolutely irresistible for Fire-type Pokémon.",
+      "ko": "사방에 마그마가 가득해 무척 뜨겁다. 불꽃타입 포켓몬에게는 최고의 쉼터다.",
+      "ja": "あたり一面マグマだらけでアツアツ。ほのおタイプのポケモンにはたまらない。"
+    }
   },
   {
     "id": 116,
@@ -4147,7 +4952,14 @@
         "location": "全部"
       }
     ],
-    "korean": "파고 태우고"
+    "korean": "파고 태우고",
+    "koreanDescription": "작업 도구 옆에 커다란 화로가 놓여 있다. 누군가 불을 피우러 올지도 모른다.",
+    "descriptions": {
+      "zh": "作业工具旁放着巨大的炉子。或许会有谁来生火。",
+      "en": "A massive furnace sits beside the tools. Maybe someone will come by to kindle the flames.",
+      "ko": "작업 도구 옆에 커다란 화로가 놓여 있다. 누군가 불을 피우러 올지도 모른다.",
+      "ja": "作業道具のそばに大きな炉が置いてある。誰かが火をつけにやって来るかも。"
+    }
   },
   {
     "id": 117,
@@ -4188,7 +5000,14 @@
         "location": "全部"
       }
     ],
-    "korean": "덜컹덜컹 철골 공사"
+    "korean": "덜컹덜컹 철골 공사",
+    "koreanDescription": "철골 공사가 한창 진행 중이다. 힘센 포켓몬이 도우러 와줄 것만 같다.",
+    "descriptions": {
+      "zh": "钢架工程正在进行。力气大的宝可梦好像会来帮忙。",
+      "en": "Steel frame construction is well underway. Muscular Pokémon might drop by to lend a hand.",
+      "ko": "철골 공사가 한창 진행 중이다. 힘센 포켓몬이 도우러 와줄 것만 같다.",
+      "ja": "鉄骨工事が進行中。力自慢のポケモンがお手伝いに来てくれそうだ。"
+    }
   },
   {
     "id": 118,
@@ -4229,7 +5048,14 @@
         "location": "全部"
       }
     ],
-    "korean": "으스스한 하얀 바위"
+    "korean": "으스스한 하얀 바위",
+    "koreanDescription": "높다란 바위 주위에 이끼가 가득 끼어 있다. 랜턴 불빛 아래에서 왠지 으스스한 분위기를 풍긴다.",
+    "descriptions": {
+      "zh": "高高的岩石周围长满了产藓。在提灯的光线下，显得有些阴森。",
+      "en": "Moss clings all around the towering rocks. Beneath the dim glow of lanterns, it looks rather eerie.",
+      "ko": "높다란 바위 주위에 이끼가 가득 끼어 있다. 랜턴 불빛 아래에서 왠지 으스스한 분위기를 풍긴다.",
+      "ja": "高くそびえる岩のまわりには苔がびっしり。ランタンの灯りに照らされて、どこか不気味だ。"
+    }
   },
   {
     "id": 119,
@@ -4275,7 +5101,14 @@
         "location": "全部"
       }
     ],
-    "korean": "짐 보관소에서 몰래 간식"
+    "korean": "짐 보관소에서 몰래 간식",
+    "koreanDescription": "짐 보관소에 숨어 몰래 간식을 냠냠. 포켓몬들도 살금살금 다가올지 모른다.",
+    "descriptions": {
+      "zh": "在货物摆放处躲起来偷吃东西。宝可梦们可能也会肖悄凑过来。",
+      "en": "Sneaking a snack hidden among the crates. Pokémon might tiptoe over for a bite too.",
+      "ko": "짐 보관소에 숨어 몰래 간식을 냠냠. 포켓몬들도 살금살금 다가올지 모른다.",
+      "ja": "荷物置き場に隠れてつまみ食い。ポケモンたちもこっそり近寄ってくるかも。"
+    }
   },
   {
     "id": 120,
@@ -4307,7 +5140,14 @@
         "location": "全部"
       }
     ],
-    "korean": "두근두근 식탁"
+    "korean": "두근두근 식탁",
+    "koreanDescription": "오늘의 메인 요리는 무엇일까? 뚜껑이 열리는 순간을 두근거리며 기다려 보자.",
+    "descriptions": {
+      "zh": "今天的主菜是什公？敬请期待盖子打开的时刻吧。",
+      "en": "What's on the menu for today's main dish? Look forward to the moment the lid is lifted!",
+      "ko": "오늘의 메인 요리는 무엇일까? 뚜껑이 열리는 순간을 두근거리며 기다려 보자.",
+      "ja": "今日のメインディッシュは何かな？フタを開ける瞬間をお楽しみに。"
+    }
   },
   {
     "id": 121,
@@ -4344,7 +5184,14 @@
         "location": "全部"
       }
     ],
-    "korean": "냠냠 빵 공방"
+    "korean": "냠냠 빵 공방",
+    "koreanDescription": "빵이 노릇노릇 구워지길 기다리는 동안, 곁들일 요리를 준비해 보자.",
+    "descriptions": {
+      "zh": "一边等面包出炉，一边准音配菜吧。",
+      "en": "While waiting for the fresh bread to bake, let's prep some tasty side dishes.",
+      "ko": "빵이 노릇노릇 구워지길 기다리는 동안, 곁들일 요리를 준비해 보자.",
+      "ja": "パンが焼き上がるのを待ちながら、付け合わせの準備をしよう。"
+    }
   },
   {
     "id": 122,
@@ -4380,7 +5227,14 @@
         "location": "全部"
       }
     ],
-    "korean": "미니 키친"
+    "korean": "미니 키친",
+    "koreanDescription": "재료와 그릇을 씻고 불을 올려 요리 시작! 오늘은 어떤 맛있는 걸 만들어 볼까?",
+    "descriptions": {
+      "zh": "洗好食材和碗碟，开火做料理。今天做什公好?",
+      "en": "Wash the ingredients and dishes, then fire up the stove. What should we cook today?",
+      "ko": "재료와 그릇을 씻고 불을 올려 요리 시작! 오늘은 어떤 맛있는 걸 만들어 볼까?",
+      "ja": "食材と食器を洗って、火をつけてお料理。今日は何を作ろうかな？"
+    }
   },
   {
     "id": 123,
@@ -4417,7 +5271,14 @@
         "location": "全部"
       }
     ],
-    "korean": "다 함께 파티"
+    "korean": "다 함께 파티",
+    "koreanDescription": "음식과 음료는 모두 뷔페 스타일. 모두 함께 마음껏 파티를 즐겨보자!",
+    "descriptions": {
+      "zh": "食物和饮料都是自助式的。和大家一起尽情享受吧。",
+      "en": "Food and drinks are buffet-style. Gather round and enjoy the party with everyone!",
+      "ko": "음식과 음료는 모두 뷔페 스타일. 모두 함께 마음껏 파티를 즐겨보자!",
+      "ja": "食べ物も飲み物もビュッフェスタイル。みんなで一緒に思いきり楽しもう。"
+    }
   },
   {
     "id": 124,
@@ -4445,7 +5306,14 @@
         "location": "凸隆隆山地的城镇"
       }
     ],
-    "korean": "느긋하게 사진 돌아보기"
+    "korean": "느긋하게 사진 돌아보기",
+    "koreanDescription": "한 손에 음료를 들고, 태블릿으로 느긋하게 추억 속 사진을 넘겨보자.",
+    "descriptions": {
+      "zh": "一手端着饮料，在平板电脑上悠闲地翻看照片吧。",
+      "en": "Drink in one hand, take it easy and flip through photos on the tablet.",
+      "ko": "한 손에 음료를 들고, 태블릿으로 느긋하게 추억 속 사진을 넘겨보자.",
+      "ja": "片手にドリンクを持ちながら、タブレットでのんびりと思い出の写真を振り返ろう。"
+    }
   },
   {
     "id": 125,
@@ -4478,7 +5346,14 @@
         "location": "全部"
       }
     ],
-    "korean": "지저귐의 리사이틀"
+    "korean": "지저귐의 리사이틀",
+    "koreanDescription": "새 포켓몬이 마이크 앞으로 다가와 고운 노랫소리를 들려줄지도 모른다.",
+    "descriptions": {
+      "zh": "说不定会有鸟宝可梦来到麦克风前展现动听的歌喉。",
+      "en": "A bird Pokémon might hop up to the microphone and show off its lovely singing voice.",
+      "ko": "새 포켓몬이 마이크 앞으로 다가와 고운 노랫소리를 들려줄지도 모른다.",
+      "ja": "マイクの前にとりポケモンがやって来て、美しい歌声を披露してくれるかも。"
+    }
   },
   {
     "id": 126,
@@ -4515,7 +5390,14 @@
         "location": "全部"
       }
     ],
-    "korean": "리사이틀 무대"
+    "korean": "리사이틀 무대",
+    "koreanDescription": "나만의 특별한 무대에 올라 멋지게 노래를 불러보자!",
+    "descriptions": {
+      "zh": "登上专属的舞台，来唱歌吧！",
+      "en": "Step onto your very own stage and sing your heart out!",
+      "ko": "나만의 특별한 무대에 올라 멋지게 노래를 불러보자!",
+      "ja": "自分だけの特別なステージに立って、思いっきり歌おう！"
+    }
   },
   {
     "id": 127,
@@ -4557,7 +5439,14 @@
         "location": "全部"
       }
     ],
-    "korean": "리듬에 맞춰 원투"
+    "korean": "리듬에 맞춰 원투",
+    "koreanDescription": "포켓몬들도 신나는 리듬에 맞춰 즐겁게 원투 운동을 한다.",
+    "descriptions": {
+      "zh": "宝可梦们也会随着节拍兴致勃勃地锻。",
+      "en": "Pokémon can punch and work out to the lively beat with gusto.",
+      "ko": "포켓몬들도 신나는 리듬에 맞춰 즐겁게 원투 운동을 한다.",
+      "ja": "ポケモンたちもリズムに合わせて、ノリノリで体を動かしている。"
+    }
   },
   {
     "id": 128,
@@ -4599,7 +5488,14 @@
         "location": "全部"
       }
     ],
-    "korean": "음악과 독서"
+    "korean": "음악과 독서",
+    "koreanDescription": "음악을 틀어놓고 책을 읽으면, 평소보다 훨씬 편안하게 힐링할 수 있다.",
+    "descriptions": {
+      "zh": "边放音乐边看书，感觉能比平时更加放松。",
+      "en": "Listening to tunes while reading makes you feel even more relaxed than usual.",
+      "ko": "음악을 틀어놓고 책을 읽으면, 평소보다 훨씬 편안하게 힐링할 수 있다.",
+      "ja": "音楽を聴きながら読書をすれば、いつもよりずっとリラックスできそう。"
+    }
   },
   {
     "id": 129,
@@ -4636,7 +5532,14 @@
         "location": "全部"
       }
     ],
-    "korean": "작은 박물관"
+    "korean": "작은 박물관",
+    "koreanDescription": "전시대 위에 올려두기만 해도 무엇이든 진귀한 보물처럼 보인다.",
+    "descriptions": {
+      "zh": "只要放在展示台上，任何东西看起来都像珍宝。",
+      "en": "Place anything on the display pedestal, and it instantly looks like a priceless treasure.",
+      "ko": "전시대 위에 올려두기만 해도 무엇이든 진귀한 보물처럼 보인다.",
+      "ja": "展示台に飾るだけで、どんなものでも貴重な宝物に見えてくる。"
+    }
   },
   {
     "id": 130,
@@ -4677,7 +5580,14 @@
         "location": "全部"
       }
     ],
-    "korean": "상쾌한 라커룸"
+    "korean": "상쾌한 라커룸",
+    "koreanDescription": "관엽식물을 놓아두면 평범한 라커룸도 상쾌하고 싱그러운 분위기로 바뀐다.",
+    "descriptions": {
+      "zh": "只要放上观叶植物，朴素的储物间也会变成清爽的氛围。",
+      "en": "Adding some houseplants turns a simple locker room into a fresh, breezy space.",
+      "ko": "관엽식물을 놓아두면 평범한 라커룸도 상쾌하고 싱그러운 분위기로 바뀐다.",
+      "ja": "観葉植物を置くだけで、シンプルなロッカールームもさわやかな雰囲気に早変わり。"
+    }
   },
   {
     "id": 131,
@@ -4714,7 +5624,14 @@
         "location": "全部"
       }
     ],
-    "korean": "동상 관광 명소"
+    "korean": "동상 관광 명소",
+    "koreanDescription": "사진 찍기 딱 좋은 동상 명소. 세 마리 포켓몬의 사랑스러운 모습에 모두가 푹 빠져든다.",
+    "descriptions": {
+      "zh": "感觉很适合拍照的铜像。3只宝可梦的可爱模样让大家着迷。",
+      "en": "A photo-perfect bronze statue! The adorable trio of Pokémon captivates everyone.",
+      "ko": "사진 찍기 딱 좋은 동상 명소. 세 마리 포켓몬의 사랑스러운 모습에 모두가 푹 빠져든다.",
+      "ja": "記念撮影にぴったりの銅像。3匹の愛らしい姿にみんな夢中だ。"
+    }
   },
   {
     "id": 132,
@@ -4752,7 +5669,14 @@
         "location": "全部"
       }
     ],
-    "korean": "건널목"
+    "korean": "건널목",
+    "koreanDescription": "차단기가 내려와 있을 때는 통행금지. 포켓몬들도 얌전히 멈춰 서서 기다릴까…?",
+    "descriptions": {
+      "zh": "栏杆放下期间禁止通行。宝可梦们也会停下来吗…。",
+      "en": "No crossing while the gate is down. Will the Pokémon stop and wait patiently too...?",
+      "ko": "차단기가 내려와 있을 때는 통행금지. 포켓몬들도 얌전히 멈춰 서서 기다릴까…?",
+      "ja": "遮断機が下りている間は通行止め。ポケモンたちもちゃんと止まってくれるかな…。"
+    }
   },
   {
     "id": 133,
@@ -4796,7 +5720,14 @@
         "location": "全部"
       }
     ],
-    "korean": "셰프의 조리장"
+    "korean": "셰프의 조리장",
+    "koreanDescription": "조리대와 싱크대, 주방 기구까지, 일류 셰프라면 마음에 쏙 들어 할 주방.",
+    "descriptions": {
+      "zh": "炉灶、水槽和厨具，厨师应该会喜欢这里的一切。",
+      "en": "Stove, sink, and cooking utensils—any chef would adore everything here.",
+      "ko": "조리대와 싱크대, 주방 기구까지, 일류 셰프라면 마음에 쏙 들어 할 주방.",
+      "ja": "コンロにシンク、調理器具まで、シェフならきっと気に入る調理場。"
+    }
   },
   {
     "id": 134,
@@ -4832,7 +5763,14 @@
         "location": "全部"
       }
     ],
-    "korean": "더 고져스"
+    "korean": "더 고져스",
+    "koreanDescription": "놓여 있는 가구 하나하나가 최고급 일품. 그야말로 더할 나위 없이 럭셔리한 공간이다.",
+    "descriptions": {
+      "zh": "援放的每件家具都是顶级精品，是个无比豪华的空间。",
+      "en": "Every piece of furniture placed here is top-notch, creating a truly magnificent, opulent space.",
+      "ko": "놓여 있는 가구 하나하나가 최고급 일품. 그야말로 더할 나위 없이 럭셔리한 공간이다.",
+      "ja": "並べられた家具のすべてが最高級の逸品。この上なく豪華で贅沢な空間だ。"
+    }
   },
   {
     "id": 135,
@@ -4868,7 +5806,14 @@
         "location": "全部"
       }
     ],
-    "korean": "묵직한 아이언"
+    "korean": "묵직한 아이언",
+    "koreanDescription": "차분하고 묵직한 모노톤 공간. 조명을 켜면 한층 더 아늑하고 고요한 분위기가 감돈다.",
+    "descriptions": {
+      "zh": "沉稳的单色空间。点灯后，气氛显得更加宁静。",
+      "en": "A serene, monochrome interior. When the lights are lit, the room feels even more tranquil.",
+      "ko": "차분하고 묵직한 모노톤 공간. 조명을 켜면 한층 더 아늑하고 고요한 분위기가 감돈다.",
+      "ja": "落ち着いたモノトーンの空間。明かりを灯せば、いっそう穏やかな雰囲気に包まれる。"
+    }
   },
   {
     "id": 136,
@@ -4900,7 +5845,14 @@
         "location": "全部"
       }
     ],
-    "korean": "모던 라이프"
+    "korean": "모던 라이프",
+    "koreanDescription": "심플하면서도 세련된 감각. 모던한 디자인이 도시적이고 스타일리시한 느낌을 준다.",
+    "descriptions": {
+      "zh": "简约又时尚。摩登设计充满时髦的感觉。",
+      "en": "Simple yet sophisticated. The modern design radiates a chic and trendy feel.",
+      "ko": "심플하면서도 세련된 감각. 모던한 디자인이 도시적이고 스타일리시한 느낌을 준다.",
+      "ja": "シンプルでスタイリッシュ。モダンなデザインがおしゃれな雰囲気を漂わせる。"
+    }
   },
   {
     "id": 137,
@@ -4944,7 +5896,14 @@
         "location": "全部"
       }
     ],
-    "korean": "핑크 풀숲"
+    "korean": "핑크 풀숲",
+    "koreanDescription": "분홍빛 풀들로 이루어진 아담한 풀숲. 하늘섬에서 흔히 볼 수 있다.",
+    "descriptions": {
+      "zh": "粉红色的草组成的小草丛。在空岛很常见。",
+      "en": "A small patch of pink tall grass, commonly spotted drifting around the Sky Island.",
+      "ko": "분홍빛 풀들로 이루어진 아담한 풀숲. 하늘섬에서 흔히 볼 수 있다.",
+      "ja": "ピンク色の草が集まった小さな草むら。空島ではよく見かける。"
+    }
   },
   {
     "id": 138,
@@ -4987,7 +5946,14 @@
         "location": "全部"
       }
     ],
-    "korean": "나무 그늘 핑크 풀숲"
+    "korean": "나무 그늘 핑크 풀숲",
+    "koreanDescription": "나무 그늘 아래 자라난 분홍색 풀. 살짝 촉촉한 습기를 머금고 있다.",
+    "descriptions": {
+      "zh": "生长在树荫下的粉红色草。稍微有点潮湿。",
+      "en": "Pink grass thriving in the shade beneath the trees. It feels pleasantly damp.",
+      "ko": "나무 그늘 아래 자라난 분홍색 풀. 살짝 촉촉한 습기를 머금고 있다.",
+      "ja": "木かげに生えたピンク色の草。ほんのりと湿り気を帯びている。"
+    }
   },
   {
     "id": 139,
@@ -5025,7 +5991,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 핑크 풀숲"
+    "korean": "촉촉한 핑크 풀숲",
+    "koreanDescription": "분홍빛 풀과 맑은 물결이 서로 어우러져 무척이나 아름답다.",
+    "descriptions": {
+      "zh": "粉红色的草与水面相互映社，显得十分美丽。",
+      "en": "The pink grass reflects against the water's surface, creating a truly enchanting view.",
+      "ko": "분홍빛 풀과 맑은 물결이 서로 어우러져 무척이나 아름답다.",
+      "ja": "ピンクの草と水面が互いに引き立て合い、とても美しい景色を見せてくれる。"
+    }
   },
   {
     "id": 140,
@@ -5068,7 +6041,14 @@
         "location": "全部"
       }
     ],
-    "korean": "언덕 핑크 풀숲"
+    "korean": "언덕 핑크 풀숲",
+    "koreanDescription": "구름 위 높은 언덕에서 자라는 분홍 풀숲. 거센 바람이 불어와도 씩씩하게 자라난다.",
+    "descriptions": {
+      "zh": "生长在云端之上的粉红色草丛。即使狂风吹袭，依旧密壮成长。",
+      "en": "Pink grass that grows high above the clouds. Even in howling winds, it thrives with vigor.",
+      "ko": "구름 위 높은 언덕에서 자라는 분홍 풀숲. 거센 바람이 불어와도 씩씩하게 자라난다.",
+      "ja": "雲の上の高台に広がるピンクの草むら。強い風が吹きつけても力強く育っている。"
+    }
   },
   {
     "id": 141,
@@ -5101,7 +6081,14 @@
         "location": "全部"
       }
     ],
-    "korean": "토관 비밀기지"
+    "korean": "토관 비밀기지",
+    "koreanDescription": "오랫동안 쓰지 않은 토관. 안쪽이 뻥 뚫려 있어 비밀기지로 삼기에 안성맞춤이다.",
+    "descriptions": {
+      "zh": "很久没有使用的水泥管：里面是空的，正适合当秘密基地。",
+      "en": "A long-abandoned concrete pipe. It's hollow inside, making it the ultimate secret base.",
+      "ko": "오랫동안 쓰지 않은 토관. 안쪽이 뻥 뚫려 있어 비밀기지로 삼기에 안성맞춤이다.",
+      "ja": "長いこと使われていない土管。中は空っぽで、秘密基地にするのにぴったりだ。"
+    }
   },
   {
     "id": 142,
@@ -5145,7 +6132,14 @@
         "location": "全部"
       }
     ],
-    "korean": "푹신푹신 꽃밭"
+    "korean": "푹신푹신 꽃밭",
+    "koreanDescription": "하늘섬 특유의 보송보송하고 푹신한 꽃들이 가득 피어난 사랑스러운 꽃밭.",
+    "descriptions": {
+      "zh": "可爱的花田，开满了毛营营的台空岛的花。",
+      "en": "A lovely flower bed bursting with soft, fluffy blossoms native to the Sky Island.",
+      "ko": "하늘섬 특유의 보송보송하고 푹신한 꽃들이 가득 피어난 사랑스러운 꽃밭.",
+      "ja": "空島ならではのフワフワな花が一面に咲き誇る、かわいらしい花畑。"
+    }
   },
   {
     "id": 143,
@@ -5188,7 +6182,14 @@
         "location": "全部"
       }
     ],
-    "korean": "나무 그늘 푹신푹신 꽃밭"
+    "korean": "나무 그늘 푹신푹신 꽃밭",
+    "koreanDescription": "시원한 나무 그늘 아래, 하늘섬의 꽃들이 보드랍고 사랑스럽게 피어 있다.",
+    "descriptions": {
+      "zh": "在凉爽的树荫下，台空岛的花也轻盈可爱地统放着。",
+      "en": "Beneath the cool shade of trees, Sky Island flowers bloom gently and cutely.",
+      "ko": "시원한 나무 그늘 아래, 하늘섬의 꽃들이 보드랍고 사랑스럽게 피어 있다.",
+      "ja": "涼しい木かげの下、空島の花たちがふんわりと可愛らしく咲いている。"
+    }
   },
   {
     "id": 144,
@@ -5226,7 +6227,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 푹신푹신 꽃밭"
+    "korean": "촉촉한 푹신푹신 꽃밭",
+    "koreanDescription": "촉촉한 물가 속에서도 하늘섬의 꽃들은 은은하고 부드러운 향기를 풍긴다.",
+    "descriptions": {
+      "zh": "即使在水中，台空岛的花也散发着柔和的香气。",
+      "en": "Even in moisture and water, these fluffy Sky Island blooms release a soft, soothing fragrance.",
+      "ko": "촉촉한 물가 속에서도 하늘섬의 꽃들은 은은하고 부드러운 향기를 풍긴다.",
+      "ja": "水辺にあっても、空島のフワフワな花はやさしい香りを漂わせている。"
+    }
   },
   {
     "id": 145,
@@ -5262,7 +6270,14 @@
         "location": "全部"
       }
     ],
-    "korean": "물가의 조각배"
+    "korean": "물가의 조각배",
+    "koreanDescription": "물가에 잔잔하고 평화로운 시간이 흐른다. 작은 배에 올라타 느긋하게 하루를 보내보자.",
+    "descriptions": {
+      "zh": "宁静的时光在水边流消。搭乘独木舟，悠闲地度过吧。",
+      "en": "Time drifts by peacefully at the water's edge. Step aboard the small boat and take it easy.",
+      "ko": "물가에 잔잔하고 평화로운 시간이 흐른다. 작은 배에 올라타 느긋하게 하루를 보내보자.",
+      "ja": "水辺を穏やかな時間が流れていく。小舟に揺られながら、のんびりと過ごそう。"
+    }
   },
   {
     "id": 146,
@@ -5298,7 +6313,14 @@
         "location": "全部"
       }
     ],
-    "korean": "햇살 비치는 폭포"
+    "korean": "햇살 비치는 폭포",
+    "koreanDescription": "불을 밝혀 폭포로 향하는 길을 비춰보자. 포켓몬들도 시원한 폭포 구경을 올지도 모른다.",
+    "descriptions": {
+      "zh": "点上火，照亮通往瀑布的道路吧。宝可梦们说不定也会来观赏瀑布。",
+      "en": "Light the fires to illuminate the path to the waterfall. Pokémon might come by to admire the falls!",
+      "ko": "불을 밝혀 폭포로 향하는 길을 비춰보자. 포켓몬들도 시원한 폭포 구경을 올지도 모른다.",
+      "ja": "明かりを灯して滝へと続く道を照らそう。ポケモンたちも滝を見に集まってくるかも。"
+    }
   },
   {
     "id": 147,
@@ -5326,7 +6348,14 @@
         "location": "全部"
       }
     ],
-    "korean": "지저귐 가든"
+    "korean": "지저귐 가든",
+    "koreanDescription": "아늑한 새집과 정갈한 꽃 울타리. 어디선가 산뜻한 새들의 지저귐이 들려오는 듯하다.",
+    "descriptions": {
+      "zh": "舒适的巢箱和整齐的花篱。仿佛能听到从哪里传来了鸟鸣。",
+      "en": "Cozy nest boxes and neatly trimmed flower hedges. You can almost hear birds warbling nearby.",
+      "ko": "아늑한 새집과 정갈한 꽃 울타리. 어디선가 산뜻한 새들의 지저귐이 들려오는 듯하다.",
+      "ja": "心地よい巣箱ときれいな生け垣。どこからか小鳥のさえずりが聞こえてきそうだ。"
+    }
   },
   {
     "id": 148,
@@ -5359,7 +6388,14 @@
         "location": "全部"
       }
     ],
-    "korean": "심플 욕실"
+    "korean": "심플 욕실",
+    "koreanDescription": "심플하고 평범한 욕실. 포켓몬들도 이곳에 찾아와 목욕을 즐길지도 모른다.",
+    "descriptions": {
+      "zh": "普通的浴室。宝可梦们说不定也会来这里洗澡。",
+      "en": "A modest, straightforward bathroom. Pokémon might even come by for a refreshing bath.",
+      "ko": "심플하고 평범한 욕실. 포켓몬들도 이곳에 찾아와 목욕을 즐길지도 모른다.",
+      "ja": "ごく普通のバスルーム。ポケモンたちもここにお風呂に入りに来るかも。"
+    }
   },
   {
     "id": 149,
@@ -5387,7 +6423,14 @@
         "location": "全部"
       }
     ],
-    "korean": "사이클링 중 휴식"
+    "korean": "사이클링 중 휴식",
+    "koreanDescription": "자전거를 세워두고 잠시 쉬어가기. 자판기 뒤편에 포켓몬이 숨어있을 때도 있다.",
+    "descriptions": {
+      "zh": "把自行车停好，稍作休息。偶尔也会有宝可梦躲在自动售货机后面。",
+      "en": "Park your bike and take a quick breather. Occasionally, Pokémon might be hiding behind the vending machine.",
+      "ko": "자전거를 세워두고 잠시 쉬어가기. 자판기 뒤편에 포켓몬이 숨어있을 때도 있다.",
+      "ja": "自転車を止めてちょっとひと休み。自販機の裏にポケモンが隠れていることも。"
+    }
   },
   {
     "id": 150,
@@ -5420,7 +6463,14 @@
         "location": "全部"
       }
     ],
-    "korean": "벽난로 옆 낮잠"
+    "korean": "벽난로 옆 낮잠",
+    "koreanDescription": "따스한 벽난로 앞에 있으면, 꽁꽁 얼어붙었던 몸도 사르르 녹아내린다.",
+    "descriptions": {
+      "zh": "待在暖炉前，冻僵了的身体也会逐渐暖和起来。",
+      "en": "Resting by the cozy fireplace, even chilly bodies will warm right up.",
+      "ko": "따스한 벽난로 앞에 있으면, 꽁꽁 얼어붙었던 몸도 사르르 녹아내린다.",
+      "ja": "暖炉の前にいれば、冷えきった体もじんわりと温まっていく。"
+    }
   },
   {
     "id": 151,
@@ -5453,7 +6503,14 @@
         "location": "全部"
       }
     ],
-    "korean": "넘쳐흐르는 사이코 파워"
+    "korean": "넘쳐흐르는 사이코 파워",
+    "koreanDescription": "수정구 앞에서 주문을 외우면 보이지 않는 신비한 힘을 다룰 수 있게 될지도…?",
+    "descriptions": {
+      "zh": "在水晶前念念有词，就可以驾驭无形的力量……也许吧。",
+      "en": "Chant a chant before the crystal, and you might wield unseen power... or maybe not!",
+      "ko": "수정구 앞에서 주문을 외우면 보이지 않는 신비한 힘을 다룰 수 있게 될지도…?",
+      "ja": "水晶の前で呪文を唱えれば、目に見えない不思議な力を操れる……かも？"
+    }
   },
   {
     "id": 152,
@@ -5490,7 +6547,14 @@
         "location": "全部"
       }
     ],
-    "korean": "수정구 점술"
+    "korean": "수정구 점술",
+    "koreanDescription": "신비로운 사이코 파워로 수정구를 들여다보면 머지않은 미래가 보일지도 몰라요!",
+    "descriptions": {
+      "zh": "用精神之力窥视水晶，或许能看见未来哦?",
+      "en": "Gaze deep into the crystal with psychic power—you just might catch a glimpse of the future!",
+      "ko": "신비로운 사이코 파워로 수정구를 들여다보면 머지않은 미래가 보일지도 몰라요!",
+      "ja": "サイコパワーを込めて水晶をのぞき込めば、未来の姿が見えてくるかも？"
+    }
   },
   {
     "id": 153,
@@ -5523,7 +6587,14 @@
         "location": "全部"
       }
     ],
-    "korean": "쓰레기장의 TV"
+    "korean": "쓰레기장의 TV",
+    "koreanDescription": "쓰레기장에 버려진 낡은 TV. 신기하게도 아직 전원이 켜지는 모양이다.",
+    "descriptions": {
+      "zh": "一台被丢在垃圾场的电视。好像还能开机。",
+      "en": "An old TV tossed out at the dump. Surprisingly, it still seems to turn on.",
+      "ko": "쓰레기장에 버려진 낡은 TV. 신기하게도 아직 전원이 켜지는 모양이다.",
+      "ja": "ゴミ捨て場に捨てられたテレビ。まだ電源がつくみたいだ。"
+    }
   },
   {
     "id": 154,
@@ -5564,7 +6635,14 @@
         "location": "全部"
       }
     ],
-    "korean": "대형 쓰레기장"
+    "korean": "대형 쓰레기장",
+    "koreanDescription": "대형 폐기물을 버릴 수 있는 쓰레기장. 쓰지 않는 가전제품은 여기에 모아두자.",
+    "descriptions": {
+      "zh": "可以法弃大件物品的垃圾场。把不需要的家电放在这里吧。",
+      "en": "A drop-off point for oversized waste. Leave unwanted appliances right here.",
+      "ko": "대형 폐기물을 버릴 수 있는 쓰레기장. 쓰지 않는 가전제품은 여기에 모아두자.",
+      "ja": "大きな不用品を捨てられる粗大ゴミ置き場。いらなくなった家電はここに置こう。"
+    }
   },
   {
     "id": 155,
@@ -5605,7 +6683,14 @@
         "location": "全部"
       }
     ],
-    "korean": "파트너와 심문"
+    "korean": "파트너와 심문",
+    "koreanDescription": "파트너 윈디와 함께 진지하게 심문 중. 팽팽한 긴장감이 방 안을 감돈다.",
+    "descriptions": {
+      "zh": "正在和风速狗一起进行调查。周围弥漫着紧张的气氛。",
+      "en": "Conducting an intense investigation alongside Arcanine. A tense vibe fills the air.",
+      "ko": "파트너 윈디와 함께 진지하게 심문 중. 팽팽한 긴장감이 방 안을 감돈다.",
+      "ja": "相棒のウインディと一緒に取り調べの真っ最中。ピリッとした緊張感が漂っている。"
+    }
   },
   {
     "id": 156,
@@ -5651,7 +6736,14 @@
         "location": "全部"
       }
     ],
-    "korean": "맨홀 점검 중"
+    "korean": "맨홀 점검 중",
+    "koreanDescription": "맨홀 점검 작업 진행 중! 관계자 외 출입 금지, 가까이 오지 마세요.",
+    "descriptions": {
+      "zh": "井盖正在维修检查闲杂人等请勿靠近。",
+      "en": "Manhole maintenance in progress. Unauthorized personnel, please keep away!",
+      "ko": "맨홀 점검 작업 진행 중! 관계자 외 출입 금지, 가까이 오지 마세요.",
+      "ja": "マンホールの点検中につき、関係者以外は立ち入り禁止！"
+    }
   },
   {
     "id": 157,
@@ -5688,7 +6780,14 @@
         "location": "全部"
       }
     ],
-    "korean": "반짝반짝 세면대"
+    "korean": "반짝반짝 세면대",
+    "koreanDescription": "세수하고 수건으로 닦아내면 상쾌함이 가득! 거울을 보고 단정하게 옷매무새를 가다듬자.",
+    "descriptions": {
+      "zh": "洗脸后用毛巾擦干，顿时神清气爽。别志了照照镜子，检查一下仪容吧。",
+      "en": "Wash up and towel off for instant refreshment! Don't forget to check the mirror and look your best.",
+      "ko": "세수하고 수건으로 닦아내면 상쾌함이 가득! 거울을 보고 단정하게 옷매무새를 가다듬자.",
+      "ja": "顔を洗ってタオルで拭けば気分爽快！鏡をのぞいて身だしなみチェックもお忘れなく。"
+    }
   },
   {
     "id": 158,
@@ -5720,7 +6819,14 @@
         "location": "全部"
       }
     ],
-    "korean": "홈 시어터"
+    "korean": "홈 시어터",
+    "koreanDescription": "큼직한 스피커와 대형 TV를 배치해 두니, 마치 진짜 영화관에 온 듯한 기분이다.",
+    "descriptions": {
+      "zh": "放上大大的音响和电视，感觉就像是电影院。",
+      "en": "Set up big speakers and a huge TV, and it feels just like an actual movie theater.",
+      "ko": "큼직한 스피커와 대형 TV를 배치해 두니, 마치 진짜 영화관에 온 듯한 기분이다.",
+      "ja": "大きなスピーカーとテレビを置けば、気分はまるで本物の映画館。"
+    }
   },
   {
     "id": 159,
@@ -5761,7 +6867,14 @@
         "location": "全部"
       }
     ],
-    "korean": "공부 공간"
+    "korean": "공부 공간",
+    "koreanDescription": "연필을 쥐고 책상 앞에 앉기만 해도 어쩐지 머리가 똑똑해진 기분이 든다.",
+    "descriptions": {
+      "zh": "光是拿起铅笔坐在桌前，就感觉自己好像变聪明了些。",
+      "en": "Just sitting at the desk with a pencil in hand makes you feel a whole lot smarter.",
+      "ko": "연필을 쥐고 책상 앞에 앉기만 해도 어쩐지 머리가 똑똑해진 기분이 든다.",
+      "ja": "鉛筆を握って机に向かうだけで、なんだか少し賢くなった気分になれる。"
+    }
   },
   {
     "id": 160,
@@ -5798,7 +6911,14 @@
         "location": "全部"
       }
     ],
-    "korean": "리드미컬 거실"
+    "korean": "리드미컬 거실",
+    "koreanDescription": "대형 TV로 신나는 리듬 게임을 플레이! 비트에 맞춰 매트 위에서 스텝을 밟아보자.",
+    "descriptions": {
+      "zh": "在大电视上玩节奏游戏。跟着节拍在热子上移动吧。",
+      "en": "Playing rhythm games on the big TV! Step and groove on the dance mat to the upbeat rhythm.",
+      "ko": "대형 TV로 신나는 리듬 게임을 플레이! 비트에 맞춰 매트 위에서 스텝을 밟아보자.",
+      "ja": "大画面テレビでリズムゲーム！ビートに合わせてマットの上でステップを踏もう。"
+    }
   },
   {
     "id": 161,
@@ -5826,7 +6946,14 @@
         "location": "全部"
       }
     ],
-    "korean": "뽀득뽀득 청소"
+    "korean": "뽀득뽀득 청소",
+    "koreanDescription": "메리프 스펀지에 세제를 듬뿍 묻혀, 욕조를 반짝반짝 뽀득하게 닦아내자!",
+    "descriptions": {
+      "zh": "在咩利羊海绵上挤满清洁剂，把浴缸擦得亮晶晶吧。",
+      "en": "Lather up the Mareep sponge with soap and scrub that bathtub until it's squeaky clean!",
+      "ko": "메리프 스펀지에 세제를 듬뿍 묻혀, 욕조를 반짝반짝 뽀득하게 닦아내자!",
+      "ja": "メリープのスポンジに洗剤をたっぷりつけて、お風呂をキュキュッとピカピカに磨こう！"
+    }
   },
   {
     "id": 162,
@@ -5863,7 +6990,14 @@
         "location": "全部"
       }
     ],
-    "korean": "촉촉한 화장대"
+    "korean": "촉촉한 화장대",
+    "koreanDescription": "피부를 촉촉하게 수분 충전해 주면 화장이 평소보다 훨씬 더 예쁘게 잘 받는다.",
+    "descriptions": {
+      "zh": "让肌肤滋润水润，妆容似乎就会比平时更完美。",
+      "en": "Keep your skin hydrated and refreshed, and your makeup will turn out even more flawless.",
+      "ko": "피부를 촉촉하게 수분 충전해 주면 화장이 평소보다 훨씬 더 예쁘게 잘 받는다.",
+      "ja": "お肌をしっとり潤わせれば、いつものメイクもいっそう綺麗にキマりそう。"
+    }
   },
   {
     "id": 163,
@@ -5899,7 +7033,14 @@
         "location": "全部"
       }
     ],
-    "korean": "작은 도서관"
+    "korean": "작은 도서관",
+    "koreanDescription": "따스한 스탠드 불빛만 켜두면 야심한 밤에도 책을 차분히 찾아 읽을 수 있다.",
+    "descriptions": {
+      "zh": "只要把灯点亮，即便在夜晚也能仔细寻找书本。",
+      "en": "Just flick on the light, and you can happily browse for books even in the middle of the night.",
+      "ko": "따스한 스탠드 불빛만 켜두면 야심한 밤에도 책을 차분히 찾아 읽을 수 있다.",
+      "ja": "明かりを灯せば、夜になってもゆっくりお気に入りの本を探せる。"
+    }
   },
   {
     "id": 164,
@@ -5927,7 +7068,14 @@
         "location": "全部"
       }
     ],
-    "korean": "게임 코너에서 배틀"
+    "korean": "게임 코너에서 배틀",
+    "koreanDescription": "나란히 앉는 순간 신나는 대전 게임 시작! 포켓몬들도 승부를 겨루러 올지도 모른다.",
+    "descriptions": {
+      "zh": "并排坐好后，对战游戏就开始了。宝可梦们说不定也会来玩。",
+      "en": "Sit side by side and let the arcade battle begin! Pokémon might jump in to play too.",
+      "ko": "나란히 앉는 순간 신나는 대전 게임 시작! 포켓몬들도 승부를 겨루러 올지도 모른다.",
+      "ja": "並んで座れば白熱の対戦ゲームがスタート！ポケモンたちも遊びに来てくれるかも。"
+    }
   },
   {
     "id": 165,
@@ -5955,7 +7103,14 @@
         "location": "全部"
       }
     ],
-    "korean": "플레이랜드"
+    "korean": "플레이랜드",
+    "koreanDescription": "커다란 미끄럼틀과 알록달록 장난감이 가득해, 무엇부터 가지고 놀아야 할지 고민된다.",
+    "descriptions": {
+      "zh": "大大的滑梯和各种玩具，不知道该玩哪个才好。",
+      "en": "With a huge slide and loads of toys, it's hard to decide what to play with first!",
+      "ko": "커다란 미끄럼틀과 알록달록 장난감이 가득해, 무엇부터 가지고 놀아야 할지 고민된다.",
+      "ja": "大きなすべり台やいろんなオモチャがいっぱいで、どれから遊ぼうか迷っちゃう。"
+    }
   },
   {
     "id": 166,
@@ -5991,7 +7146,14 @@
         "location": "全部"
       }
     ],
-    "korean": "업무 데스크"
+    "korean": "업무 데스크",
+    "koreanDescription": "사무용 의자에 앉아 타닥타닥 타이핑을 한다. 피곤할 땐 음료를 마시며 잠시 쉬어가자.",
+    "descriptions": {
+      "zh": "坐在办公椅上，劈里啪啦地打字。累了就喝杯饮料休息一下吧。",
+      "en": "Sit in the office chair and type away clackety-clack. When you get tired, take a break with a drink.",
+      "ko": "사무용 의자에 앉아 타닥타닥 타이핑을 한다. 피곤할 땐 음료를 마시며 잠시 쉬어가자.",
+      "ja": "オフィスチェアに座って、カタカタとタイピング。疲れたら飲み物を飲んでひと休みしよう。"
+    }
   },
   {
     "id": 167,
@@ -6038,7 +7200,14 @@
         "location": "全部"
       }
     ],
-    "korean": "사무실 창고"
+    "korean": "사무실 창고",
+    "koreanDescription": "오래된 자료나 안 쓰는 물건들을 보관하는 장소. 가끔 포켓몬이 실수로 잘못 들어오기도 한다.",
+    "descriptions": {
+      "zh": "摆放日资料和闲置物品的地方。偶尔会有宝可梦不小心跑进来。",
+      "en": "A place for storing old documents and unused items. Occasionally, a Pokémon might wander in by mistake.",
+      "ko": "오래된 자료나 안 쓰는 물건들을 보관하는 장소. 가끔 포켓몬이 실수로 잘못 들어오기도 한다.",
+      "ja": "古い資料や使わなくなった物を置く場所。たまにポケモンがうっかり迷い込んでくることも。"
+    }
   },
   {
     "id": 168,
@@ -6070,7 +7239,14 @@
         "location": "全部"
       }
     ],
-    "korean": "실험 공간"
+    "korean": "실험 공간",
+    "koreanDescription": "수많은 실험을 마음껏 할 수 있는 공간. 누군가의 연구 기록이 아직 남아 있을지도 모른다.",
+    "descriptions": {
+      "zh": "可以进行大量实验的空间。或许还保留着谁的研究记录。",
+      "en": "A space where plenty of experiments can be conducted. Someone's research notes might still remain here.",
+      "ko": "수많은 실험을 마음껏 할 수 있는 공간. 누군가의 연구 기록이 아직 남아 있을지도 모른다.",
+      "ja": "たくさんの実験を行える空間。誰かの研究記録がまだ残っているかもしれない。"
+    }
   },
   {
     "id": 169,
@@ -6106,7 +7282,14 @@
         "location": "全部"
       }
     ],
-    "korean": "박사를 목표로 연구 중"
+    "korean": "박사를 목표로 연구 중",
+    "koreanDescription": "연구를 꾸준히 하다 보면 덩쿠림보 박사처럼 박학다식해질 수 있을지도 모른다.",
+    "descriptions": {
+      "zh": "只要不断研究，说不定能变得像巨蔓藤博士那样博学多识。",
+      "en": "Keep studying and researching, and you might become just as knowledgeable as Professor Tangrowth.",
+      "ko": "연구를 꾸준히 하다 보면 덩쿠림보 박사처럼 박학다식해질 수 있을지도 모른다.",
+      "ja": "研究を重ねていけば、モジャンボ博士のように物知りになれるかもしれない。"
+    }
   },
   {
     "id": 170,
@@ -6138,7 +7321,14 @@
         "location": "全部"
       }
     ],
-    "korean": "연구원의 책상"
+    "korean": "연구원의 책상",
+    "koreanDescription": "연구 주제는 포켓몬과 과학. 데이터는 이미 컴퓨터에 입력되어 있다.",
+    "descriptions": {
+      "zh": "研究的主题是宝可梦与科学。数据已经录入电脑中。",
+      "en": "The research theme is Pokémon and science. All the data has already been logged into the computer.",
+      "ko": "연구 주제는 포켓몬과 과학. 데이터는 이미 컴퓨터에 입력되어 있다.",
+      "ja": "研究のテーマはポケモンと科学。データはすでにパソコンに入力されている。"
+    }
   },
   {
     "id": 171,
@@ -6171,7 +7361,14 @@
         "location": "全部"
       }
     ],
-    "korean": "자유롭게 읽어주세요"
+    "korean": "자유롭게 읽어주세요",
+    "koreanDescription": "이곳에 놓인 신문과 잡지는 누구나 자유롭게 꺼내 읽을 수 있다.",
+    "descriptions": {
+      "zh": "谁都可以自由翻阅摆放在这里的报纸和杂态。",
+      "en": "Anyone is free to flip through the newspapers and magazines placed here.",
+      "ko": "이곳에 놓인 신문과 잡지는 누구나 자유롭게 꺼내 읽을 수 있다.",
+      "ja": "ここに置かれた新聞や雑誌は、誰でも自由に読むことができる。"
+    }
   },
   {
     "id": 172,
@@ -6203,7 +7400,14 @@
         "location": "全部"
       }
     ],
-    "korean": "쿵덕쿵덕 깜짝 상자"
+    "korean": "쿵덕쿵덕 깜짝 상자",
+    "koreanDescription": "스포트라이트가 켜지고 북소리 리듬이 울려 퍼지면, 깜짝 상자를 여는 긴장감도 최고조에 달한다.",
+    "descriptions": {
+      "zh": "聚光灯伴随着太鼓的节奏，打开惊吓箱的紧张感也达到了顶峰。",
+      "en": "With spotlights shining to the rhythm of the drums, the suspense of opening the surprise box reaches its climax.",
+      "ko": "스포트라이트가 켜지고 북소리 리듬이 울려 퍼지면, 깜짝 상자를 여는 긴장감도 최고조에 달한다.",
+      "ja": "スポットライトと太鼓のリズムに合わせて、びっくり箱を開ける緊張感も最高潮に達する。"
+    }
   },
   {
     "id": 173,
@@ -6236,7 +7440,14 @@
         "location": "全部"
       }
     ],
-    "korean": "장난 스위치"
+    "korean": "장난 스위치",
+    "koreanDescription": "깜짝 상자 옆에 눈에 띄게 놓인 스위치. 누를지 말지는 당신의 선택에 달렸다.",
+    "descriptions": {
+      "zh": "惊虾箱旁显眼的开关。是否要按，中你决定。",
+      "en": "A conspicuous switch right next to the surprise box. Whether to press it is entirely up to you.",
+      "ko": "깜짝 상자 옆에 눈에 띄게 놓인 스위치. 누를지 말지는 당신의 선택에 달렸다.",
+      "ja": "びっくり箱の隣にある目立つスイッチ。押すかどうかはあなた次第。"
+    }
   },
   {
     "id": 174,
@@ -6273,7 +7484,14 @@
         "location": "全部"
       }
     ],
-    "korean": "절경 얼굴 내밀기 패널"
+    "korean": "절경 얼굴 내밀기 패널",
+    "koreanDescription": "높은 곳에 올라온 기념으로 패널 구멍에 얼굴을 쏙 내밀고 사진을 찍어보자.",
+    "descriptions": {
+      "zh": "作为登上高处的纪念，把验对准板子的洞口拍张照吧。",
+      "en": "As a memento of climbing to the top, poke your face through the cutout board and take a photo!",
+      "ko": "높은 곳에 올라온 기념으로 패널 구멍에 얼굴을 쏙 내밀고 사진을 찍어보자.",
+      "ja": "高い所に登った記念に、パネルの穴から顔を出して記念写真を撮ってみよう。"
+    }
   },
   {
     "id": 175,
@@ -6305,7 +7523,14 @@
         "location": "亮晶晶空岛的城镇"
       }
     ],
-    "korean": "타이어 공원"
+    "korean": "타이어 공원",
+    "koreanDescription": "거대한 미끄럼틀보다 왠지 타이어가 더 눈에 띈다. 다양한 타이어로 신나게 놀아보자.",
+    "descriptions": {
+      "zh": "比起巨大的滑梯，不知为何轮胎更加抢眼。用各种轮胎来玩要吧。",
+      "en": "Somehow the tires catch the eye more than the giant slide. Have fun playing with all kinds of tires!",
+      "ko": "거대한 미끄럼틀보다 왠지 타이어가 더 눈에 띈다. 다양한 타이어로 신나게 놀아보자.",
+      "ja": "大きなすべり台よりも、なぜかタイヤのほうが目を引く。色々なタイヤで思いきり遊ぼう。"
+    }
   },
   {
     "id": 176,
@@ -6341,7 +7566,14 @@
         "location": "全部"
       }
     ],
-    "korean": "자연 속 마켓"
+    "korean": "자연 속 마켓",
+    "koreanDescription": "계산대에 전기를 연결하면 대자연 속에서도 모두와 함께 거래를 즐길 수 있다.",
+    "descriptions": {
+      "zh": "给收银台通上电，即使在大自然中也可以和大家进行交易。",
+      "en": "Power up the cash register, and you can trade with everyone even out in the heart of nature.",
+      "ko": "계산대에 전기를 연결하면 대자연 속에서도 모두와 함께 거래를 즐길 수 있다.",
+      "ja": "レジに電気を通せば、大自然の中でもみんなと取引ができる。"
+    }
   },
   {
     "id": 177,
@@ -6373,7 +7605,14 @@
         "location": "全部"
       }
     ],
-    "korean": "공사 현장의 발전소"
+    "korean": "공사 현장의 발전소",
+    "koreanDescription": "공사 현장에도 많은 전력이 필요한 법. 남은 목재를 땔감으로 활용해보자.",
+    "descriptions": {
+      "zh": "施工现场同样需要大量电力。把多余的木材用作燃料吧。",
+      "en": "Construction sites require plenty of power too. Use surplus wood as fuel!",
+      "ko": "공사 현장에도 많은 전력이 필요한 법. 남은 목재를 땔감으로 활용해보자.",
+      "ja": "工事現場でもたくさんの電力が必要。余った木材を燃料にしよう。"
+    }
   },
   {
     "id": 178,
@@ -6406,7 +7645,14 @@
         "location": "全部"
       }
     ],
-    "korean": "도장에서 트레이닝"
+    "korean": "도장에서 트레이닝",
+    "koreanDescription": "무도의 정신을 깨우치면 무거운 바위라도 거뜬히 들어 올릴 수 있을지도 모른다.",
+    "descriptions": {
+      "zh": "要是领悟了武道精神，说不定连沉重的岩石都能搬动。",
+      "en": "If you master the spirit of martial arts, you might even be able to lift heavy boulders.",
+      "ko": "무도의 정신을 깨우치면 무거운 바위라도 거뜬히 들어 올릴 수 있을지도 모른다.",
+      "ja": "武道の精神を極めれば、重い岩だって軽々と持ち上げられるかもしれない。"
+    }
   },
   {
     "id": 179,
@@ -6438,7 +7684,14 @@
         "location": "全部"
       }
     ],
-    "korean": "악의 조직 아지트"
+    "korean": "악의 조직 아지트",
+    "koreanDescription": "푹신한 의자에 앉아 등 뒤에 조직의 엠블럼을 두르면, 마치 자신이 보스가 된 듯한 기분이 든다.",
+    "descriptions": {
+      "zh": "坐在软软的椅子上，背后是组织的标志，感觉就像自己成了老大。",
+      "en": "Sitting in the plush chair with the organization's emblem behind you makes you feel just like the boss.",
+      "ko": "푹신한 의자에 앉아 등 뒤에 조직의 엠블럼을 두르면, 마치 자신이 보스가 된 듯한 기분이 든다.",
+      "ja": "ふかふかのイスに座り、背後に組織のシンボルを背負えば、まるで自分がボスの気分。"
+    }
   },
   {
     "id": 180,
@@ -6462,7 +7715,14 @@
         "location": "全部"
       }
     ],
-    "korean": "아홉 개의 불꽃"
+    "korean": "아홉 개의 불꽃",
+    "koreanDescription": "아홉 개의 불꽃이 흔들흔들 일렁이며 주위에 신비로운 기운이 감돈다.",
+    "descriptions": {
+      "zh": "9个等火轻轻摇曳，四周弥漫着神秘的气息、。",
+      "en": "Nine flames flicker gently, casting a mysterious aura all around.",
+      "ko": "아홉 개의 불꽃이 흔들흔들 일렁이며 주위에 신비로운 기운이 감돈다.",
+      "ja": "9つの炎がゆらゆらと揺らめき、あたりに神秘的な空気が漂っている。"
+    }
   },
   {
     "id": 181,
@@ -6503,7 +7763,14 @@
         "location": "全部"
       }
     ],
-    "korean": "인형에 둘러싸여"
+    "korean": "인형에 둘러싸여",
+    "koreanDescription": "진열된 것은 전부 인형이지만, 진짜 포켓몬으로 착각하는 친구가 있을지도 모른다.",
+    "descriptions": {
+      "zh": "虽然摆放的全是布偶，但或许会有宝可梦误以为是真的。",
+      "en": "Though they're all plush toys on display, some Pokémon might mistake them for the real thing.",
+      "ko": "진열된 것은 전부 인형이지만, 진짜 포켓몬으로 착각하는 친구가 있을지도 모른다.",
+      "ja": "並んでいるのはすべてぬいぐるみだが、本物と勘違いするポケモンもいるかもしれない。"
+    }
   },
   {
     "id": 182,
@@ -6543,7 +7810,14 @@
         "location": "全部"
       }
     ],
-    "korean": "발군의 게임 환경"
+    "korean": "발군의 게임 환경",
+    "koreanDescription": "게임을 즐기기에 효과만점인 쾌적한 공간. 의자에 앉아 게임 속 세상에 푹 빠져보자.",
+    "descriptions": {
+      "zh": "非常适合玩游戏的舒适空间。坐在椅子上，沉浸在游戏世界中吧。",
+      "en": "A super-effective comfort zone for gaming. Settle into the chair and immerse yourself in the gaming world.",
+      "ko": "게임을 즐기기에 효과만점인 쾌적한 공간. 의자에 앉아 게임 속 세상에 푹 빠져보자.",
+      "ja": "ゲームを遊ぶのにうってつけの快適な空間。イスに座って、ゲームの世界に没頭しよう。"
+    }
   },
   {
     "id": 183,
@@ -6575,7 +7849,14 @@
         "location": "全部"
       }
     ],
-    "korean": "팝 오브 팝"
+    "korean": "팝 오브 팝",
+    "koreanDescription": "통통 튀는 컬러풀한 가구에 둘러싸여 있으면 마음까지 덩달아 들뜨고 즐거워진다.",
+    "descriptions": {
+      "zh": "被新潮又多彩的家具包围，感觉心情都会变得雀跃起来。",
+      "en": "Surrounded by trendy, colorful pop furniture, your heart will leap with excitement.",
+      "ko": "통통 튀는 컬러풀한 가구에 둘러싸여 있으면 마음까지 덩달아 들뜨고 즐거워진다.",
+      "ja": "ポップでカラフルな家具に囲まれて、心までウキウキと弾んでくる。"
+    }
   },
   {
     "id": 184,
@@ -6612,7 +7893,14 @@
         "location": "全部"
       }
     ],
-    "korean": "낚시터"
+    "korean": "낚시터",
+    "koreanDescription": "낚싯줄을 드리우고 가만히 기다리면 물타입 포켓몬이 다가올지도 모른다.",
+    "descriptions": {
+      "zh": "垂下的线耐心等待，水属性的宝可梦说不定会过来。",
+      "en": "Cast your line and wait patiently—a Water-type Pokémon might come swimming by.",
+      "ko": "낚싯줄을 드리우고 가만히 기다리면 물타입 포켓몬이 다가올지도 모른다.",
+      "ja": "釣り糸を垂らしてじっと待てば、みずタイプのポケモンがやってくるかも。"
+    }
   },
   {
     "id": 185,
@@ -6654,7 +7942,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바다낚시터"
+    "korean": "바다낚시터",
+    "koreanDescription": "바다에서도 낚시의 손맛을 즐겨보자. 강이나 호수와는 다른 포켓몬이 찾아올지도 모른다.",
+    "descriptions": {
+      "zh": "在大海也来享受重约的乐趣吧。说不定会有与河川或湖油不一样的宝可梦过来。",
+      "en": "Enjoy the thrills of ocean fishing too. You might hook Pokémon quite different from those in rivers or lakes.",
+      "ko": "바다에서도 낚시의 손맛을 즐겨보자. 강이나 호수와는 다른 포켓몬이 찾아올지도 모른다.",
+      "ja": "海でも釣りの楽しさを満喫しよう。川や湖とはひと味違うポケモンがやってくるかも。"
+    }
   },
   {
     "id": 186,
@@ -6696,7 +7991,14 @@
         "location": "全部"
       }
     ],
-    "korean": "늪 낚시터"
+    "korean": "늪 낚시터",
+    "koreanDescription": "늪지대에도 포켓몬이 살고 있다. 진흙탕 근처에 낚싯줄을 드리워보자.",
+    "descriptions": {
+      "zh": "沼泽地里也住着宝可梦在泥水附近垂下钓线吧。",
+      "en": "Pokémon live in marshlands too. Cast your line down near the muddy waters.",
+      "ko": "늪지대에도 포켓몬이 살고 있다. 진흙탕 근처에 낚싯줄을 드리워보자.",
+      "ja": "沼地にもポケモンは暮らしている。泥水の近くに釣り糸を垂らしてみよう。"
+    }
   },
   {
     "id": 187,
@@ -6733,7 +8035,14 @@
         "location": "全部"
       }
     ],
-    "korean": "온천 낚시터"
+    "korean": "온천 낚시터",
+    "koreanDescription": "온천을 즐기던 포켓몬이 미끼에 이끌려 다가올지도 모른다.",
+    "descriptions": {
+      "zh": "正在泡温泉的宝可梦说不定会被钓饵吸引过来。",
+      "en": "A Pokémon relaxing in the hot spring might be drawn over by the bait.",
+      "ko": "온천을 즐기던 포켓몬이 미끼에 이끌려 다가올지도 모른다.",
+      "ja": "温泉に浸かっているポケモンが、釣りエサに惹かれて寄ってくるかも。"
+    }
   },
   {
     "id": 188,
@@ -6765,7 +8074,14 @@
         "location": "全部"
       }
     ],
-    "korean": "마그마 낚시터"
+    "korean": "마그마 낚시터",
+    "koreanDescription": "마그마 속에 낚싯줄을 드리우면 포켓몬을 낚을 수 있을지도...?",
+    "descriptions": {
+      "zh": "往熔岩中重下钓线，说不定也可以钓到宝可梦…。",
+      "en": "Drop a line into the bubbling magma, and you might just catch a Pokémon...?",
+      "ko": "마그마 속에 낚싯줄을 드리우면 포켓몬을 낚을 수 있을지도...?",
+      "ja": "マグマの中に釣り糸を垂らせば、ポケモンが釣れるかも……。"
+    }
   },
   {
     "id": 189,
@@ -6801,7 +8117,14 @@
         "location": "全部"
       }
     ],
-    "korean": "하이한 록 스테이지"
+    "korean": "하이한 록 스테이지",
+    "koreanDescription": "신나는 기타를 연주하면 하이하고 열정적인 라이브가 시작된다.",
+    "descriptions": {
+      "zh": "弹起劲爆的吉他，高调激昂的表演就要开始。",
+      "en": "Strum the electrifying guitar, and an amped-up, fiery rock show kicks off.",
+      "ko": "신나는 기타를 연주하면 하이하고 열정적인 라이브가 시작된다.",
+      "ja": "ノリノリのギターをかき鳴らせば、ハイで熱狂的なパフォーマンスが幕を開ける。"
+    }
   },
   {
     "id": 190,
@@ -6837,7 +8160,14 @@
         "location": "全部"
       }
     ],
-    "korean": "로우한 록 스테이지"
+    "korean": "로우한 록 스테이지",
+    "koreanDescription": "묵직한 베이스를 연주하면 로우하고 쿨한 라이브가 시작된다.",
+    "descriptions": {
+      "zh": "弹起低沉的贝斯，低调沉稳的表演就要开始。",
+      "en": "Pluck the deep bass, and a mellow, low-key rock show begins.",
+      "ko": "묵직한 베이스를 연주하면 로우하고 쿨한 라이브가 시작된다.",
+      "ja": "重低音のベースを奏でれば、ローでクールなパフォーマンスが幕を開ける。"
+    }
   },
   {
     "id": 191,
@@ -6873,7 +8203,14 @@
         "location": "全部"
       }
     ],
-    "korean": "원념의 기사 제단"
+    "korean": "원념의 기사 제단",
+    "koreanDescription": "어딘가 으스스한 어두운 공간. 기괴한 의식이 치러질 것만 같은 분위기다.",
+    "descriptions": {
+      "zh": "有些阴音的空间，仿佛会用来进行诡异的仪式。",
+      "en": "A gloomy and eerie space that looks as though mysterious rituals are performed here.",
+      "ko": "어딘가 으스스한 어두운 공간. 기괴한 의식이 치러질 것만 같은 분위기다.",
+      "ja": "どこか薄暗く不気味な空間。怪しげな儀式が行われそうな気配が漂っている。"
+    }
   },
   {
     "id": 192,
@@ -6909,7 +8246,14 @@
         "location": "全部"
       }
     ],
-    "korean": "충성의 기사 제단"
+    "korean": "충성의 기사 제단",
+    "koreanDescription": "어딘가 신비로운 공간. 성스러운 의식이 거행될 것만 같은 분위기다.",
+    "descriptions": {
+      "zh": "有些神秘的空间，仿佛会用来进行诡异的仪式。",
+      "en": "A somewhat mystical space that seems destined for sacred rituals.",
+      "ko": "어딘가 신비로운 공간. 성스러운 의식이 거행될 것만 같은 분위기다.",
+      "ja": "どこか神秘的な空間。厳かな儀式が行われそうな気配が漂っている。"
+    }
   },
   {
     "id": 193,
@@ -6953,7 +8297,14 @@
         "location": "全部"
       }
     ],
-    "korean": "날개 화석 전시대"
+    "korean": "날개 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 하늘의 제왕다운 위풍당당한 골격이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是天空王者气派的骨架。",
+      "en": "Displays the fossil of an ancient Pokémon. A majestic skeleton worthy of the king of the skies.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 하늘의 제왕다운 위풍당당한 골격이다.",
+      "ja": "古代のポケモンの化石を展示している。大空の王者にふさわしい堂々とした骨格だ。"
+    }
   },
   {
     "id": 194,
@@ -6981,7 +8332,14 @@
         "location": "全部"
       }
     ],
-    "korean": "두개 화석 전시대"
+    "korean": "두개 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 마치 쇠처럼 단단한 두개골이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是犹如铁一般坚硬的头盖骨。",
+      "en": "Displays the fossil of an ancient Pokémon. A skull as hard as solid iron.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 마치 쇠처럼 단단한 두개골이다.",
+      "ja": "古代のポケモンの化石を展示している。まるで鉄のように頑丈な頭蓋骨だ。"
+    }
   },
   {
     "id": 195,
@@ -7017,7 +8375,14 @@
         "location": "全部"
       }
     ],
-    "korean": "박치기 화석 전시대"
+    "korean": "박치기 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 강철보다도 훨씬 단단한 두개골이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是比钢铁还要坚硬的头盖骨。",
+      "en": "Displays the fossil of an ancient Pokémon. A skull even harder than steel.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 강철보다도 훨씬 단단한 두개골이다.",
+      "ja": "古代のポケモンの化石を展示している。鋼鉄よりもさらに硬い頭蓋骨だ。"
+    }
   },
   {
     "id": 196,
@@ -7045,7 +8410,14 @@
         "location": "全部"
       }
     ],
-    "korean": "방패 화석 전시대"
+    "korean": "방패 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 마치 방패처럼 단단한 목둘레 깃이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是犹如盾牌般坚固的领饰。",
+      "en": "Displays the fossil of an ancient Pokémon. A neck shield as sturdy as armor.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 마치 방패처럼 단단한 목둘레 깃이다.",
+      "ja": "古代のポケモンの化石を展示している。まるで盾のように頑丈な襟飾りだ。"
+    }
   },
   {
     "id": 197,
@@ -7081,7 +8453,14 @@
         "location": "全部"
       }
     ],
-    "korean": "실드 화석 전시대"
+    "korean": "실드 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 방벽처럼 견고한 목둘레 깃이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是犹如防护墙般坚固的领饰。",
+      "en": "Displays the fossil of an ancient Pokémon. A neck shield as solid as a defensive wall.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 방벽처럼 견고한 목둘레 깃이다.",
+      "ja": "古代のポケモンの化石を展示している。防壁のように頑丈な襟飾りだ。"
+    }
   },
   {
     "id": 198,
@@ -7109,7 +8488,14 @@
         "location": "全部"
       }
     ],
-    "korean": "턱 화석 전시대"
+    "korean": "턱 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 무엇이든 깨물어 부수는 턱의 일부분이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是能咬碎任何东西的下颚的一部分。",
+      "en": "Displays the fossil of an ancient Pokémon. Part of a massive jaw that could crush anything.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 무엇이든 깨물어 부수는 턱의 일부분이다.",
+      "ja": "古代のポケモンの化石を展示している。どんな物でも噛み砕く大アゴの一部だ。"
+    }
   },
   {
     "id": 199,
@@ -7149,7 +8535,14 @@
         "location": "全部"
       }
     ],
-    "korean": "폭군 화석 전시대"
+    "korean": "폭군 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 대지의 제왕다운 위풍당당한 골격이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是大地王者气派的骨架。",
+      "en": "Displays the fossil of an ancient Pokémon. A mighty skeleton worthy of the king of the land.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 대지의 제왕다운 위풍당당한 골격이다.",
+      "ja": "古代のポケモンの化石を展示している。大地の王者にふさわしい威厳ある骨格だ。"
+    }
   },
   {
     "id": 200,
@@ -7177,7 +8570,14 @@
         "location": "全部"
       }
     ],
-    "korean": "지느러미 화석 전시대"
+    "korean": "지느러미 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 얼음에 갇혀 있던 목 지느러미의 일부분이다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是被冰封的颈鳍的一部分。",
+      "en": "Displays the fossil of an ancient Pokémon. Part of a neck sail that was preserved in ice.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 얼음에 갇혀 있던 목 지느러미의 일부분이다.",
+      "ja": "古代のポケモンの化石を展示している。氷漬けになっていた首のヒレの一部だ。"
+    }
   },
   {
     "id": 201,
@@ -7213,7 +8613,14 @@
         "location": "全部"
       }
     ],
-    "korean": "툰드라 화석 전시대"
+    "korean": "툰드라 화석 전시대",
+    "koreanDescription": "고대 포켓몬의 화석을 전시하고 있다. 마치 오로라처럼 아름다운 목 지느러미다.",
+    "descriptions": {
+      "zh": "展示着古代宝可梦的化石。是犹如极光般美丽的颈鳍。",
+      "en": "Displays the fossil of an ancient Pokémon. A neck sail as breathtakingly beautiful as an aurora.",
+      "ko": "고대 포켓몬의 화석을 전시하고 있다. 마치 오로라처럼 아름다운 목 지느러미다.",
+      "ja": "古代のポケモンの化石を展示している。まるでオーロラのように美しい首のヒレだ。"
+    }
   },
   {
     "id": 202,
@@ -7245,7 +8652,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "톡톡 터지는 블루"
+    "korean": "톡톡 터지는 블루",
+    "koreanDescription": "투명하고 푸른 크림소다. 바라보고 있으면 마치 바닷속 풍경을 들여다보는 듯하다.",
+    "descriptions": {
+      "zh": "透明的蓝色冰淇淋汽水。看着它就像在看海中的景色。",
+      "en": "A sparkling, translucent blue cream soda. Gazing at it feels just like looking into the ocean depths.",
+      "ko": "투명하고 푸른 크림소다. 바라보고 있으면 마치 바닷속 풍경을 들여다보는 듯하다.",
+      "ja": "透き通るような青いクリームソーダ。眺めているだけで海の中を覗いている気分になる。"
+    }
   },
   {
     "id": 203,
@@ -7277,7 +8691,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "짜릿한 포테이토"
+    "korean": "짜릿한 포테이토",
+    "koreanDescription": "바삭바삭하게 튀겨낸 별 모양 감자튀김. 온몸이 찌릿찌릿할 정도로 맛있다.",
+    "descriptions": {
+      "zh": "炸得酥酥脆脆的星形薯饼。好吃到军身发麻。",
+      "en": "Crispy, golden-fried star-shaped potatoes. So delicious it sends a tingling thrill all over!",
+      "ko": "바삭바삭하게 튀겨낸 별 모양 감자튀김. 온몸이 찌릿찌릿할 정도로 맛있다.",
+      "ja": "カリッと香ばしく揚がった星型のポテト。全身がしびれるほどのおいしさ。"
+    }
   },
   {
     "id": 204,
@@ -7309,7 +8730,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "타오를 듯 스파이시"
+    "korean": "타오를 듯 스파이시",
+    "koreanDescription": "매콤한 소스를 듬뿍 바른 둥근 피자. 입에서 불을 뿜을 수 있을 정도로 화끈하게 맵다.",
+    "descriptions": {
+      "zh": "涂满辣酱的圆形比萨。辣得感觉能喷火。",
+      "en": "A round pizza slathered with fiery sauce. Spicy enough to make you feel like breathing flames!",
+      "ko": "매콤한 소스를 듬뿍 바른 둥근 피자. 입에서 불을 뿜을 수 있을 정도로 화끈하게 맵다.",
+      "ja": "辛いソースがたっぷり塗られた丸いピザ。火を吹きそうなほどスパイシー。"
+    }
   },
   {
     "id": 205,
@@ -7341,7 +8769,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "우아한 오후"
+    "korean": "우아한 오후",
+    "koreanDescription": "의자에 앉아 즐기는 나른한 오후의 티타임. 우아한 분위기를 마음껏 만끽할 수 있다.",
+    "descriptions": {
+      "zh": "午后时分的下午茶坐在椅子上品尝，享受优雅的氛围。",
+      "en": "Afternoon tea enjoyed from a relaxing chair, savoring an elegant and graceful atmosphere.",
+      "ko": "의자에 앉아 즐기는 나른한 오후의 티타임. 우아한 분위기를 마음껏 만끽할 수 있다.",
+      "ja": "イスに座って楽しむ昼下がりのティータイム。優雅なひとときを味わえる。"
+    }
   },
   {
     "id": 206,
@@ -7373,7 +8808,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "블랙의 풍미"
+    "korean": "블랙의 풍미",
+    "koreanDescription": "다크 초콜릿으로 구워낸 쿠키는 달지 않지만 은은하고 부드러운 맛이 감돈다.",
+    "descriptions": {
+      "zh": "由黑巧克力制成的饼一不太甜，但感觉有种温柔的味道。",
+      "en": "Cookies made with dark chocolate aren't overly sweet, carrying a gentle and soothing flavor.",
+      "ko": "다크 초콜릿으로 구워낸 쿠키는 달지 않지만 은은하고 부드러운 맛이 감돈다.",
+      "ja": "ブラックチョコで焼き上げたクッキーは甘さ控えめで、どこか優しい味わい。"
+    }
   },
   {
     "id": 207,
@@ -7405,7 +8847,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "녹색 샌드위치"
+    "korean": "녹색 샌드위치",
+    "koreanDescription": "신선한 채소가 듬뿍 들어간 샌드위치를 먹으면 온몸에서 활력이 샘솟는 것만 같다.",
+    "descriptions": {
+      "zh": "吃了全是蔬菜的三明治，好像身体就会焕发出活力。",
+      "en": "Bite into a sandwich packed full of fresh veggies, and your body will brim with vitality.",
+      "ko": "신선한 채소가 듬뿍 들어간 샌드위치를 먹으면 온몸에서 활력이 샘솟는 것만 같다.",
+      "ja": "野菜たっぷりのサンドイッチを食べれば、体の中から元気が湧いてくるよう。"
+    }
   },
   {
     "id": 208,
@@ -7437,7 +8886,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "시원한 빙수"
+    "korean": "시원한 빙수",
+    "koreanDescription": "얼음이 곁들여진 시원한 빙수. 먹다 보면 온몸이 오싹해져 꽁꽁 얼어붙을 것만 같다.",
+    "descriptions": {
+      "zh": "搭配了冰块的创冰。吃下去会军身冰凉，快要冻僵。",
+      "en": "Chilly shaved ice served with crunchy ice bits. Eat it and you'll feel frozen from head to toe!",
+      "ko": "얼음이 곁들여진 시원한 빙수. 먹다 보면 온몸이 오싹해져 꽁꽁 얼어붙을 것만 같다.",
+      "ja": "氷が添えられた冷たいかき氷。食べれば全身ひんやり、凍りつきそうになる。"
+    }
   },
   {
     "id": 209,
@@ -7469,7 +8925,14 @@
         "location": "空空镇"
       }
     ],
-    "korean": "러블리 케이크"
+    "korean": "러블리 케이크",
+    "koreanDescription": "커다란 리본과 하트 장식이 무척 사랑스럽고 달콤하기 그지없는 케이크.",
+    "descriptions": {
+      "zh": "大大的蝴蝶结配上心形装饰非常可爱，味道甜美至极。",
+      "en": "Adorned with a giant ribbon and cute heart toppings, this sweet cake is simply lovely.",
+      "ko": "커다란 리본과 하트 장식이 무척 사랑스럽고 달콤하기 그지없는 케이크.",
+      "ja": "大きなリボンとハートの飾りがとてもキュート。とびきり甘くておいしい。"
+    }
   },
   {
     "id": 210,
@@ -7503,7 +8966,14 @@
         "location": "全部"
       }
     ],
-    "korean": "노란 융단"
+    "korean": "노란 융단",
+    "koreanDescription": "따스한 노란 꽃들이 만개한 꽃밭. 바라보고만 있어도 온몸에 활력이 차오른다.",
+    "descriptions": {
+      "zh": "花田里盛开着温暖的黄色花朵。看着看着，似乎就能变得充满活力。",
+      "en": "A flower meadow blooming with warm yellow blossoms. Just gazing at it fills you with vitality.",
+      "ko": "따스한 노란 꽃들이 만개한 꽃밭. 바라보고만 있어도 온몸에 활력이 차오른다.",
+      "ja": "あたたかな黄色い花が一面に咲き誇るお花畑。見ているだけで元気が湧いてきそう。"
+    }
   },
   {
     "id": 211,
@@ -7535,7 +9005,14 @@
         "location": "全部"
       }
     ],
-    "korean": "소풍 필수품"
+    "korean": "소풍 필수품",
+    "koreanDescription": "도시락과 물병을 배낭에 쏙 넣으면 신나는 피크닉 준비 완료!",
+    "descriptions": {
+      "zh": "把便当和水壶放入背包中，郊游的准备就做好了。",
+      "en": "Tuck a lunchbox and water bottle into the backpack, and you're all set for a picnic.",
+      "ko": "도시락과 물병을 배낭에 쏙 넣으면 신나는 피크닉 준비 완료!",
+      "ja": "お弁当と水筒をリュックに詰めたら、ピクニックの準備はバッチリ。"
+    }
   },
   {
     "id": 212,
@@ -7571,7 +9048,14 @@
         "location": "全部"
       }
     ],
-    "korean": "민들레와 함께 점심"
+    "korean": "민들레와 함께 점심",
+    "koreanDescription": "도시락과 식기 세트를 예쁘게 펼쳐 두고 기분 좋은 피크닉 점심시간을 즐겨보자.",
+    "descriptions": {
+      "zh": "援放好便当和餐具套装等用品，开启野餐的午休时光。",
+      "en": "Lay out the lunchbox and cutlery set to start a relaxing picnic lunchtime.",
+      "ko": "도시락과 식기 세트를 예쁘게 펼쳐 두고 기분 좋은 피크닉 점심시간을 즐겨보자.",
+      "ja": "お弁当やカトラリーセットを並べて、ピクニックのランチタイムを楽しもう。"
+    }
   },
   {
     "id": 213,
@@ -7603,7 +9087,14 @@
         "location": "全部"
       }
     ],
-    "korean": "보물찾기 세트"
+    "korean": "보물찾기 세트",
+    "koreanDescription": "지도와 나침반은 보물찾기의 필수품. 반짝이는 보석을 찾으러 출발해보자!",
+    "descriptions": {
+      "zh": "地图和指南针是导宝的必备品。为了寻找宝石，出发吧!。",
+      "en": "A map and compass are essentials for any treasure hunt. Set off in search of precious gems!",
+      "ko": "지도와 나침반은 보물찾기의 필수품. 반짝이는 보석을 찾으러 출발해보자!",
+      "ja": "地図とコンパスは宝探しの必需品。宝石を探しにいざ出発！"
+    }
   },
   {
     "id": 214,
@@ -7639,7 +9130,14 @@
         "location": "全部"
       }
     ],
-    "korean": "밤하늘 별에 둘러싸여"
+    "korean": "밤하늘 별에 둘러싸여",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 215,
@@ -7678,7 +9176,14 @@
         "location": "全部"
       }
     ],
-    "korean": "해저 풀숲"
+    "korean": "해저 풀숲",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 216,
@@ -7720,7 +9225,14 @@
         "location": "全部"
       }
     ],
-    "korean": "해저 산호 풀숲"
+    "korean": "해저 산호 풀숲",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 217,
@@ -7759,7 +9271,14 @@
         "location": "全部"
       }
     ],
-    "korean": "흔들리는 꽃밭"
+    "korean": "흔들리는 꽃밭",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 218,
@@ -7797,7 +9316,14 @@
         "location": "全部"
       }
     ],
-    "korean": "산호의 흔들리는 꽃밭"
+    "korean": "산호의 흔들리는 꽃밭",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 219,
@@ -7834,7 +9360,14 @@
         "location": "全部"
       }
     ],
-    "korean": "흔들리는 해조의 꽃밭"
+    "korean": "흔들리는 해조의 꽃밭",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 220,
@@ -7867,7 +9400,14 @@
         "location": "全部"
       }
     ],
-    "korean": "그물과 해조"
+    "korean": "그물과 해조",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 221,
@@ -7914,7 +9454,14 @@
         "location": "全部"
       }
     ],
-    "korean": "산호 대집합"
+    "korean": "산호 대집합",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 222,
@@ -7942,7 +9489,14 @@
         "location": "全部"
       }
     ],
-    "korean": "모래투성이 해저 풀숲"
+    "korean": "모래투성이 해저 풀숲",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 223,
@@ -7980,7 +9534,14 @@
         "location": "全部"
       }
     ],
-    "korean": "모래 속에서 찾기"
+    "korean": "모래 속에서 찾기",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 224,
@@ -8017,7 +9578,14 @@
         "location": "全部"
       }
     ],
-    "korean": "모래언덕 옆 연설"
+    "korean": "모래언덕 옆 연설",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 225,
@@ -8053,7 +9621,14 @@
         "location": "全部"
       }
     ],
-    "korean": "샌드백 물어뜯기"
+    "korean": "샌드백 물어뜯기",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 226,
@@ -8087,7 +9662,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바닷속 이끼 가득"
+    "korean": "바닷속 이끼 가득",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 227,
@@ -8115,7 +9697,14 @@
         "location": "全部"
       }
     ],
-    "korean": "따끈따끈 이끼 가득"
+    "korean": "따끈따끈 이끼 가득",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 228,
@@ -8156,7 +9745,14 @@
         "location": "全部"
       }
     ],
-    "korean": "기괴한 굴뚝"
+    "korean": "기괴한 굴뚝",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 229,
@@ -8197,7 +9793,14 @@
         "location": "全部"
       }
     ],
-    "korean": "굴뚝 주변 영차영차 파기"
+    "korean": "굴뚝 주변 영차영차 파기",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 230,
@@ -8234,7 +9837,14 @@
         "location": "全部"
       }
     ],
-    "korean": "버려진 보물"
+    "korean": "버려진 보물",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 231,
@@ -8280,7 +9890,14 @@
         "location": "全部"
       }
     ],
-    "korean": "대항해 소꿉놀이"
+    "korean": "대항해 소꿉놀이",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 232,
@@ -8317,7 +9934,14 @@
         "location": "全部"
       }
     ],
-    "korean": "반짝이는 보석상자"
+    "korean": "반짝이는 보석상자",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 233,
@@ -8349,7 +9973,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바닷속 쉼터"
+    "korean": "바닷속 쉼터",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 234,
@@ -8381,7 +10012,14 @@
         "location": "云岛、冒泡泡海底的城镇"
       }
     ],
-    "korean": "해양 상점"
+    "korean": "해양 상점",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 235,
@@ -8423,7 +10061,14 @@
         "location": "全部"
       }
     ],
-    "korean": "바다의 보물"
+    "korean": "바다의 보물",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 236,
@@ -8460,7 +10105,14 @@
         "location": "全部"
       }
     ],
-    "korean": "스무디 만들기"
+    "korean": "스무디 만들기",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 237,
@@ -8502,7 +10154,14 @@
         "location": "全部"
       }
     ],
-    "korean": "폭신폭신 릴랙스 공간"
+    "korean": "폭신폭신 릴랙스 공간",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 238,
@@ -8544,7 +10203,14 @@
         "location": "全部"
       }
     ],
-    "korean": "카누 선착장"
+    "korean": "카누 선착장",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 239,
@@ -8590,7 +10256,14 @@
         "location": "全部"
       }
     ],
-    "korean": "진흙 속 신나는 놀이"
+    "korean": "진흙 속 신나는 놀이",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 240,
@@ -8626,7 +10299,14 @@
         "location": "全部"
       }
     ],
-    "korean": "진흙 온천"
+    "korean": "진흙 온천",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 241,
@@ -8650,7 +10330,14 @@
         "location": "全部"
       }
     ],
-    "korean": "뜻밖의 거꾸로"
+    "korean": "뜻밖의 거꾸로",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 242,
@@ -8678,7 +10365,14 @@
         "location": "全部"
       }
     ],
-    "korean": "거품 목욕 시간"
+    "korean": "거품 목욕 시간",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 243,
@@ -8711,7 +10405,14 @@
         "location": "全部"
       }
     ],
-    "korean": "버블 스테이지"
+    "korean": "버블 스테이지",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 244,
@@ -8739,7 +10440,14 @@
         "location": "全部"
       }
     ],
-    "korean": "반짝이는 트리오 스테이지"
+    "korean": "반짝이는 트리오 스테이지",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 245,
@@ -8771,7 +10479,14 @@
         "location": "全部"
       }
     ],
-    "korean": "우아한 음악회"
+    "korean": "우아한 음악회",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 246,
@@ -8816,7 +10531,14 @@
         "location": "全部"
       }
     ],
-    "korean": "배를 바라보며 티타임"
+    "korean": "배를 바라보며 티타임",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 247,
@@ -8860,7 +10582,14 @@
         "location": "全部"
       }
     ],
-    "korean": "추억에 젖어들며"
+    "korean": "추억에 젖어들며",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 248,
@@ -8892,7 +10621,14 @@
         "location": "全部"
       }
     ],
-    "korean": "마린풍 파우더룸"
+    "korean": "마린풍 파우더룸",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 249,
@@ -8924,7 +10660,14 @@
         "location": "全部"
       }
     ],
-    "korean": "단아한 침실"
+    "korean": "단아한 침실",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   },
   {
     "id": 250,
@@ -8976,6 +10719,13 @@
         "location": "全部"
       }
     ],
-    "korean": "발랄한 인어의 체육관"
+    "korean": "발랄한 인어의 체육관",
+    "koreanDescription": "",
+    "descriptions": {
+      "zh": "",
+      "en": "",
+      "ko": "",
+      "ja": ""
+    }
   }
 ]
