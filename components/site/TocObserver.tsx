@@ -28,7 +28,12 @@ export const TocObserver: FC<PropsWithChildren> = ({ children }) => {
       const mainElement = mainElementRef.current;
       if (!mainElement) return;
 
-      const headings = mainElement.querySelectorAll("h2");
+      if (mainElement.classList.contains("main-home")) {
+        setTocItems([]);
+        return;
+      }
+
+      const headings = mainElement.querySelectorAll<HTMLHeadingElement>("h2:not([data-no-toc])");
       const items = Array.from(headings)
         .map((heading) => {
           if (heading.textContent === "This page could not be found.") {

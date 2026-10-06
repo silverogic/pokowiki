@@ -669,7 +669,7 @@ footer {
     @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl;
 
     h2 {
-      @apply mt-10;
+      @apply my-4;
     }
   }
 

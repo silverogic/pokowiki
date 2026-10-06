@@ -42,30 +42,6 @@ export default function Home() {
     }
   };
 
-  const getExternalLinkTitle = (title: string) => {
-    if (title === "官方网站" || title === "공식 웹사이트") {
-      return t("officialWebsites");
-    }
-    return title;
-  };
-
-  const getExternalLinkLabel = (lang?: string, fallback = "") => {
-    switch (lang) {
-      case "ko":
-        return t("officialSiteKo");
-      case "ja":
-        return t("officialSiteJa");
-      case "en":
-        return t("officialSiteEn");
-      case "zh-hans":
-        return t("officialSiteZhHans");
-      case "zh-hant":
-        return t("officialSiteZhHant");
-      default:
-        return fallback;
-    }
-  };
-
   return (
     <Fragment key="home">
       <section>
@@ -85,7 +61,7 @@ export default function Home() {
 
       <section>
         <div className="home-navigation">
-          <h2>{t("siteNav")}</h2>
+          <h2 data-no-toc>{t("siteNav")}</h2>
           <div className="home-links">
             {HOME_NAVIGATIONS[0].contents[0].contents.map((item) => (
               <Card key={item.path}>
@@ -100,30 +76,6 @@ export default function Home() {
                   />
                   <div className="home-link-label">{getNavLabel(item.path, item.label)}</div>
                 </Link>
-              </Card>
-            ))}
-          </div>
-          <h2>{t("externalNav")}</h2>
-          <div className="home-links">
-            {HOME_NAVIGATIONS[1].contents.map((section) => (
-              <Card
-                key={section.title}
-                title={getExternalLinkTitle(section.title)}
-                className="home-link-card"
-              >
-                {section.contents.map((item) => (
-                  <Link
-                    key={item.path}
-                    href={item.path}
-                    className="home-link-item"
-                  >
-                    <Icon
-                      name={item.icon}
-                      className="home-link-icon"
-                    />
-                    <div className="home-link-label">{getExternalLinkLabel(item.language, item.label)}</div>
-                  </Link>
-                ))}
               </Card>
             ))}
           </div>

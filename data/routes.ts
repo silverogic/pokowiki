@@ -31,44 +31,32 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
       },
     ],
   },
+];
+
+export interface OfficialLink {
+  path: string;
+  labelKey: "officialSiteKo" | "officialSiteJa" | "officialSiteEn" | "officialSiteZhHans" | "officialSiteZhHant";
+}
+
+export const OFFICIAL_LINKS: OfficialLink[] = [
   {
-    title: "站外导航",
-    contents: [
-      {
-        title: "官方网站",
-        contents: [
-          {
-            path: "https://pokemonkorea.co.kr/pokemonpokopia",
-            label: "한국어 공식 사이트",
-            icon: "website-en",
-            language: "ko",
-          },
-          {
-            path: "https://www.pocoapokemon.jp/ja/",
-            label: "일본 공식 사이트",
-            icon: "website-ja",
-            language: "ja",
-          },
-          {
-            path: "https://pokopia.pokemon.com/en-us/",
-            label: "영어 공식 사이트",
-            icon: "website-en",
-            language: "en",
-          },
-          {
-            path: "https://www.pocoapokemon.jp/sc/",
-            label: "중국어 간체 공식 사이트",
-            icon: "website-zh-hans",
-            language: "zh-hans",
-          },
-          {
-            path: "https://www.pocoapokemon.jp/tc/",
-            label: "중국어 번체 공식 사이트",
-            icon: "website-zh-hant",
-            language: "zh-hant",
-          },
-        ],
-      },
-    ],
+    path: "https://pokemonkorea.co.kr/pokemonpokopia",
+    labelKey: "officialSiteKo",
+  },
+  {
+    path: "https://www.pocoapokemon.jp/ja/",
+    labelKey: "officialSiteJa",
+  },
+  {
+    path: "https://pokopia.pokemon.com/en-us/",
+    labelKey: "officialSiteEn",
+  },
+  {
+    path: "https://www.pocoapokemon.jp/sc/",
+    labelKey: "officialSiteZhHans",
+  },
+  {
+    path: "https://www.pocoapokemon.jp/tc/",
+    labelKey: "officialSiteZhHant",
   },
 ];
