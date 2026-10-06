@@ -11,6 +11,7 @@ import { LanguageSwitch } from "./LanguageSwitch";
 import { Navigation } from "./Navigation";
 import { TableOfContents } from "./TableOfContents";
 import { TocContext } from "./TocObserver";
+import { GitHubAuthWidget } from "./auth";
 import { SearchBar } from "./search";
 
 export const Header: FC = () => {
@@ -59,11 +60,13 @@ export const Header: FC = () => {
               <SearchBar />
             </div>
 
-            <div className="hidden items-center md:flex">
+            <div className="hidden items-center gap-3 md:flex">
               <LanguageSwitch />
+              <GitHubAuthWidget />
             </div>
 
             <div className="flex items-center gap-2 md:hidden">
+              <GitHubAuthWidget size="small" />
               <LanguageSwitch size="small" />
               <button
                 className="p-2 transition-colors hover:bg-gray-50"

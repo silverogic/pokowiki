@@ -8,3 +8,4 @@ export * from "./PrevNext";
 export * from "./LanguageSwitch";
 export * from "./AppClientLayout";
 export * from "./PageTitle";
+export * from "./auth";

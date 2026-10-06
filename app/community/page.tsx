@@ -170,7 +170,7 @@ const CommunityPage: FC = () => {
             term={activeCategory.term}
             strict="1"
             reactionsEnabled="1"
-            emitMetadata="0"
+            emitMetadata="1"
             inputPosition="top"
             theme="preferred_color_scheme"
             lang={giscusLang}
