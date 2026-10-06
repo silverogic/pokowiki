@@ -4,7 +4,7 @@
     "name": "干巴巴荒野的城镇",
     "japanese": "カラカラ荒野の町",
     "english": "Withered Wastelands Town",
-    "korean": "바짝바짝황야 마을",
+    "korean": "바싹바싹 황야 마을",
     "icon": "town-1"
   },
   {
@@ -12,7 +12,7 @@
     "name": "暗沉沉海边的城镇",
     "japanese": "クラクラ海辺の町",
     "english": "Murky Beach Town",
-    "korean": "어둑어둑해변 마을",
+    "korean": "우중충한 해안 마을",
     "icon": "town-2"
   },
   {
@@ -20,7 +20,7 @@
     "name": "凸隆隆山地的城镇",
     "japanese": "ゴツゴツ山地の町",
     "english": "Rugged Mountain Town",
-    "korean": "불룩불룩산지 마을",
+    "korean": "울퉁불퉁 산지 마을",
     "icon": "town-3"
   },
   {
@@ -28,7 +28,7 @@
     "name": "亮晶晶空岛的城镇",
     "japanese": "キラキラ空島の町",
     "english": "Sparkling Sky Island Town",
-    "korean": "반짝반짝하늘섬 마을",
+    "korean": "반짝반짝 부유섬 마을",
     "icon": "town-4"
   },
   {
@@ -44,7 +44,7 @@
     "name": "冒泡泡海底的城镇",
     "japanese": "プクプク海底の町",
     "english": "Bubbly Basin Town",
-    "korean": "보글보글해저 마을",
+    "korean": "보글보글 해저 마을",
     "icon": "town-6"
   }
 ]
