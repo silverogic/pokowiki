@@ -253,6 +253,24 @@ export const translations = {
     zh: "配置 Giscus categoryId 授权后将启用页内实时评论插件。目前请通过上方的 GitHub Discussions 参与讨论。",
     ja: "リポジトリでGiscus categoryId設定が完了するとインラインコメントが表示されます。現在は上のGitHub Discussionsをご利用ください。",
   },
+  communityGiscusTip: {
+    en: "Sign in with your GitHub account to write posts and comments directly on the board below.",
+    ko: "GitHub 계정으로 로그인하여 아래 게시판에서 자유롭게 글과 댓글을 남길 수 있습니다.",
+    zh: "使用 GitHub 账号登录后即可在下方讨论板直接发表留言与讨论。",
+    ja: "GitHubアカウントでログインすると、下の掲示板で直接コメントや投稿ができます。",
+  },
+  communityInstallGiscusNotice: {
+    en: "The Giscus App must be installed on the repository (silverogic/pokowiki) for comments to function. If not installed yet, please install the Giscus App with repository admin permissions.",
+    ko: "댓글 작성이 정상적으로 연동되려면 GitHub 저장소(silverogic/pokowiki)에 Giscus GitHub App이 설치되어 있어야 합니다. 아직 설치되지 않았다면 아래 버튼을 눌러 Giscus App을 설치해 주세요.",
+    zh: "仓库需安装 Giscus GitHub App 方可正常同步留言。若尚未安装，请通过下方按钮为仓库安装 Giscus App。",
+    ja: "コメントを正常に連携するには、GitHubリポジトリ（silverogic/pokowiki）にGiscus GitHub Appがインストールされている必要があります。まだの場合は下のボタンからインストールしてください。",
+  },
+  communityInstallGiscusBtn: {
+    en: "Install Giscus App",
+    ko: "Giscus App 설치하기",
+    zh: "安装 Giscus App",
+    ja: "Giscusアプリをインストール",
+  },
   // Table headers & common terms
   pokemon: {
     en: "Pokémon",
