@@ -12,6 +12,7 @@ import { Habitat, Item, Pokemon, PokemonType } from "@/types";
 import {
   ENVIRONMENT_TRANSLATIONS,
   FAVORITE_TRANSLATIONS,
+  HABITAT_REQUIREMENT_TRANSLATIONS,
   ITEM_CATEGORY_TRANSLATIONS,
   LOCATION_TRANSLATIONS,
   POKEMON_FORM_TRANSLATIONS,
@@ -35,6 +36,7 @@ interface I18nContextType {
   getItemCategoryDisplayName: (category?: string | null) => string;
   getHabitatDisplayName: (habitat?: Habitat | null) => string;
   getLocationDisplayName: (location?: string | null) => string;
+  getRequirementDisplayName: (name?: string | null) => string;
   getSpecialityDisplayName: (speciality?: string | null) => string;
   getTypeDisplayName: (type?: PokemonType | string | null) => string;
   getFavoriteDisplayName: (favorite?: string | null) => string;
@@ -62,6 +64,7 @@ const I18nContext = createContext<I18nContextType>({
   getItemCategoryDisplayName: (c) => c || "",
   getHabitatDisplayName: (h) => h?.name || "",
   getLocationDisplayName: (l) => l || "",
+  getRequirementDisplayName: (r) => r || "",
   getSpecialityDisplayName: (s) => s || "",
   getTypeDisplayName: (ty) => ty || "",
   getFavoriteDisplayName: (f) => f || "",
@@ -158,11 +161,11 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     if (!item) return "";
     switch (locale) {
       case "ko":
-        return item.korean || item.english || item.name;
+        return item.korean || HABITAT_REQUIREMENT_TRANSLATIONS[item.name]?.ko || item.english || item.name;
       case "en":
-        return item.english || item.name;
+        return item.english || HABITAT_REQUIREMENT_TRANSLATIONS[item.name]?.en || item.name;
       case "ja":
-        return item.japanese || item.name;
+        return item.japanese || HABITAT_REQUIREMENT_TRANSLATIONS[item.name]?.ja || item.name;
       case "zh":
       default:
         return item.name;
@@ -189,6 +192,13 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     const match = LOCATION_TRANSLATIONS[location];
     if (match) return match[locale] || match.zh || location;
     return location;
+  };
+
+  const getRequirementDisplayName = (name?: string | null): string => {
+    if (!name) return "";
+    const match = HABITAT_REQUIREMENT_TRANSLATIONS[name];
+    if (match) return match[locale] || match.zh || name;
+    return name;
   };
 
   const getSpecialityDisplayName = (speciality?: string | null): string => {
@@ -241,6 +251,7 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         getItemCategoryDisplayName,
         getHabitatDisplayName,
         getLocationDisplayName,
+        getRequirementDisplayName,
         getSpecialityDisplayName,
         getTypeDisplayName,
         getFavoriteDisplayName,

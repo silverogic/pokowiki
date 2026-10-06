@@ -16,9 +16,9 @@ interface IProps {
 }
 
 export const ItemLink: FC<IProps> = ({ name, item: itemProp, count, showIcon = true }) => {
-  const { getItemDisplayName } = useI18n();
+  const { getItemDisplayName, getRequirementDisplayName } = useI18n();
   const item = itemProp || (name ? ItemDataByName[name] : undefined);
-  const displayName = item ? getItemDisplayName(item) : name || "";
+  const displayName = item ? getItemDisplayName(item) : name ? getRequirementDisplayName(name) : "";
 
   return (
     <>
@@ -29,7 +29,7 @@ export const ItemLink: FC<IProps> = ({ name, item: itemProp, count, showIcon = t
             size={24}
           />
         ) : null}
-        {item ? <Link href={`/i/${item.hash}`}>{displayName}</Link> : <span>{name}</span>}
+        {item ? <Link href={`/i/${item.hash}`}>{displayName}</Link> : <span>{displayName}</span>}
       </span>
       {count !== undefined ? ` × ${count}` : null}
     </>
