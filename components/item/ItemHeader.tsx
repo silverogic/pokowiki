@@ -12,20 +12,13 @@ interface IProps {
 }
 
 export const ItemHeader: FC<IProps> = ({ item }) => {
-  const { getItemDisplayName, t, locale } = useI18n();
+  const { getItemDisplayName, t } = useI18n();
 
   const displayName = getItemDisplayName(item);
 
   useEffect(() => {
     document.title = `${displayName} - ${t("siteTitle")}`;
   }, [displayName, t]);
-
-  const otherNames = [
-    locale !== "ko" && item.korean ? { lang: "ko", text: item.korean } : null,
-    locale !== "zh" && item.name ? { lang: "zh", text: item.name } : null,
-    locale !== "ja" && item.japanese ? { lang: "ja", text: item.japanese } : null,
-    locale !== "en" && item.english ? { lang: "en", text: item.english } : null,
-  ].filter(Boolean) as { lang: string; text: string }[];
 
   return (
     <section>
@@ -36,16 +29,6 @@ export const ItemHeader: FC<IProps> = ({ item }) => {
         />
       </div>
       <h1>{displayName}</h1>
-      <div className="names">
-        {otherNames.map((n, i) => (
-          <div
-            key={i}
-            lang={n.lang}
-          >
-            {n.text}
-          </div>
-        ))}
-      </div>
     </section>
   );
 };
