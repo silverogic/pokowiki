@@ -1088,7 +1088,7 @@ export const ENVIRONMENT_TRANSLATIONS: Record<string, Record<SupportedLocale, st
 
 export const LOCATION_TRANSLATIONS: Record<string, Record<SupportedLocale, string>> = {
   全部: { zh: "全部", en: "All locations", ko: "전체", ja: "全エリア" },
-  空空镇: { zh: "空空镇", en: "Hollow Town", ko: "텅텅마을", ja: "カラクサタウン" },
+  空空镇: { zh: "空空镇", en: "Palett Town", ko: "백지마을", ja: "カラクサタウン" },
   干巴巴荒野的城镇: {
     zh: "干巴巴荒野的城镇",
     en: "Withered Wastelands Town",
