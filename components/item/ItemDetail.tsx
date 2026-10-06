@@ -15,6 +15,7 @@ const getDescriptions = (
   item: Item,
   t: (k: TranslationKey) => string,
   getItemCategoryDisplayName: (cat: string) => string,
+  getFavoriteDisplayName: (fav?: string | null) => string,
 ): DescriptionsProps["items"] => [
   {
     key: "category",
@@ -77,7 +78,18 @@ const getDescriptions = (
         {
           key: "favorites",
           label: t("favorites"),
-          children: item.favorites.map((f, i) => <div key={i}>{f}</div>),
+          children: (
+            <div className="flex flex-wrap gap-1.5 py-0.5">
+              {item.favorites.map((f, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center rounded border border-gray-200 bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700"
+                >
+                  {getFavoriteDisplayName(f)}
+                </span>
+              ))}
+            </div>
+          ),
         },
       ]
     : []),
@@ -88,7 +100,7 @@ interface IProps {
 }
 
 export const ItemDetail: FC<IProps> = ({ item }) => {
-  const { t, getItemDisplayName, getItemCategoryDisplayName } = useI18n();
+  const { t, getItemDisplayName, getItemCategoryDisplayName, getFavoriteDisplayName } = useI18n();
   const displayName = getItemDisplayName(item);
 
   const availableHabitats = HabitatData.filter((h) => h.detail.some((d) => d.name === item.name));
@@ -110,7 +122,7 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
         <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(item, t, getItemCategoryDisplayName)}
+          items={getDescriptions(item, t, getItemCategoryDisplayName, getFavoriteDisplayName)}
         />
       </section>
 

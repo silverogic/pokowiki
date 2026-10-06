@@ -1,6 +1,7 @@
 "use client";
 
 import { Descriptions, DescriptionsProps } from "antd";
+import cn from "classnames";
 import { FC, Fragment } from "react";
 
 import { EventData, HabitatDataById, PokemonData, PokemonDataBySlug } from "@/data";
@@ -29,6 +30,8 @@ const getDescriptions = (
   pokemon: Pokemon,
   t: (k: TranslationKey) => string,
   category: string,
+  getFavoriteDisplayName: (fav?: string | null) => string,
+  getEnvironmentDisplayName: (env?: string | null) => string,
 ): DescriptionsProps["items"] => [
   {
     key: "dex",
@@ -82,12 +85,34 @@ const getDescriptions = (
   {
     key: "favorites",
     label: t("favorites"),
-    children: pokemon.favorites.length > 0 ? pokemon.favorites.join(" / ") : t("none"),
+    children:
+      pokemon.favorites.length > 0 ? (
+        <div className="flex flex-wrap gap-1.5 py-0.5">
+          {pokemon.favorites.map((fav, index) => {
+            const isTaste = index === 5;
+            return (
+              <span
+                key={fav}
+                className={cn(
+                  "inline-flex items-center rounded px-2 py-0.5 text-xs font-medium",
+                  isTaste
+                    ? "border border-amber-200 bg-amber-50 text-amber-800"
+                    : "border border-gray-200 bg-gray-100 text-gray-700",
+                )}
+              >
+                {getFavoriteDisplayName(fav)}
+              </span>
+            );
+          })}
+        </div>
+      ) : (
+        t("none")
+      ),
   },
   {
     key: "environment",
     label: t("environment"),
-    children: pokemon.environment || t("none"),
+    children: getEnvironmentDisplayName(pokemon.environment) || t("none"),
   },
   {
     key: "habitats",
@@ -149,7 +174,8 @@ interface IProps {
 }
 
 export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
-  const { t, getPokemonDisplayName, getPokemonCategory, locale } = useI18n();
+  const { t, getPokemonDisplayName, getPokemonCategory, getFavoriteDisplayName, getEnvironmentDisplayName, locale } =
+    useI18n();
   const displayName = getPokemonDisplayName(pokemon);
   const categoryName = getPokemonCategory(pokemon);
 
@@ -250,7 +276,7 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
         <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(pokemon, t, categoryName)}
+          items={getDescriptions(pokemon, t, categoryName, getFavoriteDisplayName, getEnvironmentDisplayName)}
         />
       </section>
 

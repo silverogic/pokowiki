@@ -10,6 +10,8 @@ import React, { ReactNode, createContext, useContext, useEffect, useState } from
 import { Habitat, Item, Pokemon, PokemonType } from "@/types";
 
 import {
+  ENVIRONMENT_TRANSLATIONS,
+  FAVORITE_TRANSLATIONS,
   ITEM_CATEGORY_TRANSLATIONS,
   SPECIALITY_TRANSLATIONS,
   TYPE_TRANSLATIONS,
@@ -31,6 +33,8 @@ interface I18nContextType {
   getHabitatDisplayName: (habitat?: Habitat | null) => string;
   getSpecialityDisplayName: (speciality?: string | null) => string;
   getTypeDisplayName: (type?: PokemonType | string | null) => string;
+  getFavoriteDisplayName: (favorite?: string | null) => string;
+  getEnvironmentDisplayName: (environment?: string | null) => string;
   antdLocale: Locale;
 }
 
@@ -54,6 +58,8 @@ const I18nContext = createContext<I18nContextType>({
   getHabitatDisplayName: (h) => h?.name || "",
   getSpecialityDisplayName: (s) => s || "",
   getTypeDisplayName: (ty) => ty || "",
+  getFavoriteDisplayName: (f) => f || "",
+  getEnvironmentDisplayName: (e) => e || "",
   antdLocale: enUS,
 });
 
@@ -186,6 +192,20 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return category;
   };
 
+  const getFavoriteDisplayName = (favorite?: string | null): string => {
+    if (!favorite) return "";
+    const match = FAVORITE_TRANSLATIONS[favorite];
+    if (match) return match[locale] || match.en || favorite;
+    return favorite;
+  };
+
+  const getEnvironmentDisplayName = (environment?: string | null): string => {
+    if (!environment) return "";
+    const match = ENVIRONMENT_TRANSLATIONS[environment];
+    if (match) return match[locale] || match.en || environment;
+    return environment;
+  };
+
   return (
     <I18nContext.Provider
       value={{
@@ -201,6 +221,8 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         getHabitatDisplayName,
         getSpecialityDisplayName,
         getTypeDisplayName,
+        getFavoriteDisplayName,
+        getEnvironmentDisplayName,
         antdLocale: antdLocales[locale] || enUS,
       }}
     >
