@@ -708,10 +708,6 @@ footer {
       @apply text-lg font-semibold text-center;
     }
   }
-
-  .giscus {
-    @apply hidden;
-  }
 }
 
 .ant-timeline {

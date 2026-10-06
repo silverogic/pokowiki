@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+import { SITE_URL } from "@/utils";
+
 export const dynamic = "force-static";
 
 const robots = (): MetadataRoute.Robots => ({
@@ -7,7 +9,7 @@ const robots = (): MetadataRoute.Robots => ({
     userAgent: "*",
     allow: "/",
   },
-  sitemap: "https://pokopia.xzonn.top/sitemap.xml",
+  sitemap: `${SITE_URL}/sitemap.xml`,
 });
 
 export default robots;

@@ -14,6 +14,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/habitat-list", label: "栖息地一览", icon: "habitat" },
   { path: "/item-list", label: "道具一览", icon: "collection" },
   { path: "/event-list", label: "活动一览", icon: "request" },
+  { path: "/community", label: "社区", icon: "github" },
 ];
 
 export const HOME_NAVIGATIONS: IHomepageNavigation = [
@@ -27,6 +28,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
           { path: "/habitat-list", label: "栖息地一览", icon: "habitat" },
           { path: "/item-list", label: "道具一览", icon: "collection" },
           { path: "/event-list", label: "活动一览", icon: "request" },
+          { path: "/community", label: "社区", icon: "github" },
         ],
       },
     ],

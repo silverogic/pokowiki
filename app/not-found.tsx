@@ -12,12 +12,6 @@ const NotFoundPage = () => {
 
   useEffect(() => {
     document.title = `${t("notFoundTitle")} - ${t("siteTitle")}`;
-
-    document.querySelector(".giscus")?.classList.add("hidden");
-
-    return () => {
-      document.querySelector(".giscus")?.classList.remove("hidden");
-    };
   }, [t]);
 
   return (

@@ -7,7 +7,6 @@ import React, { FC, ReactNode } from "react";
 import { I18nProvider, useI18n } from "@/utils";
 
 import { Footer } from "./Footer";
-import { Giscus } from "./Giscus";
 import { Header } from "./Header";
 import { Sidebar } from "./Sidebar";
 import { TocObserver } from "./TocObserver";
@@ -18,9 +17,7 @@ interface IAppClientLayoutProps {
 }
 
 const AppClientLayoutContent: FC<IAppClientLayoutProps> = ({ children, theme }) => {
-  const { antdLocale, locale } = useI18n();
-
-  const giscusLang = locale === "zh" ? "zh-CN" : locale === "ko" ? "ko" : locale === "ja" ? "ja" : "en";
+  const { antdLocale } = useI18n();
 
   return (
     <ConfigProvider
@@ -34,27 +31,7 @@ const AppClientLayoutContent: FC<IAppClientLayoutProps> = ({ children, theme }) 
 
           <main>
             <AntdRegistry>
-              <div className="bg-white sm:rounded-2xl sm:shadow-xl">
-                {children}
-                <section className="giscus">
-                  <Giscus
-                    host={process.env.NEXT_PUBLIC_GISCUS_HOST || "https://giscus.xzonn.top"}
-                    repo={
-                      (process.env.NEXT_PUBLIC_GISCUS_REPO as `${string}/${string}`) || "Xzonn/PokemonPokopiaDatabase"
-                    }
-                    repoId={process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "R_kgDORmT12w"}
-                    category={process.env.NEXT_PUBLIC_GISCUS_CATEGORY || "General"}
-                    categoryId={process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID || "DIC_kwDORmT1284C4cEM"}
-                    mapping="specific"
-                    term="评论区"
-                    reactions-enabled="1"
-                    emit-metadata="0"
-                    input-position="top"
-                    theme="preferred_color_scheme"
-                    lang={giscusLang}
-                  />
-                </section>
-              </div>
+              <div className="bg-white sm:rounded-2xl sm:shadow-xl">{children}</div>
             </AntdRegistry>
           </main>
         </div>

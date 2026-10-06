@@ -27,6 +27,8 @@ export const Navigation: FC<INavigationProps> = ({ onClick }) => {
         return t("itemList");
       case "/event-list":
         return t("eventList");
+      case "/community":
+        return t("community");
       case "/walkthrough":
         return t("walkthrough");
       case "/about":
