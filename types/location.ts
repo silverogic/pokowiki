@@ -3,5 +3,6 @@ export interface Location {
   name: string;
   japanese: string;
   english: string;
+  korean?: string;
   icon: string;
 }

@@ -13,6 +13,8 @@ import {
   ENVIRONMENT_TRANSLATIONS,
   FAVORITE_TRANSLATIONS,
   ITEM_CATEGORY_TRANSLATIONS,
+  LOCATION_TRANSLATIONS,
+  POKEMON_FORM_TRANSLATIONS,
   SPECIALITY_TRANSLATIONS,
   TYPE_TRANSLATIONS,
   TranslationKey,
@@ -28,9 +30,11 @@ interface I18nContextType {
   getPokemonDisplayName: (pokemon?: Pokemon | null) => string;
   getPokemonDescription: (pokemon?: Pokemon | null) => string;
   getPokemonCategory: (pokemon?: Pokemon | null) => string;
+  getPokemonFormDisplayName: (formName?: string | null) => string;
   getItemDisplayName: (item?: Item | null) => string;
   getItemCategoryDisplayName: (category?: string | null) => string;
   getHabitatDisplayName: (habitat?: Habitat | null) => string;
+  getLocationDisplayName: (location?: string | null) => string;
   getSpecialityDisplayName: (speciality?: string | null) => string;
   getTypeDisplayName: (type?: PokemonType | string | null) => string;
   getFavoriteDisplayName: (favorite?: string | null) => string;
@@ -53,9 +57,11 @@ const I18nContext = createContext<I18nContextType>({
   getPokemonDisplayName: (p) => p?.name || "",
   getPokemonDescription: (p) => p?.description || "",
   getPokemonCategory: (p) => p?.category || "",
+  getPokemonFormDisplayName: (fn) => fn || "",
   getItemDisplayName: (i) => i?.name || "",
   getItemCategoryDisplayName: (c) => c || "",
   getHabitatDisplayName: (h) => h?.name || "",
+  getLocationDisplayName: (l) => l || "",
   getSpecialityDisplayName: (s) => s || "",
   getTypeDisplayName: (ty) => ty || "",
   getFavoriteDisplayName: (f) => f || "",
@@ -141,6 +147,13 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return `${pokemon.category || "？？"}宝可梦`;
   };
 
+  const getPokemonFormDisplayName = (formName?: string | null): string => {
+    if (!formName) return "";
+    const match = POKEMON_FORM_TRANSLATIONS[formName];
+    if (match) return match[locale] || match.zh || formName;
+    return formName;
+  };
+
   const getItemDisplayName = (item?: Item | null): string => {
     if (!item) return "";
     switch (locale) {
@@ -169,6 +182,13 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       default:
         return habitat.name;
     }
+  };
+
+  const getLocationDisplayName = (location?: string | null): string => {
+    if (!location) return "";
+    const match = LOCATION_TRANSLATIONS[location];
+    if (match) return match[locale] || match.zh || location;
+    return location;
   };
 
   const getSpecialityDisplayName = (speciality?: string | null): string => {
@@ -216,9 +236,11 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         getPokemonDisplayName,
         getPokemonDescription,
         getPokemonCategory,
+        getPokemonFormDisplayName,
         getItemDisplayName,
         getItemCategoryDisplayName,
         getHabitatDisplayName,
+        getLocationDisplayName,
         getSpecialityDisplayName,
         getTypeDisplayName,
         getFavoriteDisplayName,

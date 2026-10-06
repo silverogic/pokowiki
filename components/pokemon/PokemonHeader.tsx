@@ -12,7 +12,7 @@ interface IProps {
 }
 
 export const PokemonHeader: FC<IProps> = ({ pokemon }) => {
-  const { getPokemonDisplayName, getPokemonDescription, t } = useI18n();
+  const { getPokemonDisplayName, getPokemonDescription, getPokemonFormDisplayName, t } = useI18n();
 
   const displayName = getPokemonDisplayName(pokemon);
   const description = getPokemonDescription(pokemon);
@@ -30,7 +30,9 @@ export const PokemonHeader: FC<IProps> = ({ pokemon }) => {
         />
       </div>
       <h1>{displayName}</h1>
-      {pokemon.formName ? <div className="mb-4 text-xl text-gray-600">{pokemon.formName}</div> : null}
+      {pokemon.formName ? (
+        <div className="mb-4 text-xl text-gray-600">{getPokemonFormDisplayName(pokemon.formName)}</div>
+      ) : null}
       <div className="description">{description || "—"}</div>
     </section>
   );

@@ -663,6 +663,12 @@ export const translations = {
     zh: "超稀有",
     ja: "超レア",
   },
+  veryRare: {
+    en: "Very Rare",
+    ko: "매우 희귀",
+    zh: "非常稀有",
+    ja: "とてもレア",
+  },
   rare: {
     en: "Rare",
     ko: "희귀",
@@ -1078,6 +1084,52 @@ export const ENVIRONMENT_TRANSLATIONS: Record<string, Record<SupportedLocale, st
   凉爽: { zh: "凉爽", en: "Cool", ko: "시원함", ja: "涼しい" },
   Iluminado: { zh: "明亮", en: "Bright", ko: "밝음", ja: "明るい" },
   Calentito: { zh: "温暖", en: "Warm", ko: "따뜻함", ja: "暖かい" },
+};
+
+export const LOCATION_TRANSLATIONS: Record<string, Record<SupportedLocale, string>> = {
+  全部: { zh: "全部", en: "All locations", ko: "전체", ja: "全エリア" },
+  空空镇: { zh: "空空镇", en: "Hollow Town", ko: "텅텅마을", ja: "カラクサタウン" },
+  干巴巴荒野的城镇: {
+    zh: "干巴巴荒野的城镇",
+    en: "Withered Wastelands Town",
+    ko: "바짝바짝황야 마을",
+    ja: "カラカラ荒野の町",
+  },
+  凸隆隆山地的城镇: {
+    zh: "凸隆隆山地的城镇",
+    en: "Rugged Mountain Town",
+    ko: "불룩불룩산지 마을",
+    ja: "ゴツゴツ山地の町",
+  },
+  暗沉沉海边的城镇: { zh: "暗沉沉海边的城镇", en: "Murky Beach Town", ko: "어둑어둑해변 마을", ja: "クラクラ海辺の町" },
+  亮晶晶空岛的城镇: {
+    zh: "亮晶晶空岛的城镇",
+    en: "Sparkling Sky Island Town",
+    ko: "반짝반짝하늘섬 마을",
+    ja: "キラキラ空島の町",
+  },
+  云岛: { zh: "云岛", en: "Cloud Island", ko: "구름섬", ja: "雲島" },
+  "云岛、冒泡泡海底的城镇": {
+    zh: "云岛、冒泡泡海底的城镇",
+    en: "Cloud Island, Bubbly Basin Town",
+    ko: "구름섬, 보글보글해저 마을",
+    ja: "雲島、プクプク海底の町",
+  },
+  冒泡泡海底的城镇: {
+    zh: "冒泡泡海底的城镇",
+    en: "Bubbly Basin Town",
+    ko: "보글보글해저 마을",
+    ja: "プクプク海底の町",
+  },
+};
+
+export const POKEMON_FORM_TRANSLATIONS: Record<string, Record<SupportedLocale, string>> = {
+  立体音响洛托姆: { zh: "立体音响洛托姆", en: "Stereo Rotom", ko: "스테레오 로토무", ja: "ステレオロトム" },
+  东海: { zh: "东海", en: "East Sea", ko: "동쪽바다", ja: "ひがしのうみ" },
+  彩绘匠: { zh: "彩绘匠", en: "Painter", ko: "페인터", ja: "ペインター" },
+  厨师: { zh: "厨师", en: "Chef", ko: "셰프", ja: "シェフ" },
+  头头: { zh: "头头", en: "Alpha", ko: "우두머리", ja: "オヤブン" },
+  雄性: { zh: "雄性", en: "Male", ko: "수컷", ja: "オス" },
 };
 
 export type TranslationKey = keyof typeof translations;

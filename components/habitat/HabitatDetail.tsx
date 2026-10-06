@@ -38,19 +38,30 @@ type MixedPokemon = Pokemon & {
   location: string;
 };
 
-const getColumns = (habitat: Habitat, t: (k: TranslationKey) => string): TableColumnsType<MixedPokemon> => [
+const getColumns = (
+  habitat: Habitat,
+  t: (k: TranslationKey) => string,
+  getLocationDisplayName: (location?: string | null) => string,
+): TableColumnsType<MixedPokemon> => [
   ...(["name", "index", "specialties", "time", "weather"]
     .map((key) => PokemonTableColumns.find((c) => "dataIndex" in c && c.dataIndex === key)!)
     .filter(Boolean) as TableColumnsType<MixedPokemon>),
   {
     title: t("rarity"),
     dataIndex: "rarity",
-    render: (rarity: string) => (rarity === "超稀有" ? t("ultraRare") : rarity === "稀有" ? t("rare") : t("common")),
+    render: (rarity: string) =>
+      rarity === "超稀有"
+        ? t("ultraRare")
+        : rarity === "非常稀有"
+          ? t("veryRare")
+          : rarity === "稀有"
+            ? t("rare")
+            : t("common"),
   },
   {
     title: t("location"),
     dataIndex: "location",
-    render: (location: string) => (location === "全部" ? t("allLocations") : location),
+    render: (location: string) => getLocationDisplayName(location),
   },
   {
     title: t("otherHabitats"),
@@ -74,7 +85,7 @@ interface IProps {
 }
 
 export const HabitatDetail: FC<IProps> = ({ habitat }) => {
-  const { t, getHabitatDisplayName } = useI18n();
+  const { t, getHabitatDisplayName, getLocationDisplayName } = useI18n();
   const displayName = getHabitatDisplayName(habitat);
 
   const noteworthyContents: ReactNode[] = [];
@@ -110,7 +121,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
       );
     }
     if (p.location !== "全部") {
-      pokemonContents.push(<>{t("habitatOnlyAppearsInLocation").replace("{0}", p.location)}</>);
+      pokemonContents.push(<>{t("habitatOnlyAppearsInLocation").replace("{0}", getLocationDisplayName(p.location))}</>);
     }
     switch (pokemon.weather) {
       case "100":
@@ -146,7 +157,7 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
     }
   }
 
-  const columns = useMemo(() => getColumns(habitat, t), [habitat, t]);
+  const columns = useMemo(() => getColumns(habitat, t, getLocationDisplayName), [habitat, t, getLocationDisplayName]);
 
   return (
     <>

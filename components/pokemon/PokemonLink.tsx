@@ -12,7 +12,7 @@ interface IProps {
 }
 
 export const PokemonLink: FC<IProps> = ({ name }) => {
-  const { getPokemonDisplayName } = useI18n();
+  const { getPokemonDisplayName, getPokemonFormDisplayName } = useI18n();
   const pokemon = PokemonDataByName[name];
   const displayName = pokemon ? getPokemonDisplayName(pokemon) : name;
 
@@ -25,7 +25,7 @@ export const PokemonLink: FC<IProps> = ({ name }) => {
       {pokemon ? (
         <Link href={`/p/${getPokemonFullId(pokemon)}`}>
           {displayName}
-          {pokemon.formName ? `（${pokemon.formName}）` : null}
+          {pokemon.formName ? `（${getPokemonFormDisplayName(pokemon.formName)}）` : null}
         </Link>
       ) : (
         <span>{name}</span>
