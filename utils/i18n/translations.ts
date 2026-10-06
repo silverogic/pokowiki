@@ -721,7 +721,7 @@ export const translations = {
     en: "Only appears at night.",
     ko: "밤에만 출현합니다.",
     zh: "只在夜晚出现。",
-    ja: "夜間のみ出現합니다。",
+    ja: "夜間のみ出現します。",
   },
   noteworthyNotice: {
     en: "Please note:",
@@ -749,7 +749,7 @@ export const translations = {
   },
   habitatUltraRareNotice: {
     en: "is Ultra Rare and hard to encounter in this habitat.",
-    ko: "의 출현율은 「초희귀」로, 이 서식지에서는 나타나기 어렵습니다.",
+    ko: "은(는) 출현율이 「초희귀」로, 이 서식지에서는 나타나기 어렵습니다.",
     zh: "稀有度为“超稀有”，在该栖息地中较难出现。",
     ja: "のレアリティは「超レア」で、この生息地では出現しにくくなっています。",
   },

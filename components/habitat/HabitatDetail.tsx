@@ -145,10 +145,10 @@ export const HabitatDetail: FC<IProps> = ({ habitat }) => {
     if (pokemonContents.length > 0) {
       noteworthyContents.push(
         <>
-          <PokemonLink name={p.form} />
+          <PokemonLink name={p.form} />{" "}
           {pokemonContents.map((c, i) => (
             <Fragment key={i}>
-              {i === 0 ? "" : ` ${t("habitatAlsoNote")}`}
+              {i === 0 ? null : ` ${t("habitatAlsoNote")}`}
               {c}
             </Fragment>
           ))}
