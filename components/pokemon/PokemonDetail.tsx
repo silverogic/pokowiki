@@ -32,6 +32,7 @@ const getDescriptions = (
   category: string,
   getFavoriteDisplayName: (fav?: string | null) => string,
   getEnvironmentDisplayName: (env?: string | null) => string,
+  getLocationDisplayName: (loc?: string | null) => string,
 ): DescriptionsProps["items"] => [
   {
     key: "dex",
@@ -148,7 +149,18 @@ const getDescriptions = (
         {
           key: "spawnZones",
           label: t("spawnZones"),
-          children: pokemon.spawnZones.join("、"),
+          children: (
+            <div className="flex flex-wrap gap-1.5 py-0.5">
+              {pokemon.spawnZones.map((zone) => (
+                <span
+                  key={zone}
+                  className="inline-flex items-center rounded border border-gray-200 bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700"
+                >
+                  {getLocationDisplayName(zone)}
+                </span>
+              ))}
+            </div>
+          ),
           span: 2,
         },
       ]
@@ -174,8 +186,15 @@ interface IProps {
 }
 
 export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
-  const { t, getPokemonDisplayName, getPokemonCategory, getFavoriteDisplayName, getEnvironmentDisplayName, locale } =
-    useI18n();
+  const {
+    t,
+    getPokemonDisplayName,
+    getPokemonCategory,
+    getFavoriteDisplayName,
+    getEnvironmentDisplayName,
+    getLocationDisplayName,
+    locale,
+  } = useI18n();
   const displayName = getPokemonDisplayName(pokemon);
   const categoryName = getPokemonCategory(pokemon);
 
@@ -276,7 +295,14 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
         <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(pokemon, t, categoryName, getFavoriteDisplayName, getEnvironmentDisplayName)}
+          items={getDescriptions(
+            pokemon,
+            t,
+            categoryName,
+            getFavoriteDisplayName,
+            getEnvironmentDisplayName,
+            getLocationDisplayName,
+          )}
         />
       </section>
 

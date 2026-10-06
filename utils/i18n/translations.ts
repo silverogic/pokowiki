@@ -1126,6 +1126,102 @@ export const LOCATION_TRANSLATIONS: Record<string, Record<SupportedLocale, strin
     ko: "보글보글 해저 마을",
     ja: "プクプク海底の町",
   },
+  "Estepa Estéril": {
+    zh: "干巴巴荒野的城镇",
+    en: "Withered Wastelands Town",
+    ko: "바싹바싹 황야 마을",
+    ja: "カラカラ荒野の町",
+  },
+  "Bahía Borrasca": {
+    zh: "暗沉沉海边的城镇",
+    en: "Murky Beach Town",
+    ko: "우중충한 해안 마을",
+    ja: "クラクラ海辺の町",
+  },
+  "Riscos Rocosos": {
+    zh: "凸隆隆山地的城镇",
+    en: "Rugged Mountain Town",
+    ko: "울퉁불퉁 산지 마을",
+    ja: "ゴツゴツ山地の町",
+  },
+  "Islas aisladas": {
+    zh: "亮晶晶空岛的城镇",
+    en: "Sparkling Sky Island Town",
+    ko: "반짝반짝 부유섬 마을",
+    ja: "キラキラ空島の町",
+  },
+  "Pradera Paleta": {
+    zh: "空空镇",
+    en: "Pallet Town",
+    ko: "태초마을",
+    ja: "まっさらな街",
+  },
+  "Isla Nube": {
+    zh: "云岛",
+    en: "Cloud Island",
+    ko: "구름섬",
+    ja: "雲島",
+  },
+  "Bubbly Basin": {
+    zh: "冒泡泡海底的城镇",
+    en: "Bubbly Basin Town",
+    ko: "보글보글 해저 마을",
+    ja: "プクプク海底の町",
+  },
+  "Withered Wastelands": {
+    zh: "干巴巴荒野的城镇",
+    en: "Withered Wastelands Town",
+    ko: "바싹바싹 황야 마을",
+    ja: "カラカラ荒野の町",
+  },
+  "Murky Beach": {
+    zh: "暗沉沉海边的城镇",
+    en: "Murky Beach Town",
+    ko: "우중충한 해안 마을",
+    ja: "クラクラ海辺の町",
+  },
+  "Bleak Beach": {
+    zh: "暗沉沉海边的城镇",
+    en: "Murky Beach Town",
+    ko: "우중충한 해안 마을",
+    ja: "クラクラ海辺の町",
+  },
+  "Rugged Mountain": {
+    zh: "凸隆隆山地的城镇",
+    en: "Rugged Mountain Town",
+    ko: "울퉁불퉁 산지 마을",
+    ja: "ゴツゴツ山地の町",
+  },
+  "Rocky Ridges": {
+    zh: "凸隆隆山地的城镇",
+    en: "Rugged Mountain Town",
+    ko: "울퉁불퉁 산지 마을",
+    ja: "ゴツゴツ山地の町",
+  },
+  "Sparkling Skylands": {
+    zh: "亮晶晶空岛的城镇",
+    en: "Sparkling Sky Island Town",
+    ko: "반짝반짝 부유섬 마을",
+    ja: "キラキラ空島の町",
+  },
+  "Sparkling Sky Island": {
+    zh: "亮晶晶空岛的城镇",
+    en: "Sparkling Sky Island Town",
+    ko: "반짝반짝 부유섬 마을",
+    ja: "キラキラ空島の町",
+  },
+  "Pallet Town": {
+    zh: "空空镇",
+    en: "Pallet Town",
+    ko: "태초마을",
+    ja: "まっさらな街",
+  },
+  "Cloud Island": {
+    zh: "云岛",
+    en: "Cloud Island",
+    ko: "구름섬",
+    ja: "雲島",
+  },
 };
 
 export const POKEMON_FORM_TRANSLATIONS: Record<string, Record<SupportedLocale, string>> = {
