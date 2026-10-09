@@ -1,15 +1,7 @@
 "use client";
 
-import {
-  CommentOutlined,
-  ExportOutlined,
-  GithubOutlined,
-  KeyOutlined,
-  ThunderboltOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import { ExportOutlined, GithubOutlined, KeyOutlined, ThunderboltOutlined, UserOutlined } from "@ant-design/icons";
 import { Alert, Button, Input, Modal, Tag, message } from "antd";
-import { useRouter } from "next/navigation";
 import { FC, useState } from "react";
 
 import { useGitHubAuth, useI18n } from "@/utils";
@@ -22,7 +14,6 @@ interface IGitHubAuthModalProps {
 export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) => {
   const { t } = useI18n();
   const { fetchUserById, loginWithToken } = useGitHubAuth();
-  const router = useRouter();
 
   // Token login state
   const [token, setToken] = useState("");
@@ -67,11 +58,6 @@ export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) =>
     } else {
       setLookupError(t("userNotFound"));
     }
-  };
-
-  const handleGoToCommunity = () => {
-    onClose();
-    router.push("/community");
   };
 
   return (
@@ -198,22 +184,6 @@ export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) =>
               className="py-1 text-xs"
             />
           ) : null}
-        </div>
-
-        {/* Option 3: Community Giscus */}
-        <div className="flex items-center justify-between rounded-xl border border-gray-100 bg-gray-50 px-4 py-3">
-          <div className="flex items-center gap-2 text-xs text-gray-600">
-            <CommentOutlined className="text-primary" />
-            <span>{t("githubLoginViaCommunityDesc")}</span>
-          </div>
-          <Button
-            size="small"
-            type="link"
-            onClick={handleGoToCommunity}
-            className="text-xs font-medium"
-          >
-            {t("goToCommunity")} →
-          </Button>
         </div>
       </div>
     </Modal>

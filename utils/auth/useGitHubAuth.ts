@@ -63,31 +63,9 @@ export const useGitHubAuth = () => {
     window.addEventListener(AUTH_EVENT_KEY, onAuthChange);
     window.addEventListener("storage", onAuthChange);
 
-    // Giscus emitMetadata bridge
-    const onMessage = (event: MessageEvent) => {
-      if (event.origin !== "https://giscus.app") return;
-      const giscusData = event.data?.giscus;
-      if (giscusData && "discussion" in giscusData) {
-        const viewer = giscusData.viewer;
-        if (viewer && viewer.login) {
-          const prev = getStoredGitHubUser();
-          const newUser: IGitHubUser = {
-            login: viewer.login,
-            avatarUrl: viewer.avatarUrl,
-            url: viewer.url,
-            token: prev?.token,
-          };
-          setStoredGitHubUser(newUser);
-        }
-      }
-    };
-
-    window.addEventListener("message", onMessage);
-
     return () => {
       window.removeEventListener(AUTH_EVENT_KEY, onAuthChange);
       window.removeEventListener("storage", onAuthChange);
-      window.removeEventListener("message", onMessage);
     };
   }, []);
 

@@ -15,6 +15,8 @@ import { FC, useCallback, useEffect, useMemo, useState } from "react";
 import {
   COMMUNITY_CATEGORIES,
   CreateDiscussionModal,
+  DEFAULT_REPO,
+  DEFAULT_REPO_ID,
   DiscussionDetailModal,
   ICategoryConfig,
 } from "@/components/community";
@@ -33,8 +35,8 @@ const CommunityPage: FC = () => {
   const [detailModalOpen, setDetailModalOpen] = useState<boolean>(false);
   const [selectedDiscussion, setSelectedDiscussion] = useState<IGitHubDiscussion | null>(null);
 
-  const giscusRepo = (process.env.NEXT_PUBLIC_GISCUS_REPO as `${string}/${string}`) || "silverogic/pokowiki";
-  const giscusRepoId = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "R_kgDOU5hVEA";
+  const githubRepo = (process.env.NEXT_PUBLIC_GISCUS_REPO as `${string}/${string}`) || DEFAULT_REPO;
+  const githubRepoId = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || DEFAULT_REPO_ID;
 
   useEffect(() => {
     document.title = `${t("communityTitle")} - ${t("siteTitle")}`;
@@ -43,7 +45,7 @@ const CommunityPage: FC = () => {
   const fetchDiscussions = useCallback(async () => {
     setLoading(true);
     try {
-      const res = await fetch(`https://api.github.com/repos/${giscusRepo}/discussions?per_page=100`, {
+      const res = await fetch(`https://api.github.com/repos/${githubRepo}/discussions?per_page=100`, {
         headers: { "User-Agent": "pokowiki-community" },
       });
       if (!res.ok) {
@@ -57,7 +59,7 @@ const CommunityPage: FC = () => {
     } finally {
       setLoading(false);
     }
-  }, [giscusRepo]);
+  }, [githubRepo]);
 
   useEffect(() => {
     fetchDiscussions();
@@ -288,7 +290,7 @@ const CommunityPage: FC = () => {
             <Button
               size="large"
               icon={<ExportOutlined />}
-              href={`https://github.com/${giscusRepo}/discussions`}
+              href={`https://github.com/${githubRepo}/discussions`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -325,7 +327,7 @@ const CommunityPage: FC = () => {
               <span>{t(activeCategory.descKey)}</span>
             </div>
             <a
-              href={`https://github.com/${giscusRepo}/discussions/categories/${activeCategory.slug}`}
+              href={`https://github.com/${githubRepo}/discussions/categories/${activeCategory.slug}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary flex shrink-0 items-center gap-1 text-xs hover:underline"
@@ -398,8 +400,8 @@ const CommunityPage: FC = () => {
         onClose={() => setCreateModalOpen(false)}
         onSuccess={fetchDiscussions}
         defaultCategoryKey={activeKey !== "all" ? activeKey : "general"}
-        repo={giscusRepo}
-        repoId={giscusRepoId}
+        repo={githubRepo}
+        repoId={githubRepoId}
       />
 
       <DiscussionDetailModal
@@ -409,8 +411,8 @@ const CommunityPage: FC = () => {
           setDetailModalOpen(false);
           setSelectedDiscussion(null);
         }}
-        repo={giscusRepo}
-        repoId={giscusRepoId}
+        repo={githubRepo}
+        repoId={githubRepoId}
       />
     </div>
   );

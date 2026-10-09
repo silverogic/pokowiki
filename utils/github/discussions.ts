@@ -14,6 +14,26 @@ export interface ICreatedDiscussionResult {
   createdAt: string;
 }
 
+export interface IAddCommentParams {
+  owner?: string;
+  repo?: string;
+  discussionNumber: number;
+  discussionId?: string;
+  body: string;
+  token: string;
+}
+
+export interface IAddedCommentResult {
+  id: string;
+  body: string;
+  createdAt: string;
+  url: string;
+  author: {
+    login: string;
+    avatarUrl: string;
+  };
+}
+
 export const createDiscussionGraphQL = async ({
   repositoryId,
   categoryId,
@@ -74,4 +94,114 @@ export const createDiscussionGraphQL = async ({
   }
 
   return discussion;
+};
+
+export const addDiscussionCommentGraphQL = async ({
+  owner = "silverogic",
+  repo = "pokowiki",
+  discussionNumber,
+  discussionId: explicitDiscussionId,
+  body,
+  token,
+}: IAddCommentParams): Promise<IAddedCommentResult> => {
+  let targetDiscussionId = explicitDiscussionId;
+
+  // If node ID is not provided, fetch it by discussion number
+  if (!targetDiscussionId) {
+    const getIdQuery = `
+      query GetDiscussionId($owner: String!, $name: String!, $number: Int!) {
+        repository(owner: $owner, name: $name) {
+          discussion(number: $number) {
+            id
+          }
+        }
+      }
+    `;
+
+    const idRes = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token.trim()}`,
+        "Content-Type": "application/json",
+        "User-Agent": "pokowiki-community",
+      },
+      body: JSON.stringify({
+        query: getIdQuery,
+        variables: {
+          owner,
+          name: repo,
+          number: discussionNumber,
+        },
+      }),
+    });
+
+    if (!idRes.ok) {
+      const errorText = await idRes.text();
+      throw new Error(`GitHub API Error (${idRes.status}): ${errorText}`);
+    }
+
+    const idJson = await idRes.json();
+    if (idJson.errors && idJson.errors.length > 0) {
+      throw new Error(idJson.errors[0].message || "Failed to resolve discussion on GitHub");
+    }
+
+    targetDiscussionId = idJson.data?.repository?.discussion?.id;
+    if (!targetDiscussionId) {
+      throw new Error("Discussion not found on GitHub");
+    }
+  }
+
+  // Mutate addDiscussionComment
+  const mutation = `
+    mutation AddDiscussionComment($discussionId: ID!, $body: String!) {
+      addDiscussionComment(input: {
+        discussionId: $discussionId,
+        body: $body
+      }) {
+        comment {
+          id
+          body
+          createdAt
+          url
+          author {
+            login
+            avatarUrl
+          }
+        }
+      }
+    }
+  `;
+
+  const mutRes = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token.trim()}`,
+      "Content-Type": "application/json",
+      "User-Agent": "pokowiki-community",
+    },
+    body: JSON.stringify({
+      query: mutation,
+      variables: {
+        discussionId: targetDiscussionId,
+        body: body.trim(),
+      },
+    }),
+  });
+
+  if (!mutRes.ok) {
+    const errorText = await mutRes.text();
+    throw new Error(`GitHub API Error (${mutRes.status}): ${errorText}`);
+  }
+
+  const mutJson = await mutRes.json();
+  if (mutJson.errors && mutJson.errors.length > 0) {
+    throw new Error(mutJson.errors[0].message || "Failed to post comment on GitHub");
+  }
+
+  const comment = mutJson.data?.addDiscussionComment?.comment;
+  if (!comment) {
+    throw new Error("No comment returned from GitHub API");
+  }
+
+  return comment;
 };

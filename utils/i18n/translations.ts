@@ -433,6 +433,36 @@ export const translations = {
     zh: "在 GitHub 发表评论",
     ja: "GitHubでコメントする",
   },
+  commentPlaceholder: {
+    en: "Write a comment (Markdown supported)...",
+    ko: "댓글을 입력해 주세요 (마크다운 지원)...",
+    zh: "发表评论（支持 Markdown）...",
+    ja: "コメントを入力（Markdown対応）...",
+  },
+  commentSubmit: {
+    en: "Post Comment",
+    ko: "댓글 등록",
+    zh: "发布评论",
+    ja: "コメント投稿",
+  },
+  commentSuccess: {
+    en: "Comment posted successfully!",
+    ko: "댓글이 성공적으로 등록되었습니다!",
+    zh: "评论发布成功！",
+    ja: "コメントが正常に投稿されました！",
+  },
+  commentFallback: {
+    en: "Comment on GitHub",
+    ko: "GitHub에서 댓글 쓰기",
+    zh: "在 GitHub 发表评论",
+    ja: "GitHubでコメントする",
+  },
+  commentTokenHint: {
+    en: "Connect your GitHub Token to comment directly without opening GitHub.",
+    ko: "GitHub 토큰을 연결하면 창 전환 없이 이 페이지에서 즉시 댓글을 작성할 수 있습니다.",
+    zh: "关联 GitHub 令牌即可在站内直接回复，无需打开 GitHub 页面。",
+    ja: "GitHubトークンを連携すると、画面を切り替えずに直接コメントを投稿できます。",
+  },
   githubLogin: {
     en: "GitHub Login",
     ko: "GitHub 로그인",
