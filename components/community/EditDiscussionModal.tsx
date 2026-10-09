@@ -148,6 +148,12 @@ export const EditDiscussionModal: FC<IEditDiscussionModalProps> = ({
       width={700}
       centered
       destroyOnClose
+      styles={{
+        body: {
+          maxHeight: "calc(80vh - 120px)",
+          overflowY: "auto",
+        },
+      }}
     >
       <div className="py-2">
         {/* Status / Permission Banner */}

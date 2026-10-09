@@ -32,6 +32,7 @@ const theme: ThemeConfig = {
     screenXLMax: xxl - 1,
     screenXXL: xxl,
     screenXXLMin: xxl,
+    zIndexPopupBase: 1000,
   },
   components: {
     Spin: {
@@ -40,6 +41,13 @@ const theme: ThemeConfig = {
     Select: {
       colorPrimary: "#c28cd9",
       colorPrimaryHover: "#c28cd9",
+      zIndexPopup: 1050,
+    },
+    Dropdown: {
+      zIndexPopup: 1050,
+    },
+    Modal: {
+      zIndexPopupBase: 1000,
     },
     Table: {
       headerBg: "#fafafa",

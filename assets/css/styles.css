@@ -479,7 +479,7 @@ a.badge {
 }
 
 .search-results {
-  @apply absolute z-[1200] mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto;
+  @apply absolute z-40 mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto;
 }
 
 .search-item {
@@ -578,11 +578,11 @@ a.badge {
 
 /** 网站结构 */
 header {
-  @apply bg-white md:shadow-lg border-b-4 border-primary fixed top-0 left-0 w-full z-[1100];
+  @apply bg-white/95 backdrop-blur-md md:shadow-xs border-b-4 border-primary fixed top-0 left-0 w-full z-30 transition-shadow;
 }
 
 .header-fake {
-  @apply border-b-4;
+  @apply border-b-4 border-transparent;
 
   & > div {
     @apply h-16;
@@ -599,7 +599,7 @@ header {
 }
 
 aside {
-  @apply w-64 px-4 py-8 z-40 hidden md:flex flex-col gap-8;
+  @apply w-64 px-4 py-8 z-20 hidden md:flex flex-col gap-8;
 }
 
 nav {

@@ -169,6 +169,12 @@ export const CreateDiscussionModal: FC<ICreateDiscussionModalProps> = ({
       width={700}
       centered
       destroyOnClose
+      styles={{
+        body: {
+          maxHeight: "calc(80vh - 120px)",
+          overflowY: "auto",
+        },
+      }}
     >
       <div className="py-2">
         {/* Auth Status & Zero-switch Helper */}

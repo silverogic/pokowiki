@@ -176,6 +176,12 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
         centered
         destroyOnClose
         className="discussion-detail-modal"
+        styles={{
+          body: {
+            maxHeight: "calc(80vh - 120px)",
+            overflowY: "auto",
+          },
+        }}
       >
         <div className="space-y-4 pt-2">
           {/* Category & Discussion Number */}

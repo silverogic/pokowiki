@@ -74,6 +74,12 @@ export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) =>
       }
       className="github-auth-modal"
       width={560}
+      styles={{
+        body: {
+          maxHeight: "calc(80vh - 120px)",
+          overflowY: "auto",
+        },
+      }}
     >
       <div className="space-y-4 pt-2">
         <p className="text-xs leading-relaxed text-gray-600 sm:text-sm">{t("githubLoginModalDesc")}</p>
