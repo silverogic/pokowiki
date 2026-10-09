@@ -66,3 +66,6 @@ export const COMMUNITY_CATEGORIES: ICategoryConfig[] = [
     descKey: "categoryAnnouncementsDesc",
   },
 ];
+
+export const DEFAULT_REPO = "silverogic/pokowiki";
+export const DEFAULT_REPO_ID = "R_kgDOU5hVEA";

@@ -6,3 +6,4 @@ export * from "./renderer";
 export * from "./sorter";
 export * from "./i18n";
 export * from "./auth";
+export * from "./github";

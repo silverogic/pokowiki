@@ -4,4 +4,5 @@ export interface IGitHubUser {
   url: string;
   name?: string;
   bio?: string;
+  token?: string;
 }

@@ -361,6 +361,36 @@ export const translations = {
     zh: "发布至 GitHub Discussions",
     ja: "GitHub Discussions に投稿",
   },
+  writeModalDirectSubmit: {
+    en: "Publish Now (In-Site)",
+    ko: "사이트에서 즉시 등록",
+    zh: "在站内直接发布",
+    ja: "サイト内で直接投稿",
+  },
+  writeModalFallbackSubmit: {
+    en: "Open on GitHub",
+    ko: "GitHub 새 창에서 등록",
+    zh: "在 GitHub 页面中发布",
+    ja: "GitHubで投稿",
+  },
+  writeModalDirectSuccess: {
+    en: "Discussion published successfully!",
+    ko: "게시글이 성공적으로 등록되었습니다!",
+    zh: "讨论已成功发布！",
+    ja: "投稿が正常に作成されました！",
+  },
+  writeModalDirectNotice: {
+    en: "Zero window switches! Your post will be published directly to GitHub Discussions from here.",
+    ko: "창 전환 없이 현재 사이트에서 GitHub 커뮤니티로 즉시 게시됩니다.",
+    zh: "无需切换窗口，讨论将直接发布至 GitHub 社区。",
+    ja: "画面遷移なし！このページから直接GitHubコミュニティに投稿されます。",
+  },
+  writeModalTokenHint: {
+    en: "Connect your GitHub Token to publish directly without switching windows.",
+    ko: "GitHub 토큰을 연결하면 창 전환 없이 이 창에서 1초 만에 바로 등록할 수 있습니다.",
+    zh: "关联 GitHub 令牌即可在站内直接发帖，无需切换窗口。",
+    ja: "GitHubトークンを連携すると、画面を切り替えずに直接投稿できます。",
+  },
   writeModalSuccess: {
     en: "GitHub posting page opened! After creating your discussion on GitHub, refresh this page to see it.",
     ko: "GitHub 작성 창이 열렸습니다. 등록 후 돌아와 [새로고침]을 누르시면 게시판에 즉시 반영됩니다.",
@@ -486,6 +516,60 @@ export const translations = {
     ko: "해당 GitHub 사용자를 찾을 수 없습니다.",
     zh: "未找到该 GitHub 用户。",
     ja: "該当するGitHubユーザーが見つかりませんでした。",
+  },
+  githubTokenConnectTitle: {
+    en: "Connect GitHub Token (Write Posts In-Site)",
+    ko: "GitHub 토큰 연결 (사이트 내 즉시 글쓰기)",
+    zh: "关联 GitHub 令牌（站内直接发帖）",
+    ja: "GitHub トークン連携 (サイト内直接投稿)",
+  },
+  githubTokenConnectDesc: {
+    en: "Enter a GitHub Personal Access Token (classic with public_repo scope) to create posts directly without switching windows.",
+    ko: "GitHub Personal Access Token (public_repo 권한)을 등록하면 창 전환 없이 사이트에서 즉시 글을 쓸 수 있습니다.",
+    zh: "输入 GitHub 个人访问令牌（需 public_repo 权限）即可在站内直接发帖，无需切换窗口。",
+    ja: "GitHub Personal Access Token (public_repo 権限) を登録すると、画面遷移なしで即時投稿できます。",
+  },
+  githubTokenPlaceholder: {
+    en: "Paste GitHub Token (ghp_... or github_pat_...)",
+    ko: "GitHub 토큰 입력 (ghp_... 또는 github_pat_...)",
+    zh: "输入 GitHub 令牌（ghp_... 或 github_pat_...）",
+    ja: "GitHubトークンを入力 (ghp_... または github_pat_...)",
+  },
+  githubGenerateTokenHelper: {
+    en: "Generate Token on GitHub (1-Click)",
+    ko: "GitHub에서 토큰 발급받기 (클릭 1번)",
+    zh: "在 GitHub 生成令牌（一键直达）",
+    ja: "GitHubでトークンを発行 (1クリック)",
+  },
+  githubTokenNotice: {
+    en: "Tokens are stored securely in your browser's localStorage only and are never sent to any third-party server.",
+    ko: "토큰은 외부 서버에 전송되지 않으며, 브라우저의 localStorage에만 안전하게 저장됩니다.",
+    zh: "令牌仅保存在浏览器的 localStorage 中，绝不会上传至任何第三方服务器。",
+    ja: "トークンは外部サーバーに送信されず、ブラウザの localStorage にのみ安全に保存されます。",
+  },
+  githubTokenSuccess: {
+    en: "GitHub Token successfully connected!",
+    ko: "GitHub 토큰이 성공적으로 연결되었습니다!",
+    zh: "GitHub 令牌关联成功！",
+    ja: "GitHubトークンが正常に連携されました！",
+  },
+  invalidToken: {
+    en: "Invalid GitHub token. Please verify and try again.",
+    ko: "유효하지 않은 GitHub 토큰입니다. 확인 후 다시 시도해 주세요.",
+    zh: "无效的 GitHub 令牌，请检查后重试。",
+    ja: "無効なGitHubトークンです。確認の上再試行してください。",
+  },
+  changeAccount: {
+    en: "Change Account / Disconnect",
+    ko: "계정 변경 / 연결 해제",
+    zh: "更换账号 / 断开",
+    ja: "アカウント変更 / 連携解除",
+  },
+  activePostModeDirect: {
+    en: "In-Site Direct Posting Active",
+    ko: "사이트 내 즉시 등록 활성화됨",
+    zh: "已开启站内直接发帖",
+    ja: "サイト内直接投稿が有効",
   },
   // Table headers & common terms
   pokemon: {

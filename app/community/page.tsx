@@ -399,6 +399,7 @@ const CommunityPage: FC = () => {
         onSuccess={fetchDiscussions}
         defaultCategoryKey={activeKey !== "all" ? activeKey : "general"}
         repo={giscusRepo}
+        repoId={giscusRepoId}
       />
 
       <DiscussionDetailModal

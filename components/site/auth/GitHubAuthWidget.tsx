@@ -1,10 +1,12 @@
 "use client";
 
 import {
+  CheckCircleOutlined,
   CommentOutlined,
   DownOutlined,
   ExportOutlined,
   GithubOutlined,
+  KeyOutlined,
   LogoutOutlined,
   UserOutlined,
 } from "@ant-design/icons";
@@ -65,9 +67,29 @@ export const GitHubAuthWidget: FC<IGitHubAuthWidgetProps> = ({ size = "middle", 
         <div className="cursor-default px-1 py-1 text-gray-800">
           <div className="text-sm font-semibold">{user.name || user.login}</div>
           <div className="text-xs text-gray-400">@{user.login}</div>
+          {user.token ? (
+            <div className="mt-1 flex items-center gap-1 text-[11px] font-medium text-green-600">
+              <CheckCircleOutlined />
+              <span>{t("activePostModeDirect")}</span>
+            </div>
+          ) : (
+            <div className="mt-1 text-[11px] text-gray-400">
+              <span>(읽기 모드)</span>
+            </div>
+          )}
         </div>
       ),
     },
+    ...(!user.token
+      ? [
+          {
+            key: "connect-token",
+            icon: <KeyOutlined className="text-blue-500" />,
+            label: <span className="text-xs font-medium text-blue-600">{t("githubTokenConnectTitle")}</span>,
+            onClick: () => setModalOpen(true),
+          },
+        ]
+      : []),
     { type: "divider" },
     {
       key: "profile",
@@ -141,6 +163,11 @@ export const GitHubAuthWidget: FC<IGitHubAuthWidgetProps> = ({ size = "middle", 
           )}
         </button>
       </Dropdown>
+
+      <GitHubAuthModal
+        open={modalOpen}
+        onClose={() => setModalOpen(false)}
+      />
     </div>
   );
 };
