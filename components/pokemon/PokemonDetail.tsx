@@ -4,11 +4,10 @@ import { Descriptions, DescriptionsProps } from "antd";
 import cn from "classnames";
 import { FC, Fragment } from "react";
 
-import { EventData, HabitatDataById, PokemonData, PokemonDataBySlug } from "@/data";
+import { EventData, HabitatDataById } from "@/data";
 import { Pokemon } from "@/types";
 import {
   DescriptionsCommonProps2,
-  Link,
   TimeIcons,
   TranslationKey,
   TypeIcons,
@@ -24,7 +23,6 @@ import { EventTable } from "../event/EventTable";
 import { HabitatCell, HabitatLink } from "../habitat";
 import { ItemLink } from "../item/ItemLink";
 import { SpecialityLink } from "../speciality";
-import { PokemonIcon } from "./PokemonIcon";
 
 const getDescriptions = (
   pokemon: Pokemon,
@@ -305,75 +303,6 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
           )}
         />
       </section>
-
-      {pokemon.previousEvolution || pokemon.nextEvolution ? (
-        <section>
-          <h2>{t("evolution")}</h2>
-          <div className="flex flex-wrap items-center gap-4 py-2">
-            {pokemon.previousEvolution ? (
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-500">{t("prevEvolution")}:</span>
-                {(() => {
-                  const prev =
-                    PokemonDataBySlug[pokemon.previousEvolution.name] ||
-                    PokemonData.find((p) => String(p.index).padStart(3, "0") === pokemon.previousEvolution?.number);
-                  return prev ? (
-                    <Link
-                      href={`/p/${getPokemonFullId(prev)}`}
-                      className="hover:border-primary flex items-center gap-2 rounded-lg border border-gray-200 bg-white p-2 transition-colors"
-                    >
-                      <PokemonIcon
-                        pokemon={prev}
-                        size={40}
-                      />
-                      <span className="font-medium">{getPokemonDisplayName(prev)}</span>
-                    </Link>
-                  ) : (
-                    <span>{pokemon.previousEvolution.name}</span>
-                  );
-                })()}
-              </div>
-            ) : null}
-            {pokemon.previousEvolution && pokemon.nextEvolution ? <span className="text-gray-400">➔</span> : null}
-            <div className="border-primary bg-primary/5 flex items-center gap-2 rounded-lg border-2 p-2">
-              <PokemonIcon
-                pokemon={pokemon}
-                size={40}
-              />
-              <span className="text-primary font-bold">
-                {displayName}（{t("current")}）
-              </span>
-            </div>
-            {pokemon.nextEvolution ? (
-              <>
-                <span className="text-gray-400">➔</span>
-                <div className="flex items-center gap-2">
-                  <span className="text-sm text-gray-500">{t("nextEvolution")}:</span>
-                  {(() => {
-                    const next =
-                      PokemonDataBySlug[pokemon.nextEvolution.name] ||
-                      PokemonData.find((p) => String(p.index).padStart(3, "0") === pokemon.nextEvolution?.number);
-                    return next ? (
-                      <Link
-                        href={`/p/${getPokemonFullId(next)}`}
-                        className="hover:border-primary flex items-center gap-2 rounded-lg border border-gray-200 bg-white p-2 transition-colors"
-                      >
-                        <PokemonIcon
-                          pokemon={next}
-                          size={40}
-                        />
-                        <span className="font-medium">{getPokemonDisplayName(next)}</span>
-                      </Link>
-                    ) : (
-                      <span>{pokemon.nextEvolution.name}</span>
-                    );
-                  })()}
-                </div>
-              </>
-            ) : null}
-          </div>
-        </section>
-      ) : null}
 
       {relatedEvents.length > 0 && (
         <section>
