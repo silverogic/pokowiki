@@ -8,3 +8,4 @@ export * from "./event";
 export * from "./commentary";
 
 export * from "./site";
+export * from "./community";
