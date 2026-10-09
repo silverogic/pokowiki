@@ -3,7 +3,6 @@
 import {
   CommentOutlined,
   EditOutlined,
-  ExportOutlined,
   GithubOutlined,
   ReloadOutlined,
   SearchOutlined,
@@ -259,40 +258,27 @@ const CommunityPage: FC = () => {
     {
       title: "",
       key: "actions",
-      width: 70,
+      width: 50,
       align: "center",
       render: (_: unknown, record: IGitHubDiscussion) => {
         const canEdit = Boolean(
           user &&
           (user.login.toLowerCase() === record.user?.login?.toLowerCase() || user.login.toLowerCase() === "silverogic"),
         );
+        if (!canEdit) return null;
         return (
-          <div className="flex items-center justify-center gap-2">
-            {canEdit ? (
-              <button
-                type="button"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setEditTargetDiscussion(record);
-                  setEditModalOpen(true);
-                }}
-                className="hover:text-primary cursor-pointer text-gray-400 transition-colors"
-                title={t("editPost")}
-              >
-                <EditOutlined />
-              </button>
-            ) : null}
-            <a
-              href={record.html_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary text-gray-400"
-              title={t("viewOnGitHub")}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <ExportOutlined />
-            </a>
-          </div>
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              setEditTargetDiscussion(record);
+              setEditModalOpen(true);
+            }}
+            className="hover:text-primary cursor-pointer text-gray-400 transition-colors"
+            title={t("editPost")}
+          >
+            <EditOutlined />
+          </button>
         );
       },
     },
@@ -324,15 +310,6 @@ const CommunityPage: FC = () => {
             </Button>
             <Button
               size="large"
-              icon={<ExportOutlined />}
-              href={`https://github.com/${githubRepo}/discussions`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t("communityDiscussionsBtn")}
-            </Button>
-            <Button
-              size="large"
               icon={<ReloadOutlined spin={loading} />}
               onClick={fetchDiscussions}
               aria-label={t("refreshBoard")}
@@ -356,20 +333,9 @@ const CommunityPage: FC = () => {
 
         {/* Category Description Banner */}
         {activeCategory ? (
-          <div className="my-3 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-gray-100 bg-gray-50/80 px-4 py-2.5 text-xs text-gray-600 sm:text-sm">
-            <div className="flex items-center gap-2">
-              <span className="text-base">{activeCategory.emoji}</span>
-              <span>{t(activeCategory.descKey)}</span>
-            </div>
-            <a
-              href={`https://github.com/${githubRepo}/discussions/categories/${activeCategory.slug}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary flex shrink-0 items-center gap-1 text-xs hover:underline"
-            >
-              <span>GitHub Discussions</span>
-              <ExportOutlined />
-            </a>
+          <div className="my-3 flex items-center gap-2 rounded-xl border border-gray-100 bg-gray-50/80 px-4 py-2.5 text-xs text-gray-600 sm:text-sm">
+            <span className="text-base">{activeCategory.emoji}</span>
+            <span>{t(activeCategory.descKey)}</span>
           </div>
         ) : null}
 

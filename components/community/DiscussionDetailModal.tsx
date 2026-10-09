@@ -166,19 +166,10 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
         footer={[
           <Button
             key="close"
+            type="primary"
             onClick={onClose}
           >
             {t("backToList")}
-          </Button>,
-          <Button
-            key="github"
-            type="primary"
-            icon={<ExportOutlined />}
-            href={activeDiscussion.html_url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t("viewOnGitHub")}
           </Button>,
         ]}
         width={780}
@@ -215,9 +206,9 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
                 href={activeDiscussion.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary flex items-center gap-1 text-xs hover:underline"
+                className="text-gray-400 transition-colors hover:text-gray-600"
+                title="GitHub"
               >
-                <span>{t("viewOnGitHub")}</span>
                 <ExportOutlined />
               </a>
             </div>
@@ -277,16 +268,6 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
                 <CommentOutlined className="text-primary" />
                 <span>{t("commentsCount").replace("{0}", String(comments.length || activeDiscussion.comments))}</span>
               </h3>
-
-              <Button
-                size="small"
-                icon={<ExportOutlined />}
-                href={`${activeDiscussion.html_url}#new_comment_field`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t("writeCommentBtn")}
-              </Button>
             </div>
 
             {loadingComments ? (
@@ -381,22 +362,12 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
                 </div>
                 <div className="flex shrink-0 items-center gap-2">
                   <Button
-                    type="default"
+                    type="primary"
                     icon={<KeyOutlined />}
                     size="small"
                     onClick={() => setAuthModalOpen(true)}
                   >
                     {t("connect")}
-                  </Button>
-                  <Button
-                    type="primary"
-                    icon={<ExportOutlined />}
-                    size="small"
-                    href={`${activeDiscussion.html_url}#new_comment_field`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {t("commentFallback")}
                   </Button>
                 </div>
               </div>

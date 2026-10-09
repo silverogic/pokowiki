@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  CheckCircleOutlined,
-  EditOutlined,
-  ExportOutlined,
-  KeyOutlined,
-  SaveOutlined,
-  WarningOutlined,
-} from "@ant-design/icons";
+import { CheckCircleOutlined, EditOutlined, KeyOutlined, SaveOutlined, WarningOutlined } from "@ant-design/icons";
 import { Alert, Avatar, Button, Form, Input, Modal, Select, message } from "antd";
 import { FC, useEffect, useState } from "react";
 
@@ -140,18 +133,6 @@ export const EditDiscussionModal: FC<IEditDiscussionModalProps> = ({
           disabled={submitting}
         >
           {t("none") === "None" ? "Cancel" : "취소"}
-        </Button>,
-        <Button
-          key="fallback"
-          type="text"
-          icon={<ExportOutlined />}
-          href={discussion.html_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          disabled={submitting}
-          className="text-xs text-gray-500"
-        >
-          {t("editModalFallbackSubmit")}
         </Button>,
         <Button
           key="submit"

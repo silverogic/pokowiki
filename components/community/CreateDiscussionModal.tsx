@@ -4,7 +4,6 @@ import {
   CheckCircleOutlined,
   EditOutlined,
   ExportOutlined,
-  GithubOutlined,
   InfoCircleOutlined,
   KeyOutlined,
   SendOutlined,
@@ -148,18 +147,6 @@ export const CreateDiscussionModal: FC<ICreateDiscussionModalProps> = ({
         </Button>,
         token ? (
           <Button
-            key="fallback"
-            type="text"
-            icon={<ExportOutlined />}
-            onClick={handleFallbackSubmit}
-            disabled={submitting}
-            className="text-xs text-gray-500"
-          >
-            {t("writeModalFallbackSubmit")}
-          </Button>
-        ) : null,
-        token ? (
-          <Button
             key="direct-submit"
             type="primary"
             icon={<SendOutlined />}
@@ -172,7 +159,7 @@ export const CreateDiscussionModal: FC<ICreateDiscussionModalProps> = ({
           <Button
             key="fallback-submit"
             type="primary"
-            icon={<GithubOutlined />}
+            icon={<SendOutlined />}
             onClick={handleFallbackSubmit}
           >
             {t("writeModalSubmit")}
