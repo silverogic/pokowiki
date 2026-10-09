@@ -5,7 +5,40 @@ import { useCallback, useEffect, useState } from "react";
 import { IGitHubUser } from "./types";
 
 const AUTH_STORAGE_KEY = "pokowiki_github_user";
+const TOKEN_STORAGE_KEY = "pokowiki_github_token";
 const AUTH_EVENT_KEY = "pokowiki_auth_change";
+
+const getCookieToken = (): string | null => {
+  if (typeof document === "undefined") return null;
+  const match = document.cookie.match(/(?:^|;\s*)pokowiki_token=([^;]+)/);
+  return match ? decodeURIComponent(match[1]) : null;
+};
+
+const setCookieToken = (token: string | null) => {
+  if (typeof document === "undefined") return;
+  if (token) {
+    document.cookie = `pokowiki_token=${encodeURIComponent(token)}; path=/; max-age=31536000; SameSite=Lax`;
+  } else {
+    document.cookie = "pokowiki_token=; path=/; max-age=0; SameSite=Lax";
+  }
+};
+
+export const getPersistedToken = (): string | null => {
+  if (typeof window === "undefined") return null;
+  try {
+    const fromTokenStorage = localStorage.getItem(TOKEN_STORAGE_KEY);
+    if (fromTokenStorage) return fromTokenStorage;
+
+    const fromUserObj = getStoredGitHubUser()?.token;
+    if (fromUserObj) return fromUserObj;
+
+    const fromCookie = getCookieToken();
+    if (fromCookie) return fromCookie;
+  } catch {
+    return null;
+  }
+  return null;
+};
 
 export const getStoredGitHubUser = (): IGitHubUser | null => {
   if (typeof window === "undefined") return null;
@@ -22,8 +55,14 @@ export const setStoredGitHubUser = (user: IGitHubUser | null) => {
   try {
     if (user) {
       localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(user));
+      if (user.token) {
+        localStorage.setItem(TOKEN_STORAGE_KEY, user.token);
+        setCookieToken(user.token);
+      }
     } else {
       localStorage.removeItem(AUTH_STORAGE_KEY);
+      localStorage.removeItem(TOKEN_STORAGE_KEY);
+      setCookieToken(null);
     }
     window.dispatchEvent(new Event(AUTH_EVENT_KEY));
   } catch {
@@ -34,48 +73,6 @@ export const setStoredGitHubUser = (user: IGitHubUser | null) => {
 export const useGitHubAuth = () => {
   const [user, setUser] = useState<IGitHubUser | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
-
-  // 1. Popup callback self-close listener
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.opener && window.location.search.includes("code=")) {
-      try {
-        const params = new URLSearchParams(window.location.search);
-        const code = params.get("code");
-        if (code) {
-          window.opener.postMessage({ type: "POKOWIKI_GITHUB_OAUTH_CODE", code }, "*");
-          window.close();
-        }
-      } catch {
-        // Ignore popup communication errors
-      }
-    }
-  }, []);
-
-  // 2. Main window state sync & message listener
-  useEffect(() => {
-    setUser(getStoredGitHubUser());
-    setLoading(false);
-
-    const onAuthChange = () => {
-      setUser(getStoredGitHubUser());
-    };
-
-    window.addEventListener(AUTH_EVENT_KEY, onAuthChange);
-    window.addEventListener("storage", onAuthChange);
-
-    return () => {
-      window.removeEventListener(AUTH_EVENT_KEY, onAuthChange);
-      window.removeEventListener("storage", onAuthChange);
-    };
-  }, []);
-
-  const loginWithUser = useCallback((newUser: IGitHubUser) => {
-    setStoredGitHubUser(newUser);
-  }, []);
-
-  const logout = useCallback(() => {
-    setStoredGitHubUser(null);
-  }, []);
 
   const loginWithToken = useCallback(async (token: string): Promise<IGitHubUser | null> => {
     const trimmed = token.trim();
@@ -102,6 +99,66 @@ export const useGitHubAuth = () => {
     } catch {
       return null;
     }
+  }, []);
+
+  // 1. Popup callback self-close listener
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.opener && window.location.search.includes("code=")) {
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const code = params.get("code");
+        if (code) {
+          window.opener.postMessage({ type: "POKOWIKI_GITHUB_OAUTH_CODE", code }, "*");
+          window.close();
+        }
+      } catch {
+        // Ignore popup communication errors
+      }
+    }
+  }, []);
+
+  // 2. Main window state sync & auto-recovery listener
+  useEffect(() => {
+    const storedUser = getStoredGitHubUser();
+    const persistedToken = getPersistedToken();
+
+    if (storedUser && storedUser.token) {
+      setUser(storedUser);
+      setLoading(false);
+    } else if (persistedToken) {
+      // Auto-restore user from persistent token
+      loginWithToken(persistedToken).then((restored) => {
+        if (restored) {
+          setUser(restored);
+        } else {
+          setUser(storedUser);
+        }
+        setLoading(false);
+      });
+    } else {
+      setUser(storedUser);
+      setLoading(false);
+    }
+
+    const onAuthChange = () => {
+      setUser(getStoredGitHubUser());
+    };
+
+    window.addEventListener(AUTH_EVENT_KEY, onAuthChange);
+    window.addEventListener("storage", onAuthChange);
+
+    return () => {
+      window.removeEventListener(AUTH_EVENT_KEY, onAuthChange);
+      window.removeEventListener("storage", onAuthChange);
+    };
+  }, [loginWithToken]);
+
+  const loginWithUser = useCallback((newUser: IGitHubUser) => {
+    setStoredGitHubUser(newUser);
+  }, []);
+
+  const logout = useCallback(() => {
+    setStoredGitHubUser(null);
   }, []);
 
   const fetchUserById = useCallback(async (username: string): Promise<IGitHubUser | null> => {
