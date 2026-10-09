@@ -3,6 +3,9 @@ export interface CraftingMaterial {
   slug: string;
   quantity: number;
   iconUrl: string | null;
+  nameKo?: string;
+  nameZh?: string;
+  nameJa?: string;
 }
 
 export interface Item {
@@ -26,6 +29,9 @@ export interface Item {
   craftingRecipe?: CraftingMaterial[] | null;
   recipeStatus?: "none" | "verified" | "incomplete";
   recipeLocation?: string | null;
+  cookingUtensil?: string | null;
+  cookingTaste?: string | null;
+  cookingEffect?: string | null;
   value: number;
   favorites?: string[];
   contentSource?: "base" | "free-update" | "event" | "expansion-pass";

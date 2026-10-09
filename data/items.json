@@ -1600,12 +1600,31 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Any ingredient (excl. Leppa Berry, Seaweed)",
+        "slug": "any-ingredient-ex-leppa-seaweed",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(과사열매, 해초 제외)",
+        "nameZh": "任意食材（苹野果、海苔除外）",
+        "nameJa": "おまかせ（ヒメリのみ、海苔以外）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 100,
     "contentSource": "base",
-    "korean": "플레인 샐러드"
+    "korean": "플레인 샐러드",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "보통맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 68,
@@ -1621,12 +1640,28 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Leppa Berry",
+        "slug": "leppa-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leppa-berry.png"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "과사 샐러드"
+    "korean": "과사 샐러드",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "단맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 69,
@@ -1642,12 +1677,28 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Seaweed",
+        "slug": "seaweed",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/seaweed.png"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "해초 샐러드"
+    "korean": "해초 샐러드",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 70,
@@ -1663,12 +1714,31 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "칼질 샐러드"
+    "korean": "칼질 샐러드",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "신맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 71,
@@ -1684,12 +1754,28 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Chesto Berry",
+        "slug": "chesto-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/chesto-berry.png"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "분쇄 샐러드"
+    "korean": "분쇄 샐러드",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "떫은맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 72,
@@ -1705,12 +1791,31 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Any bread",
+        "slug": "any-bread",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "빵(아무거나)",
+        "nameZh": "任意面包",
+        "nameJa": "パン（おまかせ）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "크루통 샐러드"
+    "korean": "크루통 샐러드",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 73,
@@ -1726,12 +1831,40 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Any ingredient (excl. Seaweed, Mushrooms)",
+        "slug": "any-ingredient-ex-seaweed-mushroom",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(해초, 버섯 제외)",
+        "nameZh": "任意食材（海苔、蘑菇除外）",
+        "nameJa": "おまかせ（海苔、キノコ以外）"
+      },
+      {
+        "name": "Any ingredient (excl. Seaweed, Mushrooms)",
+        "slug": "any-ingredient-ex-seaweed-mushroom",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(해초, 버섯 제외)",
+        "nameZh": "任意食材（海苔、蘑菇除外）",
+        "nameJa": "おまかせ（海苔、キノコ以外）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 100,
     "contentSource": "base",
-    "korean": "플레인 수프"
+    "korean": "플레인 수프",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "보통맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 74,
@@ -1747,12 +1880,37 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Seaweed",
+        "slug": "seaweed",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/seaweed.png"
+      },
+      {
+        "name": "Any ingredient (excl. Mushrooms)",
+        "slug": "any-ingredient-ex-mushroom",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(버섯 제외)",
+        "nameZh": "任意食材（蘑菇除外）",
+        "nameJa": "おまかせ（キノコ以外）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "해초 수프"
+    "korean": "해초 수프",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 75,
@@ -1768,12 +1926,37 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Cave mushrooms",
+        "slug": "cave-mushrooms",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/cave-mushrooms.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "버섯 수프"
+    "korean": "버섯 수프",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "떫은맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 76,
@@ -1789,12 +1972,40 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "찌릿찌릿 수프"
+    "korean": "찌릿찌릿 수프",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 77,
@@ -1810,12 +2021,34 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "한방 수프"
+    "korean": "한방 수프",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 78,
@@ -1831,12 +2064,37 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Aspear Berry",
+        "slug": "aspear-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/aspear-berry.png"
+      },
+      {
+        "name": "Any hamburger steak",
+        "slug": "any-hamburger-steak",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "햄버그(아무거나)",
+        "nameZh": "任意汉堡肉",
+        "nameJa": "ハンバーグ（おまかせ）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 500,
     "contentSource": "base",
-    "korean": "쥬시 수프"
+    "korean": "쥬시 수프",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "신맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 79,
@@ -1852,12 +2110,40 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Any ingredient (excl. Leppa Berry, Carrot)",
+        "slug": "any-ingredient-ex-leppa-carrot",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(과사열매, 당근 제외)",
+        "nameZh": "任意食材（苹野果、胡萝卜除外）",
+        "nameJa": "おまかせ（ヒメリのみ、ニンジン以外）"
+      },
+      {
+        "name": "Any ingredient (excl. Leppa Berry, Carrot)",
+        "slug": "any-ingredient-ex-leppa-carrot",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(과사열매, 당근 제외)",
+        "nameZh": "任意食材（苹野果、胡萝卜除外）",
+        "nameJa": "おまかせ（ヒメリのみ、ニンジン以外）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 100,
     "contentSource": "base",
-    "korean": "플레인 빵"
+    "korean": "플레인 빵",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "보통맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 80,
@@ -1873,12 +2159,37 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Leppa Berry",
+        "slug": "leppa-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leppa-berry.png"
+      },
+      {
+        "name": "Any ingredient (excl. Carrot)",
+        "slug": "any-ingredient-ex-carrot",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(당근 제외)",
+        "nameZh": "任意食材（胡萝卜除外）",
+        "nameJa": "おまかせ（ニンジン以外）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "과사 빵"
+    "korean": "과사 빵",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "신맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 81,
@@ -1894,12 +2205,37 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Fresh carrot",
+        "slug": "fresh-carrot",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-carrot.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "당근 빵"
+    "korean": "당근 빵",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 82,
@@ -1915,12 +2251,40 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Any bread",
+        "slug": "any-bread",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "빵(아무거나)",
+        "nameZh": "任意面包",
+        "nameJa": "パン（おまかせ）"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "리메이크 빵"
+    "korean": "리메이크 빵",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 83,
@@ -1936,12 +2300,37 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Pecha Berry",
+        "slug": "pecha-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/pecha-berry.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "폭신폭신 빵"
+    "korean": "폭신폭신 빵",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "단맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 84,
@@ -1957,12 +2346,40 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Any soup",
+        "slug": "any-soup",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "수프(아무거나)",
+        "nameZh": "任意汤",
+        "nameJa": "スープ（おまかせ）"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 500,
     "contentSource": "base",
-    "korean": "후끈후끈 수프 빵"
+    "korean": "후끈후끈 수프 빵",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 85,
@@ -1978,12 +2395,49 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Any ingredient (excl. Mushrooms, Tomato, Potato)",
+        "slug": "any-ingredient-ex-mushroom-tomato-potato",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(버섯, 토마토, 감자 제외)",
+        "nameZh": "任意食材（蘑菇、番茄、土豆除外）",
+        "nameJa": "おまかせ（キノコ、トマト、ジャガイモ以外）"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 100,
     "contentSource": "base",
-    "korean": "플레인 햄버그"
+    "korean": "플레인 햄버그",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "보통맛",
+    "cookingEffect": "\"바위깨기\"이(가) 파워업"
   },
   {
     "id": 86,
@@ -1999,12 +2453,46 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Cave mushrooms",
+        "slug": "cave-mushrooms",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/cave-mushrooms.png"
+      },
+      {
+        "name": "Any ingredient (excl. Tomato, Potato)",
+        "slug": "any-ingredient-ex-tomato-potato",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(토마토, 감자 제외)",
+        "nameZh": "任意食材（番茄、土豆除外）",
+        "nameJa": "おまかせ（トマト、ジャガイモ以外）"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "버섯 햄버그"
+    "korean": "버섯 햄버그",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "떫은맛",
+    "cookingEffect": "\"바위깨기\"이(가) 파워업"
   },
   {
     "id": 87,
@@ -2020,12 +2508,46 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Tomato",
+        "slug": "tomato",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/tomato.png"
+      },
+      {
+        "name": "Any ingredient (excl. Potato)",
+        "slug": "any-ingredient-ex-potato",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료(감자 제외)",
+        "nameZh": "任意食材（土豆除外）",
+        "nameJa": "おまかせ（ジャガイモ以外）"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "토마토 햄버그"
+    "korean": "토마토 햄버그",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "신맛",
+    "cookingEffect": "\"바위깨기\"이(가) 파워업"
   },
   {
     "id": 88,
@@ -2041,12 +2563,46 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Potato",
+        "slug": "potato",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/potato.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 200,
     "contentSource": "base",
-    "korean": "감자 햄버그"
+    "korean": "감자 햄버그",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "단맛",
+    "cookingEffect": "\"바위깨기\"이(가) 크게 파워업"
   },
   {
     "id": 89,
@@ -2062,12 +2618,43 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Rawst Berry",
+        "slug": "rawst-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/rawst-berry.png"
+      },
+      {
+        "name": "Lum Berry",
+        "slug": "lum-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/lum-berry.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 500,
     "contentSource": "base",
-    "korean": "어른의 햄버그"
+    "korean": "어른의 햄버그",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"바위깨기\"이(가) 파워업"
   },
   {
     "id": 90,
@@ -2083,12 +2670,46 @@
     "locations": [
       "Cook with ingredients"
     ],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Potato",
+        "slug": "potato",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/potato.png"
+      },
+      {
+        "name": "Any salad",
+        "slug": "any-salad",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "샐러드(아무거나)",
+        "nameZh": "任意沙拉",
+        "nameJa": "サラダ（おまかせ）"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 500,
     "contentSource": "base",
-    "korean": "다채로운 햄버그"
+    "korean": "다채로운 햄버그",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "보통맛",
+    "cookingEffect": "\"바위깨기\"이(가) 크게 파워업"
   },
   {
     "id": 91,
@@ -48038,13 +48659,29 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/popping-salad.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leaf.png"
+      },
+      {
+        "name": "Sea grapes",
+        "slug": "sea-grapes",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/sea-grapes.png"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "톡톡 샐러드",
-    "koreanDescription": "바다포도를 듬뿍 넣은 쌉싸름한 샐러드. 먹으면 나뭇잎이 강해진다"
+    "koreanDescription": "바다포도를 듬뿍 넣은 쌉싸름한 샐러드. 먹으면 나뭇잎이 강해진다",
+    "cookingUtensil": "cutting-board",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"나뭇잎\"이(가) 파워업"
   },
   {
     "id": 1705,
@@ -48058,13 +48695,38 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/popping-soup.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Fresh Water",
+        "slug": "fresh-water",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-water.png"
+      },
+      {
+        "name": "Sea grapes",
+        "slug": "sea-grapes",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/sea-grapes.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "톡톡 수프",
-    "koreanDescription": "바다 향이 나는 쌉싸름한 수프. 먹으면 물대포가 강해진다"
+    "koreanDescription": "바다 향이 나는 쌉싸름한 수프. 먹으면 물대포가 강해진다",
+    "cookingUtensil": "cooking-pot",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"물대포\"이(가) 파워업"
   },
   {
     "id": 1706,
@@ -48078,13 +48740,38 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/watermelon-bread.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Wheat",
+        "slug": "wheat",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/wheat.png"
+      },
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "수박 빵",
-    "koreanDescription": "수박으로 만든 달콤한 빵. 먹으면 풀베기가 강해진다"
+    "koreanDescription": "수박으로 만든 달콤한 빵. 먹으면 풀베기가 강해진다",
+    "cookingUtensil": "bread-oven",
+    "cookingTaste": "단맛",
+    "cookingEffect": "\"풀베기\"이(가) 파워업"
   },
   {
     "id": 1707,
@@ -48098,13 +48785,44 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/explosive-hamburger-steak.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Bean",
+        "slug": "bean",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/bean.png"
+      },
+      {
+        "name": "Sea grapes",
+        "slug": "sea-grapes",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/sea-grapes.png"
+      },
+      {
+        "name": "Chili sauce",
+        "slug": "chili-sauce",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/chili-sauce.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "폭발 햄버그",
-    "koreanDescription": "자리에서 펄쩍 뛰어오를 만큼 매운 햄버그. 먹으면 바위깨기가 크게 강해진다!"
+    "koreanDescription": "자리에서 펄쩍 뛰어오를 만큼 매운 햄버그. 먹으면 바위깨기가 크게 강해진다!",
+    "cookingUtensil": "frying-pan",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"바위깨기\"이(가) 크게 파워업"
   },
   {
     "id": 1708,
@@ -48118,13 +48836,41 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/watermelon-smoothie.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "수박 스무디",
-    "koreanDescription": "수박으로 만든 스무디. 마시면 파도타기가 강해진다"
+    "koreanDescription": "수박으로 만든 스무디. 마시면 파도타기가 강해진다",
+    "cookingUtensil": "blender",
+    "cookingTaste": "보통맛",
+    "cookingEffect": "\"파도타기\"이(가) 파워업"
   },
   {
     "id": 1709,
@@ -48138,13 +48884,38 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/sea-grape-smoothie.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Sea grapes",
+        "slug": "sea-grapes",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/sea-grapes.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "바다포도 스무디",
-    "koreanDescription": "탱글탱글 톡톡 터지는 식감의 드라이한 스무디. 마시면 파도타기가 강해진다"
+    "koreanDescription": "탱글탱글 톡톡 터지는 식감의 드라이한 스무디. 마시면 파도타기가 강해진다",
+    "cookingUtensil": "blender",
+    "cookingTaste": "떫은맛",
+    "cookingEffect": "\"파도타기\"이(가) 파워업"
   },
   {
     "id": 1710,
@@ -48158,13 +48929,38 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/leppa-smoothie.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Leppa Berry",
+        "slug": "leppa-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/leppa-berry.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "과사 스무디",
-    "koreanDescription": "과사열매로 만든 달콤한 스무디. 마시면 파도타기가 강해진다"
+    "koreanDescription": "과사열매로 만든 달콤한 스무디. 마시면 파도타기가 강해진다",
+    "cookingUtensil": "blender",
+    "cookingTaste": "단맛",
+    "cookingEffect": "\"파도타기\"이(가) 파워업"
   },
   {
     "id": 1711,
@@ -48178,13 +48974,38 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/red-hot-smoothie.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Fresh carrot",
+        "slug": "fresh-carrot",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/fresh-carrot.png"
+      },
+      {
+        "name": "Any ingredient",
+        "slug": "any-ingredient",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "아무 재료",
+        "nameZh": "任意食材",
+        "nameJa": "おまかせ食材"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "화끈화끈 스무디",
-    "koreanDescription": "혀가 타는 듯이 매운 스무디. 마시면 파도타기가 강해진다"
+    "koreanDescription": "혀가 타는 듯이 매운 스무디. 마시면 파도타기가 강해진다",
+    "cookingUtensil": "blender",
+    "cookingTaste": "매운맛",
+    "cookingEffect": "\"파도타기\"이(가) 파워업"
   },
   {
     "id": 1712,
@@ -48198,13 +49019,35 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/refreshing-soda-smoothie.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Aspear Berry",
+        "slug": "aspear-berry",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/aspear-berry.png"
+      },
+      {
+        "name": "Soda Pop",
+        "slug": "soda-pop",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/soda-pop.png"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "상쾌한 소다 스무디",
-    "koreanDescription": "새콤하고 탄산이 톡 쏘는 스무디. 마시면 파도타기가 강해진다"
+    "koreanDescription": "새콤하고 탄산이 톡 쏘는 스무디. 마시면 파도타기가 강해진다",
+    "cookingUtensil": "blender",
+    "cookingTaste": "신맛",
+    "cookingEffect": "\"파도타기\"이(가) 파워업"
   },
   {
     "id": 1713,
@@ -48218,13 +49061,38 @@
     "tag": "Food",
     "imageUrl": "https://cdn.pokopiapi.com/images/items/coffee-parfait-smoothie.png",
     "locations": [],
-    "craftingRecipe": null,
-    "recipeStatus": "none",
+    "craftingRecipe": [
+      {
+        "name": "Watermelon slice",
+        "slug": "watermelon-slice",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/watermelon-slice.png"
+      },
+      {
+        "name": "Moomoo Milk Coffee",
+        "slug": "moomoo-milk-coffee",
+        "quantity": 1,
+        "iconUrl": "https://cdn.pokopiapi.com/images/items/moomoo-milk-coffee.png"
+      },
+      {
+        "name": "Any bread",
+        "slug": "any-bread",
+        "quantity": 1,
+        "iconUrl": null,
+        "nameKo": "빵(아무거나)",
+        "nameZh": "任意面包",
+        "nameJa": "パン（おまかせ）"
+      }
+    ],
+    "recipeStatus": "verified",
     "recipeLocation": null,
     "value": 0,
     "contentSource": "expansion-pass",
     "korean": "커피 파르페 스무디",
-    "koreanDescription": "쓴맛 속에 깊고 진한 풍미가 있는 스무디. 마시면 파도타기가 강해진다"
+    "koreanDescription": "쓴맛 속에 깊고 진한 풍미가 있는 스무디. 마시면 파도타기가 강해진다",
+    "cookingUtensil": "blender",
+    "cookingTaste": "쓴맛",
+    "cookingEffect": "\"파도타기\"이(가) 파워업"
   },
   {
     "id": 1714,

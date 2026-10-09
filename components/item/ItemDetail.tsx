@@ -156,10 +156,46 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
 
       {item.craftingRecipe && item.craftingRecipe.length > 0 ? (
         <section>
-          <h2>{t("craftingRecipe")}</h2>
+          <h2>{item.category === "food" ? t("cookingRecipe") : t("craftingRecipe")}</h2>
+          {item.category === "food" && (item.cookingUtensil || item.cookingTaste || item.cookingEffect) ? (
+            <div className="mb-3 flex flex-wrap items-center gap-3 text-sm">
+              {item.cookingUtensil
+                ? (() => {
+                    const utensilItem = ItemDataBySlug[item.cookingUtensil] || ItemDataByName[item.cookingUtensil];
+                    return utensilItem ? (
+                      <div className="flex items-center gap-1.5">
+                        <span className="font-semibold text-gray-500">{t("cookingUtensil")}:</span>
+                        <ItemLink name={utensilItem.name} />
+                      </div>
+                    ) : null;
+                  })()
+                : null}
+              {item.cookingTaste ? (
+                <div className="flex items-center gap-1">
+                  <span className="font-semibold text-gray-500">{t("cookingTaste")}:</span>
+                  <span className="rounded border border-amber-200 bg-amber-50 px-2 py-0.5 font-medium text-amber-700">
+                    {item.cookingTaste}
+                  </span>
+                </div>
+              ) : null}
+              {item.cookingEffect ? (
+                <div className="flex items-center gap-1">
+                  <span className="font-semibold text-gray-500">{t("cookingEffect")}:</span>
+                  <span className="rounded border border-blue-200 bg-blue-50 px-2 py-0.5 font-medium text-blue-700">
+                    {item.cookingEffect}
+                  </span>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
           <div className="flex flex-wrap gap-3 py-2">
             {item.craftingRecipe.map((mat, i) => {
               const matItem = ItemDataBySlug[mat.slug] || ItemDataByName[mat.name];
+              let matDisplayName = mat.name;
+              if (locale === "ko" && mat.nameKo) matDisplayName = mat.nameKo;
+              else if (locale === "zh" && mat.nameZh) matDisplayName = mat.nameZh;
+              else if (locale === "ja" && mat.nameJa) matDisplayName = mat.nameJa;
+
               return (
                 <div
                   key={i}
@@ -171,8 +207,8 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
                       count={mat.quantity}
                     />
                   ) : (
-                    <span>
-                      {mat.name} × {mat.quantity}
+                    <span className="text-sm font-medium text-gray-700">
+                      {matDisplayName} × {mat.quantity}
                     </span>
                   )}
                 </div>
@@ -189,7 +225,7 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
 
       {canCraft.length > 0 && (
         <section>
-          <h2>{t("canCraft")}</h2>
+          <h2>{item.category === "food" ? t("canCook") : t("canCraft")}</h2>
           <div className="flex flex-wrap gap-3 py-2">
             {canCraft.slice(0, 30).map((crafted) => (
               <Link

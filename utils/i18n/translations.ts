@@ -813,11 +813,41 @@ export const translations = {
     zh: "制作配方",
     ja: "クラフトレシピ",
   },
+  cookingRecipe: {
+    en: "Cooking Recipe",
+    ko: "조리법",
+    zh: "料理食谱",
+    ja: "料理レシピ",
+  },
   canCraft: {
     en: "Can Craft Into",
     ko: "제작 가능한 아이템",
     zh: "可制作的道具",
     ja: "作成可能な道具",
+  },
+  canCook: {
+    en: "Can Cook Into",
+    ko: "조리 가능한 음식",
+    zh: "可制作的料理",
+    ja: "作成可能な料理",
+  },
+  cookingUtensil: {
+    en: "Cooking Utensil",
+    ko: "조리 도구",
+    zh: "烹饪工具",
+    ja: "調理器具",
+  },
+  cookingTaste: {
+    en: "Taste",
+    ko: "맛",
+    zh: "口味",
+    ja: "味",
+  },
+  cookingEffect: {
+    en: "Meal Effect",
+    ko: "음식 효과",
+    zh: "料理效果",
+    ja: "料理効果",
   },
   recipeLocation: {
     en: "Recipe Source",
