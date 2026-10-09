@@ -2,6 +2,7 @@
 
 import {
   CommentOutlined,
+  EditOutlined,
   ExportOutlined,
   HeartOutlined,
   KeyOutlined,
@@ -13,14 +14,16 @@ import { FC, useCallback, useEffect, useState } from "react";
 
 import { GitHubAuthModal } from "@/components/site/auth";
 import { IGitHubDiscussion, IGitHubDiscussionComment } from "@/types";
-import { addDiscussionCommentGraphQL, useGitHubAuth, useI18n } from "@/utils";
+import { IUpdatedDiscussionResult, addDiscussionCommentGraphQL, useGitHubAuth, useI18n } from "@/utils";
 
+import { EditDiscussionModal } from "./EditDiscussionModal";
 import { COMMUNITY_CATEGORIES } from "./constants";
 
 interface IDiscussionDetailModalProps {
   discussion: IGitHubDiscussion | null;
   open: boolean;
   onClose: () => void;
+  onDiscussionUpdated?: (updated: IGitHubDiscussion) => void;
   repo?: string;
   repoId?: string;
 }
@@ -29,10 +32,18 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
   discussion,
   open,
   onClose,
+  onDiscussionUpdated,
   repo = "silverogic/pokowiki",
 }) => {
   const { t, locale } = useI18n();
   const { user, token } = useGitHubAuth();
+
+  const [currentDiscussion, setCurrentDiscussion] = useState<IGitHubDiscussion | null>(discussion);
+  const [editModalOpen, setEditModalOpen] = useState(false);
+
+  useEffect(() => {
+    setCurrentDiscussion(discussion);
+  }, [discussion]);
 
   const [comments, setComments] = useState<IGitHubDiscussionComment[]>([]);
   const [loadingComments, setLoadingComments] = useState(false);
@@ -95,11 +106,41 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
     }
   };
 
-  if (!discussion) return null;
+  const activeDiscussion = currentDiscussion || discussion;
+  if (!activeDiscussion) return null;
+
+  const isAuthorOrAdmin = Boolean(
+    user &&
+    (user.login.toLowerCase() === activeDiscussion.user?.login?.toLowerCase() ||
+      user.login.toLowerCase() === "silverogic"),
+  );
+
+  const handleDiscussionUpdated = (updated: IUpdatedDiscussionResult) => {
+    if (!activeDiscussion) return;
+    const matchedCategory =
+      COMMUNITY_CATEGORIES.find((c) => c.slug === updated.category?.slug || c.name === updated.category?.name) ||
+      activeDiscussion.category;
+
+    const newDiscussion: IGitHubDiscussion = {
+      ...activeDiscussion,
+      title: updated.title,
+      body: updated.body,
+      updated_at: updated.updatedAt || new Date().toISOString(),
+      category: {
+        ...activeDiscussion.category,
+        name: matchedCategory.name,
+        slug: matchedCategory.slug,
+      },
+    };
+
+    setCurrentDiscussion(newDiscussion);
+    onDiscussionUpdated?.(newDiscussion);
+  };
 
   const category =
-    COMMUNITY_CATEGORIES.find((c) => c.slug === discussion.category?.slug || c.name === discussion.category?.name) ||
-    COMMUNITY_CATEGORIES[0];
+    COMMUNITY_CATEGORIES.find(
+      (c) => c.slug === activeDiscussion.category?.slug || c.name === activeDiscussion.category?.name,
+    ) || COMMUNITY_CATEGORIES[0];
 
   const formatDate = (dateStr?: string) => {
     if (!dateStr) return "";
@@ -133,7 +174,7 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
             key="github"
             type="primary"
             icon={<ExportOutlined />}
-            href={discussion.html_url}
+            href={activeDiscussion.html_url}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -156,55 +197,67 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
                 <span className="mr-1">{category.emoji}</span>
                 {t(category.labelKey)}
               </Tag>
-              <span className="font-mono text-xs font-semibold text-gray-400">#{discussion.number}</span>
+              <span className="font-mono text-xs font-semibold text-gray-400">#{activeDiscussion.number}</span>
             </div>
 
-            <a
-              href={discussion.html_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary flex items-center gap-1 text-xs hover:underline"
-            >
-              <span>{t("viewOnGitHub")}</span>
-              <ExportOutlined />
-            </a>
+            <div className="flex items-center gap-2">
+              {isAuthorOrAdmin ? (
+                <Button
+                  size="small"
+                  icon={<EditOutlined />}
+                  onClick={() => setEditModalOpen(true)}
+                  className="text-xs font-medium"
+                >
+                  {t("editPost")}
+                </Button>
+              ) : null}
+              <a
+                href={activeDiscussion.html_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary flex items-center gap-1 text-xs hover:underline"
+              >
+                <span>{t("viewOnGitHub")}</span>
+                <ExportOutlined />
+              </a>
+            </div>
           </div>
 
           {/* Title */}
-          <h2 className="my-1 text-xl font-bold text-gray-900 sm:text-2xl">{discussion.title}</h2>
+          <h2 className="my-1 text-xl font-bold text-gray-900 sm:text-2xl">{activeDiscussion.title}</h2>
 
           {/* Author & Date */}
           <div className="flex items-center gap-3 border-b border-gray-100 pb-3 text-xs text-gray-500">
             <a
-              href={discussion.user?.html_url || `https://github.com/${discussion.user?.login}`}
+              href={activeDiscussion.user?.html_url || `https://github.com/${activeDiscussion.user?.login}`}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary flex items-center gap-2 text-gray-700"
             >
               <Avatar
-                src={discussion.user?.avatar_url}
+                src={activeDiscussion.user?.avatar_url}
                 icon={<UserOutlined />}
                 size={24}
               />
-              <span className="font-semibold">{discussion.user?.login || "anonymous"}</span>
+              <span className="font-semibold">{activeDiscussion.user?.login || "anonymous"}</span>
             </a>
             <span>•</span>
-            <span>{formatDate(discussion.created_at)}</span>
-            {discussion.comments > 0 ? (
+            <span>{formatDate(activeDiscussion.created_at)}</span>
+            {activeDiscussion.comments > 0 ? (
               <>
                 <span>•</span>
                 <span className="flex items-center gap-1">
                   <CommentOutlined />
-                  <span>{discussion.comments}</span>
+                  <span>{activeDiscussion.comments}</span>
                 </span>
               </>
             ) : null}
-            {discussion.reactions && discussion.reactions.total_count > 0 ? (
+            {activeDiscussion.reactions && activeDiscussion.reactions.total_count > 0 ? (
               <>
                 <span>•</span>
                 <span className="flex items-center gap-1 text-rose-500">
                   <HeartOutlined />
-                  <span>{discussion.reactions.total_count}</span>
+                  <span>{activeDiscussion.reactions.total_count}</span>
                 </span>
               </>
             ) : null}
@@ -213,7 +266,7 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
           {/* Main Body */}
           <div className="min-h-[120px] rounded-xl bg-gray-50/70 p-4 leading-relaxed text-gray-800">
             <div className="font-sans text-sm break-words whitespace-pre-wrap sm:text-base">
-              {discussion.body || "(No description provided.)"}
+              {activeDiscussion.body || "(No description provided.)"}
             </div>
           </div>
 
@@ -222,13 +275,13 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
             <div className="mb-3 flex items-center justify-between">
               <h3 className="my-0 flex items-center gap-2 text-base font-bold text-gray-800">
                 <CommentOutlined className="text-primary" />
-                <span>{t("commentsCount").replace("{0}", String(comments.length || discussion.comments))}</span>
+                <span>{t("commentsCount").replace("{0}", String(comments.length || activeDiscussion.comments))}</span>
               </h3>
 
               <Button
                 size="small"
                 icon={<ExportOutlined />}
-                href={`${discussion.html_url}#new_comment_field`}
+                href={`${activeDiscussion.html_url}#new_comment_field`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -339,7 +392,7 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
                     type="primary"
                     icon={<ExportOutlined />}
                     size="small"
-                    href={`${discussion.html_url}#new_comment_field`}
+                    href={`${activeDiscussion.html_url}#new_comment_field`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -351,6 +404,14 @@ export const DiscussionDetailModal: FC<IDiscussionDetailModalProps> = ({
           </div>
         </div>
       </Modal>
+
+      <EditDiscussionModal
+        discussion={activeDiscussion}
+        open={editModalOpen}
+        onClose={() => setEditModalOpen(false)}
+        onSuccess={handleDiscussionUpdated}
+        repo={repo}
+      />
 
       <GitHubAuthModal
         open={authModalOpen}

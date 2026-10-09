@@ -6,6 +6,7 @@ export interface IGitHubDiscussionUser {
 
 export interface IGitHubDiscussionCategory {
   id: number;
+  node_id?: string;
   name: string;
   slug: string;
   emoji?: string;
@@ -26,6 +27,7 @@ export interface IGitHubDiscussionReaction {
 
 export interface IGitHubDiscussion {
   id: number;
+  node_id?: string;
   number: number;
   title: string;
   body: string;

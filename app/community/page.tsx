@@ -18,13 +18,15 @@ import {
   DEFAULT_REPO,
   DEFAULT_REPO_ID,
   DiscussionDetailModal,
+  EditDiscussionModal,
   ICategoryConfig,
 } from "@/components/community";
 import { IGitHubDiscussion } from "@/types";
-import { useI18n } from "@/utils";
+import { useGitHubAuth, useI18n } from "@/utils";
 
 const CommunityPage: FC = () => {
   const { t, locale } = useI18n();
+  const { user } = useGitHubAuth();
   const [activeKey, setActiveKey] = useState<string>("all");
   const [discussions, setDiscussions] = useState<IGitHubDiscussion[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -34,6 +36,8 @@ const CommunityPage: FC = () => {
   const [createModalOpen, setCreateModalOpen] = useState<boolean>(false);
   const [detailModalOpen, setDetailModalOpen] = useState<boolean>(false);
   const [selectedDiscussion, setSelectedDiscussion] = useState<IGitHubDiscussion | null>(null);
+  const [editModalOpen, setEditModalOpen] = useState<boolean>(false);
+  const [editTargetDiscussion, setEditTargetDiscussion] = useState<IGitHubDiscussion | null>(null);
 
   const githubRepo = (process.env.NEXT_PUBLIC_GISCUS_REPO as `${string}/${string}`) || DEFAULT_REPO;
   const githubRepoId = process.env.NEXT_PUBLIC_GISCUS_REPO_ID || DEFAULT_REPO_ID;
@@ -64,6 +68,15 @@ const CommunityPage: FC = () => {
   useEffect(() => {
     fetchDiscussions();
   }, [fetchDiscussions]);
+
+  const handleDiscussionUpdated = useCallback(
+    (updated: IGitHubDiscussion) => {
+      setDiscussions((prev) => prev.map((item) => (item.id === updated.id ? { ...item, ...updated } : item)));
+      setSelectedDiscussion((prev) => (prev?.id === updated.id ? { ...prev, ...updated } : prev));
+      fetchDiscussions();
+    },
+    [fetchDiscussions],
+  );
 
   const activeCategory = useMemo<ICategoryConfig | null>(() => {
     if (activeKey === "all") return null;
@@ -246,20 +259,42 @@ const CommunityPage: FC = () => {
     {
       title: "",
       key: "actions",
-      width: 48,
+      width: 70,
       align: "center",
-      render: (_: unknown, record: IGitHubDiscussion) => (
-        <a
-          href={record.html_url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-primary text-gray-400"
-          title={t("viewOnGitHub")}
-          onClick={(e) => e.stopPropagation()}
-        >
-          <ExportOutlined />
-        </a>
-      ),
+      render: (_: unknown, record: IGitHubDiscussion) => {
+        const canEdit = Boolean(
+          user &&
+          (user.login.toLowerCase() === record.user?.login?.toLowerCase() || user.login.toLowerCase() === "silverogic"),
+        );
+        return (
+          <div className="flex items-center justify-center gap-2">
+            {canEdit ? (
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setEditTargetDiscussion(record);
+                  setEditModalOpen(true);
+                }}
+                className="hover:text-primary cursor-pointer text-gray-400 transition-colors"
+                title={t("editPost")}
+              >
+                <EditOutlined />
+              </button>
+            ) : null}
+            <a
+              href={record.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary text-gray-400"
+              title={t("viewOnGitHub")}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <ExportOutlined />
+            </a>
+          </div>
+        );
+      },
     },
   ];
 
@@ -411,8 +446,22 @@ const CommunityPage: FC = () => {
           setDetailModalOpen(false);
           setSelectedDiscussion(null);
         }}
+        onDiscussionUpdated={handleDiscussionUpdated}
         repo={githubRepo}
         repoId={githubRepoId}
+      />
+
+      <EditDiscussionModal
+        open={editModalOpen}
+        onClose={() => {
+          setEditModalOpen(false);
+          setEditTargetDiscussion(null);
+        }}
+        onSuccess={() => {
+          fetchDiscussions();
+        }}
+        discussion={editTargetDiscussion}
+        repo={githubRepo}
       />
     </div>
   );

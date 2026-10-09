@@ -397,6 +397,48 @@ export const translations = {
     zh: "已打开 GitHub 发帖页面！在 GitHub 发布后刷新页面即可看到新讨论。",
     ja: "GitHubの投稿画面を開きました。投稿完了後に再読み込みすると反映されます。",
   },
+  editPost: {
+    en: "Edit",
+    ko: "수정",
+    zh: "编辑",
+    ja: "編集",
+  },
+  editModalTitle: {
+    en: "Edit Discussion",
+    ko: "게시글 수정",
+    zh: "编辑讨论",
+    ja: "投稿の編集",
+  },
+  editModalSubmit: {
+    en: "Save Changes",
+    ko: "수정 완료",
+    zh: "保存修改",
+    ja: "変更を保存",
+  },
+  editModalFallbackSubmit: {
+    en: "Edit on GitHub",
+    ko: "GitHub 새 창에서 수정",
+    zh: "在 GitHub 页面中编辑",
+    ja: "GitHubで編集",
+  },
+  editModalSuccess: {
+    en: "Discussion updated successfully!",
+    ko: "게시글이 성공적으로 수정되었습니다!",
+    zh: "讨论已成功更新！",
+    ja: "投稿が正常に更新されました！",
+  },
+  editModalNotice: {
+    en: "Zero window switches! The title, content, and category will be updated directly on GitHub Discussions.",
+    ko: "창 전환 없이 현재 사이트에서 GitHub 커뮤니티의 제목, 본문, 카테고리를 바로 수정합니다.",
+    zh: "无需切换窗口，标题、正文及分类将直接在 GitHub 社区中完成修改。",
+    ja: "画面遷移なし！このページから直接GitHubコミュニティのタイトルや本文を編集します。",
+  },
+  editModalPermissionWarning: {
+    en: "Only the author of this post or repository administrators can edit it on GitHub.",
+    ko: "이 게시글의 작성자 또는 저장소 관리자만 게시글을 수정할 수 있습니다.",
+    zh: "仅原作者或仓库管理员可在 GitHub 上修改此讨论。",
+    ja: "投稿者本人またはリポジトリ管理者のみが編集できます。",
+  },
   refreshBoard: {
     en: "Refresh",
     ko: "새로고침",
