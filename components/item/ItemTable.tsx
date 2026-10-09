@@ -15,7 +15,7 @@ interface IItemTableProps {
 }
 
 export const ItemTable: FC<IItemTableProps> = ({ data }) => {
-  const { t, getItemCategoryDisplayName, locale } = useI18n();
+  const { t, getItemDisplayName, getItemCategoryDisplayName, locale } = useI18n();
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredData = useMemo(() => {
@@ -57,6 +57,7 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
         dataIndex: "name",
         fixed: "left",
         width: 220,
+        sorter: (a, b) => getItemDisplayName(a).localeCompare(getItemDisplayName(b), locale),
         render: (_, row) => (
           <div className="flex items-center gap-3">
             <Link
@@ -81,6 +82,8 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
         width: 140,
         filters: categoryFilters,
         onFilter: (value, record) => record.category.toLowerCase() === (value as string).toLowerCase(),
+        sorter: (a, b) =>
+          getItemCategoryDisplayName(a.category).localeCompare(getItemCategoryDisplayName(b.category), locale),
         render: (cat: string) => <Tag color="blue">{getItemCategoryDisplayName(cat)}</Tag>,
       },
       {
@@ -109,7 +112,7 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
         },
       },
     ],
-    [categoryFilters, getItemCategoryDisplayName, t],
+    [categoryFilters, getItemCategoryDisplayName, getItemDisplayName, locale, t],
   );
 
   return (
@@ -135,8 +138,12 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
           pageSize: 50,
           showSizeChanger: true,
           pageSizeOptions: ["20", "50", "100", "200"],
-          showTotal: (total, range) =>
-            locale === "ko" ? `${total}개 중 ${range[0]}-${range[1]}` : `${range[0]}-${range[1]} / ${total}`,
+          showTotal: (total, range) => {
+            if (locale === "ko") return `${total}개 중 ${range[0]}-${range[1]}`;
+            if (locale === "ja") return `${total}件中 ${range[0]}-${range[1]}`;
+            if (locale === "zh") return `第 ${range[0]}-${range[1]} 项，共 ${total} 项`;
+            return `${range[0]}-${range[1]} of ${total}`;
+          },
         }}
       />
     </div>

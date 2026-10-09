@@ -759,6 +759,12 @@ export const translations = {
     zh: "获取途径 / 区域",
     ja: "入手場所",
   },
+  obtainMethod: {
+    en: "How to Obtain",
+    ko: "입수 방법",
+    zh: "获取方式",
+    ja: "入手方法",
+  },
   tradeValue: {
     en: "Trade Value",
     ko: "거래 가치",

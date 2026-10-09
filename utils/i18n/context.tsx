@@ -33,6 +33,7 @@ interface I18nContextType {
   getPokemonCategory: (pokemon?: Pokemon | null) => string;
   getPokemonFormDisplayName: (formName?: string | null) => string;
   getItemDisplayName: (item?: Item | null) => string;
+  getItemDescription: (item?: Item | null) => string;
   getItemCategoryDisplayName: (category?: string | null) => string;
   getHabitatDisplayName: (habitat?: Habitat | null) => string;
   getHabitatDescription: (habitat?: Habitat | null) => string;
@@ -62,6 +63,7 @@ const I18nContext = createContext<I18nContextType>({
   getPokemonCategory: (p) => p?.category || "",
   getPokemonFormDisplayName: (fn) => fn || "",
   getItemDisplayName: (i) => i?.name || "",
+  getItemDescription: (i) => i?.description || "",
   getItemCategoryDisplayName: (c) => c || "",
   getHabitatDisplayName: (h) => h?.name || "",
   getHabitatDescription: (h) => h?.description || "",
@@ -174,6 +176,12 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
   };
 
+  const getItemDescription = (item?: Item | null): string => {
+    if (!item) return "";
+    if (locale === "ko" && item.koreanDescription) return item.koreanDescription;
+    return item.description || "";
+  };
+
   const getHabitatDisplayName = (habitat?: Habitat | null): string => {
     if (!habitat) return "";
     switch (locale) {
@@ -270,6 +278,7 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         getPokemonCategory,
         getPokemonFormDisplayName,
         getItemDisplayName,
+        getItemDescription,
         getItemCategoryDisplayName,
         getHabitatDisplayName,
         getHabitatDescription,

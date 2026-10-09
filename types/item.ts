@@ -14,6 +14,8 @@ export interface Item {
   english: string;
   korean?: string;
   description?: string;
+  koreanDescription?: string;
+  koreanObtain?: string;
   hasIcon?: boolean;
   imageUrl?: string | null;
   category: string;

@@ -7,7 +7,9 @@ export const ItemDataById = Object.fromEntries(ItemData.map((h) => [h.hash, h]))
 export const ItemDataBySlug = Object.fromEntries(ItemData.map((h) => [h.slug, h]));
 const itemByName: Record<string, Item> = {};
 ItemData.forEach((i) => {
-  itemByName[i.name] = i;
+  if (i.name) itemByName[i.name] = i;
+  if (i.english) itemByName[i.english] = i;
+  if (i.korean) itemByName[i.korean] = i;
 });
 
 // Aliases for items referenced by Chinese name in habitats.json

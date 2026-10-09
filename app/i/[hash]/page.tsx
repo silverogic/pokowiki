@@ -21,9 +21,12 @@ export const generateMetadata = async ({ params }: IProps) => {
   }
 
   const displayName = item.korean || item.english || item.name;
+  const description = item.koreanDescription
+    ? `${displayName} - ${item.koreanDescription}`
+    : `"${displayName}"은(는) 《포켓몬 포코피아》의 도구 중 하나입니다.`;
   return {
     title: `${displayName} - ${DEFAULT_TITLE}`,
-    description: `"${displayName}"은(는) 《포켓몬 포코피아》의 도구 중 하나입니다.`,
+    description,
   };
 };
 

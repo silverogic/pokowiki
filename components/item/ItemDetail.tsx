@@ -16,6 +16,8 @@ const getDescriptions = (
   t: (k: TranslationKey) => string,
   getItemCategoryDisplayName: (cat: string) => string,
   getFavoriteDisplayName: (fav?: string | null) => string,
+  getLocationDisplayName: (loc?: string | null) => string,
+  locale: string,
 ): DescriptionsProps["items"] => [
   {
     key: "category",
@@ -57,6 +59,16 @@ const getDescriptions = (
         },
       ]
     : []),
+  ...(locale === "ko" && item.koreanObtain
+    ? [
+        {
+          key: "obtainMethod",
+          label: t("obtainMethod"),
+          children: item.koreanObtain,
+          span: 2,
+        },
+      ]
+    : []),
   ...(item.locations && item.locations.length > 0
     ? [
         {
@@ -65,7 +77,7 @@ const getDescriptions = (
           children: (
             <div className="flex flex-col gap-1">
               {item.locations.map((loc, i) => (
-                <div key={i}>{loc}</div>
+                <div key={i}>{getLocationDisplayName(loc)}</div>
               ))}
             </div>
           ),
@@ -100,8 +112,17 @@ interface IProps {
 }
 
 export const ItemDetail: FC<IProps> = ({ item }) => {
-  const { t, getItemDisplayName, getItemCategoryDisplayName, getFavoriteDisplayName } = useI18n();
+  const {
+    t,
+    getItemDisplayName,
+    getItemDescription,
+    getItemCategoryDisplayName,
+    getFavoriteDisplayName,
+    getLocationDisplayName,
+    locale,
+  } = useI18n();
   const displayName = getItemDisplayName(item);
+  const description = getItemDescription(item);
 
   const availableHabitats = HabitatData.filter((h) => h.detail.some((d) => d.name === item.name));
 
@@ -114,7 +135,7 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
       <section>
         <p>
           <strong>{displayName}</strong> {t("itemIntro")}
-          {item.description ? ` ${item.description}` : null}
+          {description ? ` ${description}` : null}
         </p>
       </section>
 
@@ -122,7 +143,14 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
         <h2>{t("basicInfo")}</h2>
         <Descriptions
           {...DescriptionsCommonProps2}
-          items={getDescriptions(item, t, getItemCategoryDisplayName, getFavoriteDisplayName)}
+          items={getDescriptions(
+            item,
+            t,
+            getItemCategoryDisplayName,
+            getFavoriteDisplayName,
+            getLocationDisplayName,
+            locale,
+          )}
         />
       </section>
 
