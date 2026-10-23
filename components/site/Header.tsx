@@ -1,119 +1,117 @@
 "use client";
 
-import { MenuOutlined } from "@ant-design/icons";
-import { Drawer, Tabs, TabsProps } from "antd";
-import { usePathname } from "next/navigation";
-import { FC, useContext, useMemo, useState } from "react";
+import { SearchOutlined } from "@ant-design/icons";
+import { Drawer } from "antd";
+import { FC, useContext, useState } from "react";
 
 import { Link, useI18n } from "@/utils";
 
 import { LanguageSwitch } from "./LanguageSwitch";
-import { Navigation } from "./Navigation";
 import { TableOfContents } from "./TableOfContents";
 import { TocContext } from "./TocObserver";
+import { TopNavigation } from "./TopNavigation";
 import { GitHubAuthWidget } from "./auth";
 import { SearchBar } from "./search";
 
 export const Header: FC = () => {
-  const [show, setShow] = useState(false);
-  const pathname = usePathname();
-  const isHome = pathname === "/" || pathname === "" || pathname === "/pokowiki" || pathname === "/pokowiki/";
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const { tocItems = [] } = useContext(TocContext) || {};
   const { t } = useI18n();
 
-  const items: TabsProps["items"] = useMemo(
-    () => [
-      {
-        key: "nav-site",
-        label: t("siteNav"),
-        children: <Navigation onClick={() => setShow(false)} />,
-      },
-      ...(tocItems.length > 0
-        ? [
-            {
-              key: "nav-toc",
-              label: t("tableOfContents"),
-              children: <TableOfContents onClick={() => setShow(false)} />,
-            },
-          ]
-        : []),
-    ],
-    [tocItems.length, t],
-  );
-
   return (
     <>
-      <header>
+      <header className="header-dock border-primary/40 fixed top-0 left-0 z-30 w-full border-b-2 bg-white/95 shadow-xs backdrop-blur-md transition-shadow">
+        {/* Tier 1: Brand & Tools */}
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <div className="flex min-w-0 items-center">
+          <div className="flex h-14 items-center justify-between gap-4 md:h-15">
+            {/* Logo */}
+            <div className="flex min-w-0 shrink-0 items-center">
               <Link
                 href="/"
-                className="text-primary flex min-w-0 items-center text-xl font-bold sm:text-2xl"
+                className="flex min-w-0 items-center gap-2 text-lg font-bold text-gray-900 transition-opacity hover:opacity-90 sm:text-xl"
               >
-                <span className="logo shrink-0" />
+                <span
+                  className="logo shrink-0"
+                  aria-label="Pokowiki Logo"
+                />
                 <span className="truncate">{t("siteTitle")}</span>
               </Link>
             </div>
 
-            <div className="mx-8 hidden max-w-lg flex-1 md:block">
+            {/* Desktop Search Bar */}
+            <div className="mx-4 hidden max-w-md flex-1 md:block">
               <SearchBar />
             </div>
 
-            <div className="hidden items-center gap-3 md:flex">
+            {/* Desktop Controls */}
+            <div className="hidden shrink-0 items-center gap-3 md:flex">
               <LanguageSwitch />
               <GitHubAuthWidget />
             </div>
 
-            <div className="flex items-center gap-2 md:hidden">
-              <GitHubAuthWidget size="small" />
-              <LanguageSwitch size="small" />
+            {/* Mobile Controls */}
+            <div className="flex items-center gap-1.5 md:hidden">
               <button
-                className="p-2 transition-colors hover:bg-gray-50"
-                aria-label="切换菜单"
-                onClick={() => setShow((prev) => !prev)}
+                type="button"
+                onClick={() => setMobileSearchOpen(true)}
+                className="flex h-8 w-8 items-center justify-center rounded-lg text-gray-600 transition-colors hover:bg-gray-100"
+                aria-label={t("searchPlaceholder")}
               >
-                <MenuOutlined className="text-xl" />
+                <SearchOutlined className="text-lg" />
               </button>
+              <LanguageSwitch size="small" />
+              <GitHubAuthWidget size="small" />
             </div>
           </div>
         </div>
+
+        {/* Tier 2: Desktop Top Navigation Bar */}
+        <div className="hidden border-t border-gray-100 bg-white/90 md:block">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <TopNavigation />
+          </div>
+        </div>
       </header>
-      <div className="header-fake">
-        <div />
+
+      {/* Spacer to prevent content from jumping beneath fixed header */}
+      <div
+        className="header-fake border-b-4 border-transparent"
+        aria-hidden="true"
+      >
+        <div className="h-14 md:h-[108px]" />
       </div>
+
+      {/* Mobile Search & Quick Nav Drawer */}
       <Drawer
-        destroyOnHidden={true}
-        open={show}
-        onClose={() => setShow(false)}
+        destroyOnHidden
+        open={mobileSearchOpen}
+        onClose={() => setMobileSearchOpen(false)}
         placement="top"
         classNames={{
-          body: "flex flex-col gap-4",
+          body: "flex flex-col gap-4 p-4 max-h-[85vh] overflow-y-auto",
         }}
         styles={{
-          wrapper: { height: "100%" },
+          wrapper: { maxHeight: "85vh" },
         }}
       >
-        <SearchBar onClick={() => setShow(false)} />
-        {isHome ? (
-          <div className="flex flex-col gap-4 overflow-y-auto">
-            <div>
-              <div className="nav-title mb-2">{t("siteNav")}</div>
-              <Navigation onClick={() => setShow(false)} />
+        <div className="flex items-center justify-between border-b border-gray-100 pb-2">
+          <span className="text-sm font-semibold text-gray-500">{t("searchPlaceholder")}</span>
+          <button
+            type="button"
+            onClick={() => setMobileSearchOpen(false)}
+            className="text-xs text-gray-400 hover:text-gray-600"
+          >
+            ✕
+          </button>
+        </div>
+        <SearchBar onClick={() => setMobileSearchOpen(false)} />
+
+        {tocItems.length > 0 && (
+          <div className="mt-2 border-t border-gray-100 pt-3">
+            <div className="nav-title mb-2 text-left text-xs font-semibold tracking-wider text-gray-400 uppercase">
+              {t("tableOfContents")}
             </div>
-            {tocItems.length > 0 && (
-              <div className="border-t border-gray-100 pt-3">
-                <div className="nav-title mb-2">{t("tableOfContents")}</div>
-                <TableOfContents onClick={() => setShow(false)} />
-              </div>
-            )}
-          </div>
-        ) : tocItems.length > 0 ? (
-          <Tabs items={items} />
-        ) : (
-          <div className="overflow-y-auto">
-            <div className="nav-title mb-2">{t("siteNav")}</div>
-            <Navigation onClick={() => setShow(false)} />
+            <TableOfContents onClick={() => setMobileSearchOpen(false)} />
           </div>
         )}
       </Drawer>

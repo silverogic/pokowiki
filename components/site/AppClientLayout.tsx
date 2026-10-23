@@ -6,6 +6,7 @@ import React, { FC, ReactNode } from "react";
 
 import { I18nProvider, useI18n } from "@/utils";
 
+import { BottomNavigation } from "./BottomNavigation";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Sidebar } from "./Sidebar";
@@ -36,6 +37,7 @@ const AppClientLayoutContent: FC<IAppClientLayoutProps> = ({ children, theme }) 
           </main>
         </div>
         <Footer />
+        <BottomNavigation />
       </TocObserver>
     </ConfigProvider>
   );

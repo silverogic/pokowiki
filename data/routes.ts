@@ -15,6 +15,8 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/item-list", label: "道具一览", icon: "collection" },
   { path: "/event-list", label: "活动一览", icon: "request" },
   { path: "/community", label: "社区", icon: "github" },
+  { path: "/walkthrough", label: "攻略一览", icon: "tutorial" },
+  { path: "/about", label: "关于", icon: "option" },
 ];
 
 export const HOME_NAVIGATIONS: IHomepageNavigation = [

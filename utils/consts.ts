@@ -26,7 +26,7 @@ export const TableCommonProps: Partial<TableProps<any>> = {
     scrollToFirstRowOnChange: true,
     x: "max-content",
   },
-  sticky: { offsetHeader: 64 },
+  sticky: { offsetHeader: 108 },
   size: "small",
 };
 

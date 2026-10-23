@@ -1,46 +1,29 @@
 "use client";
 
-import cn from "classnames";
-import { usePathname } from "next/navigation";
 import { FC, useContext } from "react";
 
 import { useI18n } from "@/utils";
 
-import { Navigation } from "./Navigation";
 import { TableOfContents } from "./TableOfContents";
 import { TocContext } from "./TocObserver";
 
 export const Sidebar: FC = () => {
-  const pathname = usePathname();
-  const isHome = pathname === "/" || pathname === "" || pathname === "/pokowiki" || pathname === "/pokowiki/";
   const { tocItems = [] } = useContext(TocContext) || {};
   const { t } = useI18n();
 
-  if (isHome) {
-    return (
-      <aside className="hidden md:block">
-        <nav className="nav-site sticky top-24">
-          <div className="nav-title mb-2">{t("siteNav")}</div>
-          <Navigation />
-          {tocItems.length > 0 && (
-            <div className="mt-4 border-t border-gray-100 pt-3">
-              <div className="nav-title mb-2">{t("tableOfContents")}</div>
-              <TableOfContents />
-            </div>
-          )}
-        </nav>
-      </aside>
-    );
+  if (tocItems.length === 0) {
+    return null;
   }
 
   return (
-    <aside className="hidden md:block">
-      <nav className="nav-site">
-        <div className="nav-title mb-2">{t("siteNav")}</div>
-        <Navigation />
-      </nav>
-      <nav className={cn("nav-toc", tocItems.length > 0 ? "" : "hidden")}>
-        <div className="nav-title mb-2">{t("tableOfContents")}</div>
+    <aside className="hidden w-64 shrink-0 px-2 py-6 md:block">
+      <nav
+        className="nav-toc sticky top-28 rounded-2xl border border-gray-100 bg-white p-4 shadow-sm"
+        aria-label={t("tableOfContents")}
+      >
+        <div className="nav-title mb-3 text-left text-xs font-semibold tracking-wider text-gray-400 uppercase">
+          {t("tableOfContents")}
+        </div>
         <TableOfContents />
       </nav>
     </aside>

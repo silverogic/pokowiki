@@ -7,6 +7,7 @@
 
 @theme {
   --color-primary: #c28cd9;
+  --color-primary-dark: #7d4392;
   --color-secondary: #eed1fa;
   --color-link: #007fff;
   --color-link-light: #339cff;
@@ -156,6 +157,22 @@ main ol {
 
   .ant-table-thead .ant-table-cell-fix-left {
     background: #fafafa !important;
+  }
+
+  /* 테이블 헤더 sticky 위치: 데스크톱 108px, 모바일 56px (responsive-design.md) */
+  @media (max-width: 767px) {
+    .ant-table-sticky-holder {
+      top: 56px !important;
+    }
+  }
+}
+
+/* 모바일 환경: 설명 목록 패딩 축소 (responsive-design.md) */
+@media (max-width: 640px) {
+  .ant-descriptions-item-label,
+  .ant-descriptions-item-content {
+    padding: 8px 10px !important;
+    font-size: 0.85rem;
   }
 }
 
@@ -585,7 +602,7 @@ header {
   @apply border-b-4 border-transparent;
 
   & > div {
-    @apply h-16;
+    @apply h-14 md:h-[108px];
   }
 }
 
@@ -602,8 +619,16 @@ aside {
   @apply w-64 px-4 py-8 z-20 hidden md:flex flex-col gap-8;
 }
 
-nav {
+aside nav {
   @apply p-4 bg-white rounded-2xl shadow-xl;
+}
+
+.top-navigation {
+  @apply bg-transparent shadow-none p-0 rounded-none;
+}
+
+.bottom-nav-dock {
+  @apply rounded-none;
 }
 
 .nav-title {
@@ -641,7 +666,7 @@ main {
 }
 
 footer {
-  @apply bg-white border-t-2 border-primary w-full mx-auto px-4 py-6 sm:px-6 lg:px-8 text-center text-sm text-gray-400 space-y-2;
+  @apply bg-white border-t-2 border-primary w-full mx-auto px-4 pt-6 pb-24 md:pb-6 sm:px-6 lg:px-8 text-center text-sm text-gray-400 space-y-2;
 
   a {
     @apply text-gray-400 hover:text-gray-600 focus:text-gray-600;

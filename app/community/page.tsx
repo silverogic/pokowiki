@@ -342,7 +342,9 @@ const CommunityPage: FC = () => {
         {/* Filter and Search Bar */}
         <div className="my-4 flex flex-wrap items-center justify-between gap-3">
           <div className="text-xs font-medium text-gray-500">
-            {filteredDiscussions.length > 0 ? <span>총 {filteredDiscussions.length}개의 게시글</span> : null}
+            {filteredDiscussions.length > 0 ? (
+              <span>{t("totalPostsCount", { count: filteredDiscussions.length })}</span>
+            ) : null}
           </div>
 
           <div className="flex items-center gap-2">
@@ -363,6 +365,7 @@ const CommunityPage: FC = () => {
           columns={columns}
           dataSource={filteredDiscussions}
           loading={loading}
+          scroll={{ x: "max-content" }}
           pagination={{
             pageSize: 15,
             showSizeChanger: false,

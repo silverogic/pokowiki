@@ -27,7 +27,7 @@ interface I18nContextType {
   locale: SupportedLocale;
   language: SupportedLocale;
   setLocale: (locale: SupportedLocale) => void;
-  t: (key: TranslationKey) => string;
+  t: (key: TranslationKey, params?: Record<string, string | number>) => string;
   getPokemonDisplayName: (pokemon?: Pokemon | null) => string;
   getPokemonDescription: (pokemon?: Pokemon | null) => string;
   getPokemonCategory: (pokemon?: Pokemon | null) => string;
@@ -115,7 +115,8 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     } catch {}
   };
 
-  const t = (key: TranslationKey): string => getTranslation(key, locale);
+  const t = (key: TranslationKey, params?: Record<string, string | number>): string =>
+    getTranslation(key, locale, params);
 
   const getPokemonDisplayName = (pokemon?: Pokemon | null): string => {
     if (!pokemon) return "";

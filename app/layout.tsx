@@ -41,7 +41,11 @@ const theme: ThemeConfig = {
     Select: {
       colorPrimary: "#c28cd9",
       colorPrimaryHover: "#c28cd9",
+      optionSelectedBg: "#fbf3fd",
       zIndexPopup: 1050,
+    },
+    Tooltip: {
+      colorBgSpotlight: "#3a2842",
     },
     Dropdown: {
       zIndexPopup: 1050,

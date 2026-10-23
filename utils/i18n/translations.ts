@@ -127,6 +127,42 @@ export const translations = {
     zh: "关于网站",
     ja: "サイトについて",
   },
+  navMore: {
+    en: "More",
+    ko: "더보기",
+    zh: "更多",
+    ja: "その他",
+  },
+  pokemonShort: {
+    en: "Dex",
+    ko: "도감",
+    zh: "图鉴",
+    ja: "図鑑",
+  },
+  habitatShort: {
+    en: "Habitats",
+    ko: "서식지",
+    zh: "栖息地",
+    ja: "生息地",
+  },
+  itemShort: {
+    en: "Items",
+    ko: "도구",
+    zh: "道具",
+    ja: "どうぐ",
+  },
+  eventShort: {
+    en: "Events",
+    ko: "이벤트",
+    zh: "活动",
+    ja: "イベント",
+  },
+  communityShort: {
+    en: "Community",
+    ko: "커뮤니티",
+    zh: "社区",
+    ja: "コミュニティ",
+  },
   aboutIntro: {
     ko: "포코위키(Pokowiki)는 《포켓몬 포코피아》(Pokémon Pokopia)의 포켓몬, 서식지, 도구, 이벤트 정보 등을 종합적으로 제공하는 비공식 팬 데이터베이스 & 위키입니다.",
     en: "Pokowiki is an unofficial fan database & wiki providing comprehensive information on Pokémon, habitats, items, and events in Pokémon Pokopia.",
@@ -180,6 +216,12 @@ export const translations = {
     ko: "토론 카테고리",
     zh: "讨论分类",
     ja: "ディスカッションカテゴリー",
+  },
+  totalPostsCount: {
+    en: "{count} posts",
+    ko: "총 {count}개의 게시글",
+    zh: "共 {count} 篇帖子",
+    ja: "全{count}件の投稿",
   },
   categoryGeneral: {
     en: "General",
@@ -2240,8 +2282,18 @@ export const HABITAT_REQUIREMENT_TRANSLATIONS: Record<string, Record<SupportedLo
 
 export type TranslationKey = keyof typeof translations;
 
-export const getTranslation = (key: TranslationKey, locale: SupportedLocale): string => {
+export const getTranslation = (
+  key: TranslationKey,
+  locale: SupportedLocale,
+  params?: Record<string, string | number>,
+): string => {
   const item = translations[key];
   if (!item) return key;
-  return item[locale] || item.en || key;
+  let text: string = item[locale] || item.en || key;
+  if (params) {
+    Object.entries(params).forEach(([paramKey, paramVal]) => {
+      text = text.replace(new RegExp(`\\{${paramKey}\\}`, "g"), String(paramVal));
+    });
+  }
+  return text;
 };
