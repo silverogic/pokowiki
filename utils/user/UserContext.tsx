@@ -128,6 +128,12 @@ export const PokopiaUserProvider: FC<{ children: ReactNode }> = ({ children }) =
       setSyncError(null);
 
       try {
+        if (user.scopes && user.scopes.length > 0 && !user.scopes.includes("gist")) {
+          setSyncStatus("error");
+          setSyncError("GIST_PERMISSION_REQUIRED");
+          return;
+        }
+
         const found = await findPokowikiGist(user.token!);
 
         if (found) {
@@ -209,7 +215,12 @@ export const PokopiaUserProvider: FC<{ children: ReactNode }> = ({ children }) =
       } catch (err: any) {
         if (!isMounted) return;
         setSyncStatus("error");
-        setSyncError(err?.message || "Sync error");
+        const msg = String(err?.message || "");
+        if (msg.includes("GIST_PERMISSION_REQUIRED") || msg.includes("404")) {
+          setSyncError("GIST_PERMISSION_REQUIRED");
+        } else {
+          setSyncError(err?.message || "Sync error");
+        }
       }
     };
 
@@ -331,7 +342,13 @@ export const PokopiaUserProvider: FC<{ children: ReactNode }> = ({ children }) =
   const manualSync = useCallback(async () => {
     if (!user?.token) return;
     setSyncStatus("syncing");
+    setSyncError(null);
     try {
+      if (user.scopes && user.scopes.length > 0 && !user.scopes.includes("gist")) {
+        setSyncStatus("error");
+        setSyncError("GIST_PERMISSION_REQUIRED");
+        return;
+      }
       const targetGistId = gistId || (await findPokowikiGist(user.token))?.gistId;
       if (targetGistId) {
         await updatePokowikiGist(user.token, targetGistId, latestDataRef.current);
@@ -344,7 +361,12 @@ export const PokopiaUserProvider: FC<{ children: ReactNode }> = ({ children }) =
       }
     } catch (err: any) {
       setSyncStatus("error");
-      setSyncError(err?.message || "Manual sync failed");
+      const msg = String(err?.message || "");
+      if (msg.includes("GIST_PERMISSION_REQUIRED") || msg.includes("404")) {
+        setSyncError("GIST_PERMISSION_REQUIRED");
+      } else {
+        setSyncError(err?.message || "Manual sync failed");
+      }
     }
   }, [user, gistId]);
 

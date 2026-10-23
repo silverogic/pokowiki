@@ -5,4 +5,5 @@ export interface IGitHubUser {
   name?: string;
   bio?: string;
   token?: string;
+  scopes?: string[];
 }

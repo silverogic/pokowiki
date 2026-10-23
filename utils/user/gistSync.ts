@@ -32,6 +32,9 @@ export const findPokowikiGist = async (
       },
     });
 
+    if (res.status === 404 || res.status === 403) {
+      throw new Error("GIST_PERMISSION_REQUIRED");
+    }
     if (!res.ok) return null;
     const gists: IGistResponse[] = await res.json();
 
@@ -60,7 +63,10 @@ export const findPokowikiGist = async (
       data: parsed,
       gistUrl: target.html_url,
     };
-  } catch {
+  } catch (err: any) {
+    if (err?.message === "GIST_PERMISSION_REQUIRED") {
+      throw err;
+    }
     return null;
   }
 };
@@ -90,6 +96,9 @@ export const createPokowikiGist = async (
 
   if (!res.ok) {
     const errText = await res.text();
+    if (res.status === 404 || res.status === 403) {
+      throw new Error("GIST_PERMISSION_REQUIRED");
+    }
     throw new Error(`Failed to create secret Gist: ${res.status} ${errText}`);
   }
 
@@ -125,6 +134,9 @@ export const updatePokowikiGist = async (
 
   if (!res.ok) {
     const errText = await res.text();
+    if (res.status === 404 || res.status === 403) {
+      throw new Error("GIST_PERMISSION_REQUIRED");
+    }
     throw new Error(`Failed to update secret Gist: ${res.status} ${errText}`);
   }
 

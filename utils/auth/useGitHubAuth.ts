@@ -86,6 +86,14 @@ export const useGitHubAuth = () => {
       });
       if (!res.ok) return null;
       const data = await res.json();
+      const rawScopes = res.headers.get("x-oauth-scopes");
+      const scopes = rawScopes
+        ? rawScopes
+            .split(",")
+            .map((s) => s.trim())
+            .filter(Boolean)
+        : undefined;
+
       const fetched: IGitHubUser = {
         login: data.login,
         avatarUrl: data.avatar_url,
@@ -93,6 +101,7 @@ export const useGitHubAuth = () => {
         name: data.name || data.login,
         bio: data.bio || undefined,
         token: trimmed,
+        scopes,
       };
       setStoredGitHubUser(fetched);
       return fetched;

@@ -638,10 +638,10 @@ export const translations = {
     ja: "GitHub トークン連携 (サイト内直接投稿)",
   },
   githubTokenConnectDesc: {
-    en: "Enter a GitHub Personal Access Token (classic with public_repo scope) to create posts directly without switching windows.",
-    ko: "GitHub Personal Access Token (public_repo 권한)을 등록하면 창 전환 없이 사이트에서 즉시 글을 쓸 수 있습니다.",
-    zh: "输入 GitHub 个人访问令牌（需 public_repo 权限）即可在站内直接发帖，无需切换窗口。",
-    ja: "GitHub Personal Access Token (public_repo 権限) を登録すると、画面遷移なしで即時投稿できます。",
+    en: "Enter a GitHub Personal Access Token (with 'gist' and 'public_repo' scopes) to sync collection data and post in the community.",
+    ko: "GitHub Personal Access Token ('gist' 및 'public_repo' 권한)을 등록하면 포켓몬/도구 데이터가 안전하게 동기화되며 커뮤니티 글도 바로 쓸 수 있습니다.",
+    zh: "输入 GitHub 个人访问令牌（需 'gist' 与 'public_repo' 权限）即可跨设备云端同步收集进度并参与社区发帖。",
+    ja: "GitHub Personal Access Token ('gist' および 'public_repo' 権限) を登録すると、データ同期やコミュニティ投稿が可能になります。",
   },
   githubTokenPlaceholder: {
     en: "Paste GitHub Token (ghp_... or github_pat_...)",
@@ -1470,6 +1470,48 @@ export const translations = {
     en: "Synchronizing latest progress...",
     zh: "正在同步最新进度...",
     ja: "最新の進行状況を同期しています。",
+  },
+  syncDescError: {
+    ko: "토큰 권한 오류로 동기화에 실패했습니다.",
+    en: "Sync failed due to token permission error.",
+    zh: "因令牌权限错误导致同步失败。",
+    ja: "トークン権限エラーにより同期に失敗しました。",
+  },
+  gistScopeRequiredTitle: {
+    ko: "GitHub Gist 권한 필요 (404 오류 해결)",
+    en: "GitHub 'gist' Scope Required (Fix 404 Error)",
+    zh: "需要 GitHub 'gist' 权限（解决 404 错误）",
+    ja: "GitHub 'gist' 権限が必要です (404エラー解決)",
+  },
+  gistScopeRequiredDesc: {
+    ko: "현재 연결된 GitHub 토큰에 Secret Gist 동기화 권한('gist')이 누락되어 404 오류가 발생했습니다. 'gist' 권한이 포함된 토큰을 발급받아 다시 등록해주세요.",
+    en: "The connected GitHub token lacks the 'gist' scope, causing a 404 Not Found error. Please generate a token with 'gist' scope and reconnect.",
+    zh: "当前关联的 GitHub 令牌缺少 Secret Gist 同步权限（'gist'），导致出现 404 错误。请重新生成包含 'gist' 权限的令牌并重新关联。",
+    ja: "現在連携中の GitHub トークンに Secret Gist 同期権限('gist')がないため 404 エラーが発生しました。'gist' 権限を含むトークンを発行して再登録してください。",
+  },
+  generateGistTokenBtn: {
+    ko: "gist 권한 포함 토큰 발급",
+    en: "Generate Token with 'gist' Scope",
+    zh: "生成含 'gist' 权限令牌",
+    ja: "gist 権限付きトークン発行",
+  },
+  reconnectTokenBtn: {
+    ko: "토큰 다시 등록",
+    en: "Reconnect Token",
+    zh: "重新关联令牌",
+    ja: "トークン再登録",
+  },
+  tokenMissingGistWarning: {
+    ko: "연결된 토큰에 'gist' 권한이 없습니다. 포켓몬/도구 클라우드 동기화를 위해 'gist' 권한이 포함된 토큰으로 재등록해주세요.",
+    en: "This token lacks the 'gist' scope. Cloud sync requires a token with 'gist' enabled.",
+    zh: "当前令牌缺少 'gist' 权限。跨设备云端同步需要开启 'gist' 权限的令牌。",
+    ja: "登録されたトークンに 'gist' 権限がありません。データ同期を行うには 'gist' を含めたトークンを再登録してください。",
+  },
+  requiredScopesLabel: {
+    ko: "필요 권한",
+    en: "Required Scopes",
+    zh: "所需权限",
+    ja: "必要権限",
   },
   manualSyncBtn: {
     ko: "지금 동기화",

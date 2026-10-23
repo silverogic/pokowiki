@@ -33,7 +33,11 @@ export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) =>
     try {
       const user = await loginWithToken(trimmed);
       if (user) {
-        message.success(t("githubTokenSuccess"));
+        if (user.scopes && user.scopes.length > 0 && !user.scopes.includes("gist")) {
+          message.warning(t("tokenMissingGistWarning"), 6);
+        } else {
+          message.success(t("githubTokenSuccess"));
+        }
         setToken("");
         onClose();
       } else {
@@ -125,7 +129,7 @@ export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) =>
 
           <div className="flex flex-wrap items-center justify-between gap-1 text-[11px]">
             <a
-              href="https://github.com/settings/tokens/new?scopes=public_repo&description=pokowiki-community"
+              href="https://github.com/settings/tokens/new?scopes=gist,public_repo&description=pokowiki-sync"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary flex items-center gap-1 font-medium hover:underline"
@@ -133,8 +137,13 @@ export const GitHubAuthModal: FC<IGitHubAuthModalProps> = ({ open, onClose }) =>
               <span>{t("githubGenerateTokenHelper")}</span>
               <ExportOutlined className="text-[10px]" />
             </a>
-            <span className="text-gray-400">{t("githubTokenNotice")}</span>
+            <div className="flex items-center gap-1 text-[10px] text-gray-500">
+              <span>{t("requiredScopesLabel")}:</span>
+              <Tag color="cyan" className="m-0 px-1 py-0 text-[10px] font-mono">gist</Tag>
+              <Tag color="blue" className="m-0 px-1 py-0 text-[10px] font-mono">public_repo</Tag>
+            </div>
           </div>
+          <p className="m-0 text-[11px] text-gray-400">{t("githubTokenNotice")}</p>
 
           {tokenError ? (
             <Alert

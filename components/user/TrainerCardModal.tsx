@@ -168,7 +168,9 @@ export const TrainerCardModal: FC<ITrainerCardModalProps> = ({ open, onClose }) 
                     ? t("syncDescSynced")
                     : syncStatus === "offline"
                       ? t("syncDescOffline")
-                      : t("syncDescProgress")}
+                      : syncStatus === "error"
+                        ? t("syncDescError")
+                        : t("syncDescProgress")}
                 </span>
               </div>
 
@@ -206,6 +208,42 @@ export const TrainerCardModal: FC<ITrainerCardModalProps> = ({ open, onClose }) 
                 )}
               </div>
             </div>
+
+            {/* Error Guidance Box */}
+            {syncStatus === "error" ? (
+              <div className="mt-3 rounded-xl border border-red-200 bg-red-50/80 p-3 text-xs">
+                <div className="flex items-start gap-2">
+                  <span className="text-base leading-none">⚠️</span>
+                  <div className="flex-1 space-y-1">
+                    <div className="font-semibold text-red-900">
+                      {t("gistScopeRequiredTitle")}
+                    </div>
+                    <p className="m-0 leading-relaxed text-red-700">
+                      {t("gistScopeRequiredDesc")}
+                    </p>
+                    <div className="flex flex-wrap items-center gap-2 pt-1.5">
+                      <Button
+                        size="small"
+                        type="primary"
+                        danger
+                        href="https://github.com/settings/tokens/new?scopes=gist,public_repo&description=pokowiki-sync"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        icon={<ExportOutlined />}
+                      >
+                        {t("generateGistTokenBtn")}
+                      </Button>
+                      <Button
+                        size="small"
+                        onClick={() => setAuthModalOpen(true)}
+                      >
+                        {t("reconnectTokenBtn")}
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : null}
           </div>
 
           {/* Badges Gallery */}
