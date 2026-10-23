@@ -1,1101 +1,837 @@
 [
   {
     "id": "chapter-1",
-    "title": "冒险的开始",
     "order": 1,
-    "description": "在宁静的樱花镇，你的冒险之旅正式启程。选择你的初始宝可梦，踏上成为宝可梦大师的征途。",
-    "sections": [
-      {
-        "title": "初始宝可梦的选择",
-        "content": "游戏开始时，大木博士会给你提供三只初始宝可梦的选择：妙蛙种子（草/毒系）、小火龙（火系）和杰尼龟（水系）。每只初始宝可梦都有各自的优势，选择适合你的战斗风格的宝可梦。妙蛙种子适合初学者，小火龙适合喜欢攻击的玩家，杰尼龟则更适合防御型玩家。",
-        "tips": [
-          "草系宝可梦对水系和岩石系道馆有优势",
-          "火系宝可梦对草系和冰系道馆有优势",
-          "水系宝可梦对火系和岩石系道馆有优势",
-          "无论选择哪只，都可以在冒险中抓捕更多宝可梦来弥补属性不足"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "첫 파트너 포켓몬 선택",
-            "content": "게임 시작 시 오박사로부터 이상해씨(풀/독), 파이리(불꽃), 꼬부기(물) 중 한 마리를 선택하게 됩니다. 각 포켓몬마다 고유한 장점이 있으므로 자신의 플레이 스타일에 맞게 선택하세요. 이상해씨는 초반 체육관 공략에 유리해 초보자에게 좋고, 파이리는 공격적이며, 꼬부기는 안정적인 방어형 육성에 적합합니다.",
-            "tips": [
-              "풀타입은 물타입과 바위타입 체육관에 유리합니다.",
-              "불꽃타입은 풀타입과 얼음타입 체육관에 유리합니다.",
-              "물타입은 불꽃타입과 바위타입 체육관에 유리합니다.",
-              "어떤 포켓몬을 고르든 모험 도중 다양한 포켓몬을 포획하여 약점을 보완할 수 있습니다."
-            ]
-          },
-          "en": {
-            "title": "Choosing Your Starter Pokémon",
-            "content": "Professor Oak offers you a choice between Bulbasaur (Grass/Poison), Charmander (Fire), and Squirtle (Water). Each has distinct advantages for different playstyles. Bulbasaur is great for beginners against early gyms, Charmander favors offensive play, and Squirtle provides solid defense.",
-            "tips": [
-              "Grass-types have an advantage against Water and Rock Gyms.",
-              "Fire-types have an advantage against Grass and Ice Gyms.",
-              "Water-types have an advantage against Fire and Rock Gyms.",
-              "You can catch diverse Pokémon along your journey to cover any elemental weaknesses."
-            ]
-          },
-          "ja": {
-            "title": "最初のパートナーポケモンの選択",
-            "content": "オーキド博士からフシギダネ（くさ/どく）、ヒトカゲ（ほのお）、ゼニガメ（みず）の3匹から1匹を選びます。フシギダネは序盤のジム戦で有利に戦えるため初心者に最適、ヒトカゲは攻撃重視、ゼニガメは安定した防御に優れています。",
-            "tips": [
-              "くさタイプはみず・いわタイプのジムに強いです。",
-              "ほのおタイプはくさ・こおりタイプのジムに強いです。",
-              "みずタイプはほのお・いわタイプのジムに強いです。",
-              "どれを選んでも道中で様々なポケモンを捕まえて補うことができます。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "前往第一个城镇",
-        "content": "从樱花镇出发，穿越1号道路即可到达真红市。沿途会遇到野生的波波和小拉达，这是练级的好机会。记得在樱花镇的道具店购买精灵球和药水，为即将到来的冒险做好准备。",
-        "tips": [
-          "在1号道路多练习，让初始宝可梦达到至少10级再挑战道馆",
-          "波波是很好的团队成员，拥有飞行技能便于快速移动",
-          "记得存档！游戏中随时可以在神奇宝贝中心存档"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "첫 번째 마을로 이동",
-            "content": "벚꽃마을을 출발해 1번 도로를 지나 진홍시티로 향합니다. 길목에서 구구, 꼬렛 등 야생 포켓몬을 만나며 레벨을 올릴 수 있습니다. 상점에서 몬스터볼과 상처약을 충분히 구비해 두세요.",
-            "tips": [
-              "1번 도로에서 레벨을 올려 첫 파트너를 최소 10레벨 이상으로 육성하세요.",
-              "구구는 비행타입 기술을 배워 이동과 전투 모두에 유용합니다.",
-              "포켓몬센터에서 수시로 치료하고 세이브하는 습관을 들이세요."
-            ]
-          },
-          "en": {
-            "title": "Journey to the First Town",
-            "content": "Head through Route 1 towards Crimson City. You will encounter wild Pidgey and Rattata—a great opportunity to train. Be sure to pick up Poké Balls and Potions at the shop.",
-            "tips": [
-              "Train on Route 1 until your starter reaches at least Level 10 before challenging the Gym.",
-              "Pidgey makes an excellent early team member with Flying-type moves.",
-              "Save your progress frequently at Pokémon Centers."
-            ]
-          },
-          "ja": {
-            "title": "最初の街へ向かう",
-            "content": "サクラタウンを出発し、1番道路を通ってクリムゾンシティへ向かいます。野生のポッポやコラッタが出現しレベル上げに最適です。ショップでモンスターボールとキズぐすりを購入しておきましょう。",
-            "tips": [
-              "1番道路でバトルを重ね、最初のポケモンをレベル10以上まで育てましょう。",
-              "ポッポは頼れるひこうタイプの仲間として活躍します。",
-              "ポケモンセンターをこまめに利用し、セーブを忘れずに行いましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "真红市的准备",
-        "content": "到达真红市后，参观神奇宝贝中心来恢复你的宝可梦体力。道具店里有各种必备道具。这里还可以遇到你的宿命对手，他会在整个冒险旅程中不断挑战你。",
-        "tips": [
-          "与对手的首战非常重要，选择克制对手初始宝可梦属性的初始宝可梦",
-          "充分利用神奇宝贝中心的免费治疗服务",
-          "在挑战道馆前确保队伍中至少有3只宝可梦"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "진홍시티에서의 준비",
-            "content": "진홍시티에 도착하면 포켓몬센터에서 체력을 회복하고 상점에서 필수 도구를 챙깁니다. 이곳에서 모험 내내 마주칠 라이벌과 첫 승부를 겨루게 됩니다.",
-            "tips": [
-              "라이벌과의 첫 배틀은 상성을 파악하는 좋은 기회입니다.",
-              "포켓몬센터의 무료 치료 서비스를 적극 활용하세요.",
-              "체육관에 도전하기 전 최소 3마리 이상의 포켓몬을 파티에 영입하세요."
-            ]
-          },
-          "en": {
-            "title": "Preparation in Crimson City",
-            "content": "Heal your team at the Pokémon Center upon arrival in Crimson City and browse the Poké Mart for essentials. You will also encounter your rival here for an early test of skill.",
-            "tips": [
-              "The first battle against your rival is a great test of type matchups.",
-              "Make full use of free healing at the Pokémon Center.",
-              "Assemble a balanced party of at least 3 Pokémon before taking on the Gym."
-            ]
-          },
-          "ja": {
-            "title": "クリムゾンシティでの準備",
-            "content": "クリムゾンシティに到着したら、ポケモンセンターで体力を回復し、ショップで必要な道具を揃えましょう。この街で幾度となく競い合うライバルと出会うことになります。",
-            "tips": [
-              "ライバルとの初バトルではタイプの相性をしっかり意識しましょう。",
-              "ポケモンセンターの無料回復サービスを有効活用してください。",
-              "ジムに挑戦する前に、少なくとも3匹のポケモンでパーティを組みましょう。"
-            ]
-          }
-        }
-      }
-    ],
+    "title": "枯萎荒原：帕萨帕萨草原的复兴",
+    "description": "从沉睡中苏醒的百变怪踏上重塑荒原的旅途。与蔓藤怪教授初遇，解救受困的大岩蛇，并借助呆呆兽的哈欠唤醒盖欧卡的甘霖，让荒废土地焕发生机。",
     "i18n": {
       "ko": {
-        "title": "모험의 시작",
-        "description": "평화로운 벚꽃마을에서 여러분의 모험이 시작됩니다. 첫 파트너 포켓몬을 선택하고 포켓몬 마스터를 향한 여정을 떠나보세요."
+        "title": "메마른 황무지: 파사파사 황야의 재건",
+        "description": "긴 잠에서 깨어난 메타몽의 이야기와 파사파사 황야의 오아시스 재건. 덩쿠림보 교수님과의 첫 만남, 바위에 갇힌 롱스톤 구출, 그리고 야돈의 하품으로 가이오가의 단비를 부르는 초반 핵심 공략입니다."
       },
       "en": {
-        "title": "The Adventure Begins",
-        "description": "Your adventure officially starts in peaceful Cherrygrove Town. Choose your starter Pokémon and set out on the road to becoming a Pokémon Master."
+        "title": "Withered Wasteland: Rebuilding Pasapasa Prairie",
+        "description": "Ditto awakens from centuries of slumber to revive the parched land. Meet Professor Tangrowth, rescue the trapped Onix, and summon Kyogre's life-giving rain alongside Slowpoke in the opening chapter."
       },
       "ja": {
-        "title": "冒険の始まり",
-        "description": "のどかなサクラタウンであなたの冒険がスタートします。最初のパートナーポケモンを選び、ポケモンマスターを目指す旅に出発しましょう。"
+        "title": "メマレ荒野：パサパサ草原の復興",
+        "description": "長い眠りから目覚めたメタモンの旅立ちと、パサパサ荒野の復興。モジャンボ教授との出会い、岩に閉じ込められたイワークの救出、そしてヤドンのあくびでカイオーガの恵みの雨を降らせる序盤の完全攻略です。"
+      },
+      "zh": {
+        "title": "枯萎荒原：帕萨帕萨草原的复兴",
+        "description": "从沉睡中苏醒的百变怪踏上重塑荒原的旅途。与蔓藤怪教授初遇，解救受困的大岩蛇，并借助呆呆兽的哈欠唤醒盖欧卡的甘霖，让荒废土地焕发生机。"
       }
-    }
+    },
+    "sections": [
+      {
+        "title": "百变怪的化身觉醒与蔓藤怪教授的相遇",
+        "content": "在荒废的人类研究所废墟中，沉睡已久的特殊百变怪苏醒过来。凭借脑海中对昔日人类训练家的模糊记忆，百变怪幻化成人类孩童的身形开始探索。在废墟中，你将遇见独自生活的守护者『蔓藤怪教授』，获赠破损的图鉴并掌握基础工具工作台的制作方法。通过将手臂化为浇水器滋润干涸的泥土，第一抹绿色由此破土而出。",
+        "tips": [
+          "靠近干裂的土地使用水属性拟态浇水，可将干涸土壤转化为可耕种的肥沃草地。",
+          "蔓藤怪教授身旁的研究布告栏每天会刷新初级建造委托，是获取基础种子和木料的主要来源。",
+          "初期先在废墟周边收集枯枝与碎石，尽快制作坚固的石斧与石镐以便开采更多资源。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "메타몽의 의태 각성과 덩쿠림보 교수님과의 만남",
+            "content": "폐허가 된 옛 인간 연구소 지하에서 오랜 잠을 자던 특별한 메타몽이 눈을 뜹니다. 희미한 옛 파트너 트레이너의 기억을 떠올리며 인간의 모습으로 변신(의태)하여 황폐해진 바깥세상으로 발을 내딛습니다. 유적 한가운데서 홀로 자연을 지키던 '덩쿠림보 교수님'을 만나 낡은 포켓몬 도감과 크래프트 작업대 레시피를 전수받고, 손을 물뿌리개 형태로 변형해 바싹 마른 황무지에 첫 푸른 잔디를 싹틔우게 됩니다.",
+            "tips": [
+              "바싹 마른 흙에 다가가 물뿌리기 의태를 사용하면 풀이 자랄 수 있는 기름진 잔디 블록으로 변합니다.",
+              "덩쿠림보 교수님의 연구 게시판에서 매일 아침 초보 개척 부탁을 확인하면 씨앗과 자재를 넉넉히 얻을 수 있습니다.",
+              "본격적인 개척 전 주변의 마른 나뭇가지와 굴러다니는 자갈을 주워 기본 도구(도끼, 곡괭이)를 먼저 제작하세요."
+            ]
+          },
+          "en": {
+            "title": "Ditto's Awakening & Meeting Professor Tangrowth",
+            "content": "Deep inside the ruins of an ancient research center, a unique Ditto awakens from centuries of slumber. Clinging to faint memories of its former human Trainer, it shapes its gelatinous body into human form to explore the deserted world. Here, you meet the scholarly 'Professor Tangrowth', obtain an antique Pokédex, and learn fundamental workbench crafting recipes. By transforming your limbs into a makeshift watering can, you plant the first seeds of life across the parched soil.",
+            "tips": [
+              "Use Water mimicry on cracked barren soil to transform it into fertile, grass-bearing terrain.",
+              "Check Professor Tangrowth's research noticeboard each day for starting requests rewarding seeds and timber.",
+              "Gather loose twigs and pebbles scattered around the ruins first to craft your basic Stone Axe and Pickaxe."
+            ]
+          },
+          "ja": {
+            "title": "メタモンの変身覚醒とモジャンボ教授との出会い",
+            "content": "廃墟となった旧研究所の地下で、長き眠りから目覚めた特別なメタモン。かつてのパートナーである人間の記憶を頼りに人間の姿へと擬態し、荒れ果てた外の世界へと一歩を踏み出します。遺跡を守り続ける『モジャンボ教授』と出会い、古いポケモン図鑑と作業台のクラフトレシピを伝授され、手をじょうろに変形させて干からびた大地に最初の緑を芽吹かせます。",
+            "tips": [
+              "ひび割れた乾いた地面にみずの擬態で水をやると、植物が育つ肥沃な芝生ブロックに変化します。",
+              "モジャンボ教授の掲示板を毎日確認し、開拓のお願いをクリアして種や木材を効率よく集めましょう。",
+              "まずは周辺の枯れ木や小石を拾い、基本の石のオノとピッケルを作成して活動範囲を広げましょう。"
+            ]
+          },
+          "zh": {
+            "title": "百变怪的化身觉醒与蔓藤怪教授的相遇",
+            "content": "在荒废的人类研究所废墟中，沉睡已久的特殊百变怪苏醒过来。凭借脑海中对昔日人类训练家的模糊记忆，百变怪幻化成人类孩童的身形开始探索。在废墟中，你将遇见独自生活的守护者『蔓藤怪教授』，获赠破损的图鉴并掌握基础工具工作台的制作方法。通过将手臂化为浇水器滋润干涸的泥土，第一抹绿色由此破土而出。",
+            "tips": [
+              "靠近干裂的土地使用水属性拟态浇水，可将干涸土壤转化为可耕种的肥沃草地。",
+              "蔓藤怪教授身旁的研究布告栏每天会刷新初级建造委托，是获取基础种子和木料的主要来源。",
+              "初期先在废墟周边收集枯枝与碎石，尽快制作坚固的石斧与石镐以便开采更多资源。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "解救受困大岩蛇与首个绿洲栖息地营建",
+        "content": "在帕萨帕萨草原北部的落石峡谷中，体型庞大的大岩蛇被坍塌的巨石群死死困住。通过模仿格斗属性招式习得『碎岩』，击碎障碍巨石救出大岩蛇后，你将获得开凿水渠的铲子工具。接下来需要满足大岩蛇等宝可梦的定居条件：铺设至少12格草坪、挖掘储水池塘，并放置原木长椅与花盆，成功打造出荒原上的首个绿洲栖息地，吸引绿毛虫、波波与小拉达前来安家。",
+        "tips": [
+          "每种野生宝可梦都有特定的栖息地环境要求，打开图鉴可随时查看它们所需的方块类型与装饰家具。",
+          "波可匹亚中的宝可梦都具备独特性格，与新搬来的居民对话能解锁专属的家具图纸与烹饪食谱。",
+          "栖息地尽量集中规划在城镇水源附近，可以大幅加快居民满意度与小镇繁荣度的提升速度。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "갇힌 롱스톤 구출과 첫 오아시스 서식지 조성",
+            "content": "파사파사 황야 북쪽 협곡에서 낙석에 갇혀 옴짝달싹 못 하는 거대한 롱스톤을 발견하게 됩니다. 격투 포켓몬의 기운을 모아 '바위깨기' 기술을 습득하고 거대한 낙석을 부숴 롱스톤을 구출하면 땅을 팔 수 있는 삽 도구를 얻게 됩니다. 이후 롱스톤과 야생 포켓몬들을 맞이하기 위해 최소 12칸의 푸른 잔디와 맑은 연못, 통나무 벤치를 배치하여 마을 최초의 오아시스 서식지를 완성하고 캐터피, 구구, 꼬렛을 주민으로 맞이합니다.",
+            "tips": [
+              "포켓몬마다 좋아하는 서식지 조건(풀밭 타일 수, 물웅덩이, 조경 가구 등)이 다르므로 도감의 서식지 탭을 수시로 확인하세요.",
+              "새로 이주해 온 포켓몬에게 말을 걸면 감사의 표시로 독특한 가구 레시피와 특수 씨앗을 선물합니다.",
+              "서식지를 마을 중앙 우물 주변에 밀집해 배치하면 주민 교류가 활발해져 마을 개척도가 빠르게 상승합니다."
+            ]
+          },
+          "en": {
+            "title": "Rescuing Trapped Onix & Building the First Oasis Habitat",
+            "content": "Venturing into northern Pasapasa Prairie, you find a colossal Onix trapped under massive rockfall debris. By mimicking fighting moves to master 'Rock Smash', shatter the boulders and free Onix, who gratefully gifts you the Excavation Shovel. To welcome wandering wild Pokémon, cultivate an Oasis Habitat containing at least 12 grass tiles, a freshwater pool, and wooden benches. This brings back friendly neighbors like Caterpie, Pidgey, and Rattata.",
+            "tips": [
+              "Every wild Pokémon has specific habitat criteria (terrain type, water proximity, furniture); review your Pokédex habitat page regularly.",
+              "Pokémon in Pokopia are individual characters; talk to each new arrival to receive unique crafting blueprints and cooking recipes.",
+              "Group habitats near central water wells to foster neighbor interactions and accelerate your Town Renovation rank."
+            ]
+          },
+          "ja": {
+            "title": "閉じ込められたイワークの救出と最初のオアシス生息地づくり",
+            "content": "パサパサ草原の北の峡谷で、落石に挟まれ動けなくなっている巨大なイワークを発見します。かくとうわざの力を真似て『いわくだき』を習得し、巨大な岩を砕いてイワークを救出すると、地面を掘れるシャベルを譲り受けます。その後、12マスの芝生、きれいな池、丸太のベンチを組み合わせた最初のオアシス生息地を建設し、キャタピーやポッポ、コラッタなどの仲間たちを迎え入れます。",
+            "tips": [
+              "ポケモンごとに好む生息地条件（芝生タイル数、水源、特定の家具）が異なるため、図鑑の生息地タブをチェックしましょう。",
+              "新しくやってきた住人に話しかけると、感謝の印として限定のクラフトレシピや珍しい種がもらえます。",
+              "生息地を町の水源近くにまとめて配置すると、住民同士の交流が活発になり町の開拓度が早く上がります。"
+            ]
+          },
+          "zh": {
+            "title": "解救受困大岩蛇与首个绿洲栖息地营建",
+            "content": "在帕萨帕萨草原北部的落石峡谷中，体型庞大的大岩蛇被坍塌的巨石群死死困住。通过模仿格斗属性招式习得『碎岩』，击碎障碍巨石救出大岩蛇后，你将获得开凿水渠的铲子工具。接下来需要满足大岩蛇等宝可梦的定居条件：铺设至少12格草坪、挖掘储水池塘，并放置原木长椅与花盆，成功打造出荒原上的首个绿洲栖息地，吸引绿毛虫、波波与小拉达前来安家。",
+            "tips": [
+              "每种野生宝可梦都有特定的栖息地环境要求，打开图鉴可随时查看它们所需的方块类型与装饰家具。",
+              "波可匹亚中的宝可梦都具备独特性格，与新搬来的居民对话能解锁专属的家具图纸与烹饪食谱。",
+              "栖息地尽量集中规划在城镇水源附近，可以大幅加快居民满意度与小镇繁荣度的提升速度。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "哈欠唤风雨！召唤盖欧卡的滋润甘霖与呆呆兽",
+        "content": "帕萨帕萨草原核心水源枯竭的危机降临。在干涸河床边找到嗜睡的呆呆兽，为它烹饪一碗热腾腾的甜树果汤并将其引至古代水之祭坛。呆呆兽极具传染力的超大哈欠直冲云霄，引发天地共鸣，唤醒了沉眠在湖底的传说巨兽——盖欧卡（#289）！盖欧卡召唤的滂沱大雨不仅填满了整个干涸水库，还将原本光秃秃的黄色荒地彻底洗礼为翠绿盎然的草原城镇，同时解锁通往南方海岸的闸门。",
+        "tips": [
+          "完成『呆呆兽唤雨（Yawn Up a Storm!）』任务后，传说宝可梦盖欧卡（#289）将正式登记在图鉴中并长期驻留湖泊。",
+          "下雨天气会使全镇作物的生长速度加倍，并让平时难以遇见的稀有水属性宝可梦在水边现身。",
+          "帕萨帕萨草原繁荣度达到2级后，通往第二区域『寂静海岸』的封锁大桥将被正式修复并开启通行。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "야돈의 하품과 전설의 포켓몬 가이오가의 단비 (Yawn Up a Storm!)",
+            "content": "파사파사 황야의 젖줄이었던 중앙 호수가 완전히 말라붙는 위기가 찾아옵니다. 마른 강바닥에 누워 있는 느긋한 야돈을 발견하고, 달콤한 과일 수프를 요리해 준 뒤 고대 물의 제단으로 안내합니다. 야돈의 엄청난 하품이 하늘에 닿아 전설의 포켓몬 가이오가(#289)가 깊은 잠에서 깨어납니다! 가이오가가 부른 시원한 단비가 메마른 호수를 가득 채우며 황무지를 눈부신 초원마을로 완전히 탈바꿈시키고, 남쪽 해안으로 향하는 관문이 열립니다.",
+            "tips": [
+              "'단비를 부르는 하품(Yawn Up a Storm!)' 퀘스트를 완수하면 전설의 포켓몬 가이오가(#289)가 도감에 등록되며 호수에 영구 정착합니다.",
+              "비가 내리는 날씨에는 작물 성장 속도가 2배로 빨라지며, 평소에 보기 힘든 수변 포켓몬들이 자주 출몰합니다.",
+              "파사파사 초원마을 개척도가 2단계에 도달하면 제2지역 '적막한 해안'으로 건너가는 대교가 복구되어 통행할 수 있습니다."
+            ]
+          },
+          "en": {
+            "title": "Yawn Up a Storm! Summoning Kyogre's Blessing",
+            "content": "A severe drought threatens to wither the newly sprouted flora of Pasapasa Prairie. Discovering an indolent Slowpoke lounging by the dried riverbed, you cook a warm Sweet Berry Stew to energize it and guide it to the ancient Water Altar. Slowpoke's contagious mega-yawn ripples through the sky, awakening Legendary Pokémon Kyogre (#289) from the lake abyss! The torrential blessing from Kyogre refills the reservoir, flourishing the prairie and unlocking the gateway south.",
+            "tips": [
+              "Completing the 'Yawn Up a Storm!' request officially registers Legendary Pokémon Kyogre (#289) into your Pokédex.",
+              "Rainy weather doubles crop growth rates across your fields and lures rare aquatic Pokémon to the water's edge.",
+              "Achieving Rank 2 in Pasapasa Prairie restores the damaged drawbridge leading directly to Region 2: Bleak Beach."
+            ]
+          },
+          "ja": {
+            "title": "あくびで嵐を呼べ！カイオーガの恵みの雨とヤドン",
+            "content": "パサパサ草原の中心となる水源が干上がり、せっかく芽吹いた植物たちが枯れる危機に瀕します。干上がった川底でのんびり昼寝するヤドンを見つけ、あまいきのみスープを振る舞って古代の水神祭壇へと導きます。ヤドンのとてつもないあくびが天に届き、眠れる伝説のポケモン・カイオーガ（#289）が覚醒！降り注ぐ恵みの雨が湖を満たし、黄色い荒野は緑豊かな草原の街へと生まれ変わり、南の海岸への門が開かれます。",
+            "tips": [
+              "メインお願い『あくびで嵐を呼べ！（Yawn Up a Storm!）』をクリアすると、カイオーガ（#289）が図鑑に登録され湖の主として定住します。",
+              "雨の日は作物の成長スピードが2倍になり、普段は見られない水辺の珍しいポケモンたちが姿を現します。",
+              "パサパサ草原の開拓ランクが2に達すると、第2エリア『クラガリ海岸』へと続く跳ね橋が修理されて渡れるようになります。"
+            ]
+          },
+          "zh": {
+            "title": "哈欠唤风雨！召唤盖欧卡的滋润甘霖与呆呆兽",
+            "content": "帕萨帕萨草原核心水源枯竭的危机降临。在干涸河床边找到嗜睡的呆呆兽，为它烹饪一碗热腾腾的甜树果汤并将其引至古代水之祭坛。呆呆兽极具传染力的超大哈欠直冲云霄，引发天地共鸣，唤醒了沉眠在湖底的传说巨兽——盖欧卡（#289）！盖欧卡召唤的滂沱大雨不仅填满了整个干涸水库，还将原本光秃秃的黄色荒地彻底洗礼为翠绿盎然的草原城镇，同时解锁通往南方海岸的闸门。",
+            "tips": [
+              "完成『呆呆兽唤雨（Yawn Up a Storm!）』任务后，传说宝可梦盖欧卡（#289）将正式登记在图鉴中并长期驻留湖泊。",
+              "下雨天气会使全镇作物的生长速度加倍，并让平时难以遇见的稀有水属性宝可梦在水边现身。",
+              "帕萨帕萨草原繁荣度达到2级后，通往第二区域『寂静海岸』的封锁大桥将被正式修复并开启通行。"
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "chapter-2",
-    "title": "第一道馆：岩石道馆",
     "order": 2,
-    "description": "真红市道馆是你冒险的第一个考验。道馆主小刚使用岩石系宝可梦，草系和水系宝可梦在这里有明显优势。",
-    "sections": [
-      {
-        "title": "道馆介绍",
-        "content": "真红市道馆主小刚是一位擅长使用岩石和地面系宝可梦的训练家。他的招牌宝可梦是隆隆岩和大岩蛇。道馆内还有数名小训练家需要逐一击败。岩石系宝可梦对水系和草系攻击弱点明显，建议携带此类宝可梦挑战。",
-        "tips": [
-          "水系技能对岩石宝可梦效果显著",
-          "草系技能同样有效，但要注意岩石宝可梦有时会有地面系技能",
-          "如果选择了小火龙，这关会比较困难，建议先抓捕一只杰尼龟或波波"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "체육관 소개",
-            "content": "진홍시티 체육관 관장 웅이는 바위 및 땅타입 포켓몬의 전문가입니다. 대표 포켓몬은 딱구리와 롱스톤입니다. 바위타입은 물과 풀타입 공격에 취약하므로 해당 타입 포켓몬을 적극 기용하세요.",
-            "tips": [
-              "물타입 기술은 바위타입에 막대한 피해를 줍니다.",
-              "풀타입 기술 역시 효과적이나 바위타입의 땅타입 서브 기술에 주의하세요.",
-              "파이리를 선택했다면 난이도가 높으므로 꼬부기나 다른 동료를 미리 영입하세요."
-            ]
-          },
-          "en": {
-            "title": "Gym Overview",
-            "content": "Gym Leader Brock specializes in Rock and Ground-type Pokémon, with Golem and Onix as his aces. Rock-types are weak against Water and Grass moves, so lead with those types.",
-            "tips": [
-              "Water-type moves deal massive damage to Rock Pokémon.",
-              "Grass-type moves are equally effective, but watch out for Ground moves.",
-              "If you picked Charmander, consider catching a Water or Grass Pokémon to assist."
-            ]
-          },
-          "ja": {
-            "title": "ジムの概要",
-            "content": "タケシはいわ・じめんタイプのポケモンを得意とします。切り札はゴローニャとイワーク。いわタイプにはみずとくさタイプの攻撃が抜群です。",
-            "tips": [
-              "みずタイプの技はいわタイプに絶大な効果を発揮します。",
-              "くさタイプの技も有効ですが、じめん技の反撃に注意しましょう。",
-              "ヒトカゲを選んだ場合は難易度が高いため、道中で仲間を増やしてから挑みましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "道馆攻略",
-        "content": "进入道馆后，你需要先击败5名道馆训练家才能与小刚正面交锋。这些训练家使用的宝可梦大多是砂岩蛇、小拳石等岩石系宝可梦。合理分配技能PP，保留足够的强力技能用于最终对决。小刚的隆隆岩体防极高，建议使用特攻类技能。",
-        "tips": [
-          "准备充足的药水和全满药",
-          "隆隆岩的防御很高，使用特殊攻击技能更有效",
-          "大岩蛇体型巨大但速度较慢，可以先发制人"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "체육관 배틀 공략",
-            "content": "체육관 트레이너들을 차례로 격파한 후 웅이와 맞서게 됩니다. 웅이의 딱구리는 방어력이 매우 높으므로 특수 공격 기술을 활용하는 것이 공략의 핵심입니다.",
-            "tips": [
-              "상처약과 좋은상처약을 충분히 챙기세요.",
-              "높은 물리 방어력을 뚫기 위해 특수 공격 위주로 공격하세요.",
-              "롱스톤은 덩치가 크지만 스피드가 느리므로 선제공격을 노리세요."
-            ]
-          },
-          "en": {
-            "title": "Gym Battle Strategy",
-            "content": "Defeat the gym trainers before confronting Brock. Brock's Golem has exceptionally high Physical Defense, so Special attacks are your best route to victory.",
-            "tips": [
-              "Carry plenty of Potions into battle.",
-              "Target high-defense Rock types with Special attacks.",
-              "Onix is massive but slow; strike first with super effective hits."
-            ]
-          },
-          "ja": {
-            "title": "ジムバトル攻略",
-            "content": "ジムトレーナーたちを倒した後にタケシと対決します。ゴローニャは物理防御が非常に高いため、特殊攻撃技で攻めるのが攻略の鍵です。",
-            "tips": [
-              "キズぐすりを多めに用意しておきましょう。",
-              "防御の高いポケモンには特殊攻撃技が有効です。",
-              "イワークは素早さが低めなので、先制攻撃で大ダメージを狙いましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "击败小刚",
-        "content": "击败道馆主小刚后，你将获得灰色徽章（Boulder Badge）和技术机20（大岩掌）。灰色徽章能让你使用技术机01（砍伐）来清除道路上的障碍，同时提升你全队宝可梦的攻击力。",
-        "tips": [
-          "击败小刚后记得去道具店补充药水",
-          "灰色徽章提升攻击力，这在后续的冒险中非常有用",
-          "现在可以前往2号道路探索更多区域"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "웅이 격파 및 회색배지 획득",
-            "content": "웅이를 이기면 회색배지(Boulder Badge)와 기술머신을 획득합니다. 회색배지는 비전기술 '풀베기'를 필드에서 사용할 수 있게 해주고 포켓몬의 공격력을 높여줍니다.",
-            "tips": [
-              "배틀 후 상점에서 회복 아이템을 보충하세요.",
-              "회색배지의 공격력 상승 효과는 이후 모험에 큰 도움이 됩니다.",
-              "이제 2번 도로로 나아가 더 넓은 지역을 탐험할 수 있습니다."
-            ]
-          },
-          "en": {
-            "title": "Defeat Brock & Earn the Boulder Badge",
-            "content": "Defeating Brock earns you the Boulder Badge and a TM. The badge allows the use of Cut outside battle and boosts your Pokémon's Attack stat.",
-            "tips": [
-              "Replenish your supplies at the Poké Mart after the battle.",
-              "The Attack boost will aid your journey ahead.",
-              "You can now advance to Route 2 to explore new areas."
-            ]
-          },
-          "ja": {
-            "title": "タケシ撃破とグレーバッジ獲得",
-            "content": "タケシに勝利するとグレーバッジとわざマシンを獲得。フィールドで「いあいぎり」が使えるようになり、仲間のこうげきが上昇します。",
-            "tips": [
-              "勝利後はショップで回復アイテムを補充しましょう。",
-              "こうげきアップの効果はこれからのバトルで大いに役立ちます。",
-              "2番道路へ進み、新たなエリアの探索を始めましょう。"
-            ]
-          }
-        }
-      }
-    ],
+    "title": "寂静海岸：暗夜港湾与雷霆灯塔",
+    "description": "深入被浓厚阴云与迷雾笼罩的寂静海岸。唤醒堵塞码头的苔藓卡比兽，协助精疲力竭的皮基丘修复电力设施，借助雷公的惊雷驱散阴霾重现阳光。",
     "i18n": {
       "ko": {
-        "title": "첫 번째 체육관: 바위체육관",
-        "description": "진홍시티 체육관은 첫 번째 시험대입니다. 관장 웅이는 바위타입 포켓몬을 다루며, 풀타입과 물타입이 매우 유리합니다."
+        "title": "적막한 해안: 암흑의 항구와 번개의 등대",
+        "description": "짙은 먹구름과 안개에 덮인 적막한 해안(Bleak Beach)을 개척하는 여정입니다. 선착장을 막고 있는 이끼잠만보를 깨우고, 방전된 피키츄와 함께 발전소를 수리하여 라이코의 뇌명으로 태양을 되찾아보세요."
       },
       "en": {
-        "title": "Gym 1: Rock-type Gym",
-        "description": "Crimson City Gym is your first trial. Gym Leader Brock commands Rock-type Pokémon, against which Grass and Water types have a clear edge."
+        "title": "Bleak Beach: The Shadowed Port & Lightning Lighthouse",
+        "description": "Explore the mist-shrouded shores of Bleak Beach. Awaken harbor-blocking Mosslax with warm cooking, repair the power grid with weary Peakychu, and call upon Raikou's thunder to disperse eternal storms."
       },
       "ja": {
-        "title": "第1ジム：いわタイプジム",
-        "description": "クリムゾンシティジムは最初の試練。ジムリーダーのタケシはいわタイプの使い手で、くさ・みずタイプが圧倒的に有利です。"
+        "title": "クラガリ海岸：暗闇の港と雷鳴の灯台",
+        "description": "濃い暗雲と霧に包まれたクラガリ海岸（Bleak Beach）の開拓記。桟橋を塞ぐコケカビゴンを目覚めさせ、放電したピーキチュウと共に発電機を修理し、ライコウの雷鳴で海に太陽を取り戻しましょう。"
+      },
+      "zh": {
+        "title": "寂静海岸：暗夜港湾与雷霆灯塔",
+        "description": "深入被浓厚阴云与迷雾笼罩的寂静海岸。唤醒堵塞码头的苔藓卡比兽，协助精疲力竭的皮基丘修复电力设施，借助雷公的惊雷驱散阴霾重现阳光。"
       }
-    }
+    },
+    "sections": [
+      {
+        "title": "迷雾弥漫的港镇与唤醒苔藓卡比兽",
+        "content": "穿过连接大桥抵达寂静海岸，眼前是一座被冰冷迷雾与海浪碎屑笼罩的弃置港口。通往核心灯塔与离岛的木质码头正中央，横躺着一只浑身长满厚厚绿色苔藓的巨大卡比兽（Mosslax）酣睡不起。普通的呼唤毫无作用，你需要在海边搭建篝火厨灶，采集海岸特有的岩盐与苦味树果，熬制出香气四溢的『特制海鲜浓汤』。闻到浓郁香气的卡比兽舒展身躯欣然醒来，不仅主动让开通道，还传授了初级钓竿与潮汐养殖设施的蓝图。",
+        "tips": [
+          "卡比兽必须用温热的料理唤醒，直接投喂生果实无法触发剧情。",
+          "清理沙滩沿线的浮木与破旧塑料垃圾，能够获得大量优质木板与绝缘电线废料。",
+          "与沙滩上的大钳蟹和小石怪对话，可以习得海滨沙雕与贝壳遮阳伞等特色景观家具图纸。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "안개 덮인 해안 마을과 잠든 이끼잠만보(Mosslax) 깨우기",
+            "content": "복구된 다리를 건너 적막한 해안(Bleak Beach)에 들어서면 차가운 바다 안개와 파도 쓰레기가 뒹구는 버려진 항구가 펼쳐집니다. 등대와 먼바다로 향하는 목재 잔교 한가운데에는 두꺼운 초록 이끼가 낀 채 깊은 잠에 빠진 '이끼잠만보(Mosslax)'가 길을 가로막고 있습니다. 평범한 깨우기는 통하지 않으므로, 해변에 모닥불 조리대를 짓고 해안가 굵은 소금과 쌉싸름한 해변 열매로 따뜻한 '특제 해산물 스튜'를 끓여 대접해야 합니다. 냄새를 맡고 기분 좋게 일어난 잠만보는 길을 비켜주며 낚싯대와 양식장 설계도를 건넵니다.",
+            "tips": [
+              "이끼잠만보는 반드시 따뜻하게 조리된 국물 요리로만 깨어납니다. 날 열매는 통하지 않습니다.",
+              "해안선에 떠밀려온 유목과 플라스틱 잔해를 청소기 도구로 수거하면 귀중한 목재와 전선 자재를 대량 확보할 수 있습니다.",
+              "백사장에 자리 잡은 크랩과 대화하면 모래성 놀이터와 조개 파라솔 등 해양 테마 서식지 가구를 배울 수 있습니다."
+            ]
+          },
+          "en": {
+            "title": "The Fog-Veiled Port & Waking Mosslax",
+            "content": "Crossing the restored bridge brings you into Bleak Beach, an eerie port village shrouded in perpetual sea fog and maritime debris. Blocking the primary wooden pier to the offshore lighthouse is a massive, moss-encrusted Snorlax dubbed 'Mosslax'. Shouting does nothing; you must set up a seaside campfire cauldron, forage sea salt and shoreline berries, and brew a savory 'Steaming Seafood Stew'. Enticed by the rich aroma, Mosslax happily wakes up, clears the boardwalk, and gifts you fishing rod and aquaculture blueprints.",
+            "tips": [
+              "Mosslax will only awaken to hot, cooked broth; handing it raw uncooked berries will not trigger the event.",
+              "Scavenging drift timber and marine wreckage along the beach nets valuable processed wood and copper scrap wire.",
+              "Chatting with Krabby near the tidal pools unlocks exclusive beach umbrellas and sandcastle habitat decorations."
+            ]
+          },
+          "ja": {
+            "title": "霧深き港町と眠れるコケカビゴンの目覚め",
+            "content": "橋を渡ってクラガリ海岸（Bleak Beach）へ進むと、冷たい濃霧と波の瓦礫に覆われた港町が広がっています。灯台へと続くメイン桟橋の真ん中には、全身に厚いコケが生えた巨大な『コケカビゴン』が熟睡して道を塞いでいます。普通の呼びかけは通用しないため、浜辺に焚き火の調理場を設営し、岩塩と海辺のきのみで温かい『特製シーフードシチュー』を調理します。香ばしい匂いに誘われて目を覚ましたカビゴンは道を開け、釣り竿といけすのレシピを授けてくれます。",
+            "tips": [
+              "コケカビゴンは温かい煮込み料理でしか目を覚ましません。生のきのみをそのまま渡しても起きないので注意しましょう。",
+              "海岸に打ち上げられた流木や漂着ゴミを片付けると、貴重な木材や電気配線の素材を大量に回収できます。",
+              "波打ち際にいるクラブに話しかけると、砂の城や貝殻のパラソルなど海辺の生息地家具を教えてもらえます。"
+            ]
+          },
+          "zh": {
+            "title": "迷雾弥漫的港镇与唤醒苔藓卡比兽",
+            "content": "穿过连接大桥抵达寂静海岸，眼前是一座被冰冷迷雾与海浪碎屑笼罩的弃置港口。通往核心灯塔与离岛的木质码头正中央，横躺着一只浑身长满厚厚绿色苔藓的巨大卡比兽（Mosslax）酣睡不起。普通的呼唤毫无作用，你需要在海边搭建篝火厨灶，采集海岸特有的岩盐与苦味树果，熬制出香气四溢的『特制海鲜浓汤』。闻到浓郁香气的卡比兽舒展身疮欣然醒来，不仅主动让开通道，还传授了初级钓竿与潮汐养殖设施的蓝图。",
+            "tips": [
+              "卡比兽必须用温热的料理唤醒，直接投喂生果实无法触发剧情。",
+              "清理沙滩沿线的浮木与破旧塑料垃圾，能够获得大量优质木板与绝缘电线废料。",
+              "与沙滩上的大钳蟹和小石怪对话，可以习得海滨沙雕与贝壳遮阳伞等特色景观家具图纸。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "为电量耗尽的皮基丘充能与修复灯塔发电机",
+        "content": "越过码头来到岸边变电所，会遇到一只垂头丧气、脸颊电囊毫无光泽的特殊皮卡丘『皮基丘（Peakychu）』。长期的阴雨与能源枯竭让它失去了活力。百变怪通过拟态习得『电磁波』与初级导电技能，前往海蚀洞穴开采磁铁矿石，熔炼铜线来重新铺设灯塔老化的电路。通过为备用发电机注入第一道启动电流，皮基丘重聚电力活力四射，海岸灯塔的聚光镜也随之迸发出照亮海峡的第一道强力光束！",
+        "tips": [
+          "在海蚀洞窟开采铜矿与磁铁矿时，佩戴防滑鞋可避免被湿滑的青苔岩石滑落摔伤。",
+          "灯塔点亮后，海岸区域的『安全度』指标将大幅上升，夜晚不再出现干扰建设的幽灵雾气。",
+          "沿海岸步道布置铜制路灯与发光浮标，能够吸引夜行性的电灯怪与猫头夜鹰迁徙至此。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "방전된 피키츄(Peakychu)와 등대 발전기 복구",
+            "content": "선착장을 지나 해안 변전소에 도착하면 볼의 전기주머니에 빛을 잃고 귀가 축 늘어진 지친 피카츄 '피키츄(Peakychu)'를 마주하게 됩니다. 영구적인 암흑과 에너지 고갈로 완전히 방전된 상태입니다. 메타몽은 전기 포켓몬의 기운을 모아 '전기자석파'와 도전 기술을 배우고, 해식동굴에서 자철석과 구리를 캐내 낡은 등대 배선을 새로 깝니다. 보조 발전기에 첫 시동 전류를 공급하면 피키츄가 전기를 충전받아 생기를 되찾고, 해안 등대가 눈부신 탐조등을 바다 멀리 비추기 시작합니다!",
+            "tips": [
+              "해식동굴에서 구리 및 자철석 광맥을 캘 때는 미끄럼 방지 신발을 착용해야 이끼 낀 바위에서 낙하하는 사고를 막을 수 있습니다.",
+              "등대에 불이 들어오면 해안 지역의 '치안/안전도' 수치가 대폭 상승하여 밤 시간대 방해 안개가 사라집니다.",
+              "해변 산책로를 따라 구리 가로등과 부표 조명을 설치하면 야행성 포켓몬인 랜턴과 야부엉이 서식지로 찾아옵니다."
+            ]
+          },
+          "en": {
+            "title": "Recharging Peakychu & Restoring Coastal Power",
+            "content": "Past the pier at the shoreline substation, you meet an exhausted Pikachu with droopy ears and drained cheek pouches nicknamed 'Peakychu'. Deprived of electrical energy for decades, it is completely depleted. Ditto mimics electric techniques like 'Thunder Wave', mines Magnetite and Copper Ore from cavern walls, and strings fresh insulated wiring up the lighthouse spire. After feeding an initial surge into the backup generator, Peakychu recharges with vibrant sparks, firing the lighthouse beam across the dark sea!",
+            "tips": [
+              "Equip non-slip boots when mining copper inside sea caverns to prevent falling from mossy sea crags.",
+              "Lighting up the lighthouse dramatically raises the coastal Safety rating, banishing nocturnal gloom fog forever.",
+              "Placing brass streetlamps and floating light beacons along the surf invites nocturnal Pokémon like Lanturn and Noctowl."
+            ]
+          },
+          "ja": {
+            "title": "バッテリー切れのピーキチュウと灯台発電機の復旧",
+            "content": "桟橋の先にある海岸変電所へ向かうと、ほっぺの電気袋がくすんで耳が垂れ下がった疲れ果てたピカチュウ『ピーキチュウ（Peakychu）』に出会います。長年の停電で完全に放電した状態です。メタモンはでんきわざを模倣して『でんじは』と送電スキルを身につけ、海食洞窟から磁鉄鉱と銅鉱石を採掘して灯台の老朽化した配線を張り直します。予備発電機に電力を注入すると、ピーキチュウは元気を取り戻し、灯台から海原を貫く強力な光が放たれます！",
+            "tips": [
+              "海食洞窟で鉱石を採掘する際は、コケによる滑落を防ぐために滑り止めブーツを装備しましょう。",
+              "灯台が点灯すると海岸地域の『治安度』が急上昇し、夜間の開拓を妨げる濃霧が発生しなくなります。",
+              "海岸線に沿って銅製の街灯や浮きライトを設置すると、夜行性のランターンやヨルノズクが移住してきます。"
+            ]
+          },
+          "zh": {
+            "title": "为电量耗尽的皮基丘充能与修复灯塔发电机",
+            "content": "越过码头来到岸边变电所，会遇到一只垂头丧气、脸颊电囊毫无光泽的特殊皮卡丘『皮基丘（Peakychu）』。长期的阴雨与能源枯竭让它失去了活力。百变怪通过拟态习得『电磁波』与初级导电技能，前往海蚀洞穴开采磁铁矿石，熔炼铜线来重新铺设灯塔老化的电路。通过为备用发电机注入第一道启动电流，皮基丘重聚电力活力四射，海岸灯塔的聚光镜也随之迸发出照亮海峡的第一道强力光束！",
+            "tips": [
+              "在海蚀洞窟开采铜矿与磁铁矿时，佩戴防滑鞋可避免被湿滑的青苔岩石滑落摔伤。",
+              "灯塔点亮后，海岸区域的『安全度』指标将大幅上升，夜晚不再出现干扰建设的幽灵雾气。",
+              "沿海岸步道布置铜制路灯与发光浮标，能够吸引夜行性的电灯怪与猫头夜鹰迁徙至此。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "点亮海岸线！雷公的雷霆狂啸与璀璨海滨",
+        "content": "伴随灯塔强光刺破夜空，触发关键里程碑任务『驱散阴霾（Brighten Things Up!）』。灯塔顶端的避雷聚能塔引发雷云共鸣，伴随着撕裂天际的金色雷电，传说宝可梦雷公踩着雷云呼啸而至！雷公释放的万钧狂雷瞬间击碎了笼罩海域数百年的永久积雨云，金灿灿的阳光重洒蔚蓝大海。迷人的乘龙从远海优雅游来并停靠码头，正式解锁冲浪与跨海摆渡功能，让群岛深处的珊瑚秘境触手可及。",
+        "tips": [
+          "雷公驱散乌云后，晴朗天气将使全岛获得持续阳光增益，大幅提升太阳能发电设备的产能。",
+          "乘龙入驻后可承载玩家前往离岛珊瑚礁，采集珍稀的珍珠、海蓝宝石与深海海藻等高阶物资。",
+          "完成寂静海岸的主线任务后，将开启前往北部『岩石山脊』高地矿区的盘山公路。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "라이코의 뇌명과 반짝이는 해변 (Brighten Things Up!)",
+            "content": "등대의 강력한 빛이 밤하늘을 가르며 핵심 퀘스트 '해안을 밝혀라!(Brighten Things Up!)'가 시작됩니다. 등대 꼭대기의 피뢰 침탑이 먹구름과 격렬히 공명하더니, 금빛 번개를 가르며 전설의 포켓몬 라이코가 하늘에서 포효와 함께 강림합니다! 라이코의 전광석화 같은 벼락이 수백 년간 바다를 덮고 있던 먹구름을 순식간에 날려버리고, 반짝이는 햇살과 에메랄드빛 바다가 모습을 드러냅니다. 이때 먼바다에서 라프라스가 헤엄쳐 와 나룻터에 정박하며 파도타기와 해상 이동이 해금됩니다.",
+            "tips": [
+              "라이코가 먹구름을 흩트린 후 해안에 항상 맑은 햇살이 비추어 태양광 발전 시설의 효율이 2배로 상승합니다.",
+              "라프라스의 나룻배를 타면 먼바다 외딴 산호초로 나가 진주, 아쿠아마린, 심해 해조류를 채취할 수 있습니다.",
+              "적막한 해안의 주력 서식지를 5개 이상 완성하면 다음 스토리인 북부 '바위 능선'으로 향하는 산악 도로가 열립니다."
+            ]
+          },
+          "en": {
+            "title": "Brighten Things Up! Raikou's Thunder & Oceanic Glory",
+            "content": "As the lighthouse beam slices through the darkness, the major milestone request 'Brighten Things Up!' activates. The lighthouse lightning rod resonates violently with the sky, and amidst cracks of golden lightning, Legendary Pokémon Raikou descends in a celestial tempest! Raikou's thunder blasts away centuries of suffocating cloud cover, restoring glorious golden sunshine and turquoise waves. An elegant Lapras ferries in to dock, granting you water transport and surf across offshore coral coves.",
+            "tips": [
+              "Dispelling the gloom brings perpetual fair coastal sunshine, doubling solar generator energy output.",
+              "Lapras unlocks maritime travel to outer barrier reefs for rare pearls, aquamarines, and deep-sea flora.",
+              "Completing Bleak Beach's main requests opens the scenic mountain pass toward Region 3: Rocky Ridges."
+            ]
+          },
+          "ja": {
+            "title": "海原を照らせ！ライコウの雷鳴と輝く海岸",
+            "content": "灯台の強い光が闇を切り裂き、重要クエスト『海原を照らせ！（Brighten Things Up!）』が始まります。灯台の避雷針が上空の雷雲と共鳴し、黄金の雷鳴と共に伝説のポケモン・ライコウが雲間から咆哮とともに降臨！ライコウの雷撃が数百年にわたり海を閉ざしていた暗雲を一瞬で吹き飛ばし、エメラルドグリーンの美しい海と青空が戻ります。遠くからラプラスが優雅に泳ぎ寄せて桟橋に停泊し、波乗りによる海上移動が解禁されます。",
+            "tips": [
+              "ライコウが暗雲を晴らした後は快晴の日差しが続き、太陽光発電施設の効率が大幅に向上します。",
+              "ラプラスに乗ることで外海のサンゴ礁へ渡れるようになり、真珠やアクアマリン、深海海藻を採取できます。",
+              "海岸エリアの主要お願いを達成すると、北部の険しい鉱山地帯『ゴロゴロ岩山』へと続く登山道が開通します。"
+            ]
+          },
+          "zh": {
+            "title": "点亮海岸线！雷公的雷霆狂啸与璀璨海滨",
+            "content": "伴随灯塔强光刺破夜空，触发关键里程碑任务『驱散阴霾（Brighten Things Up!）』。灯塔顶端的避雷聚能塔引发雷云共鸣，伴随着撕裂天际的金色雷电，传说宝可梦雷公踩着雷云呼啸而至！雷公释放的万钧狂雷瞬间击碎了笼罩海域数百年的永久积雨云，金灿灿的阳光重洒蔚蓝大海。迷人的乘龙从远海优雅游来并停靠码头，正式解锁冲浪与跨海摆渡功能，让群岛深处的珊瑚秘境触手可及。",
+            "tips": [
+              "雷公驱散乌云后，晴朗天气将使全岛获得持续阳光增益，大幅提升太阳能发电设备的产能。",
+              "乘龙入驻后可承载玩家前往离岛珊瑚礁，采集珍稀的珍珠、海蓝宝石与深海海藻等高阶物资。",
+              "完成寂静海岸的主线任务后，将开启前往北部『岩石山脊』高地矿区的盘山公路。"
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "chapter-3",
-    "title": "第二道馆：水系道馆",
     "order": 3,
-    "description": "浅蓝市道馆主小霞使用水系宝可梦。草系和电系宝可梦是克制水系的最佳选择。",
-    "sections": [
-      {
-        "title": "前往浅蓝市",
-        "content": "从真红市出发，沿途经过月亮山洞窟。月亮山中生活着大量的超音蝠和嘎啦嘎啦，小心这些会使用混淆技能的宝可梦。洞窟内还有机会遇到稀有的月亮石，可以用来进化特定的宝可梦。建议在进入月亮山前将队伍升至20级以上。",
-        "tips": [
-          "月亮山中建议携带闪光技能或使用逃跑粉",
-          "月亮石可以进化皮皮、喷火妹等宝可梦",
-          "洞窟内的嘎啦嘎啦是非常实用的宝可梦，考虑加入队伍"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "블루시티로 이동 (달맞이산)",
-            "content": "진홍시티에서 달맞이산을 통과해 블루시티로 이동합니다. 달맞이산 동굴에는 주뱃과 탕구리가 자주 나타나며, 희귀한 '달의돌'을 찾아 특정 포켓몬을 진화시킬 수 있습니다.",
-            "tips": [
-              "달맞이산 진입 전 파티 레벨을 20 이상으로 육성하는 것을 권장합니다.",
-              "달의돌로 삐삐, 푸린 등을 강력하게 진화시킬 수 있습니다.",
-              "동굴 내부의 탕구리는 유용한 땅타입 동료가 되어 줍니다."
-            ]
-          },
-          "en": {
-            "title": "Journey to Cerulean City (Mt. Moon)",
-            "content": "Pass through Mt. Moon to reach Cerulean City. Watch out for Zubat and Cubone inside the cave, and keep an eye out for rare Moon Stones to evolve specific Pokémon.",
-            "tips": [
-              "Train your party to at least Level 20 before entering Mt. Moon.",
-              "Moon Stones can evolve Clefairy and Jigglypuff.",
-              "Cubone found in the cave is a reliable Ground-type ally."
-            ]
-          },
-          "ja": {
-            "title": "ハナダシティへ（オツキミ山）",
-            "content": "オツキミ山を抜けてハナダシティへ向かいます。洞窟内にはズバットやカラカラが生息し、進化に必要な貴重な「つきのいし」を入手できます。",
-            "tips": [
-              "オツキミ山に入る前にパーティをレベル20以上に育てましょう。",
-              "つきのいしでピッピやプリンなどを進化させられます。",
-              "カラカラは頼もしいじめんタイプの戦力になります。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "道馆攻略",
-        "content": "浅蓝市道馆的内部是一个迷宫，需要踩踏特定的垫子来改变水流方向，打通前进的道路。道馆内的训练家使用水系宝可梦，电系技能在这里表现出色。小霞的星星星和乘龙是强力的水系宝可梦，建议携带草系或电系宝可梦应对。",
-        "tips": [
-          "先解开道馆内的水流谜题再挑战训练家",
-          "电系技能对水系和飞行系双重克制",
-          "注意小霞的乘龙速度较快，先发制人很重要"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "체육관 공략",
-            "content": "블루시티 체육관은 물길 퍼즐을 풀어야 합니다. 이슬이의 아쿠스타와 라프라스는 매우 강력하므로 전기타입이나 풀타입 기술로 공략하세요.",
-            "tips": [
-              "수류 기믹을 먼저 해결한 뒤 트레이너에게 도전하세요.",
-              "전기타입 기술은 물타입과 비행타입 모두에 효과적입니다.",
-              "라프라스의 스피드와 내구력에 유의해 선제공격을 노리세요."
-            ]
-          },
-          "en": {
-            "title": "Gym Strategy",
-            "content": "Navigate the water current puzzle inside the Gym. Misty's Starmie and Lapras hit hard and fast—counter them with Electric or Grass moves.",
-            "tips": [
-              "Solve the current puzzle before challenging the trainers.",
-              "Electric moves deal super effective damage to both Water and Flying types.",
-              "Lapras is bulky and dangerous; hit it quickly with high-damage moves."
-            ]
-          },
-          "ja": {
-            "title": "ジム攻略",
-            "content": "ハナダジムの水流仕掛けを解いて進みましょう。カスミのスターミーとラプラスは強力なので、でんき・くさ技で素早く倒すのがポイントです。",
-            "tips": [
-              "水流ギミックの仕掛けを解除してから進みましょう。",
-              "でんきタイプの技はみず・ひこうに抜群です。",
-              "ラプラスの高い耐久力に注意し、弱点技で一気に押し切りましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "获得水蓝色徽章",
-        "content": "击败小霞后获得水蓝色徽章（Cascade Badge）和技术机11（泡沫光线）。水蓝色徽章能让等级50以下的宝可梦服从你的命令，并且可以使用技术机07（冲浪）在水面上行进。",
-        "tips": [
-          "获得冲浪技能后，许多新区域将向你开放",
-          "水蓝色徽章让交换来的高等级宝可梦更听话",
-          "现在可以前往3号道路继续冒险"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "블루배지 획득",
-            "content": "이슬이를 격파하면 블루배지(Cascade Badge)와 기술머신 '거품광선'을 획득합니다. 레벨 50 이하의 포켓몬이 명령을 잘 따르며 파도타기를 필드에서 사용할 수 있게 됩니다.",
-            "tips": [
-              "파도타기를 얻으면 물 위를 건너 숨겨진 지역들을 탐험할 수 있습니다.",
-              "교환받은 고레벨 포켓몬도 충실히 명령에 따릅니다.",
-              "이제 3번 도로로 발걸음을 옮겨 모험을 이어가세요."
-            ]
-          },
-          "en": {
-            "title": "Earn the Cascade Badge",
-            "content": "Defeat Misty to earn the Cascade Badge and the Bubble Beam TM. Pokémon up to Level 50 will obey, and you unlock the ability to Surf on water.",
-            "tips": [
-              "Surfing opens up vast new water routes and secret areas.",
-              "Traded high-level Pokémon will obey your commands reliably.",
-              "Head to Route 3 to continue your grand adventure."
-            ]
-          },
-          "ja": {
-            "title": "ブルーバッジ獲得",
-            "content": "カスミに勝利してブルーバッジとわざマシン「バブルこうせん」を獲得。レベル50までのポケモンが言うことを聞き、「なみのり」が解禁されます。",
-            "tips": [
-              "なみのりを使えるようになると水上ルートの探索が可能になります。",
-              "交換した高レベルポケモンも素直に指示に従います。",
-              "3番道路へ進んで新たな冒険を続けましょう。"
-            ]
-          }
-        }
-      }
-    ],
+    "title": "岩石山脊：滚滚矿山与欢腾庆典",
+    "description": "征服被火山灰深埋的高耸矿山——岩石山脊。修复坍塌的矿车铁轨，与丹特大厨及DJ洛托姆举办狂欢派对提振士气，平息波尔凯尼恩的怒火并开拓地热温泉。",
     "i18n": {
       "ko": {
-        "title": "두 번째 체육관: 물체육관",
-        "description": "블루시티 체육관 관장 이슬이는 물타입 포켓몬을 다룹니다. 풀타입과 전기타입 포켓몬이 공략의 핵심입니다."
+        "title": "바위 능선: 고로고로 광산과 흥겨운 축제",
+        "description": "화산재로 뒤덮인 척박한 광산 지대, 바위 능선(Rocky Ridges)의 재건 이야기입니다. 셰프 덴트와 DJ 로톰의 신나는 파티로 마을 주민들의 사기를 북돋우고, 볼케니온의 분노를 온천의 축복으로 바꿔보세요."
       },
       "en": {
-        "title": "Gym 2: Water-type Gym",
-        "description": "Cerulean City Gym Leader Misty uses Water-type Pokémon. Electric and Grass-types are your finest weapons here."
+        "title": "Rocky Ridges: Gorogoro Mines & The Revitalization Party",
+        "description": "Tackle the ash-covered rugged slopes of Rocky Ridges. Rebuild collapsed minecart tracks, boost town morale with Chef Dente's feast and DJ Rotom's beats, and soothe Volcanion to create rejuvenating hot springs."
       },
       "ja": {
-        "title": "第2ジム：みずタイプジム",
-        "description": "ハナダシティのジムリーダー・カスミはみずタイプの使い手。でんき・くさタイプのポケモンが攻略の鍵です。"
+        "title": "ゴロゴロ岩山：鉱山鉄道と情熱の祝祭",
+        "description": "火山灰に埋もれた険しい鉱山地帯、ゴロゴロ岩山（Rocky Ridges）の復興。シェフ・デントとDJロトムの情熱的なパーティーで活気を取り戻し、ボルケニオンの怒りを恵みの温泉へと変えましょう。"
+      },
+      "zh": {
+        "title": "岩石山脊：滚滚矿山与欢腾庆典",
+        "description": "征服被火山灰深埋的高耸矿山——岩石山脊。修复坍塌的矿车铁轨，与丹特大厨及DJ洛托姆举办狂欢派对提振士气，平息波尔凯尼恩的怒火并开拓地热温泉。"
       }
-    }
+    },
+    "sections": [
+      {
+        "title": "灰烬覆盖的坑道与修复矿车轨道",
+        "content": "踏入岩石山脊（Rocky Ridges），迎面扑来的是浓重的硫磺味与漫天飘落的灰白火山灰。这里的采矿小镇几乎全被山体滑坡与火山灰掩埋。小拳石与豪力等矿工宝可梦因繁重的体力劳作和碎石阻路而精疲力竭。百变怪利用水属性拟态清洗被厚厚灰烬遮蔽的矿脉，并开采玄武岩和铁矿石，利用锻造台打造加固型铁轨。修复从山脚直通火山口下方的矿车轨道系统后，矿石运输效率成倍跃升！",
+        "tips": [
+          "矿车轨道可以自由铺设岔道与动力加速轨，玩家与驻留宝可梦都可以搭乘矿车在陡峭山区间高速往返。",
+          "使用高压水枪喷洗山岩上的积灰层，经常能发现隐藏的暗金矿脉与稀有化石残片。",
+          "深度挖掘地下坑道时记得随身携带火把与荧光菇，防止光线过暗导致迷路或踩中地陷陷阱。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "화산재 쌓인 갱도와 광산 트롤리 선로 복구",
+            "content": "바위 능선(Rocky Ridges)에 올라서면 자욱한 유황 냄새와 함께 하늘에서 흩날리는 잿빛 화산재를 맞닥뜨리게 됩니다. 과거 번성했던 광산 마을은 잿더미와 낙석 아래 파묻혀 있고, 꼬마돌과 근육몬 등 광부 포켓몬들은 지쳐 쓰러져 있습니다. 메타몽은 물 의태를 활용해 두꺼운 화산재 찌꺼기를 고압 세척하고, 튼튼한 철과 현무암을 캐내 대장간에서 보강 철로를 주조합니다. 산기슭에서 분화구 아래까지 이어지는 광산 궤도차(트롤리) 선로를 깔아 물류 운송을 완전 자동화합니다.",
+            "tips": [
+              "광산 트롤리 선로는 플레이어뿐만 아니라 광부 포켓몬들도 탑승하여 채굴된 광석 상자를 마을 창고로 자동 이송합니다.",
+              "두껍게 쌓인 화산재를 물뿌리개나 워터제트로 씻어내면 숨겨진 금 광맥과 고대 화석 블록이 드러납니다.",
+              "깊은 갱도에는 어둠으로 인한 시야 패널티가 있으므로 광산 벽면에 형광 버섯 횃불을 넉넉히 설치하세요."
+            ]
+          },
+          "en": {
+            "title": "Ash-Choked Tunnels & Minecart Rail Repairs",
+            "content": "Ascending the steep cliffs of Rocky Ridges, you are greeted by sulfur smoke and drifting volcanic ash. The historic mining enclave lies buried under heavy rubble, leaving worker Pokémon like Geodude and Machamp exhausted. Ditto sprays pressurized water to cleanse the thick ash coating subterranean veins, mines basalt and raw iron, and smelts reinforced rails at the forge. Rebuilding the continuous minecart railway from the foothills straight to the upper caldera completely automates ore transport!",
+            "tips": [
+              "Minecart tracks can be used by both players and resident Pokémon to autonomously haul mined ore boxes downhill.",
+              "Washing thick ash layers off rock walls frequently uncovers hidden gold seams and ancient fossil nodes.",
+              "Carry plenty of glowing mushroom torches when delving into deep mines to avoid disorientation and pitfall traps."
+            ]
+          },
+          "ja": {
+            "title": "灰に覆われた坑道とトロッコ線路の修復",
+            "content": "ゴロゴロ岩山（Rocky Ridges）へ登ると、硫黄の匂いと空から舞い散る火山灰が出迎えます。かつての鉱山街は崩落と灰の山に埋もれ、イシツブテやゴーリキーら鉱夫ポケモンたちは疲弊しきっています。メタモンはみずの擬態でこびりついた灰を高圧洗浄し、玄武岩と鉄鉱石を採掘して強化レールを鍛造。麓から火口直下を結ぶトロッコ軌道を再建し、鉱石の自動運搬システムを完成させます。",
+            "tips": [
+              "トロッコ線路はプレイヤーだけでなく住民ポケモンも乗ることができ、採掘した鉱石箱を自動で町まで運びます。",
+              "壁面に積もった厚い火山灰を水で洗い流すと、隠された金鉱脈や古代の化石ブロックが見つかります。",
+              "地下深くの坑道は視界が悪いため、発光キノコのたいまつを壁に設置しながら安全に探索を進めましょう。"
+            ]
+          },
+          "zh": {
+            "title": "灰烬覆盖的坑道与修复矿车轨道",
+            "content": "踏入岩石山脊（Rocky Ridges），迎面扑来的是浓重的硫磺味与漫天飘落的灰白火山灰。这里的采矿小镇几乎全被山体滑坡与火山灰掩埋。小拳石与豪力等矿工宝可梦因繁重的体力劳作和碎石阻路而精疲力竭。百变怪利用水属性拟态清洗被厚厚灰烬遮蔽的矿脉，并开采玄武岩和铁矿石，利用锻造台打造加固型铁轨。修复从山脚直通火山口下方的矿车轨道系统后，矿石运输效率成倍跃升！",
+            "tips": [
+              "矿车轨道可以自由铺设岔道与动力加速轨，玩家与驻留宝可梦都可以搭乘矿车在陡峭山区间高速往返。",
+              "使用高压水枪喷洗山岩上的积灰层，经常能发现隐藏的暗金矿脉与稀有化石残片。",
+              "深度挖掘地下坑道时记得随身携带火把与荧光菇，防止光线过暗导致迷路或踩中地陷陷阱。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "狂欢派对时刻！丹特大厨与DJ洛托姆的复兴盛宴",
+        "content": "为了唤醒低迷沉闷的小镇生机，开启重磅任务『派对时间（Time to Party!）』。百变怪联手性格火热的料理名厨『丹特大厨』与热爱潮流电音的『DJ洛托姆』筹备大狂欢。在中央广场搭建霓虹舞台，摆放巨型岩石烤肉排架，烹煮香辣火山烤肉大餐。伴随DJ洛托姆播放动感激昂的节拍音乐，整座小镇沉浸在歌舞与美食中，城镇的『气氛度（Mood）』瞬间冲上100%满分，宝可梦们士气大振，纷纷换上节日欢欣装饰！",
+        "tips": [
+          "城镇气氛度维持在90%以上时，全镇宝可梦的工作与采集效率将获得50%额外加成。",
+          "广场上的音乐播放机可以自由更换背景曲目，特定欢快曲目能吸引远方的乐天河童与舞者花舞鸟驻留。",
+          "与参加派对的嘎啦嘎啦和三地鼠交谈，可解锁稀有的兽骨图腾柱与矿山庆典灯笼家具图纸。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "셰프 덴트와 DJ 로톰의 마을 부흥 축제 (Time to Party!)",
+            "content": "침체된 광산 마을의 사기를 단번에 끌어올리기 위해 핵심 퀘스트 '신나는 파티 타임!(Time to Party!)'이 시작됩니다. 열정 넘치는 요리사 '셰프 덴트'와 흥겨운 비트를 트는 'DJ 로톰'이 의기투합합니다. 중앙 광장에 튼튼한 나무 축제 무대를 세우고 화려한 네온 조명을 단 뒤, 초대형 암석 바비큐 그릴에서 매콤한 화산 고기 스튜를 차려냅니다. DJ 로톰의 신나는 신스 팝 음악에 맞춰 포켓몬들이 춤을 추며 마을의 '분위기(Mood)' 지수가 100%에 도달하고 모두가 활력을 되찾습니다!",
+            "tips": [
+              "마을 분위기(Mood) 지수가 90% 이상으로 유지되면 주민 포켓몬들의 제작 및 채광 작업 속도가 1.5배 빨라집니다.",
+              "광장에 설치한 주크박스에 축제 음악을 재생하면 먼 곳의 로파파와 춤추새가 매료되어 마을로 찾아옵니다.",
+              "축제에 참가한 텅구리와 닥트리오에게 말을 걸면 희귀한 뼈 토템 폴과 광산 등불 제작법을 선물 받습니다."
+            ]
+          },
+          "en": {
+            "title": "Time to Party! Chef Dente & DJ Rotom's Feast",
+            "content": "To banish the lingering gloom among the weary miners, the pivotal request 'Time to Party!' kicks off. Ditto collaborates with passionate culinary master 'Chef Dente' and high-energy music enthusiast 'DJ Rotom'. You construct a grand festival timber stage in the town square, string up neon party lamps, and fire up a giant volcanic stone barbecue pit with fiery stew. As DJ Rotom drops pumping beats, the town's 'Mood' meter surges to 100%, sparking joyous dances and boosting morale across the mountain!",
+            "tips": [
+              "Maintaining the town Mood above 90% grants all resident Pokémon a permanent 50% speed bonus to crafting and mining tasks.",
+              "Playing lively tracks on the town square Jukebox attracts exotic dance-loving Pokémon like Ludicolo and Oricorio.",
+              "Chatting with Marowak and Dugtrio during the feast unlocks blueprints for rare carved bone totems and festival lanterns."
+            ]
+          },
+          "ja": {
+            "title": "盛り上がれパーティー！シェフ・デントとDJロトムの祝祭",
+            "content": "落ち込んだ鉱山の雰囲気を一新するため、大型クエスト『パーティーの時間だ！（Time to Party!）』が発動します。情熱的な料理人『シェフ・デント』とノリノリの『DJロトム』が手を組み、広場に大きな野外ステージを建設。色鮮やかなネオンライトを飾り、特大の溶岩バーベキュー台でスパイシーな肉料理を振る舞います。DJロトムの弾けるビートに合わせてポケモンたちが踊り出し、町の『ごきげん度（Mood）』は一気に100%へ到達！活気が完全に蘇ります。",
+            "tips": [
+              "ごきげん度（Mood）が90%以上を維持している間、全住人ポケモンの採掘や作業スピードが1.5倍に向上します。",
+              "広場のジュークボックスで音楽を流すと、遠くからルンパッパやオドリドリがリズムに惹かれて移住してきます。",
+              "パーティーに参加したガラガラやダグトリオに話しかけると、限定の骨トーテムポールや鉱山ランプのレシピが手に入ります。"
+            ]
+          },
+          "zh": {
+            "title": "狂欢派对时刻！丹特大厨与DJ洛托姆的复兴盛宴",
+            "content": "为了唤醒低迷沉闷的小镇生机，开启重磅任务『派对时间（Time to Party!）』。百变怪联手性格火热的料理名厨『丹特大厨』与热爱潮流电音的『DJ洛托姆』筹备大狂欢。在中央广场搭建霓虹舞台，摆放巨型岩石烤肉排架，烹煮香辣火山烤肉大餐。伴随DJ洛托姆播放动感激昂的节拍音乐，整座小镇沉浸在歌舞与美食中，城镇的『气氛度（Mood）』瞬间冲上100%满分，宝可梦们士气大振，纷纷换上节日欢欣装饰！",
+            "tips": [
+              "城镇气氛度维持在90%以上时，全镇宝可梦的工作与采集效率将获得50%额外加成。",
+              "广场上的音乐播放机可以自由更换背景曲目，特定欢快曲目能吸引远方的乐天河童与舞者花舞鸟驻留。",
+              "与参加派对的嘎啦嘎啦和三地鼠交谈，可解锁稀有的兽骨图腾柱与矿山庆典灯笼家具图纸。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "火山口守护者波尔凯尼恩与地热温泉开发",
+        "content": "当矿工小镇重拾生机时，火山口深处传来震耳欲聋的蒸汽爆鸣。幻之宝可梦波尔凯尼恩因地热管道堵塞而脾气暴躁，滚烫的岩浆随时可能淹没矿区。百变怪利用耐热管道将草地清泉引入火山口，在波尔凯尼恩背后的蒸汽喷射口之间架设水汽循环调节阀。在清凉水汽的抚慰下，暴躁的波尔凯尼恩重归平和，不仅消除了火山喷发危险，还将火山口喷涌的热水转化成滋养身心的地热温泉疗养胜地！",
+        "tips": [
+          "在火山口地热温泉中浸泡，可瞬间补满百变怪的体力值并获得持续15分钟的移动速度大幅提升Buff。",
+          "搭建地热蒸汽发电机，无需添加任何电池即可为整个区域的大型自动化矿机提供取之不尽的绿色能源。",
+          "完成寂静海岸与岩石山脊的全部主线后，蔓藤怪教授将正式授予玩家『超级训练家（Ultra Rank）』晋升资格！"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "분화구의 수호자 볼케니온과 지열 온천 개발",
+            "content": "광산 마을이 되살아나자 분화구 심층부에서 귀를 찢는 듯한 증기 폭발음이 울려 퍼집니다. 환상의 포켓몬 볼케니온이 지하 열수관 폐쇄로 흥분하여 펄펄 끓는 마그마가 역류할 위기에 처합니다. 메타몽은 초원의 맑은 찬물을 내열 파이프로 끌어와 볼케니온의 거대한 분출관 주변에 증기 순환 밸브를 설치합니다. 부드러운 수증기에 진정된 볼케니온은 분노를 가라앉히고, 위험천만했던 마그마 열기를 피로를 풀어주는 치유의 지열 온천 스파로 탈바꿈시켜 줍니다!",
+            "tips": [
+              "지열 온천탕에 몸을 담그면 메타몽의 기력이 완전히 회복되며 15분간 달리기 속도가 크게 증가하는 버프를 받습니다.",
+              "지열 증기 발전기를 지으면 배터리 소모 없이 광산 구역의 모든 대형 자동 파쇄기와 제련소를 24시간 가동할 수 있습니다.",
+              "해안과 광산 두 지역의 과업을 모두 달성하면 덩쿠림보 교수님으로부터 '울트라 랭크(Ultra Rank)' 승급 인정을 받게 됩니다."
+            ]
+          },
+          "en": {
+            "title": "Volcanion of the Crater & Geothermal Hot Springs",
+            "content": "As peace returns to the slopes, a deafening hiss of steam erupts from the volcanic caldera. The Mythical Pokémon Volcanion has grown agitated due to clogged geothermal vents, threatening a catastrophic lava overflow. Ditto engineers heat-resistant ceramic conduits to channel cool freshwater up the peak and builds steam-release valves around Volcanion's dual cannons. Soothed by balanced moisture, Volcanion calms down, converting the deadly magma fissures into rejuvenating geothermal hot springs!",
+            "tips": [
+              "Soaking in the volcanic hot spring completely restores your stamina and grants a 15-minute high-speed sprint buff.",
+              "Constructing Geothermal Steam Turbines provides boundless clean energy to run heavy automated rock crushers round-the-clock.",
+              "Completing milestones across both Bleak Beach and Rocky Ridges officially earns you the coveted 'Ultra Rank' certification!"
+            ]
+          },
+          "ja": {
+            "title": "火口の守護者ボルケニオンと地熱温泉の開発",
+            "content": "町に活気が戻った矢先、火口の深部から凄まじい蒸気音が轟きます。幻のポケモン・ボルケニオンが地熱ベントの目詰まりによって激怒し、煮えたぎるマグマが鉱山へ逆流しかけています。メタモンは耐熱パイプで麓の清水を火口へと引き込み、ボルケニオンのアーム噴出口に蒸気循環バルブを設置。心地よい蒸気によって怒りを鎮めたボルケニオンは、危険な噴火口を誰もが癒やされる極上の地熱温泉リゾートへと変貌させてくれます！",
+            "tips": [
+              "地熱温泉に浸かるとメタモンのスタミナが全快し、15分間ダッシュ速度が大幅にアップするバフを獲得できます。",
+              "地熱蒸気発電機を建設すると、燃料不要で鉱山エリアの全大型自動粉砕機や精錬炉を永続稼働させられます。",
+              "海岸と鉱山両方のメインお願いを達成すると、モジャンボ教授から『ウルトラランク（Ultra Rank）』昇格を認定されます。"
+            ]
+          },
+          "zh": {
+            "title": "火山口守护者波尔凯尼恩与地热温泉开发",
+            "content": "当矿工小镇重拾生机时，火山口深处传来震耳欲聋的蒸汽爆鸣。幻之宝可梦波尔凯尼恩因地热管道堵塞而脾气暴躁，滚烫的岩浆随时可能淹没矿区。百变怪利用耐热管道将草地清泉引入火山口，在波尔凯尼恩背后的蒸汽喷射口之间架设水汽循环调节阀。在清凉水汽的抚慰下，暴躁的波尔凯尼恩重归平和，不仅消除了火山喷发危险，还将火山口喷涌的热水转化成滋养身心的地热温泉疗养胜地！",
+            "tips": [
+              "在火山口地热温泉中浸泡，可瞬间补满百变怪的体力值并获得持续15分钟的移动速度大幅提升Buff。",
+              "搭建地热蒸汽发电机，无需添加任何电池即可为整个区域的大型自动化矿机提供取之不尽的绿色能源。",
+              "完成寂静海岸与岩石山脊的全部主线后，蔓藤怪教授将正式授予玩家『超级训练家（Ultra Rank）』晋升资格！"
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "chapter-4",
-    "title": "第三道馆：电系道馆",
     "order": 4,
-    "description": "青磁市道馆主马志士使用电系宝可梦。地面系宝可梦完全免疫电系攻击，是最佳应对选择。",
-    "sections": [
-      {
-        "title": "青磁市的探索",
-        "content": "青磁市是游戏中的重要城市，拥有各种设施。这里有电视台、赌博角落等娱乐场所，还有精英训练家联盟。在挑战道馆之前，可以先探索城市周边，抓捕一些地面系或岩石系宝可梦来克制电系。",
-        "tips": [
-          "在道馆西侧可以找到隆隆岩，是对付电系道馆的好帮手",
-          "赌博角落可以换取特殊宝可梦，但需要大量游戏币",
-          "探索时留意地下道，里面有有用的道具"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "갈색시티의 탐색",
-            "content": "갈색시티는 항구와 클럽, 팬클럽 등 다양한 시설을 갖춘 도시입니다. 체육관 도전 전 주변에서 땅타입 포켓몬을 육성해 두는 것이 좋습니다.",
-            "tips": [
-              "도시 서쪽과 동굴에서 땅타입 포켓몬을 포획하세요.",
-              "다양한 편의 시설을 둘러보며 숨겨진 아이템을 획득하세요.",
-              "지하통로를 이용하면 여러 도시를 빠르게 오갈 수 있습니다."
-            ]
-          },
-          "en": {
-            "title": "Exploring Vermilion City",
-            "content": "Vermilion City is a bustling port with numerous attractions. Explore the surrounding areas to catch Ground-type Pokémon to counter the upcoming Electric Gym.",
-            "tips": [
-              "Catch Ground-type Pokémon nearby to prepare for the Gym.",
-              "Explore the city thoroughly for hidden items and useful TMs.",
-              "Use underground paths for quick travel between routes."
-            ]
-          },
-          "ja": {
-            "title": "クチバシティの探索",
-            "content": "クチバシティは港町として栄える大都市です。ジムに挑む前に、街の周辺でじめんタイプのポケモンを仲間にしておきましょう。",
-            "tips": [
-              "周辺の洞窟や草むらでじめんタイプを捕獲しておきましょう。",
-              "街の施設を巡り、隠されたアイテムを集めましょう。",
-              "地下通路を利用すると街同士を素早く行き来できます。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "道馆攻略",
-        "content": "青磁市道馆内部有许多看不见的障碍物，需要反复摸索才能找到正确路径。道馆内的训练家都使用电系宝可梦，地面系宝可梦完全免疫电系攻击。马志士的雷丘速度极快，注意它的强力电系技能。",
-        "tips": [
-          "地面系宝可梦免疫所有电系技能",
-          "如果没有地面系宝可梦，岩石系宝可梦的特防不错",
-          "雷丘速度很快，考虑使用先制技能或麻痹状态来限制它"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "체육관 공략",
-            "content": "체육관 쓰레기통 스위치 기믹을 풀어야 마티스에게 갈 수 있습니다. 마티스의 라이츄는 스피드가 매우 빠르므로 땅타입 기술로 단숨에 제압하세요.",
-            "tips": [
-              "땅타입 포켓몬은 모든 전기 공격을 완전히 무효화합니다.",
-              "땅타입이 없다면 특수방어가 높은 바위타입을 활용하세요.",
-              "라이츄의 고속 공격에 대비해 선제공격기나 마비 상태이상을 활용하세요."
-            ]
-          },
-          "en": {
-            "title": "Gym Strategy",
-            "content": "Solve the double-switch trash can puzzle to open the barrier to Lt. Surge. His Raichu has blistering Speed, but Ground moves will bring it down swiftly.",
-            "tips": [
-              "Ground-type Pokémon are completely immune to Electric moves.",
-              "High Special Defense Rock types can also withstand electric strikes.",
-              "Use priority moves or status effects to manage Raichu's high Speed."
-            ]
-          },
-          "ja": {
-            "title": "ジム攻略",
-            "content": "ゴミ箱のスイッチを連続で見つける仕掛けを解いてマチスのもとへ進みます。マチスのライチュウは俊足ですが、じめん技で一撃を狙えます。",
-            "tips": [
-              "じめんタイプはすべてのでんき技を完全に無効化します。",
-              "じめんタイプがいない場合は特殊防御の高いポケモンを先頭にしましょう。",
-              "ライチュウの素早さに対抗して先制技や状態異常技を使いましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "获得橙色徽章",
-        "content": "击败马志士后获得橙色徽章（Thunder Badge）和技术机24（十万伏特）。橙色徽章让你的宝可梦速度提升，并允许使用技术机15（飞翔）快速移动。",
-        "tips": [
-          "飞翔技能极其实用，可以快速返回已到访的城市",
-          "十万伏特是强力的电系技能，考虑教给合适的宝可梦",
-          "速度提升让速度型宝可梦更加强大"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "오렌지배지 획득",
-            "content": "마티스를 이기면 오렌지배지(Thunder Badge)와 기술머신 '10만볼트'를 받습니다. 포켓몬의 스피드가 상승하며 '공중날기'를 사용할 수 있게 됩니다.",
-            "tips": [
-              "공중날기는 이미 방문한 도시로 즉시 날아갈 수 있어 매우 편리합니다.",
-              "10만볼트는 최고의 전기 주력 기술입니다.",
-              "스피드 보너스로 배틀에서 선공권을 쥐기 쉬워집니다."
-            ]
-          },
-          "en": {
-            "title": "Earn the Thunder Badge",
-            "content": "Defeat Lt. Surge to earn the Thunder Badge and the Thunderbolt TM. Your team gains a Speed boost, and you unlock Fly outside of battle.",
-            "tips": [
-              "Fly allows instantaneous fast travel to previously visited towns.",
-              "Thunderbolt is one of the most reliable and powerful Electric moves in the game.",
-              "The Speed boost gives your team the critical upper hand in combat."
-            ]
-          },
-          "ja": {
-            "title": "オレンジバッジ獲得",
-            "content": "マチスを倒してオレンジバッジとわざマシン「10まんボルト」を獲得。仲間のすばやさが上昇し、「そらをとぶ」が解禁されます。",
-            "tips": [
-              "そらをとぶを使うと一度訪れた街へ一瞬で移動できるようになります。",
-              "10まんボルトは最強クラスの頼れるでんき技です。",
-              "すばやさ上昇によってバトルで先手を取りやすくなります。"
-            ]
-          }
-        }
-      }
-    ],
+    "title": "闪耀空岛：浮空之城与终极火箭",
+    "description": "飞跃云海登上悬浮于高空的古代天空之城——闪耀空岛。携手巧匠巨锻匠重建宏伟空中都市，破译梦幻的壁画古谜，并合力打造通往星空的宏伟火箭。",
     "i18n": {
       "ko": {
-        "title": "세 번째 체육관: 전기체육관",
-        "description": "갈색시티 관장 마티스는 강력한 전기타입을 구사합니다. 땅타입 포켓몬은 전기 공격을 무효화하므로 최선의 선택입니다."
+        "title": "반짝이는 하늘섬: 천공의 도시와 로켓 프로젝트",
+        "description": "대기권 상공에 떠 있는 고대 천공 도시, 반짝이는 하늘섬(Sparkling Skylands)의 대서사시입니다. 장인 두드리짱(Tinkmaster)과 함께 대형 건축물을 복원하고, 고대 인류가 남긴 비밀과 우주 로켓 프로젝트를 완성하세요."
       },
       "en": {
-        "title": "Gym 3: Electric-type Gym",
-        "description": "Vermilion City Gym Leader Lt. Surge wields high-voltage Electric Pokémon. Ground types completely nullify his attacks."
+        "title": "Sparkling Skylands: The Floating City & Grand Rocket Project",
+        "description": "Ascend to the stratosphere to restore the gravity-defying ruins of Sparkling Skylands. Partner with Tinkmaster the Tinkaton to rebuild the sky city, decipher the mysteries of Mew, and assemble the historic Grand Rocket."
       },
       "ja": {
-        "title": "第3ジム：でんきタイプジム",
-        "description": "クチバシティのマチスはでんきタイプの使い手。じめんタイプはでんき攻撃を完全に無効化するためベストです。"
+        "title": "キラキラスカイランド：天空都市と大宇宙ロケット",
+        "description": "成層圏に浮かぶ古代の天空都市、キラキラスカイランド（Sparkling Skylands）の壮大な物語。職人デカヌチャン（Tinkmaster）と共に巨大建造物を復元し、古代人類の秘密と宇宙ロケット計画を完成させましょう。"
+      },
+      "zh": {
+        "title": "闪耀空岛：浮空之城与终极火箭",
+        "description": "飞跃云海登上悬浮于高空的古代天空之城——闪耀空岛。携手巧匠巨锻匠重建宏伟空中都市，破译梦幻的壁画古谜，并合力打造通往星空的宏伟火箭。"
       }
-    }
+    },
+    "sections": [
+      {
+        "title": "晋升超级训练家段位与激活反重力天空之门",
+        "content": "当成功解决海岸黑暗与火山危机后，蔓藤怪教授正式为你授衔『超级训练家（Ultra Rank）』！来到海崖与山脊交汇处的古代天空之柱，原本锈迹斑斑的天空传送门被金色电能与地热水汽同时激活。一道耀眼的反重力光束将百变怪托举至万米高空，穿过云海抵达漂浮在平流层的神秘区域——闪耀空岛（Sparkling Skylands）。在这里，你将结识头戴黄铜护目镜、挥舞着硕大钛合金锻锤的机械大师『巨锻匠工匠（Tinkmaster）』！",
+        "tips": [
+          "在空岛低重力环境下，百变怪的跳跃高度与滞空滑翔距离大幅增加，可以轻松跨越空岛间隙。",
+          "沿天空气流漂浮的『星空结晶碎片』是合成最高阶太空家具与防爆建材的核心稀缺材料。",
+          "巨锻匠工匠可以帮你将此前所有的石制与铁制采伐工具升阶为永不损耗的『白金工匠套件』。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "울트라 랭크 달성과 반중력 천공 관문 가동",
+            "content": "해안과 광산 두 지역을 모두 부흥시키면 덩쿠림보 교수님이 감격하며 주인공에게 최고 권위의 '울트라 랭크(Ultra Rank)' 트레이너 자격을 부여합니다! 절벽과 능선이 만나는 고대 천공의 기둥에서, 번개의 전기와 온천의 수증기가 융합되어 천공 관문(Sky Gate)의 잠금이 해제됩니다. 눈부신 반중력 승강 빔을 타고 구름을 뚫고 올라서면 상공 만 미터에 떠 있는 '반짝이는 하늘섬(Sparkling Skylands)'에 도착하며, 황동 고글을 낀 천재 기계 장인 '두드리짱(Tinkmaster)'을 만나게 됩니다!",
+            "tips": [
+              "하늘섬 특유의 저중력 환경에서는 점프 높이와 활공 거리가 크게 늘어나 넓은 하늘 틈새도 손쉽게 건널 수 있습니다.",
+              "하늘 구름 기류에 떠다니는 '별빛 결정 파편'은 우주 테마 가구와 첨단 강화 벽체 제작의 필수 재료입니다.",
+              "두드리짱에게 재료를 건네면 지금까지 쓰던 모든 채집 도구를 내구도가 닳지 않는 '플래티넘 세트'로 최종 개조해 줍니다."
+            ]
+          },
+          "en": {
+            "title": "Achieving Ultra Rank & The Anti-Gravity Sky Gate",
+            "content": "Having resolved the crises across Bleak Beach and Rocky Ridges, Professor Tangrowth officially awards Ditto the prestigious 'Ultra Rank'! At the ancient Sky Spire standing between cliff and crag, twin conduits of lightning and geothermal energy unlock the sealed Sky Gate. A pillar of anti-gravity light lifts Ditto high above the clouds to the breathtaking Sparkling Skylands floating in the stratosphere. Here, you meet the brilliant master engineer 'Tinkmaster', a Tinkaton with brass goggles and an enormous titanium hammer!",
+            "tips": [
+              "Low gravity on Skylands substantially boosts Ditto's jump height and glide distance across wide airborne chasms.",
+              "Harvest Celestial Shards drifting through cloud currents—they are essential for crafting futuristic space habitats.",
+              "Tinkmaster can upgrade all your previous gathering tools into unbreakable Platinum tiers with zero durability loss."
+            ]
+          },
+          "ja": {
+            "title": "ウルトラランク達成と反重力スカイゲートの起動",
+            "content": "海岸と鉱山両方の復興を見届けたモジャンボ教授から、最高峰の称号『ウルトラランク（Ultra Rank）』が授与されます！崖と山稜の交差点にそびえる古代の天空柱にて、雷光と地熱のエネルギーが融合して天空ゲートが起動。まばゆい反重力光線に乗って雲海を突き抜けると、成層圏に浮かぶ美しい浮遊都市『キラキラスカイランド（Sparkling Skylands）』に到達。真鍮のゴーグルをつけた腕利きの鍛冶屋『職人デカヌチャン（Tinkmaster）』と出会います！",
+            "tips": [
+              "空島特有の低重力により、ジャンプ力と滑空距離が格段にアップし、離れた浮島へも楽に飛び移れます。",
+              "雲の気流に乗って漂う『星屑の結晶片』は、最上級の近未来家具や防爆建材を作る最重要素材です。",
+              "職人デカヌチャンにお願いすると、手持ちの採取ツールを耐久度無限の『プラチナツール一式』に強化してくれます。"
+            ]
+          },
+          "zh": {
+            "title": "晋升超级训练家段位与激活反重力天空之门",
+            "content": "当成功解决海岸黑暗与火山危机后，蔓藤怪教授正式为你授衔『超级训练家（Ultra Rank）』！来到海崖与山脊交汇处的古代天空之柱，原本锈迹斑斑的天空传送门被金色电能与地热水汽同时激活。一道耀眼的反重力光束将百变怪托举至万米高空，穿过云海抵达漂浮在平流层的神秘区域——闪耀空岛（Sparkling Skylands）。在这里，你将结识头戴黄铜护目镜、挥舞着硕大钛合金锻锤的机械大师『巨锻匠工匠（Tinkmaster）』！",
+            "tips": [
+              "在空岛低重力环境下，百变怪的跳跃高度与滞空滑翔距离大幅增加，可以轻松跨越空岛间隙。",
+              "沿天空气流漂浮的『星空结晶碎片』是合成最高阶太空家具与防爆建材的核心稀缺材料。",
+              "巨锻匠工匠可以帮你将此前所有的石制与铁制采伐工具升阶为永不损耗的『白金工匠套件』。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "修复天空百货大楼与破译梦幻古老壁画",
+        "content": "闪耀空岛的中心耸立着一座破损严重的古代巨型建筑——以彩虹百货大楼为蓝本的『天空生态百货遗迹』。百变怪携手巨锻匠和飞行宝可梦们，搬运高强度合金与强化玻璃，重新铺设穹顶温室与自动化悬浮货架。在百货地下的绝密历史档案馆中，百变怪清理藤蔓后发现了一副保存完好的古老浮雕壁画：上面生动描绘着幻之宝可梦梦幻（Mew）以及古人类撤离行星的真实历史记录！",
+        "tips": [
+          "重建完成的天空百货大楼将成为全图最高阶的交易中心，可用空岛金币兑换全大陆的珍稀种子与异域建筑部件。",
+          "使用相机对梦幻壁画进行高清扫描留影，可以在工作台直接解锁『古代彩虹石柱』与『悬浮玻璃吊灯』图纸。",
+          "百货大楼顶层的空中花园在每日黄昏时刻经常会有皮皮与小陨星成群聚集，可提前备好甜蜜果招待它们。"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "고대 무지개 백화점 복원과 환상의 포켓몬 뮤의 벽화",
+            "content": "하늘섬 중심부에는 과거 무지개 백화점을 모티브로 지어졌던 거대한 복합 건축물 '천공 생태 백화점 유적'이 덩그러니 방치되어 있습니다. 두드리짱과 비행 포켓몬들의 협력을 얻어 깨진 강화유리 돔을 갈아 끼우고 부유식 자동 진열대를 복구합니다. 백화점 지하 기록 보관실에서 넝쿨을 걷어내자 놀라운 비밀이 드러납니다. 바로 환상의 포켓몬 뮤(Mew)의 신비로운 모습과 과거 인류가 행성을 떠나야만 했던 이유가 적힌 고대 벽화가 고스란히 보존되어 있었습니다!",
+            "tips": [
+              "복원된 백화점은 모든 지역의 특산품과 희귀 종자를 교환할 수 있는 세계 최대의 무역 허브로 운영됩니다.",
+              "뮤의 벽화를 카메라로 조사하면 특수 고대 건축 블록과 공중부양 샹들리에 제작법을 즉시 습득할 수 있습니다.",
+              "백화점 옥상 정원에는 매일 황혼 무렵 픽시와 메테노 무리가 날아오므로 달콤한 사탕과 별조각을 준비해 두세요."
+            ]
+          },
+          "en": {
+            "title": "Restoring the Sky Department Store & Murals of Mew",
+            "content": "At the heart of the skylands lies the grand ruin of the Sky Ecological Department Store, inspired by ancient Celadon Department Store. Partnering with Tinkmaster and local flying Pokémon, you replace shattered glass domes and restore levitating display racks. Deep in the basement archives, clearing ancient ivy reveals an intact stone mural: an awe-inspiring depiction of the Mythical Pokémon Mew alongside historical records recounting why humanity had to evacuate the world.",
+            "tips": [
+              "The restored Department Store functions as an interplanetary mega trading post for exotic seeds and foreign décor.",
+              "Snapping a photo of the Mew mural unlocks ancient rainbow marble pillars and floating crystal chandelier recipes.",
+              "Every sunset, Clefable and Minior gather at the rooftop garden; keep sweet berries handy to recruit them as friends."
+            ]
+          },
+          "ja": {
+            "title": "天空のタマムシ百貨店復旧と幻のポケモン・ミュウの壁画",
+            "content": "空島の中心には、かつてのタマムシ百貨店を彷彿とさせる巨大複合施設『天空百貨店跡』が佇んでいます。職人デカヌチャンやひこうタイプのポケモンたちと力を合わせ、割れた強化ガラスドームを修復し浮遊陳列棚を再起動します。地下アーカイブのツタを払うと、幻のポケモン・ミュウ（Mew）の姿と、大昔に人類が星を離れるに至った真実の歴史が刻まれた巨大な壁画を発見します！",
+            "tips": [
+              "再建された天空百貨店は大陸全域の珍しい種や異国風建材を取引できる最高峰のトレードセンターになります。",
+              "ミュウの壁画をカメラで撮影すると、古代の虹色石柱や浮遊シャンデリアの特別レシピが開放されます。",
+              "屋上庭園には毎夕方ピクシーやメテノたちが集まるため、あまいお菓子を準備して仲間に誘いましょう。"
+            ]
+          },
+          "zh": {
+            "title": "修复天空百货大楼与破译梦幻古老壁画",
+            "content": "闪耀空岛的中心耸立着一座破损严重的古代巨型建筑——以彩虹百货大楼为蓝本的『天空生态百货遗迹』。百变怪携手巨锻匠和飞行宝可梦们，搬运高强度合金与强化玻璃，重新铺设穹顶温室与自动化悬浮货架。在百货地下的绝密历史档案馆中，百变怪清理藤蔓后发现了一副保存完好的古老浮雕壁画：上面生动描绘着幻之宝可梦梦幻（Mew）以及古人类撤离行星的真实历史记录！",
+            "tips": [
+              "重建完成的天空百货大楼将成为全图最高阶的交易中心，可用空岛金币兑换全大陆的珍稀种子与异域建筑部件。",
+              "使用相机对梦幻壁画进行高清扫描留影，可以在工作台直接解锁『古代彩虹石柱』与『悬浮玻璃吊灯』图纸。",
+              "百货大楼顶层的空中花园在每日黄昏时刻经常会有皮皮与小陨星成群聚集，可提前备好甜蜜果招待它们。"
+            ]
+          }
+        }
+      },
+      {
+        "title": "建造大宇宙发射场与揭开人类离去的真相",
+        "content": "步入主线故事最高潮。壁画揭晓了残酷却温暖的真相：古代人类并非毁于战火，而是因突如其来的全球性气候大灾荒被迫乘上方舟撤向深空空间站。为了不让宝可梦遭受太空颠簸，人类将宝可梦安置在具备环境监测的自动化电脑盒（PC Box）系统中，设定当自然生态重新达标时便自动唤醒它们继承新家园。百变怪、蔓藤怪教授、巨锻匠以及全岛宝可梦齐心协力，在空岛发射台打造出『大宇宙开拓号火箭』，装载着复苏的土壤样本与友谊信标，浩浩荡荡射向星海！",
+        "tips": [
+          "组装大宇宙火箭需要消耗来自全部四个区域的特产（优质钢板、地热电池与星空结晶等各30份）。",
+          "通过在各区域工作室设置自动化收集箱，可让居民宝可梦协助你源源不断收集装填材料。",
+          "火箭发射升空将触发震撼感人的结局过场动画，并正式解锁全地图自由沙盒模式与隐藏剧情！"
+        ],
+        "i18n": {
+          "ko": {
+            "title": "대우주 발사대 건설과 밝혀지는 인류의 진실",
+            "content": "메인 스토리의 가슴 벅찬 클라이맥스입니다. 벽화가 전하는 진실은 따뜻했습니다. 인류는 세계를 파괴하거나 포켓몬을 버린 것이 아니라, 극심한 기후 대기근으로 인해 방주선을 타고 심우주 정거장으로 피난해야 했던 것입니다. 행성에 남겨진 포켓몬들이 안전하도록 특수 환경 감지 PC 박스 시스템에 보존해 두었고, 자연이 다시 숨 쉴 수 있을 때 자동 방생되어 세계를 이어받도록 안배했던 것입니다. 메타몽과 전 지역의 포켓몬들은 대우주 로켓을 완성하고, 재생된 지구의 씨앗과 우정의 신호를 우주 정거장으로 쏘아 올립니다!",
+            "tips": [
+              "대우주 로켓 조립에는 초원, 해안, 광산, 하늘섬 전역의 특산물(강철 장갑, 지열 셀, 별빛 크리스털 각 30개)이 골고루 필요합니다.",
+              "각 지역 거점에 자동 수거함을 설치하면 주민 포켓몬들이 로켓 발사 부품 조달을 적극적으로 도와줍니다.",
+              "로켓 발사 성공과 함께 감동적인 엔딩 크레딧이 흐르며, 완벽한 자유도를 자랑하는 에필로그 샌드박스가 해금됩니다!"
+            ]
+          },
+          "en": {
+            "title": "The Grand Rocket Construction & Truth of Humanity",
+            "content": "The emotional peak of the main campaign. The murals reveal a bittersweet truth: humans did not abandon the world out of malice or warfare; they fled severe global famine into deep space stations. Incapable of taking everyone, they safely preserved the world's Pokémon inside modified planetary PC Boxes programmed to awaken and inherit the Earth once ecosystems healed. Ditto, Professor Tangrowth, Tinkmaster, and friends from all four biomes unite to build the Grand Exploration Rocket, launching revived soil samples and radio beacons toward the human stars!",
+            "tips": [
+              "Assembling the Grand Rocket requires 30 units each of Steel Plating, Geothermal Cells, and Celestial Crystals from across the biomes.",
+              "Placing automated dropboxes in regional workshops allows resident Pokémon to gather necessary launch components effortlessly.",
+              "Watching the rocket ascend into space triggers the heartwarming story finale and unlocks the endless sandbox epilogue."
+            ]
+          },
+          "ja": {
+            "title": "大宇宙ロケットの建造と明かされる人類の真実",
+            "content": "物語の感動的なクライマックス。壁画が語る真実は温かいものでした。かつての人類は破壊によって滅びたのではなく、地球規模の大飢饉から逃れるため宇宙ステーションへと旅立っていたのです。連れて行けないポケモンたちを守るため、環境スキャナー付きの自動PCボックスに保護し、自然が戻った時に新しい世界の主として目覚めるよう託していたのでした。メタモンと仲間たちは大宇宙ロケットを完成させ、再生した大地の種と友情のシグナルを宇宙の彼方へ打ち上げます！",
+            "tips": [
+              "大宇宙ロケットの建造には、全4エリアの特産品（強化鋼板、地熱セル、星屑クリスタル各30個）が必要です。",
+              "各エリアの作業場に自動回収チェストを設置すると、住人ポケモンたちが資材集めを自発的に手伝ってくれます。",
+              "ロケットの打ち上げ成功によって感動のエンディングを迎え、完全自由なクリア後エンドコンテンツが解禁されます！"
+            ]
+          },
+          "zh": {
+            "title": "建造大宇宙发射场与揭开人类离去的真相",
+            "content": "步入主线故事最高潮。壁画揭晓了残酷却温暖的真相：古代人类并非毁于战火，而是因突如其来的全球性气候大灾荒被迫乘上方舟撤向深空空间站。为了不让宝可梦遭受太空颠簸，人类将宝可梦安置在具备环境监测的自动化电脑盒（PC Box）系统中，设定当自然生态重新达标时便自动唤醒它们继承新家园。百变怪、蔓藤怪教授、巨锻匠以及全岛宝可梦齐心协力，在空岛发射台打造出『大宇宙开拓号火箭』，装载着复苏的土壤样本与友谊信标，浩浩荡荡射向星海！",
+            "tips": [
+              "组装大宇宙火箭需要消耗来自全部四个区域的特产（优质钢板、地热电池与星空结晶等各30份）。",
+              "通过在各区域工作室设置自动化收集箱，可让居民宝可梦协助你源源不断收集装填材料。",
+              "火箭发射升空将触发震撼感人的结局过场动画，并正式解锁全地图自由沙盒模式与隐藏剧情！"
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "chapter-5",
-    "title": "第四道馆：草系道馆",
     "order": 5,
-    "description": "牡丹市道馆主小艾使用草系宝可梦。火系、飞行系和虫系技能都能克制草系，选择合适的宝可梦。",
-    "sections": [
-      {
-        "title": "前往牡丹市",
-        "content": "牡丹市位于游戏地图的中部，周围环绕着茂密的森林。在前往牡丹市的途中，会经过友好的训练家们，这是提升等级的好机会。牡丹市还有一个重要的设施——宝可梦日间看护中心，可以帮你培育宝可梦。",
-        "tips": [
-          "在日间看护中心托管两只同种宝可梦可以获得宝可梦蛋",
-          "沿途的森林中有稀有的草系宝可梦可以捕捉",
-          "建议队伍等级达到25-30级再挑战道馆"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "무지개시티로 이동",
-            "content": "무지개시티는 백화점과 오락실이 있는 대도시입니다. 백화점에서 진화의 돌과 고급 회복 아이템을 구매할 수 있습니다.",
-            "tips": [
-              "백화점에서 물의돌, 불꽃의돌, 천둥의돌 등을 구입할 수 있습니다.",
-              "이동 중 야생 포켓몬을 상대하며 파티 레벨을 25~30까지 올리세요.",
-              "다양한 부가 아이템을 챙겨두면 배틀에 큰 도움이 됩니다."
-            ]
-          },
-          "en": {
-            "title": "Journey to Celadon City",
-            "content": "Celadon City is a major metropolis featuring a massive Department Store. You can purchase Evolution Stones and powerful battle items here.",
-            "tips": [
-              "Buy Evolution Stones (Water, Fire, Thunder) at the Department Store.",
-              "Train your team to Level 25-30 along the way.",
-              "Stock up on supportive battle items for tough fights ahead."
-            ]
-          },
-          "ja": {
-            "title": "タマムシシティへ向かう",
-            "content": "タマムシシティは巨大なデパートやゲームコーナーがある大都市です。デパートで進化のいしや強力なアイテムを購入できます。",
-            "tips": [
-              "デパートでみず・ほのお・かみなりのいし等を購入できます。",
-              "道中でレベルを25〜30前後まで引き上げておきましょう。",
-              "便利なバトル用アイテムを揃えておくと有利になります。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "道馆攻略",
-        "content": "牡丹市道馆被茂密的树木和花草包围，道馆内部是一个花园迷宫。击败隐藏在花丛中的训练家才能到达道馆主所在位置。小艾使用的宝可梦速度较慢，但具有强力的草系技能和辅助技能（如睡眠粉）。",
-        "tips": [
-          "携带解眠草来应对睡眠粉等辅助技能",
-          "火系宝可梦是克制草系的最佳选择",
-          "飞行系技能对草系也有效，且大多数飞行宝可梦速度较快"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "체육관 공략",
-            "content": "미로 형태의 정원을 통과해 민화와 마주합니다. 민화의 포켓몬들은 수면가루, 마비가루 등 상태이상을 걸어오므로 주의가 필요합니다.",
-            "tips": [
-              "수면제와 만병통치제를 미리 넉넉히 챙기세요.",
-              "불꽃타입과 비행타입 기술로 큰 대미지를 줄 수 있습니다.",
-              "상태이상에 걸리면 즉시 해제하여 턴 손실을 줄이세요."
-            ]
-          },
-          "en": {
-            "title": "Gym Strategy",
-            "content": "Navigate the botanical maze to reach Erika. Erika's Pokémon rely heavily on status-inflicting moves like Sleep Powder and Stun Spore.",
-            "tips": [
-              "Bring plenty of Awakenings and Full Heals to counter status effects.",
-              "Fire and Flying-type moves deal devastating super effective damage.",
-              "Cure status conditions immediately to avoid losing turns."
-            ]
-          },
-          "ja": {
-            "title": "ジム攻略",
-            "content": "草木の迷路を抜けてエリカのもとへ。エリカのポケモンはねむりごなやしびれごななど状態異常技を多用してきます。",
-            "tips": [
-              "ねむけざましやなんでもなおしを多めに持参しましょう。",
-              "ほのおやひこうタイプの技で大ダメージを狙いましょう。",
-              "状態異常はすぐに回復して手数を維持してください。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "获得彩虹徽章",
-        "content": "击败小艾后获得彩虹徽章（Rainbow Badge）和技术机21（光合作用）。彩虹徽章允许你使用冲浪技能，并让等级70以下的宝可梦服从命令。",
-        "tips": [
-          "彩虹徽章后许多新路线将对你开放",
-          "光合作用是很好的回复技能，适合放在坦克宝可梦身上",
-          "现在可以探索更多水上路线"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "무지개배지 획득",
-            "content": "민화를 이기면 무지개배지(Rainbow Badge)와 기가드레인/광합성 기술머신을 받습니다. 레벨 70 이하의 포켓몬이 순종합니다.",
-            "tips": [
-              "배지 획득 후 레벨 70까지의 포켓몬이 완벽하게 명령을 따릅니다.",
-              "체력 흡수/회복 기술은 지구전에 큰 힘이 됩니다.",
-              "이제 중반부의 주요 스토리 이벤트로 이어집니다."
-            ]
-          },
-          "en": {
-            "title": "Earn the Rainbow Badge",
-            "content": "Defeating Erika yields the Rainbow Badge and a healing TM. Pokémon up to Level 70 will obey your every command.",
-            "tips": [
-              "All Pokémon up to Level 70 will obey without hesitation.",
-              "Recovery moves provide great sustainability in long battles.",
-              "Prepare for major mid-game story developments next."
-            ]
-          },
-          "ja": {
-            "title": "レインボーバッジ獲得",
-            "content": "エリカに勝利してレインボーバッジと回復系わざマシンを獲得。レベル70までのポケモンが言うことを聞くようになります。",
-            "tips": [
-              "レベル70までのすべてのポケモンが指示に従います。",
-              "HP吸収・回復技は長期戦で非常に頼りになります。",
-              "物語は中盤の大きな山場へと進んでいきます。"
-            ]
-          }
-        }
-      }
-    ],
+    "title": "终章乐园：波可匹亚与星海地平线",
+    "description": "火箭成功发射后，宝可梦乌托邦『波可匹亚』全面盛开。尽情体验真新镇的无限自由沙盒建造，与飘飘球启航探索神秘梦之岛，并在云朵岛与全球好友展开多人联机共建。",
     "i18n": {
       "ko": {
-        "title": "네 번째 체육관: 풀체육관",
-        "description": "무지개시티 관장 민화는 풀타입 포켓몬을 다룹니다. 불꽃, 비행, 얼음, 벌레타입 기술로 손쉽게 공략할 수 있습니다."
+        "title": "에필로그: 영원한 낙원 포코피아와 새로운 지평선",
+        "description": "로켓 발사 성공 후 지구 전역에 꽃피운 포켓몬의 낙원, 포코피아(Pokopia)의 영원한 번영과 샌드박스 엔드게임 가이드입니다. 태초 마을의 자유 건축, 흔들풍손과 함께 떠나는 꿈의 섬, 그리고 구름 섬 멀티플레이를 즐겨보세요."
       },
       "en": {
-        "title": "Gym 4: Grass-type Gym",
-        "description": "Celadon City Gym Leader Erika commands Grass-type Pokémon. Fire, Flying, Ice, and Bug moves are your premier choices."
+        "title": "Epilogue: The Eternal Pokopia & Sandbox Horizons",
+        "description": "Celebrate the birth of true Pokopia following the triumphant rocket launch. Unleash boundless creativity in the Palette Town sandbox, take flight to mysterious Dream Islands with Drifloon, and join friends in Cloud Islands co-op."
       },
       "ja": {
-        "title": "第4ジム：くさタイプジム",
-        "description": "タマムシシティのエリカはくさタイプの使い手。ほのお・ひこう・こおり・むしタイプの技で有利に戦いましょう。"
+        "title": "エピローグ：永遠の楽園ポケピアと星の彼方へ",
+        "description": "ロケット打ち上げ成功後、世界中に花開いたポケモンの楽園『ポケピア』の永遠の繁栄とエンドコンテンツ攻略。マサラタウンでの自由なサンドボックス建築、フワンテと巡る夢の島、そしてクラウド島マルチプレイを遊び尽くしましょう。"
+      },
+      "zh": {
+        "title": "终章乐园：波可匹亚与星海地平线",
+        "description": "火箭成功发射后，宝可梦乌托邦『波可匹亚』全面盛开。尽情体验真新镇的无限自由沙盒建造，与飘飘球启航探索神秘梦之岛，并在云朵岛与全球好友展开多人联机共建。"
       }
-    }
-  },
-  {
-    "id": "chapter-6",
-    "title": "第五道馆：毒系道馆",
-    "order": 6,
-    "description": "紫苑市道馆主阿桂使用毒系宝可梦。地面系和超能力系技能对毒系有克制效果。",
+    },
     "sections": [
       {
-        "title": "紫苑市与鬼怪之塔",
-        "content": "紫苑市以其神秘的气氛和幽灵塔而闻名。在挑战道馆之前，建议先前往幽灵塔（紫苑塔）探索，那里可以获得重要道具和遇见稀有宝可梦。幽灵塔中的鬼系宝可梦需要特殊方法才能捕捉和伤害。",
+        "title": "解锁真新镇与开启无界沙盒自由建造",
+        "content": "火箭顺利与人类深空轨道站建立通讯，荒芜行星终于蜕变为名副其实的宝可梦乐园——『波可匹亚（Pokopia）』！通关后跨过枯萎荒原西面的彩虹拱桥，即可解锁完全无拘无束的纯净自由建造领地『真新镇（Palette Town）』。在这里没有任何剧情束缚与网格高度限制，玩家可以自由运用通关解锁的所有地形塑造铲、气象控制器、全套家具蓝图，随心所欲打造专属的宝可梦梦幻度假村或现代游乐园！",
         "tips": [
-          "幽灵塔中需要小智镜才能看见幽灵宝可梦",
-          "鬼系宝可梦对一般系和格斗系攻击完全免疫",
-          "在幽灵塔顶层可以获得重要的故事道具"
+          "在真新镇放置气象控制石像，可随时随地将小镇天气切换为暖阳、浪漫落雪、流星雨或樱花雨等专属天候。",
+          "使用『建筑蓝图照相机』能够将自己搭建的精美别墅一键保存为蓝图文件，方便分享给其他玩家或批量建造。",
+          "真新镇拥有无限建材储物箱功能，尽情发挥你的建筑奇思妙想，不用担心建材耗尽。"
         ],
         "i18n": {
           "ko": {
-            "title": "보라타운과 포켓몬 타워 탐험",
-            "content": "연분홍시티로 가기 전 보라타운의 유령 포켓몬 타워를 조사합니다. 실프스코프를 획득하여 유령 포켓몬의 정체를 밝혀내세요.",
+            "title": "태초 마을(Palette Town) 해금과 무한 샌드박스 건축",
+            "content": "로켓이 우주 정거장과 성공적으로 교신하며, 지구는 마침내 진정한 포켓몬들의 유토피아 '포코피아(Pokopia)'로 거듭납니다! 엔딩 후 파사파사 황야 서쪽의 무지개다리를 건너면 퀘스트와 고도 제한이 전혀 없는 무한 자유 건축 구역 '태초 마을(Palette Town)'이 해금됩니다. 지금까지 획득한 모든 지형 편집 도구, 날씨 조절 석상, 전 종의 가구 레시피를 마음껏 활용해 나만의 대저택과 꿈의 테마파크를 제한 없이 건설할 수 있습니다!",
             "tips": [
-              "실프스코프가 있어야 유령 포켓몬과 정상적으로 배틀할 수 있습니다.",
-              "고스트타입 포켓몬은 노말과 격투 공격을 무효화합니다.",
-              "타워 꼭대기에서 스토리 진행에 필수적인 피리를 얻을 수 있습니다."
+              "태초 마을에 날씨 조절 석상을 배치하면 맑음, 함박눈, 별똥별 밤하늘, 벚꽃 비 등 원하는 기후를 즉시 적용할 수 있습니다.",
+              "건축 블루프린트 카메라를 사용해 직접 지은 건물을 설계도로 저장하여 복사하거나 공유할 수 있습니다.",
+              "태초 마을 내부에서는 무제한 건축 자재 상자가 지원되므로 재료 파밍 부담 없이 건축의 즐거움을 만끽하세요."
             ]
           },
           "en": {
-            "title": "Lavender Town & Pokémon Tower",
-            "content": "Before heading to Fuchsia, explore Pokémon Tower in Lavender Town. Acquire the Silph Scope to reveal the true forms of ghostly apparitions.",
+            "title": "Unlocking Palette Town & Boundless Sandbox Building",
+            "content": "With the rocket successfully linking with deep space orbital stations, the planet blossoms into the utopian paradise known as 'Pokopia'! Crossing the western rainbow bridge from Withered Wasteland unlocks Palette Town, a 100% unrestricted creative sandbox territory. Free from quest constraints and height limits, utilize every terraforming trowel, weather statue, and unlocked blueprint to design custom villas, amusement parks, or expansive wildlife sanctuaries!",
             "tips": [
-              "The Silph Scope is necessary to identify and battle ghost Pokémon.",
-              "Ghost-types are completely immune to Normal and Fighting attacks.",
-              "Rescue Mr. Fuji at the tower's summit to receive the Poké Flute."
+              "Place Weather-Control Statues to instantly toggle the sky between golden sun, gentle snow, falling stars, or cherry blossom petals.",
+              "Use the Blueprint Camera to snap and save your custom builds into shareable blueprints for one-click placement.",
+              "Palette Town provides infinite building material caches, letting your architectural creativity roam completely unbound."
             ]
           },
           "ja": {
-            "title": "シオンタウンとポケモンタワー",
-            "content": "セキチクシティへ向かう前に、シオンタウンのポケモンタワーを調査。シルフスコープを手に入れて幽霊の正体を暴きましょう。",
+            "title": "マサラタウン（Palette Town）の解放と無限サンドボックス建築",
+            "content": "ロケットが無事に人類の宇宙ステーションと通信を結び、大地は真のポケモンのユートピア『ポケピア』として花開きました！エンディング後、パサパサ草原の西にある虹の橋を渡ることで、クエストや高さ制限の一切ない究極のフリービルドエリア『マサラタウン（Palette Town）』が開放されます。これまでに集めたすべての地形ツール、天候操作像、家具レシピを駆使して、理想の邸宅やテーマパークを思いのままに建築できます！",
             "tips": [
-              "シルフスコープがないとゴーストを識別して戦えません。",
-              "ゴーストタイプにはノーマル・かくとう技が無効です。",
-              "タワー頂上でフジ老人を救出し、ポケモンのふえを受け取りましょう。"
+              "天候操作の石像を配置すると、快晴・雪景色・流星群・桜吹雪など好きな天候へいつでも切り替えられます。",
+              "ブループリントカメラを使えば、自作した建物を設計図として保存し、ワンタッチで複製や共有が可能です。",
+              "マサラタウン内では建材無制限ボックスが利用できるため、素材集めを気にせず純粋に建築を楽しめます。"
+            ]
+          },
+          "zh": {
+            "title": "解锁真新镇与开启无界沙盒自由建造",
+            "content": "火箭顺利与人类深空轨道站建立通讯，荒芜行星终于蜕变为名副其实的宝可梦乐园——『波可匹亚（Pokopia）』！通关后跨过枯萎荒原西面的彩虹拱桥，即可解锁完全无拘无束的纯净自由建造领地『真新镇（Palette Town）』。在这里没有任何剧情束缚与网格高度限制，玩家可以自由运用通关解锁的所有地形塑造铲、气象控制器、全套家具蓝图，随心所欲打造专属的宝可梦梦幻度假村或现代游乐园！",
+            "tips": [
+              "在真新镇放置气象控制石像，可随时随地将小镇天气切换为暖阳、浪漫落雪、流星雨或樱花雨等专属天候。",
+              "使用『建筑蓝图照相机』能够将自己搭建的精美别墅一键保存为蓝图文件，方便分享给其他玩家或批量建造。",
+              "真新镇拥有无限建材储物箱功能，尽情发挥你的建筑奇思妙想，不用担心建材耗尽。"
             ]
           }
         }
       },
       {
-        "title": "道馆攻略",
-        "content": "紫苑市道馆的内部是一个复杂的迷宫，有许多隐藏的墙壁和暗门。道馆训练家都使用毒系宝可梦，小心毒状态的影响。阿桂使用的宝可梦善于使用毒素类技能和烟幕来降低命中率。",
+        "title": "携手飘飘球探秘梦之岛与邂逅幻之宝可梦",
+        "content": "在帕萨帕萨草原西侧的高台悬崖边，找到携带热气球篮筐的飘飘球（Drifloon）。向它展示亲手缝制的可爱玩偶（如皮卡丘玩偶、卡比兽抱枕），即可搭乘飘飘球前往随机生成的『梦之岛（Dream Islands）』进行资材探险！在这些限时开放的神奇岛屿上，不仅能采摘稀有的发光果树、挖掘炫彩晶石，还会在特定岛屿顶端的神圣祭坛上邂逅时拉比、基拉祈，甚至是捉迷藏的梦幻（Mew）！",
         "tips": [
-          "携带解毒药和万灵药来应对毒素状态",
-          "地面系技能对毒系宝可梦有效",
-          "超能力技能也能克制毒系宝可梦",
-          "提高命中率的技能在这关很有用"
+          "缝制更高品质的特制玩偶作为旅费，可以显著提升飘飘球带你飞抵稀有『金色梦之岛』的概率。",
+          "梦之岛上的植物树苗与热带珊瑚可以整株挖掘带回主大陆移栽，丰富本土生态多样性。",
+          "在梦之岛成功与梦幻成为挚友后，百变怪将学会终极拟态技能『挥指（Metronome）』，随机展现各种神奇效果！"
         ],
         "i18n": {
           "ko": {
-            "title": "체육관 공략",
-            "content": "연분홍시티 체육관은 보이지 않는 투명 벽 미로로 둘러싸여 있습니다. 독수의 또도가스와 질뻐기는 맹독과 축소로 장기전을 유도합니다.",
+            "title": "흔들풍손(Drifloon)과 떠나는 꿈의 섬(Dream Islands) 탐사",
+            "content": "파사파사 황야 서쪽 고원 언덕에서 열기구 바구니를 단 흔들풍손(Drifloon)을 만날 수 있습니다. 정성스럽게 바느질해 만든 포켓몬 인형(피카츄 인형, 잠만보 쿠션 등)을 보여주면, 흔들풍손과 함께 무작위로 생성되는 미지의 '꿈의 섬(Dream Islands)'으로 모험을 떠날 수 있습니다! 일정 시간 동안 탐험할 수 있는 꿈의 섬에서는 희귀한 발광 과일 나무와 오색 광석을 채집할 수 있으며, 섬 정상의 비밀 제단에서 세레비, 지라치, 숨바꼭질하는 뮤(Mew)를 마주치게 됩니다!",
             "tips": [
-              "해독제와 만병통치제를 필수 지참하세요.",
-              "땅타입 지진이나 에스퍼타입 사이코키네시스가 최고의 해결책입니다.",
-              "필중 기술(제비반환 등)을 지참하면 축소 전술을 무력화할 수 있습니다."
+              "고급 자수 실로 제작한 고품질 인형을 흔들풍손에게 건네면 희귀 보물이 가득한 '황금 꿈의 섬'으로 안내받을 확률이 높아집니다.",
+              "꿈의 섬에서 자라는 외래종 묘목과 산호초는 뿌리째 캐내어 본토 마을로 가져와 심을 수 있습니다.",
+              "꿈의 섬에서 뮤와 친구가 되면 메타몽이 궁극의 의태 기술 '손가락흔들기(Metronome)'를 배워 다양한 기적을 일으킵니다!"
             ]
           },
           "en": {
-            "title": "Gym Strategy",
-            "content": "Navigate the invisible walls of Fuchsia Gym to challenge Koga. Koga's Weezing and Muk utilize Toxic and Minimize to drag out the fight.",
+            "title": "Drifloon Expeditions to Dream Islands & Mythical Encounters",
+            "content": "On the western bluffs of Pasapasa Prairie, you will encounter Drifloon hovering with an expedition balloon basket. Presenting hand-sewn plushies (such as Pikachu or Snorlax plush dolls) enables you to take flight to procedurally generated 'Dream Islands'! On these temporary paradises, collect glowing orchard saplings, iridescent geodes, and climb hidden summits to encounter Mythical Pokémon such as Celebi, Jirachi, and playful Mew!",
             "tips": [
-              "Stock up on Antidotes and Full Heals before entering.",
-              "Earthquake and Psychic are your most devastating tools here.",
-              "Sure-hit moves like Aerial Ace bypass evasion boosts completely."
+              "Crafting deluxe plushies with golden silk dramatically increases the odds of discovering lucrative 'Golden Dream Islands'.",
+              "Exotic saplings and tropical corals dug up on Dream Islands can be transplanted back into your mainland hometown.",
+              "Befriending Mew on a Dream Island teaches Ditto the ultimate mimic ability: 'Metronome'!"
             ]
           },
           "ja": {
-            "title": "ジム攻略",
-            "content": "見えない透明な壁の迷路を進んでキョウのもとへ。キョウのマタドガスやベトベトンはどくどくやちいさくなるで粘り強く戦ってきます。",
+            "title": "フワンテと飛び立つ夢の島（Dream Islands）探索と幻の出会い",
+            "content": "パサパサ草原西側の高台で、気球カゴをつけたフワンテ（Drifloon）に出会えます。手作りのぬいぐるみ（ピカチュウやカビゴンの抱き枕など）を見せることで、自動生成される不思議な『夢の島（Dream Islands）』へと空の冒険へ飛び立てます！期間限定の島々では、輝く果樹の苗や七色鉱石を採取できるほか、山頂の秘密の祭壇でセレビィやジラーチ、かくれんぼが大好きなミュウ（Mew）との出会いが待っています！",
             "tips": [
-              "どくけしとなんでもなおしを常備しておきましょう。",
-              "じしんやサイコキネシスが最大の決め手になります。",
-              "必中技（つばめがえし等）があると回避率アップを無視できます。"
+              "高品質な素材で縫い上げた特製ぬいぐるみを渡すと、レア資材が眠る『黄金の夢の島』へ行ける確率が上がります。",
+              "夢の島に自生する珍しい木々の苗木や熱帯サンゴは、丸ごと掘り出して本大陸の町へ持ち帰り植樹できます。",
+              "夢の島でミュウと仲良くなると、メタモンが奇跡を起こす究極の擬態技『ゆびをふる（Metronome）』を習得します！"
+            ]
+          },
+          "zh": {
+            "title": "携手飘飘球探秘梦之岛与邂逅幻之宝可梦",
+            "content": "在帕萨帕萨草原西侧的高台悬崖边，找到携带热气球篮筐的飘飘球（Drifloon）。向它展示亲手缝制的可爱玩偶（如皮卡丘玩偶、卡比兽抱枕），即可搭乘飘飘球前往随机生成的『梦之岛（Dream Islands）』进行资材探险！在这些限时开放的神奇岛屿上，不仅能采摘稀有的发光果树、挖掘炫彩晶石，还会在特定岛屿顶端的神圣祭坛上邂逅时拉比、基拉祈，甚至是捉迷藏的梦幻（Mew）！",
+            "tips": [
+              "缝制更高品质的特制玩偶作为旅费，可以显著提升飘飘球带你飞抵稀有『金色梦之岛』的概率。",
+              "梦之岛上的植物树苗与热带珊瑚可以整株挖掘带回主大陆移栽，丰富本土生态多样性。",
+              "在梦之岛成功与梦幻成为挚友后，百变怪将学会终极拟态技能『挥指（Metronome）』，随机展现各种神奇效果！"
             ]
           }
         }
       },
       {
-        "title": "获得金色徽章",
-        "content": "击败阿桂后获得金色徽章（Soul Badge）和技术机06（毒素）。金色徽章提升你宝可梦的防御力，并允许使用飞翔技能（如果还未解锁）。",
+        "title": "云朵岛多人联机协作与生息地图鉴100%全收集",
+        "content": "踏入在线互联的云朵岛（Cloud Islands），与全球玩家共享建设成果与背包物资。大家可以协同搭建巨型浮空景观、互相赠送稀缺作物品种，并携手举办盛大的全岛篝火狂欢。查漏补缺全大陆所有宝可梦的专属栖息地要求，达成蔓藤怪教授终极图鉴的100%全收集，赢得至高无上的金色『波可匹亚造物主』纪念冠冕，并在训练家名片上点亮耀眼的全部10枚大师成就徽章！",
         "tips": [
-          "毒素技能在对付超高防御宝可梦时非常实用",
-          "防御提升让你的宝可梦在接下来更艰难的战斗中更加耐久",
-          "现在可以前往最后三个道馆的区域"
+          "如果某个宝可梦长时间没有来到栖息地，请检查它是否已被其他区域相似条件的栖息地优先吸引走。",
+          "多人联机时可通过公共工坊箱无损交换各自区域的特产，极大缩短图鉴收集周期。",
+          "达成100%图鉴后，蔓藤怪教授会亲自入驻你的真新镇大宅，成为你的终身首席研究顾问！"
         ],
         "i18n": {
           "ko": {
-            "title": "핑크배지 획득",
-            "content": "독수를 물리치면 핑크배지(Soul Badge)와 맹독 기술머신을 획득합니다. 포켓몬의 방어력이 상승하며 괴력을 사용할 수 있게 됩니다.",
+            "title": "구름 섬(Cloud Islands) 멀티플레이와 서식지 도감 100% 완성",
+            "content": "온라인으로 연결되는 영구 공유 월드 '구름 섬(Cloud Islands)'에 접속하여 다른 플레이어들과 함께 마을을 건설할 수 있습니다. 공유 보관함을 통해 인벤토리를 나누고, 커스텀 건축 디자인을 선물하며, 대규모 합동 캠프파이어 축제를 열어보세요. 아직 채우지 못한 전 대륙 포켓몬들의 서식지 조건을 꼼꼼히 충족해 덩쿠림보 교수님의 포켓몬 도감을 100% 완성하면, 최고 영예인 황금 '포코피아 건축사' 관과 트레이너 카드에 10개의 마스터 배지가 영롱하게 빛나게 됩니다!",
             "tips": [
-              "맹독은 턴이 지날수록 대미지가 급증하는 강력한 기술입니다.",
-              "괴력을 사용해 큰 바위를 밀어 숨겨진 길을 열 수 있습니다.",
-              "이제 후반부 3대 체육관으로 향합니다."
+              "특정 포켓몬이 서식지에 찾아오지 않는다면, 다른 지역에 만들어둔 비슷한 서식지에 먼저 가 있는지 주민 명단을 확인하세요.",
+              "멀티플레이 공용 보관함을 활용해 서로 다른 지역의 특산 식물과 가구를 교환하면 도감 완성 속도가 비약적으로 빨라집니다.",
+              "도감 100%를 달성하면 덩쿠림보 교수님이 태초 마을 플레이어의 저택으로 이사 와 평생의 수석 고문으로 함께합니다!"
             ]
           },
           "en": {
-            "title": "Earn the Soul Badge",
-            "content": "Defeating Koga awards the Soul Badge and the Toxic TM. Your team gains a Defense boost, and you unlock Strength outside battle.",
+            "title": "Cloud Islands Multiplayer & 100% Habitat Pokédex Mastery",
+            "content": "Hop into Cloud Islands to experience persistent online cooperative building with friends across the globe. Share inventory chests, exchange custom housing blueprints, and host collaborative island festivals. Fulfill the habitat desires of every wild Pokémon across all regions to achieve 100% completion in Professor Tangrowth's Pokédex, earning the golden 'Pokopia Architect' crown and unlocking all 10 mastery badges on your Trainer Card!",
             "tips": [
-              "Toxic inflicts escalating poison damage each turn.",
-              "Strength lets you push heavy boulders to access new paths.",
-              "Prepare to tackle the final three gyms in the region."
+              "If a desired Pokémon isn't arriving, verify whether it accidentally settled into a similar habitat in another biome.",
+              "Use shared multiplayer workshop lockers to swap rare seeds and mineral blocks from different biomes effortlessly.",
+              "Reaching 100% Pokédex completion prompts Professor Tangrowth to move into your Palette Town estate as your lifetime chief counselor!"
             ]
           },
           "ja": {
-            "title": "ピンクバッジ獲得",
-            "content": "キョウを倒してピンクバッジとわざマシン「どくどく」を獲得。ぼうぎょが上昇し、フィールドで「かいりき」が使用可能になります。",
+            "title": "クラウド島マルチプレイと生息地図鑑100%コンプリート",
+            "content": "オンラインで世界中の仲間とつながる『クラウド島（Cloud Islands）』へ出航し、協力して広大なワールドを開拓しましょう。共有チェストでアイテムを融通し合い、オリジナルの建築設計図をプレゼントして合同キャンプファイヤーを楽しみます。全大陸のポケモンの生息地条件を満たしてモジャンボ教授の図鑑を100%コンプリートすれば、最高峰の栄誉『ポケピアの創造主』の王冠が授与され、トレーナーカードの10個のマスターバッジが黄金色に輝きます！",
             "tips": [
-              "どくどくは毎ターンダメージが増加する強力な技です。",
-              "かいりきで大きな岩を動かして隠しルートを開放しましょう。",
-              "残る3つの終盤ジム攻略へと駒を進めます。"
+              "特定のポケモンがなかなか現れない場合、別のエリアに作った似たような生息地へ先に入居していないか確認しましょう。",
+              "マルチプレイの共有ロッカーを活用して他エリアの特産品や珍しい家具を交換すれば、図鑑埋めが大幅に捗ります。",
+              "図鑑100%を達成すると、モジャンボ教授があなたのマサラタウンの邸宅へと引っ越してきて終生の顧問となってくれます！"
+            ]
+          },
+          "zh": {
+            "title": "云朵岛多人联机协作与生息地图鉴100%全收集",
+            "content": "踏入在线互联的云朵岛（Cloud Islands），与全球玩家共享建设成果与背包物资。大家可以协同搭建巨型浮空景观、互相赠送稀缺作物品种，并携手举办盛大的全岛篝火狂欢。查漏补缺全大陆所有宝可梦的专属栖息地要求，达成蔓藤怪教授终极图鉴的100%全收集，赢得至高无上的金色『波可匹亚造物主』纪念冠冕，并在训练家名片上点亮耀眼的全部10枚大师成就徽章！",
+            "tips": [
+              "如果某个宝可梦长时间没有来到栖息地，请检查它是否已被其他区域相似条件的栖息地优先吸引走。",
+              "多人联机时可通过公共工坊箱无损交换各自区域的特产，极大缩短图鉴收集周期。",
+              "达成100%图鉴后，蔓藤怪教授会亲自入驻你的真新镇大宅，成为你的终身首席研究顾问！"
             ]
           }
         }
       }
-    ],
-    "i18n": {
-      "ko": {
-        "title": "다섯 번째 체육관: 독체육관",
-        "description": "연분홍시티 관장 독수는 은신과 맹독을 다룹니다. 땅타입과 에스퍼타입 기술이 독타입에 매우 치명적입니다."
-      },
-      "en": {
-        "title": "Gym 5: Poison-type Gym",
-        "description": "Fuchsia City Gym Leader Koga relies on toxic tactics and evasive traps. Ground and Psychic moves deal super effective damage."
-      },
-      "ja": {
-        "title": "第5ジム：どくタイプジム",
-        "description": "セキチクシティのキョウは忍者さながらの毒戦術を展開。じめん・エスパータイプの技で突破しましょう。"
-      }
-    }
-  },
-  {
-    "id": "chapter-7",
-    "title": "第六、七、八道馆",
-    "order": 7,
-    "description": "连续挑战三个道馆，分别是冰系、超能力系和龙系道馆。做好充分准备，这些是游戏中最具挑战性的道馆。",
-    "sections": [
-      {
-        "title": "冰系道馆：勇气徽章",
-        "content": "雪华市道馆主阿仁使用冰系宝可梦。冰系道馆的地面非常滑，需要小心移动。火系、格斗系、岩石系和钢系技能都能克制冰系。阿仁的风速犬和骑拉帝纳是强力的宝可梦，需要特别注意。",
-        "tips": [
-          "火系宝可梦在这关表现出色",
-          "冰面上滑行时，提前规划路线",
-          "冰系技能对龙系宝可梦有额外的克制效果"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "에스퍼 체육관: 골드배지",
-            "content": "노랑시티 체육관 관장 초련은 강력한 에스퍼타입을 사용합니다. 워프 패널 미로를 통과해야 하며, 악타입과 고스트타입, 벌레타입 기술이 효과적입니다.",
-            "tips": [
-              "악타입 기술은 에스퍼타입의 공격을 무효화하고 큰 피해를 줍니다.",
-              "워프 패널의 이동 경로를 꼼꼼히 기억해 두세요.",
-              "후딘의 특수공격과 스피드가 매우 높으니 고위력 물리기로 빠르게 처리하세요."
-            ]
-          },
-          "en": {
-            "title": "Psychic Gym: Marsh Badge",
-            "content": "Saffron City Gym Leader Sabrina wields formidable Psychic Pokémon. Navigate the warp tile maze and strike with Dark, Ghost, or Bug-type moves.",
-            "tips": [
-              "Dark-type Pokémon are immune to Psychic attacks and deal super effective damage.",
-              "Trace warp tile patterns carefully to navigate the maze.",
-              "Alakazam has high Special Attack and Speed but low Defense—strike with Physical moves."
-            ]
-          },
-          "ja": {
-            "title": "エスパータイプジム：ゴールドバッジ",
-            "content": "ヤマブキシティのナツメは強力なエスパー使い。ワープパネルの迷路を抜け、あく・ゴースト・むしタイプの技で攻めましょう。",
-            "tips": [
-              "あくタイプはエスパー技を無効化し大ダメージを与えられます。",
-              "ワープパネルの接続先をしっかり把握して進みましょう。",
-              "フーディンは高い特攻と素早さを持ちますが、物理技に弱いです。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "超能力系道馆：沼泽徽章",
-        "content": "融岩镇道馆主佐柔使用超能力系宝可梦。道馆内部有传送器需要找到正确顺序才能到达佐柔所在位置。虫系、幽灵系和恶系技能对超能力系有克制效果，特别是佐柔的肯泰罗和超梦的前身。",
-        "tips": [
-          "恶系技能完全克制超能力系",
-          "传送谜题需要耐心，记录每个传送器的位置",
-          "超能力系宝可梦的特攻通常很高，注意防御"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "얼음/불꽃 체육관 공략",
-            "content": "홍련섬 체육관은 퀴즈 기믹을 통과하며 강지 관장의 불꽃타입 포켓몬과 맞섭니다. 물타입과 땅타입 기술로 가뿐히 제압할 수 있습니다.",
-            "tips": [
-              "퀴즈 정답을 맞히면 트레이너와의 불필요한 전투를 건너뛸 수 있습니다.",
-              "물타입과 바위타입 공격이 불꽃타입에 매우 효과적입니다.",
-              "화상 상태이상에 걸리면 물리 공격력이 반감되므로 주의하세요."
-            ]
-          },
-          "en": {
-            "title": "Volcano Gym: Cinnabar Island",
-            "content": "Cinnabar Island Gym features quiz machines that let you bypass battles before facing Blaine's Fire-type squad. Douse them with Water and Ground attacks.",
-            "tips": [
-              "Answering quiz questions correctly lets you skip trainer battles.",
-              "Water and Ground moves extinguish Fire Pokémon swiftly.",
-              "Cure Burns promptly, as they cut physical attack power in half."
-            ]
-          },
-          "ja": {
-            "title": "ほのおタイプジム：グレンジム",
-            "content": "グレンタウンのカツラはほのおタイプの使い手。クイズマシンに正解しながら進み、みず・じめん技で圧倒しましょう。",
-            "tips": [
-              "クイズに正解すればトレーナー戦を回避できます。",
-              "みず・いわタイプの技がほのおタイプに極めて有効です。",
-              "やけど状態になると物理攻撃力が半減するためすぐに回復しましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "龙系道馆：上升徽章",
-        "content": "奇异市道馆主阿宽使用龙系宝可梦。这是最后一个道馆，也是最具挑战性的一个。道馆内部有需要操作的梯子和平台。龙系技能是克制龙系的最好方式，冰系技能也有效。阿宽的快龙是整个道馆游戏中最强的宝可梦之一。",
-        "tips": [
-          "冰之光束是对付龙系宝可梦的最佳技能",
-          "龙系宝可梦的特攻和攻击都很高，注意全面防御",
-          "完成后准备好挑战四天王和冠军！"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "마지막 체육관: 상록체육관",
-            "content": "상록시티의 정체불명 관장은 바로 로켓단 두목 비주기입니다! 비주기의 땅과 바위 복합 포켓몬들은 풀타입, 물타입, 얼음타입 기술로 공략하세요.",
-            "tips": [
-              "얼음타입과 물타입 기술이 땅타입에 큰 대미지를 입힙니다.",
-              "비주기의 니드킹과 거대코뿌리는 공격력이 강력하니 빠르게 처치하세요.",
-              "8개의 배지를 모두 모아 챔피언로드로 향하는 문을 여세요!"
-            ]
-          },
-          "en": {
-            "title": "The Final Gym: Earth Badge",
-            "content": "The mysterious Viridian City Gym Leader is none other than Team Rocket Boss Giovanni! Bring Water, Grass, and Ice moves to counter his Ground army.",
-            "tips": [
-              "Ice and Water moves exploit huge weaknesses across his Ground roster.",
-              "Giovanni's Nidoking and Rhyperior have tremendous Attack power—strike first.",
-              "Collecting all eight badges opens the gate to Victory Road!"
-            ]
-          },
-          "ja": {
-            "title": "最後のジム：トキワジム",
-            "content": "トキワジムの正体不明のリーダーはロケット団ボスのサカキ！みず・くさ・こおり技でサカキのじめん軍団を突破しましょう。",
-            "tips": [
-              "こおりとみずの技がじめんタイプの弱点を突けます。",
-              "サカキのニドキングやドサイドンは高火力なので先手必勝を心がけましょう。",
-              "8つのバッジをすべて集め、チャンピオンロードへの扉を開きましょう！"
-            ]
-          }
-        }
-      }
-    ],
-    "i18n": {
-      "ko": {
-        "title": "후반 체육관 연속 공략 (에스퍼, 얼음, 드래곤)",
-        "description": "에스퍼, 얼음, 땅/드래곤 타입의 강력한 후반부 체육관 관장들을 연달아 공략합니다. 치밀한 파티 구성이 요구됩니다."
-      },
-      "en": {
-        "title": "Gyms 6, 7 & 8: High-tier Gyms",
-        "description": "Challenge the final three Gyms—Psychic, Fire, and Ground/Rock. Prepare thoroughly as these are the most demanding Gyms in the region."
-      },
-      "ja": {
-        "title": "第6・第7・第8ジム連続攻略",
-        "description": "エスパー、ほのお、じめんタイプの強豪ジムリーダーたちに連続挑戦。綿密なパーティ構築で挑みましょう。"
-      }
-    }
-  },
-  {
-    "id": "chapter-8",
-    "title": "四天王与冠军",
-    "order": 8,
-    "description": "集齐八枚道馆徽章，前往联盟总部挑战四天王和神秘的冠军。这是你冒险旅程的终极考验！",
-    "sections": [
-      {
-        "title": "进入联盟总部的准备",
-        "content": "在挑战四天王之前，确保你的队伍已经做好万全准备。建议全队宝可梦达到50级以上，携带大量回复道具、解毒药和复活道具。四天王需要连续击败，中间无法回到神奇宝贝中心补给。组建一支属性均衡的队伍，覆盖尽可能多的属性。",
-        "tips": [
-          "全队宝可梦建议50级以上，挑战冠军则需要55级以上",
-          "携带至少10个全满药和5个复活道具",
-          "组建覆盖多种属性的均衡队伍",
-          "确保每只宝可梦都有至少4种不同属性的技能"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "포켓몬 리그 도전 준비",
-            "content": "사천왕에 도전하기 전 전원 레벨을 50~55 이상으로 올리고 회복약, 기력의조각을 가득 챙기세요. 사천왕 4명과 챔피언을 연속으로 상대해야 합니다.",
-            "tips": [
-              "전체 파티 레벨을 최소 50 이상, 챔피언전은 55 이상 권장합니다.",
-              "풀회복약 10개 이상, 기력의조각 10개 이상 구비하세요.",
-              "다양한 속성을 견제할 수 있는 다속성 서브 기술 배치가 필수입니다."
-            ]
-          },
-          "en": {
-            "title": "Preparing for the Pokémon League",
-            "content": "Train your party to Level 50-55+ and stock up on Full Restores and Revives before entering. You must defeat all four Elite Four members and the Champion back-to-back.",
-            "tips": [
-              "Recommend Level 50+ for Elite Four and 55+ for the Champion.",
-              "Carry at least 10 Full Restores and 10 Revives.",
-              "Ensure wide type coverage across all four move slots on every Pokémon."
-            ]
-          },
-          "ja": {
-            "title": "リーグ挑戦前の準備",
-            "content": "パーティ全員のレベルを50〜55以上に引き上げ、かいふくのくすりやげんきのかけらを大量に用意しましょう。5連戦を勝ち抜く必要があります。",
-            "tips": [
-              "四天王戦はレベル50以上、チャンピオン戦は55以上を推奨します。",
-              "かいふくのくすりとげんきのかけらを各10個以上準備しましょう。",
-              "幅広い弱点を突ける多彩なサブ技を覚えさせておきましょう。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "四天王的挑战",
-        "content": "四天王分别使用冰系（冰野、幽灵系（梦幻）、格斗系（拳四郎）和龙系（龙王）的宝可梦。每位四天王都有其专属的战术和强力宝可梦。冰野的冰系技能范围广，梦幻的幽灵和毒系组合令人头疼，拳四郎的格斗宝可梦攻击力极高，龙王的龙系宝可梦全面强大。",
-        "tips": [
-          "对付冰野：使用火系或格斗系技能",
-          "对付梦幻：使用恶系或幽灵系技能",
-          "对付拳四郎：使用飞行系或超能力系技能",
-          "对付龙王：冰系技能是最有效的克制手段"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "사천왕 4인 연속 격파",
-            "content": "얼음의 칸나, 격투의 시바, 고스트의 국화, 드래곤의 목호를 차례로 상대합니다. 각 사천왕의 대표 타입을 정확히 파악하고 상성 기술로 제압하세요.",
-            "tips": [
-              "칸나(얼음/물): 전기, 바위, 격투 기술 활용.",
-              "시바(격투/바위): 비행, 에스퍼, 물 기술 활용.",
-              "국화(고스트/독): 에스퍼, 땅, 악 기술 활용.",
-              "목호(드래곤/비행): 얼음 기술이 4배 대미지를 입히는 결정적 무기입니다."
-            ]
-          },
-          "en": {
-            "title": "Conquering the Elite Four",
-            "content": "Face Lorelei (Ice/Water), Bruno (Fighting/Rock), Agatha (Ghost/Poison), and Lance (Dragon/Flying) in continuous battles.",
-            "tips": [
-              "Lorelei: Use Electric, Rock, and Fighting moves.",
-              "Bruno: Use Flying, Psychic, and Water moves.",
-              "Agatha: Use Psychic, Ground, and Dark moves.",
-              "Lance: Ice-type moves deal 4x devastating damage to his Dragonite."
-            ]
-          },
-          "ja": {
-            "title": "四天王バトル攻略",
-            "content": "カンナ（こおり/みず）、シバ（かくとう/いわ）、キクコ（ゴースト/どく）、ワタル（ドラゴン/ひこう）を連続で撃破しましょう。",
-            "tips": [
-              "カンナ：でんき、いわ、かくとう技が有効です。",
-              "シバ：ひこう、エスパー、みず技が有効です。",
-              "キクコ：エスパー、じめん、あく技が有効です。",
-              "ワタル：こおりタイプの技がカイリュー等に4倍弱点となり絶大な威力を誇ります。"
-            ]
-          }
-        }
-      },
-      {
-        "title": "终极对决：冠军大战",
-        "content": "击败四天王后，你将面对神秘的冠军——你的宿命对手！他使用的是一支全面而强大的队伍，其中包括已经进化为终极形态的起始宝可梦（与你的初始选择克制相反的那只）。这场对决将考验你整个冒险历程中积累的所有经验和技巧。击败他后，你将进入宝可梦名人堂，成为新的冠军！",
-        "tips": [
-          "对手的队伍专门克制你的起始宝可梦，要有所准备",
-          "注意他的喷火龙/水箭龟/妙蛙花，这是他最强的宝可梦",
-          "如果失败不要气馁，分析弱点，调整队伍再挑战",
-          "成为冠军后，游戏才真正开始——探索尚未发现的地区和传说宝可梦！"
-        ],
-        "i18n": {
-          "ko": {
-            "title": "최종 결전: 챔피언 배틀 & 명예의 전당",
-            "content": "마지막 상대는 바로 먼저 리그를 제패한 여러분의 숙명의 라이벌입니다! 빈틈없는 밸런스 파티를 상대로 승리하여 명예의 전당에 입성하세요!",
-            "tips": [
-              "라이벌은 여러분의 스타팅 포켓몬을 카운터치는 스타팅 최종진화형을 보유하고 있습니다.",
-              "상대 포켓몬이 교체될 때마다 약점 기술로 즉시 요격하세요.",
-              "승리 후 대망의 전당등록과 엔딩 크레딧을 감상하세요!"
-            ]
-          },
-          "en": {
-            "title": "The Final Battle: Champion Match",
-            "content": "Your final opponent is your lifelong rival, who has already claimed the Champion throne! Defeat his powerhouse team to enter the Hall of Fame!",
-            "tips": [
-              "Your rival fields the fully evolved starter that counters your own.",
-              "Switch and counter each Pokémon with super effective moves immediately.",
-              "Victory secures your entry into the Hall of Fame and the grand finale credits!"
-            ]
-          },
-          "ja": {
-            "title": "最終決戦：チャンピオン戦＆殿堂入り",
-            "content": "最後の相手は一足先に頂点へ上り詰めたライバル！バランスの取れた最強パーティを打ち破り、栄光の殿堂入りを果たしましょう！",
-            "tips": [
-              "ライバルはこちらのスターターの弱点を突く最終進化形を繰り出してきます。",
-              "相手の交代に合わせて的確に弱点技を叩き込みましょう。",
-              "勝利すれば栄光の殿堂入りを果たし、感動のエンディングを迎えます！"
-            ]
-          }
-        }
-      }
-    ],
-    "i18n": {
-      "ko": {
-        "title": "사천왕과 챔피언",
-        "description": "8개의 배지를 모두 모아 포켓몬 리그 본부에서 사천왕과 챔피언에게 도전하세요. 모험의 대미를 장식할 궁극의 결전입니다!"
-      },
-      "en": {
-        "title": "The Elite Four & Champion",
-        "description": "With all eight Gym Badges in hand, journey to Pokémon League HQ to face the Elite Four and the Champion. This is the ultimate test!"
-      },
-      "ja": {
-        "title": "四天王とチャンピオン",
-        "description": "8つのバッジを手にポケモンリーグ本部へ。四天王とチャンピオンに挑む、冒険の集大成となる究極の戦いです！"
-      }
-    }
+    ]
   }
 ]
