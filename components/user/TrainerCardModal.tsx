@@ -108,7 +108,7 @@ export const TrainerCardModal: FC<ITrainerCardModalProps> = ({ open, onClose }) 
             <div className="rounded-xl border border-gray-100 bg-gray-50/80 p-3">
               <div className="text-xs text-gray-500">{t("caughtPokemonCount")}</div>
               <div className="mt-1 text-lg font-bold text-gray-800">
-                {caughtSet.size} <span className="text-xs font-normal text-gray-400">/ 151</span>
+                {caughtSet.size} <span className="text-xs font-normal text-gray-400">/ 365</span>
               </div>
             </div>
 

@@ -1,7 +1,9 @@
 "use client";
 
 import cn from "classnames";
+import Image from "next/image";
 
+import communityIconImg from "@/assets/images/community.webp";
 import { PokemonType } from "@/types";
 import { useI18n } from "@/utils/i18n";
 
@@ -60,7 +62,24 @@ export const PokeBallIcon: React.FC<{
 );
 
 export const Icon: React.FC<IIconProps> = ({ name, size, style, className }) => {
-  if (name === "community" || name === "pokeball") {
+  if (name === "community") {
+    return (
+      <Image
+        src={communityIconImg}
+        alt="Community"
+        className={cn("inline-block shrink-0 object-contain align-middle", className)}
+        style={{
+          width: size || "1.25em",
+          height: size || "1em",
+          ...style,
+        }}
+        unoptimized
+        aria-hidden="true"
+      />
+    );
+  }
+
+  if (name === "pokeball") {
     return (
       <PokeBallIcon
         size={size}
