@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  CommentOutlined,
-  EditOutlined,
-  GithubOutlined,
-  ReloadOutlined,
-  SearchOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import { CommentOutlined, EditOutlined, ReloadOutlined, SearchOutlined, UserOutlined } from "@ant-design/icons";
 import { Avatar, Button, Empty, Input, Table, TableColumnsType, Tabs, Tag } from "antd";
 import { FC, useCallback, useEffect, useMemo, useState } from "react";
 
@@ -21,7 +14,7 @@ import {
   ICategoryConfig,
 } from "@/components/community";
 import { IGitHubDiscussion } from "@/types";
-import { useGitHubAuth, useI18n } from "@/utils";
+import { Icon, useGitHubAuth, useI18n } from "@/utils";
 
 const CommunityPage: FC = () => {
   const { t, locale } = useI18n();
@@ -291,7 +284,10 @@ const CommunityPage: FC = () => {
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row md:items-start">
           <div className="space-y-2 text-center md:text-left">
             <div className="flex items-center justify-center gap-3 md:justify-start">
-              <GithubOutlined className="text-3xl text-gray-800 sm:text-4xl" />
+              <Icon
+                name="community"
+                className="text-3xl sm:text-4xl"
+              />
               <h1 className="my-0 text-2xl font-bold text-gray-900 sm:text-3xl">{t("communityTitle")}</h1>
             </div>
             <p className="max-w-2xl text-sm leading-relaxed text-gray-600 sm:text-base">{t("communityIntro")}</p>

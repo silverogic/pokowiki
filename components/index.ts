@@ -9,3 +9,4 @@ export * from "./commentary";
 
 export * from "./site";
 export * from "./community";
+export * from "./walkthrough";

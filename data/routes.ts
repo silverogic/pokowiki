@@ -9,14 +9,12 @@ type IHomepageNavigation = {
 }[];
 
 export const NAVIGATION_ITEMS: NavigationItem[] = [
-  { path: "/", label: "首页", icon: "home" },
   { path: "/pokemon-list", label: "宝可梦一览", icon: "pokemon" },
   { path: "/habitat-list", label: "栖息地一览", icon: "habitat" },
   { path: "/item-list", label: "道具一览", icon: "collection" },
   { path: "/event-list", label: "活动一览", icon: "request" },
-  { path: "/community", label: "社区", icon: "github" },
   { path: "/walkthrough", label: "攻略一览", icon: "tutorial" },
-  { path: "/about", label: "关于", icon: "option" },
+  { path: "/community", label: "社区", icon: "community" },
 ];
 
 export const HOME_NAVIGATIONS: IHomepageNavigation = [
@@ -30,7 +28,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
           { path: "/habitat-list", label: "栖息地一览", icon: "habitat" },
           { path: "/item-list", label: "道具一览", icon: "collection" },
           { path: "/event-list", label: "活动一览", icon: "request" },
-          { path: "/community", label: "社区", icon: "github" },
+          { path: "/community", label: "社区", icon: "community" },
         ],
       },
     ],

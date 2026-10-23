@@ -1284,6 +1284,12 @@ export const translations = {
     ja: "（イベント）",
   },
   // Walkthrough page
+  walkthroughShort: {
+    en: "Guides",
+    ko: "공략",
+    zh: "攻略",
+    ja: "攻略",
+  },
   walkthroughTitle: {
     en: "Walkthrough Guide",
     ko: "스토리 공략",
@@ -1295,6 +1301,36 @@ export const translations = {
     ko: "총 {0}장 완벽 공략",
     zh: "共 {0} 章完整攻略",
     ja: "全{0}章完全攻略",
+  },
+  walkthroughBackToList: {
+    en: "← Back to Walkthrough",
+    ko: "← 공략 목록으로",
+    zh: "← 返回攻略列表",
+    ja: "← 攻略チャート一覧へ",
+  },
+  chapterNumber: {
+    en: "Chapter {count}",
+    ko: "제 {count} 장",
+    zh: "第 {count} 章",
+    ja: "第 {count} 章",
+  },
+  practicalTips: {
+    en: "💡 Useful Tips",
+    ko: "💡 유용한 팁",
+    zh: "💡 实用技巧",
+    ja: "💡 お役立ちのヒント",
+  },
+  prevChapter: {
+    en: "← Previous Chapter",
+    ko: "← 이전 장",
+    zh: "← 上一章",
+    ja: "← 前の章",
+  },
+  nextChapter: {
+    en: "Next Chapter →",
+    ko: "다음 장 →",
+    zh: "下一章 →",
+    ja: "次の章 →",
   },
   sections: {
     en: "sections",

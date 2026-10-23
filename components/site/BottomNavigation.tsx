@@ -23,19 +23,12 @@ export const BottomNavigation: FC = () => {
   const { tocItems = [] } = useContext(TocContext) || {};
 
   const isMoreActive = useMemo(
-    () =>
-      isNavActive(pathname, "/event-list") || isNavActive(pathname, "/walkthrough") || isNavActive(pathname, "/about"),
+    () => isNavActive(pathname, "/event-list") || isNavActive(pathname, "/about"),
     [pathname],
   );
 
   const primaryItems = useMemo(
     () => [
-      {
-        path: "/",
-        label: t("home"),
-        icon: "home",
-        active: isNavActive(pathname, "/"),
-      },
       {
         path: "/pokemon-list",
         label: t("pokemonShort"),
@@ -55,9 +48,15 @@ export const BottomNavigation: FC = () => {
         active: isNavActive(pathname, "/item-list"),
       },
       {
+        path: "/walkthrough",
+        label: t("walkthroughShort"),
+        icon: "tutorial",
+        active: isNavActive(pathname, "/walkthrough"),
+      },
+      {
         path: "/community",
         label: t("communityShort"),
-        icon: "github",
+        icon: "community",
         active: isNavActive(pathname, "/community"),
       },
     ],

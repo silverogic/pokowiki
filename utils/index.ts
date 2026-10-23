@@ -7,3 +7,4 @@ export * from "./sorter";
 export * from "./i18n";
 export * from "./auth";
 export * from "./github";
+export * from "./walkthrough";

@@ -14,11 +14,17 @@ interface ITopNavigationProps {
 
 export const isNavActive = (pathname: string, path: string): boolean => {
   const clean = pathname === "" ? "/" : pathname;
+  if (path === "/pokemon-list") {
+    return (
+      clean === "/" ||
+      clean === "/pokowiki" ||
+      clean === "/pokowiki/" ||
+      clean.includes("/pokemon-list") ||
+      clean.includes("/p/")
+    );
+  }
   if (path === "/") {
     return clean === "/" || clean === "/pokowiki" || clean === "/pokowiki/";
-  }
-  if (path === "/pokemon-list") {
-    return clean.includes("/pokemon-list") || clean.includes("/p/");
   }
   if (path === "/habitat-list") {
     return clean.includes("/habitat-list") || clean.includes("/h/");

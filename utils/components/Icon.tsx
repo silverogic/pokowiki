@@ -7,17 +7,76 @@ import { useI18n } from "@/utils/i18n";
 
 interface IIconProps {
   name: string;
-  size?: number;
+  size?: number | string;
   style?: React.CSSProperties;
   className?: string;
 }
 
-export const Icon: React.FC<IIconProps> = ({ name, size, style, className }) => (
-  <span
-    className={cn("icon", `icon-${name}`, className)}
-    style={{ fontSize: size, ...style }}
-  />
+export const PokeBallIcon: React.FC<{
+  size?: number | string;
+  className?: string;
+  style?: React.CSSProperties;
+}> = ({ size = "1em", className, style }) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={cn("inline-block shrink-0 align-middle", className)}
+    style={{ width: size, height: size, ...style }}
+    aria-hidden="true"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="10"
+      fill="#FFFFFF"
+      stroke="#2D3748"
+      strokeWidth="2"
+    />
+    <path
+      d="M2.05 12a10 10 0 0 1 19.9 0H15.5a3.5 3.5 0 0 1-7 0H2.05z"
+      fill="#E53E3E"
+    />
+    <path
+      d="M2 12h6.5a3.5 3.5 0 0 0 7 0H22"
+      stroke="#2D3748"
+      strokeWidth="2"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="3.5"
+      fill="#FFFFFF"
+      stroke="#2D3748"
+      strokeWidth="2"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="1.5"
+      fill="#2D3748"
+    />
+  </svg>
 );
+
+export const Icon: React.FC<IIconProps> = ({ name, size, style, className }) => {
+  if (name === "community" || name === "pokeball") {
+    return (
+      <PokeBallIcon
+        size={size}
+        style={style}
+        className={className}
+      />
+    );
+  }
+
+  return (
+    <span
+      className={cn("icon", `icon-${name}`, className)}
+      style={{ fontSize: size, ...style }}
+    />
+  );
+};
 
 interface ITypeIconProps {
   type: PokemonType;
