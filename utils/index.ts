@@ -8,3 +8,4 @@ export * from "./i18n";
 export * from "./auth";
 export * from "./github";
 export * from "./walkthrough";
+export * from "./user";

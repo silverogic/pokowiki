@@ -10,6 +10,7 @@ import { DescriptionsCommonProps2, Link, TranslationKey, useI18n } from "@/utils
 import { ItemIcon } from "./ItemIcon";
 import { ItemLink } from "./ItemLink";
 import { HabitatTable } from "../habitat/HabitatTable";
+import { ItemCollectButton } from "../user";
 
 const getDescriptions = (
   item: Item,
@@ -140,7 +141,10 @@ export const ItemDetail: FC<IProps> = ({ item }) => {
       </section>
 
       <section>
-        <h2>{t("basicInfo")}</h2>
+        <div className="flex items-center justify-center gap-3">
+          <h2 className="my-0">{t("basicInfo")}</h2>
+          <ItemCollectButton itemId={item.id || item.name} />
+        </div>
         <Descriptions
           {...DescriptionsCommonProps2}
           items={getDescriptions(

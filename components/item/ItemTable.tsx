@@ -9,6 +9,7 @@ import { ITEM_CATEGORY_TRANSLATIONS } from "@/utils/i18n/translations";
 
 import { ItemIcon } from "./ItemIcon";
 import { ItemLink } from "./ItemLink";
+import { ItemCollectButton } from "../user";
 
 interface IItemTableProps {
   data: Item[];
@@ -59,7 +60,8 @@ export const ItemTable: FC<IItemTableProps> = ({ data }) => {
         width: 220,
         sorter: (a, b) => getItemDisplayName(a).localeCompare(getItemDisplayName(b), locale),
         render: (_, row) => (
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
+            <ItemCollectButton itemId={row.id || row.name} />
             <Link
               href={`/i/${row.hash}`}
               className="flex shrink-0 items-center"

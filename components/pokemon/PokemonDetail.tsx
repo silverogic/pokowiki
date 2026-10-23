@@ -23,6 +23,7 @@ import { EventTable } from "../event/EventTable";
 import { HabitatCell, HabitatLink } from "../habitat";
 import { ItemLink } from "../item/ItemLink";
 import { SpecialityLink } from "../speciality";
+import { CatchToggleButton } from "../user";
 
 const getDescriptions = (
   pokemon: Pokemon,
@@ -290,7 +291,13 @@ export const PokemonDetail: FC<IProps> = ({ pokemon }) => {
       </section>
 
       <section>
-        <h2>{t("basicInfo")}</h2>
+        <div className="flex items-center justify-center gap-3">
+          <h2 className="my-0">{t("basicInfo")}</h2>
+          <CatchToggleButton
+            pokemonId={fullId}
+            size={24}
+          />
+        </div>
         <Descriptions
           {...DescriptionsCommonProps2}
           items={getDescriptions(

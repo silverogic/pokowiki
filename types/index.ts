@@ -4,6 +4,7 @@ export * from "./item";
 export * from "./location";
 export * from "./event";
 export * from "./community";
+export * from "./user";
 
 export * from "./other";
 

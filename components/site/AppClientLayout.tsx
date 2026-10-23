@@ -4,7 +4,7 @@ import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider, ThemeConfig } from "antd";
 import React, { FC, ReactNode } from "react";
 
-import { I18nProvider, useI18n } from "@/utils";
+import { I18nProvider, PokopiaUserProvider, useI18n } from "@/utils";
 
 import { BottomNavigation } from "./BottomNavigation";
 import { Footer } from "./Footer";
@@ -45,6 +45,8 @@ const AppClientLayoutContent: FC<IAppClientLayoutProps> = ({ children, theme }) 
 
 export const AppClientLayout: FC<IAppClientLayoutProps> = (props) => (
   <I18nProvider>
-    <AppClientLayoutContent {...props} />
+    <PokopiaUserProvider>
+      <AppClientLayoutContent {...props} />
+    </PokopiaUserProvider>
   </I18nProvider>
 );
